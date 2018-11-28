@@ -67,15 +67,8 @@ $(document).ready(function() {
         value: document.title
     }).appendTo("form");
 
-    $('.nav a').click(function(e) {
 
-        if ($(this).hasClass('scrollto')) {
-            e.preventDefault();
-            $("html, body").animate({
-                scrollTop: $($(this).attr('href')).offset().top - 62
-            }, 2000);
-        }
-    });
+
 
     $('.map').append('<iframe src="ajax/map.html"></iframe>');
 
@@ -116,24 +109,76 @@ $(document).ready(function() {
     });
 
 
-    $('.slide-control_gal').find('#arr1l,#arr1r').click(function() {
-        var $active = $('.shmotki').find('.el.active');
+    //nav start
+    $('.nav a').click(function(e) {
+
+        if ($(this).hasClass('scrollto')) {
+            var $el = $('#'+$(this).attr('href').split('#')[1]);
+            if ($(this).attr('href') == './') {
+                $el = $('.sec1');
+            }
+            if ($el.length>0) {
+
+                e.preventDefault();
+                $("html, body").animate({
+                    scrollTop: $el.offset().top - 70
+                }, 500);
+
+            }
+        }
+    });
+    !function move_scroll_on_init(){
+        var hash = document.location.hash;
+        if (hash.length>0) {
+            var $el = $(hash);
+            if ($el.length>0) {
+                $("html, body").scrollTop($el.offset().top - 70);
+            }
+        }
+    }();
+    //nav end
+
+
+
+    //students works start
+    var $sw_wrap = $('.students_works')
+
+    $sw_wrap.find('.slide-control_gal').find('#arr1l,#arr1r').click(function() {
+        var $active = $sw_wrap.find('.shmotki').find('.el.active');
         $active.removeClass('active');
         if ($(this).is('#arr1l')) {
             if ($active.prev().length > 0) {
-                $active.prev().addClass('active');
+                $active.prev().trigger('click');
             } else {
-                $active.parent().children().last().addClass('active');
+                $active.parent().children().last().trigger('click');
             }
         } else {
             if ($active.next().length > 0) {
-                $active.next().addClass('active');
+                $active.next().trigger('click');
             } else {
-                $active.parent().children().first().addClass('active');
+                $active.parent().children().first().trigger('click');
             }
         }
     });
 
+    $sw_wrap.find('.shmotki').find('.el').click(function(){
+        var $this = $(this);
+        $this.parent().children().removeClass('active');
+        $this.addClass('active');
+        $sw_wrap.removeClass('opened');
+
+        var $act_item = $sw_wrap.find('.item[data-id="'+$this.attr('data-id')+'"]');
+        $act_item.parent().children().removeClass('active');
+        $act_item.addClass('active');
+        
+    });
+
+    $sw_wrap.find('.more').click(function(){
+        $sw_wrap.addClass('opened');
+
+    });
+
+    //students works end
 
 
     /*var slider1 = $('.').find('.wrp_fts').bxSlider({
