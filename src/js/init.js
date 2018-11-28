@@ -5,7 +5,7 @@ WebFont.load({
     // },
       custom: {
         families: ['GothamPro'],
-        urls: [ 'css/fonts.css' ]
+        urls: ['css/fonts.css']
       },
     active: function() {
         console.log('fonts-active');
