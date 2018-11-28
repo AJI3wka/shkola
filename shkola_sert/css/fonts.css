@@ -1,0 +1,66 @@
+@font-face {
+			font-family: "GothamPro";
+			src: url("../fonts/GothamProRegular.eot");
+			src: url("../fonts/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProRegular.woff") format("woff"),
+			url("../fonts/GothamProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: 400;
+	}
+
+	@font-face {
+			font-family: "GothamPro";
+			src: url("../fonts/GothamProBold.eot");
+			src: url("../fonts/GothamProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProBold.woff") format("woff"),
+			url("../fonts/GothamProBold.ttf") format("truetype");
+			font-style: normal; 
+			font-weight: 800;
+	}
+
+	@font-face {
+			font-family: "GothamPro";
+			src: url("../fonts/GothamProBlack.eot");
+			src: url("../fonts/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProBlack.woff") format("woff"),
+			url("../fonts/GothamProBlack.ttf") format("truetype");
+			font-style: normal;
+			font-weight: 900;
+	}
+
+
+	@font-face {
+			font-family: "GothamPro";
+			src: url("../fonts/GothamProMedium.eot");
+			src: url("../fonts/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProMedium.woff") format("woff"),
+			url("../fonts/GothamProMedium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: 600;
+	}
+
+	@font-face {
+			font-family: "GothamPro";
+			src: url("../fonts/GothamProLight.eot");
+			src: url("../fonts/GothamProLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/GothamProLight.woff") format("woff"),
+			url("../fonts/GothamProLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: 300;
+	}
+
+	@font-face {
+				  font-family: 'NautilusPompilius';
+				  src: url('../fonts/NautilusPompilius.eot');
+				  src: url('../fonts/NautilusPompilius.woff2') format('woff2'),
+				       url('../fonts/NautilusPompilius.woff') format('woff'),
+				       url('../fonts/NautilusPompilius.ttf') format('truetype'),
+				       url('../fonts/NautilusPompilius.svg#NautilusPompilius') format('svg'),
+				       url('../fonts/NautilusPompilius.eot?#iefix') format('embedded-opentype');
+				  font-weight: normal;
+				  font-style: normal;
+}
+
+
+
+
