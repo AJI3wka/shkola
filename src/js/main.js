@@ -202,23 +202,23 @@ $(document).ready(function() {
         onSliderLoad: function() {}
 
     });
-    var slider5 = $('.sec10').find('.slider-wrap_shmot').bxSlider({
-        infiniteLoop: true,
-        //pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r_otz',
-        prevSelector: '#arr1l_otz',
-        pager: false,
-        auto: false,
-        speed: 500,
-        minSlides: 1,
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
-        onSliderLoad: function() {}
+    // var slider5 = $('.sec10').find('.slider-wrap_shmot').bxSlider({
+    //     infiniteLoop: true,
+    //     //pagerCustom:'.pager',
+    //     controls: true,
+    //     nextSelector: '#arr1r_otz',
+    //     prevSelector: '#arr1l_otz',
+    //     pager: false,
+    //     auto: false,
+    //     speed: 500,
+    //     minSlides: 1,
+    //     maxSlides: 1,
+    //     moveSlides: 1,
+    //     onSlideNext: function($slideElement, oldIndex, newIndex) {},
+    //     onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+    //     onSliderLoad: function() {}
 
-    });
+    // });
     var slider6 = $('.sec4').find('.slider-wrap_comm').bxSlider({
         infiniteLoop: true,
         //pagerCustom:'.pager',
