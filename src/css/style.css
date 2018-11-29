@@ -99,7 +99,7 @@ footer > div {
 }
 
 header {
-  height: 70px;
+  height: 79px;
   background-color: white;
   overflow: inherit;
   position: fixed;
@@ -129,7 +129,7 @@ header .header .ibw .nav a.nv1 {
   margin-right: 17px;
 }
 header .header .ibw .nav a.nv1:hover, header .header .ibw .nav a.nv1:active {
-  color: #cc3a7c;
+  color: red;
   font-weight: 300;
 }
 header .header .ibw .nav a.nv2 {
@@ -641,7 +641,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt1 .step1 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -665,7 +665,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt2 .step2 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 6px;
@@ -691,7 +691,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt3 .step3 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -715,7 +715,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt4 .step4 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -739,7 +739,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt5 .step5 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -763,7 +763,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt6 .step6 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -788,7 +788,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt7 .step7 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -812,7 +812,7 @@ header .header .ibw .call .callback {
 .sec2 .wrp_step .punkt8 .step8 {
   width: 44px;
   height: 44px;
-  background-color: red;
+  background-color: #be3f67;
   border-radius: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -842,8 +842,8 @@ header .header .ibw .call .callback {
   background-image: url(../img/arr_l.png);
   cursor: pointer;
   position: absolute;
-  top: 121px;
-  left: -120px;
+  top: 139px;
+  left: -130px;
   background-repeat: no-repeat;
 }
 .sec2 .left_form form p.xotite {
@@ -916,6 +916,7 @@ header .header .ibw .call .callback {
   margin-right: 108px;
   margin-top: 17px;
   position: relative;
+  width: 580px;
 }
 .sec2 .right_sld:before {
   position: absolute;
@@ -985,6 +986,7 @@ header .header .ibw .call .callback {
   background-image: url(../img/timyr.png);
   margin-bottom: 5px;
   display: block;
+  background-size: 100%;
 }
 .sec3 .l_trbl .name {
   font-size: 16px;
@@ -1014,14 +1016,31 @@ header .header .ibw .call .callback {
   height: 490px;
   clear: both;
   float: left;
-  margin-left: 30px;
+  margin-left: 31px;
   margin-top: 16px;
   margin-right: 46px;
+  position: relative;
+  width: 355px;
+  background-position: center 0px;
+  height: 88px;
 }
-.sec3 .dreams .dr1 {
-  height: 86px;
+.sec3 .dreams .stp {
+  width: 328px;
+  border-radius: 5px;
+  height: 482px;
+  border: 1px solid white;
+  position: relative;
 }
-.sec3 .dreams .dr1 .point1 {
+.sec3 .dreams .stp .dr1 {
+  height: 81px;
+}
+.sec3 .dreams .stp .dr1 .cont {
+  width: 317px;
+  margin: 0 auto;
+  height: 87px;
+  border-bottom: 1px solid white;
+}
+.sec3 .dreams .stp .dr1 .cont .point1 {
   width: 62px;
   height: 62px;
   float: left;
@@ -1032,128 +1051,162 @@ header .header .ibw .call .callback {
   font-weight: 400;
   text-shadow: 0 -1px 0 rgba(43, 28, 34, 0.26);
   text-align: center;
-  margin: 16px 26px 0;
+  margin: 16px 20px 0;
   border-radius: 100%;
   margin-right: 10px;
 }
-.sec3 .dreams .dr1 .point_txt {
+.sec3 .dreams .stp .dr1 .point_txt {
   float: left;
   margin-top: 30px;
   color: white;
 }
-.sec3 .dreams .dr2 {
+.sec3 .dreams .stp .dr2 {
   height: 81px;
 }
-.sec3 .dreams .dr2 .point2 {
+.sec3 .dreams .stp .dr2 .cont {
+  width: 317px;
+  margin: 0 auto;
+  height: 81px;
+  border-bottom: 1px solid white;
+}
+.sec3 .dreams .stp .dr2 .cont .point2 {
   width: 62px;
   height: 62px;
   float: left;
-  color: white;
-  border: 2.5px solid white;
+  background-color: white;
+  color: #ae366c;
   font-size: 30px;
-  line-height: 54px;
+  line-height: 62px;
   font-weight: 400;
   text-shadow: 0 -1px 0 rgba(43, 28, 34, 0.26);
   text-align: center;
-  margin: 10px 26px 0;
+  margin: 9px 19px 0;
   border-radius: 100%;
   margin-right: 10px;
 }
-.sec3 .dreams .dr2 .point_txt {
+.sec3 .dreams .stp .dr2 .point_txt {
   float: left;
   margin-top: 24px;
   color: white;
 }
-.sec3 .dreams .dr3 {
+.sec3 .dreams .stp .dr3 {
   height: 81px;
 }
-.sec3 .dreams .dr3 .point3 {
+.sec3 .dreams .stp .dr3 .cont {
+  width: 317px;
+  margin: 0 auto;
+  height: 76px;
+  border-bottom: 1px solid white;
+}
+.sec3 .dreams .stp .dr3 .cont .point3 {
   width: 62px;
   height: 62px;
   float: left;
-  color: white;
-  border: 2.5px solid white;
+  background-color: white;
+  color: #ae366c;
   font-size: 30px;
-  line-height: 54px;
+  line-height: 62px;
   font-weight: 400;
   text-shadow: 0 -1px 0 rgba(43, 28, 34, 0.26);
   text-align: center;
-  margin: 10px 26px 0;
+  margin: 6px 20px 0;
+  margin-right: 10px;
+  margin-right: 10px;
   border-radius: 100%;
   margin-right: 10px;
 }
-.sec3 .dreams .dr3 .point_txt {
+.sec3 .dreams .stp .dr3 .point_txt {
   float: left;
-  margin-top: 24px;
+  margin-top: 20px;
   color: white;
 }
-.sec3 .dreams .dr4 {
+.sec3 .dreams .stp .dr4 {
   height: 81px;
 }
-.sec3 .dreams .dr4 .point4 {
+.sec3 .dreams .stp .dr4 .cont {
+  width: 317px;
+  margin: 0 auto;
+  height: 73px;
+  border-bottom: 1px solid white;
+}
+.sec3 .dreams .stp .dr4 .cont .point4 {
   width: 62px;
   height: 62px;
   float: left;
-  color: white;
-  border: 2.5px solid white;
+  background-color: white;
+  color: #ae366c;
   font-size: 30px;
-  line-height: 54px;
+  line-height: 62px;
   font-weight: 400;
   text-shadow: 0 -1px 0 rgba(43, 28, 34, 0.26);
   text-align: center;
-  margin: 10px 26px 0;
+  margin: 2px 20px 0;
+  margin-right: 10px;
   border-radius: 100%;
   margin-right: 10px;
 }
-.sec3 .dreams .dr4 .point_txt {
+.sec3 .dreams .stp .dr4 .point_txt {
   float: left;
-  margin-top: 24px;
+  margin-top: 16px;
   color: white;
 }
-.sec3 .dreams .dr5 {
+.sec3 .dreams .stp .dr5 {
   height: 81px;
 }
-.sec3 .dreams .dr5 .point5 {
+.sec3 .dreams .stp .dr5 .cont {
+  width: 317px;
+  margin: 0 auto;
+  height: 81px;
+  border-bottom: 1px solid white;
+}
+.sec3 .dreams .stp .dr5 .cont .point5 {
   width: 62px;
   height: 62px;
   float: left;
-  color: white;
-  border: 2.5px solid white;
+  background-color: white;
+  color: #ae366c;
   font-size: 30px;
-  line-height: 54px;
+  line-height: 62px;
   font-weight: 400;
   text-shadow: 0 -1px 0 rgba(43, 28, 34, 0.26);
   text-align: center;
-  margin: 10px 26px 0;
+  margin: 10px 19px 0;
+  margin-right: 10px;
   border-radius: 100%;
   margin-right: 10px;
 }
-.sec3 .dreams .dr5 .point_txt {
+.sec3 .dreams .stp .dr5 .point_txt {
   float: left;
-  margin-top: 24px;
+  margin-top: 30px;
   color: white;
 }
-.sec3 .dreams .dr6 {
+.sec3 .dreams .stp .dr6 {
   height: 81px;
 }
-.sec3 .dreams .dr6 .point6 {
+.sec3 .dreams .stp .dr6 .cont {
+  width: 317px;
+  margin: 0 auto;
+  height: 76px;
+  border-bottom: 1px solid white;
+}
+.sec3 .dreams .stp .dr6 .cont .point6 {
   width: 62px;
   height: 62px;
   float: left;
-  color: white;
-  border: 2.5px solid white;
+  background-color: white;
+  color: #ae366c;
   font-size: 30px;
-  line-height: 54px;
+  line-height: 62px;
   font-weight: 400;
   text-shadow: 0 -1px 0 rgba(43, 28, 34, 0.26);
   text-align: center;
-  margin: 10px 26px 0;
-  border-radius: 100%;
+  margin: 11px 19px 0;
   margin-right: 10px;
+  border-radius: 100%;
 }
-.sec3 .dreams .dr6 .point_txt {
+.sec3 .dreams .stp .dr6 .point_txt {
   float: left;
-  margin-top: 24px;
+  margin-top: 30px;
   color: white;
 }
 .sec3 .comments {
@@ -1467,7 +1520,7 @@ header .header .ibw .call .callback {
   margin-left: 127px;
 }
 .sec4 .l_team .prepodi {
-  height: 332px;
+  height: 422px;
   border: 1px solid #864261;
   border-radius: 4px;
 }
@@ -1545,6 +1598,7 @@ header .header .ibw .call .callback {
   max-height: 110%;
   transform: translate3d(-50%, -50%, 0);
   cursor: pointer;
+  border-radius: 100%;
 }
 .sec4 .r_team .slider6 .slide-control .arr {
   height: 45px;
@@ -1622,7 +1676,6 @@ header .header .ibw .call .callback {
   background-repeat: no-repeat;
   width: 87px;
   height: 67px;
-  left: -30px;
   top: -17px;
 }
 .sec4 .r_team .txt_tm:after {
@@ -1634,7 +1687,7 @@ header .header .ibw .call .callback {
   width: 87px;
   height: 67px;
   right: 3px;
-  bottom: -20px;
+  bottom: 1%;
 }
 
 .sec5 {
@@ -1713,7 +1766,7 @@ header .header .ibw .call .callback {
   padding-left: 15px;
   font-size: 16px;
   color: white;
-  background-color: #d34172;
+  background-color: #eb477a;
   box-shadow: 0 -1px 30px rgba(43, 28, 34, 0.67);
   border-bottom: 1px solid white;
   line-height: 51px;
@@ -1725,7 +1778,7 @@ header .header .ibw .call .callback {
 }
 .sec5 .grafik .kln .obychenie {
   display: block;
-  background-color: #d34172;
+  background-color: #eb477a;
   box-shadow: 0 -1px 29px rgba(43, 28, 34, 0.46);
   height: 48px;
   font-size: 16px;
@@ -1798,80 +1851,131 @@ header .header .ibw .call .callback {
   height: 79px;
   background-image: url(../img/skidka.png);
 }
-.sec5 .texnologja .r_textn {
+.sec5 .texnologja .slider7 {
+  position: relative;
+}
+.sec5 .texnologja .slider7 .slide-control .arr {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  transition: all 0.25s;
+}
+.sec5 .texnologja .slider7 .slide-control .arr.left {
+  width: 45px;
+  height: 45px;
+  background-image: url(../img/arr_l.png);
+  cursor: pointer;
+  position: absolute;
+  top: 453px;
+  left: 84px;
+  background-repeat: no-repeat;
+}
+.sec5 .texnologja .slider7 .slide-control .arr.left a {
+  font-size: 0;
+  width: 45px;
+  height: 45px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+.sec5 .texnologja .slider7 .slide-control .arr.right {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-image: url(../img/arr_l.png);
+  cursor: pointer;
+  transform: rotate(180deg);
+  top: 453px;
+  right: 86px;
+  z-index: 2;
+  background-repeat: no-repeat;
+}
+.sec5 .texnologja .slider7 .slide-control .arr.right a {
+  font-size: 0;
+  width: 45px;
+  height: 45px;
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn {
   float: right;
   width: 523px;
   margin-top: 38px;
   padding-left: 8px;
 }
-.sec5 .texnologja .r_textn .txt_1 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_1 {
   font-size: 22px;
   font-weight: 700;
   color: #100f10;
   margin-bottom: 8px;
   letter-spacing: 0.2px;
 }
-.sec5 .texnologja .r_textn .txt_1 span {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_1 span {
   font-weight: 300;
   padding-left: 2px;
   letter-spacing: 0.5px;
 }
-.sec5 .texnologja .r_textn .txt_2 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_2 {
   font-size: 16px;
   color: #100f10;
   margin-bottom: 16px;
   letter-spacing: 0.2px;
 }
-.sec5 .texnologja .r_textn .txt_3 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_3 {
   font-weight: 600;
   color: #1c1b1c;
   margin-bottom: 14px;
 }
-.sec5 .texnologja .r_textn .txt_3 span {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_3 span {
   font-weight: 300;
   line-height: 12px;
   color: #100f10;
   padding-left: 3px;
   letter-spacing: 0.5px;
 }
-.sec5 .texnologja .r_textn .txt_4 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_4 {
   font-weight: 600;
   color: #1c1b1c;
   margin-bottom: 13px;
 }
-.sec5 .texnologja .r_textn .txt_4 span {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_4 span {
   font-weight: 300;
   line-height: 12px;
   color: #100f10;
   letter-spacing: 0.5px;
   padding-left: 1px;
 }
-.sec5 .texnologja .r_textn .txt_5 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_5 {
   font-weight: 600;
   color: #1c1b1c;
   margin-bottom: 12px;
 }
-.sec5 .texnologja .r_textn .txt_5 span {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_5 span {
   font-weight: 300;
   line-height: 12px;
   color: #100f10;
   letter-spacing: 0.4px;
 }
-.sec5 .texnologja .r_textn .txt_6 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_6 {
   line-height: 19px;
   margin-bottom: 12px;
 }
-.sec5 .texnologja .r_textn .txt_6 p.takge {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_6 p.takge {
   font-size: 16px;
   font-weight: 300;
 }
-.sec5 .texnologja .r_textn .txt_6 p.pnk {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_6 p.pnk {
   font-size: 16px;
   font-weight: 300;
   margin-left: 5px;
   letter-spacing: 0.4px;
 }
-.sec5 .texnologja .r_textn .txt_6 p.pnk:before {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_6 p.pnk:before {
   width: 8px;
   height: 8px;
   border-radius: 100%;
@@ -1879,18 +1983,18 @@ header .header .ibw .call .callback {
   display: inline-block;
   margin-right: 7px;
 }
-.sec5 .texnologja .r_textn .txt_7 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_7 {
   font-weight: 600;
   color: #1c1b1c;
   margin-bottom: 16px;
 }
-.sec5 .texnologja .r_textn .txt_7 span {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_7 span {
   font-weight: 300;
   line-height: 12px;
   color: #100f10;
   letter-spacing: 0.4px;
 }
-.sec5 .texnologja .r_textn .txt_8 {
+.sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_8 {
   font-size: 16px;
   font-weight: 300;
   color: #100f10;
@@ -1935,7 +2039,7 @@ header .header .ibw .call .callback {
   color: #f1e53d;
   font-size: 18px;
   font-weight: 600;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   margin-bottom: 43px;
   transition: all 0.25s;
 }
@@ -1961,14 +2065,20 @@ header .header .ibw .call .callback {
 }
 .sec6 .l_foot {
   float: left;
+  margin-left: 82px;
+  width: 612px;
 }
 .sec6 .l_foot .adrs {
+  height: 61px;
+  display: block;
+  margin-left: 0px;
+  margin-top: 371px;
+  padding-left: 21px;
+  padding-top: 10px;
   color: white;
-  margin-left: 101px;
-  margin-top: 384px;
-  margin-bottom: 10px;
-  line-height: 20px;
-  letter-spacing: -0.2px;
+  z-index: 2;
+  background-color: #9f3e60;
+  opacity: 0.73;
 }
 .sec6 .r_foot {
   float: right;
@@ -2055,11 +2165,11 @@ header .header .ibw .call .callback {
   width: 612px;
   height: 434px;
   position: absolute;
-  left: 113px;
-  top: 111px;
-  background: gray;
+  top: 54px;
+  z-index: 1;
   opacity: 0.5;
   display: block;
+  top: 66px;
 }
 .sec6 .map iframe {
   position: absolute;
@@ -2067,7 +2177,6 @@ header .header .ibw .call .callback {
   top: 0;
   width: 100%;
   height: 100%;
-  height: 70%;
   border: none;
 }
 
@@ -2589,11 +2698,12 @@ header .header .ibw .call .callback {
   font-size: 20px;
   font-weight: 300;
   color: #100f10;
-  margin-bottom: 18px;
+  margin-bottom: 48px;
 }
 .sec8 .slider4 .slider-wrap_otz .item .l_com {
-  float: left;
-  margin-left: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 .sec8 .slider4 .slider-wrap_otz .item .l_com .wrp_comm {
   background-image: url(../img/ramka9.png);
@@ -2602,6 +2712,7 @@ header .header .ibw .call .callback {
   position: relative;
   z-index: -1;
   border: 2px solid transparent;
+  margin: 0 auto;
 }
 .sec8 .slider4 .slider-wrap_otz .item .l_com .wrp_comm:before {
   position: absolute;
@@ -2612,6 +2723,7 @@ header .header .ibw .call .callback {
   height: 67px;
   right: 223px;
   bottom: -46px;
+  z-index: 1;
 }
 .sec8 .slider4 .slider-wrap_otz .item .l_com .wrp_comm img {
   margin-top: 10px;
@@ -2622,15 +2734,16 @@ header .header .ibw .call .callback {
   transform: translate3d(0, -50%, 0);
 }
 .sec8 .slider4 .slider-wrap_otz .item .r_com {
-  float: right;
-  margin-right: 30px;
-  margin-bottom: 83px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .sec8 .slider4 .slider-wrap_otz .item .r_com .wrp_comm {
   background-image: url(../img/ramka9.png);
   width: 556px;
   height: 236px;
   position: relative;
+  margin: 0 auto;
   z-index: -1;
   border: 2px solid transparent;
 }
@@ -3166,18 +3279,20 @@ footer button.poleznoctb {
   margin-top: 17px;
   border-radius: 23px;
   margin-left: 310px;
-  color: #ecdf2d;
   line-height: 45px;
   letter-spacing: -0.1px;
   margin-bottom: 16px;
   transition: all 0.25s;
+}
+footer button.poleznoctb a {
   line-height: 46px;
+  font-size: 16px;
+  color: #ecdf2d;
 }
 
 .pop_z form {
   width: 359px;
   height: 434px;
-  margin-right: 33px;
   background-color: #fcfcfc;
   border-radius: 6px;
   background-image: url(../img/ramkaform.png);

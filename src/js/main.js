@@ -104,7 +104,7 @@ $(document).ready(function() {
     });
 
 
-    $('.kyrs,.dwnlmetod,.shema').click(function() {
+    $('.kyrs,.dwnlmetod,.zapisb,.bonus').click(function() {
         $('.pop_z').show('#okgo').arcticmodal();
     });
 
@@ -160,6 +160,67 @@ $(document).ready(function() {
             }
         }
     });
+    var $sw_wrap = $('.students_works')
+
+    $sw_wrap.find('.slide-control_gal').find('#arr1l,#arr1r').click(function() {
+        var $active = $sw_wrap.find('.item').find('.item.active');
+        $active.removeClass('active');
+        if ($(this).is('#arr1l')) {
+            if ($active.prev().length > 0) {
+                $active.prev().trigger('click');
+            } else {
+                $active.parent().children().last().trigger('click');
+            }
+        } else {
+            if ($active.next().length > 0) {
+                $active.next().trigger('click');
+            } else {
+                $active.parent().children().first().trigger('click');
+            }
+        }
+    });
+
+
+
+
+$sw_wrap.find('.slide-control_com').find('#arr1l_comm,#arr1l_comm').click(function() {
+        var $active = $sw_wrap.find('.item').find('.active');
+        $active.removeClass('active');
+        if ($(this).is('#arr1l')) {
+            if ($active.prev().length > 0) {
+                $active.prev().trigger('click');
+            } else {
+                $active.parent().children().last().trigger('click');
+            }
+        } else {
+            if ($active.next().length > 0) {
+                $active.next().trigger('click');
+            } else {
+                $active.parent().children().first().trigger('click');
+            }
+        }
+    });
+
+$sw_wrap.find('.slide-control_type').find('#arr1l_comm,#arr1l_type').click(function() {
+        var $active = $sw_wrap.find('.item').find('.active');
+        $active.removeClass('active');
+        if ($(this).is('#arr1l')) {
+            if ($active.prev().length > 0) {
+                $active.prev().trigger('click');
+            } else {
+                $active.parent().children().last().trigger('click');
+            }
+        } else {
+            if ($active.next().length > 0) {
+                $active.next().trigger('click');
+            } else {
+                $active.parent().children().first().trigger('click');
+            }
+        }
+    });
+
+
+
 
     $sw_wrap.find('.shmotki').find('.el').click(function(){
         var $this = $(this);
@@ -172,6 +233,7 @@ $(document).ready(function() {
         $act_item.addClass('active');
         
     });
+
 
     $sw_wrap.find('.more').click(function(){
         $sw_wrap.addClass('opened');
@@ -270,6 +332,23 @@ $(document).ready(function() {
         controls: true,
         nextSelector: '#arr1r_comm',
         prevSelector: '#arr1l_comm',
+        pager: false,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        onSlideNext: function($slideElement, oldIndex, newIndex) {},
+        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+        onSliderLoad: function() {}
+
+    });
+    var slider6 = $('.sec5').find('.slider-wrap_type').bxSlider({
+        infiniteLoop: true,
+        //pagerCustom:'.pager',
+        controls: true,
+        nextSelector: '#arr1r_type',
+        prevSelector: '#arr1l_type',
         pager: false,
         auto: false,
         speed: 500,

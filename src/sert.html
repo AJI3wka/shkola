@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Document</title>
-<script src="http://localhost:1619/livereload.js"></script>
+<script src="http://localhost:1546/livereload.js"></script>
     <link rel="stylesheet" href="css/libs.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/scripts.css">
@@ -97,7 +97,28 @@
     <button class="poleznoctb">Скачать полезные методички</button>
 
 </footer>
+<div class="hidden-box">
+        <div id="form-error-pop" class="i-pop">
+            <div class="close"></div>
+            <div id="form-error-text"></div>
+        </div>
+        <div id="okgo" class="i-pop">
+            <div class="close"></div>
+            Спасибо за заявку!
+        </div>
 
+        <div id="okgo" class="pop_z">
+            <form class="form" action="ajax/mail.php" method="post">
+                <p class="xotite">Хотите записаться
+                        <br> <span class="bl">на</span> <span class="pink">курс</span></p>
+                    <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
+                    <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                    <input type="text" name="phone" class="input" placeholder="Телефон">
+                     <input type="hidden" name="frmid" value="Форма в шапке">
+                    <button class="frm">Оставить заявку</button>
+            </form>
+        </div>
+    </div> 
 <!--<div id="maket"></div>-->
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>    
     <script src="js/init.js"></script>
