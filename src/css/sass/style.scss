@@ -3285,11 +3285,6 @@ footer {
             vertical-align: top;
             border-radius: 100%;
             position: relative;
-            a{
-               width: 29px;
-            height: 29px; 
-            cursor:pointer;
-            }
             &:before {
                 background-image: url(../img/vk.png);
                 background-position: center;
@@ -3311,11 +3306,6 @@ footer {
             background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
             box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19);
             position: relative;
-            a{
-               width: 29px;
-            height: 29px; 
-            cursor:pointer;
-            }
             &:before {
                 background-image: url(../img/inst.png);
                 background-position: center;

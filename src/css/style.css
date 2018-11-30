@@ -3213,11 +3213,6 @@ footer .soc_f .vk {
   border-radius: 100%;
   position: relative;
 }
-footer .soc_f .vk a {
-  width: 29px;
-  height: 29px;
-  cursor: pointer;
-}
 footer .soc_f .vk:before {
   background-image: url(../img/vk.png);
   background-position: center;
