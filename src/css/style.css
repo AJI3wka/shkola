@@ -2039,7 +2039,7 @@ header .header .ibw .call .callback {
   color: #f1e53d;
   font-size: 18px;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   margin-bottom: 43px;
   transition: all 0.25s;
 }
