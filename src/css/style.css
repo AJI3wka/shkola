@@ -1977,7 +1977,7 @@ header .header .call .phoneback {
   color: #f1e53d;
   font-size: 18px;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   margin-bottom: 43px;
   transition: all 0.25s;
 }
@@ -3169,7 +3169,7 @@ header .header .call .phoneback {
   position: absolute;
   width: 45px;
   height: 45px;
-  background-image: url(../img/ob.png);
+  background-image: url(../img/arr_l.png);
   cursor: pointer;
   transform: rotate(180deg);
   top: -36px;

@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+:after,
+:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0;
+  clear: both;
+}
+
+sup:after,
+sup:before,
+a:after,
+a:before,
+br:after,
+br:before,
+img:after,
+img:before,
+span:after,
+span:before,
+table:after,
+table:before,
+td:after,
+td:before,
+tr:after,
+tr:before {
+  content: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 1em;
+  font-weight: inherit;
+  text-align: center;
+  font-family: "NautiliusPompilius";
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+body {
+  font-family: "GothamPro", sans-serif;
+  font-weight: 400;
+  color: #141414;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: 0 !important;
+}
+
+button,
+input,
+textarea {
+  outline: none;
+}
+
+.section,
+.head,
+header,
+section,
+footer {
+  width: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background-size: cover !important;
+}
+.section > div,
+.head > div,
+header > div,
+section > div,
+footer > div {
+  max-width: 1200px;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.ibw {
+  text-align: center;
+  font-size: 0;
+}
+.ibw > * {
+  font-size: 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+header {
+  height: 79px;
+  background-color: white;
+  overflow: inherit;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: #fcfcfc;
+}
+header .header {
+  min-height: 67px;
+}
+header .header .ibw {
+  margin-top: 8px;
+  text-align: left;
+}
+header .header .ibw .nav {
+  font-size: 16px;
+  color: #100f10;
+  font-weight: 300;
+  line-height: 26px;
+  margin: 13px 29px 0;
+  margin-right: 70px;
+}
+header .header .ibw .nav a.nv1 {
+  display: inline-block;
+  margin-right: 17px;
+}
+header .header .ibw .nav a.nv1:hover, header .header .ibw .nav a.nv1:active {
+  color: red;
+  font-weight: 300;
+}
+header .header .ibw .nav a.nv2 {
+  display: inline-block;
+  margin-right: 19px;
+}
+header .header .ibw .nav a.nv2:hover, header .header .ibw .nav a.nv2:active {
+  color: #cc3a7c;
+  font-weight: 300;
+}
+header .header .ibw .nav a.nv3 {
+  display: inline-block;
+  margin-right: 19px;
+}
+header .header .ibw .nav a.nv3:hover, header .header .ibw .nav a.nv3:active {
+  color: #cc3a7c;
+  font-weight: 300;
+}
+header .header .ibw .nav a.nv4 {
+  display: inline-block;
+  margin-right: 21px;
+}
+header .header .ibw .nav a.nv4:hover, header .header .ibw .nav a.nv4:active {
+  color: #cc3a7c;
+  font-weight: 300;
+}
+header .header .ibw .nav a.nv5 {
+  display: inline-block;
+  margin-right: 19px;
+}
+header .header .ibw .nav a.nv5:hover, header .header .ibw .nav a.nv5:active {
+  color: #cc3a7c;
+  font-weight: 300;
+}
+header .header .ibw .nav a.nv6 {
+  display: inline-block;
+  margin-right: 18px;
+}
+header .header .ibw .nav a.nv6:hover, header .header .ibw .nav a.nv6:active {
+  color: #cc3a7c;
+  font-weight: 300;
+}
+header .header .ibw .nav a.nv7 {
+  display: inline-block;
+  margin-right: 0px;
+}
+header .header .ibw .nav a.nv7:hover, header .header .ibw .nav a.nv7:active {
+  color: #cc3a7c;
+  font-weight: 300;
+}
+header .header .ibw button.bonus {
+  width: 176px;
+  height: 28px;
+  color: #cc3d7d;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+  display: inline-block;
+  margin-right: 13px;
+  background-image: url(../img/bonus.png);
+  border-radius: 10px;
+  margin-top: 5px;
+  border: none;
+  padding-left: 25px;
+}
+header .header .call {
+  display: inline-block;
+}
+header .header .call a.phone {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+header .header .call .phoneback {
+  display: block;
+  color: #cc3d7d;
+  text-decoration: underline;
+  margin-bottom: 18px;
+  cursor: pointer;
+  padding-left: 8px;
+}
+
+.sec1 {
+  background-image: url(../img/bg1.jpg);
+  background-position: top center;
+  height: 743px;
+  position: relative;
+  margin-top: 69px;
+  z-index: 2;
+}
+.sec1 .logo {
+  background-image: url(../img/logo.png);
+  width: 94px;
+  height: 94px;
+  margin-right: 21px;
+  position: absolute;
+  top: 18px;
+  left: 30px;
+}
+.sec1 .wrap {
+  padding-left: 6px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  margin: 0px 144px 0;
+  margin-right: 56px;
+  margin-bottom: 34px;
+  z-index: -2;
+  position: relative;
+}
+.sec1 .wrap .information {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 29px;
+}
+.sec1 .wrap .information .adress p.txt {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.sec1 .wrap .information .adress p.ad {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+}
+.sec1 .wrap .soc {
+  display: inline-block;
+  vertical-align: top;
+  margin: 29px 31px 0px;
+  z-index: 1;
+}
+.sec1 .wrap .soc p.h3 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  padding-left: 1px;
+  letter-spacing: 0.1px;
+  margin-bottom: 8px;
+}
+.sec1 .wrap .soc a.vk {
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  vertical-align: top;
+  display: inline-block;
+  background-image: url(../img/vk.png);
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19);
+  position: relative;
+  z-index: 2;
+}
+.sec1 .wrap .soc a.inst {
+  width: 29px;
+  height: 29px;
+  border-radius: 100%;
+  vertical-align: top;
+  display: inline-block;
+  background-image: url(../img/inst.png);
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19);
+  position: relative;
+  z-index: 2;
+}
+.sec1 .wrap .soc p.gskw {
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  margin: 7px 10px 0;
+}
+.sec1 .school_l {
+  float: left;
+  margin-top: 13px;
+}
+.sec1 .school_l h3 {
+  font-size: 64px;
+  font-family: NautilusPompilius;
+  font-weight: 400;
+  line-height: 64px;
+  color: white;
+  text-shadow: 0 1px 3px rgba(30, 7, 17, 0.64);
+  text-align: left;
+  letter-spacing: 1px;
+  padding-left: 2px;
+  margin-bottom: 17px;
+  margin-left: 30px;
+}
+.sec1 .school_l .sch_txt {
+  margin-left: 30px;
+  width: 528px;
+  height: 277px;
+  opacity: 0.83;
+  background-color: #b2356e;
+  border-radius: 6px;
+  box-shadow: 0 -1px 21px rgba(0, 0, 0, 0.31);
+  padding: 16px 30px 0;
+}
+.sec1 .school_l .sch_txt .new {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  color: white;
+  margin-bottom: 10px;
+  letter-spacing: 0.4px;
+}
+.sec1 .school_l .sch_txt .smtxt {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 26px;
+  color: white;
+  text-shadow: 0 1px 3px rgba(30, 7, 17, 0.25);
+  margin-bottom: 12px;
+  letter-spacing: 0.2px;
+}
+.sec1 .school_l .sch_txt .machine {
+  background: url(../img/punktir.png);
+  background-repeat: no-repeat;
+  height: 115px;
+  width: 455px;
+}
+.sec1 .school_l .sch_txt .machine .wrp_machine {
+  padding-left: 118px;
+  padding-top: 17px;
+  background-image: url(../img/mawinka.png);
+  background-position: 25px 14px;
+}
+.sec1 .school_l .sch_txt .machine .wrp_machine p.free {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.7px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.sec1 .school_l .sch_txt .machine .wrp_machine p.txtsm {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 21px;
+  color: white;
+}
+.sec1 .school_r {
+  float: right;
+  width: 359px;
+  height: 434px;
+  margin-right: 33px;
+  background-color: #fcfcfc;
+  border-radius: 6px;
+  background-image: url(../img/ramkaform.png);
+  background-position: 10px 0px;
+}
+.sec1 .school_r form p.xotite {
+  font-size: 30px;
+  font-family: GothamPro;
+  font-weight: 600;
+  color: #100f10;
+  text-align: left;
+  padding-top: 67px;
+  padding-left: 28px;
+  line-height: 29px;
+  letter-spacing: 0.6px;
+  margin-bottom: 6px;
+}
+.sec1 .school_r form p.xotite span.bl {
+  color: #100f10;
+  font-size: 23px;
+}
+.sec1 .school_r form p.xotite span.pink {
+  color: #d4548e;
+  font-size: 23px;
+}
+.sec1 .school_r form .zajavka {
+  font-size: 15px;
+  font-weight: 300;
+  color: #1f1d1f;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.sec1 .school_r form input {
+  width: 296px;
+  height: 45px;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #636363;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 14px;
+  display: block;
+  margin-bottom: 17px;
+}
+.sec1 .school_r form button.frm {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  width: 296px;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #100f10;
+  letter-spacing: 0.6px;
+  background-color: #f1e32e;
+  background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+  border-radius: 23px;
+  box-shadow: inset 0 1px 0 #eaeb6d;
+  transition: all 0.25s;
+}
+.sec1 .school_r form button.frm:hover {
+  background-color: #f1e32e;
+  background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+  box-shadow: inset 0 1px 0 #eaeb6d, 0 0 27px rgba(236, 223, 45, 0.4);
+}

@@ -35,7 +35,7 @@ module.exports = function(grunt) {
     grunt.registerTask('unusedimages', function(test) {
         if (test == 'desktop') {
             var i_cwd = 'dist/img/';
-            var i_expand = ['dist/index.php','dist/ajax/*.html', 'dist/css/full.min.css', 'dist/js/main.min.js', 'dist/js/map.min.js'];
+            var i_expand = ['dist/index.php','dist/*.html','dist/*.php','dist/ajax/*.html', 'dist/css/full.min.css', 'dist/js/main.min.js', 'dist/js/map.min.js'];
         }
 
 
@@ -103,10 +103,7 @@ module.exports = function(grunt) {
                 options: {
                     removeEmptyValue: false
                 },
-                files: {
-                    'src/index.php': ['src/index.php'],                    
-                    'src/ajax/map.html': ['src/ajax/map.html']
-                }
+                files: ['dist/*.html','dist/*.php','dist/ajax/*.html']
             }
         },
 
@@ -127,10 +124,7 @@ module.exports = function(grunt) {
                 ]
             },
             desktop: {
-                files: {
-                    'src/index.php': ['src/index.php'],                    
-                    'src/ajax/map.html': ['src/ajax/map.html']
-                }
+                files: ['dist/*.html','dist/*.php','dist/ajax/*.html']
             }
         },
 
@@ -262,10 +256,7 @@ module.exports = function(grunt) {
                     minifyJS: true,
                     removeAttributeQuotes: true
                 },
-                files: {
-                    'dist/index.php': 'dist/index.php',
-                    'dist/ajax/map.html': 'dist/ajax/map.html'
-                }
+                files: ['dist/*.html','dist/*.php','dist/ajax/*.html']
             }
         },
 
@@ -309,7 +300,7 @@ module.exports = function(grunt) {
             },
             desktop_rebase: {
                 files: {
-                    './': ['dist/js/init.min.js', 'dist/index.*', 'dist/ajax/map.html']
+                    './': ['dist/js/init.min.js', 'dist/index.*', 'dist/ajax/map.html','dist/*.html','dist/*.php','dist/ajax/*.html','dist/js/*.js']
                 },
                 options: {
                     replacements: [{
