@@ -2,7 +2,6 @@
 $frm = $_POST['frmid'];
 $name = $_POST['name'];
 $phone = $_POST['phone'];
-$email = $_POST['email'];
 
 $utm_source = $_POST['utm_source'];
 $utm_medium = $_POST['utm_medium']; 
@@ -27,7 +26,7 @@ $headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
 $headers.= "MIME-Version: 1.0" . "\r\n";
 $headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
-$to = "lexapryhoda@gmail.com";
+$to = "hangman6@i.ua";
 
 $message = "Форма: $frm\n\n";
 $message .= "Имя: $name\n";
@@ -52,6 +51,6 @@ $message .= "Заголовок: $title\n\n";
 
 mail ($to,$subject,$message,$headers); 
 
-$to = "";
+$to = "lexapryhoda@gmail.com";
 mail ($to,$subject,$message,$headers);
 ?>

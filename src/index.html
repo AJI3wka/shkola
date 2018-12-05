@@ -2,12 +2,18 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Document</title>
-        <script src="http://localhost:2325/livereload.js"></script>
+        <title>Женская школа кройки и шитья</title>
+        <script src="http://localhost:3413/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
-        <meta id="viewport" name="viewport" content="width=1200">
+        <meta http-equiv="content-language" content="ru">
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Женская школа кройки и шитья" />
+        <meta property="og:image" content="img/soc_img.jpg" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <meta id="viewport" name="viewport" content="width=device-width">
+
     </head>
     <body>
         <header>
@@ -26,8 +32,8 @@
                         <div class="ibw">
                             <button class="bonus">получить бонус</button>
                             <div class="call">
-                                <p class="phone">+7 (831) 288-54-10</p>
-                                <div class="callback">заказать звонок</div>
+                                <a href="tel:+78312885410" class="phone">+7 (831) 288-54-10</a>
+                                <div class="phoneback">заказать звонок</div>
                             </div>
                         </div>
                     </div>
@@ -46,12 +52,8 @@
                     </div>
                     <div class="soc">
                         <p class="h3">Социальные сети:</p>
-                        <div class="vk">
-                            <a href=""></a>
-                        </div>
-                        <div class="inst">
-                            <a href=""></a>
-                        </div>
+                        <a href="https://vk.com/shkola_shitya52" class="vk" target="_blank"></a>
+                        <a  href="https://www.instagram.com/shkola_shitya52/" class="inst" target="_blank"></a>
                         <p class="gskw">#ЖШКШ</p>
                     </div>
                 </div>
@@ -128,43 +130,47 @@
                 </div>
                 <div class="wrp_step">
                     <div class="dyga"></div>
-                    <div class="punkt1">
-                        <div class="step1">1</div>
-                        <p class="steptxt">Оставьте заявку</p>
-                    </div>
-                    <div class="punkt2">
-                        <div class="step2">2</div>
-                        <p class="steptxt">Пробное
-                        <br> занятие</p>
-                    </div>
-                    <div class="punkt3">
-                        <div class="step3">3</div>
-                        <p class="steptxt">Практическая
-                        <br>вводная часть</p>
-                    </div>
-                    <div class="punkt4">
-                        <div class="step4">4</div>
-                        <p class="steptxt">Пошив
-                        <br> юбки</p>
-                    </div>
-                    <div class="punkt5">
-                        <div class="step5">5</div>
-                        <p class="steptxt">Пошив брюк
-                        <br> или блузки</p>
-                    </div>
-                    <div class="punkt6">
-                        <div class="step6">6</div>
-                        <p class="steptxt">Пошив
-                        <br> платья</p>
-                    </div>
-                    <div class="punkt7">
-                        <div class="step7">7</div>
-                        <p class="steptxt">Подарочная
-                        <br>фотосессия</p>
-                    </div>
-                    <div class="punkt8">
-                        <div class="step8">8</div>
-                        <p class="steptxt">Перспективы</p>
+                    <div class="d-wrap">
+                        
+                        <div class="dota active punkt1" data-id="1">
+                            <div class="step">1</div>
+                            <p class="steptxt">Оставьте заявку</p>
+                        </div>
+                        <div class="dota punkt2" data-id="2">
+                            <div class="step">2</div>
+                            <p class="steptxt">Пробное
+                            <br> занятие</p>
+                        </div>
+                        <div class="dota punkt3" data-id="3">
+                            <div class="step">3</div>
+                            <p class="steptxt">Практическая
+                            <br>вводная часть</p>
+                        </div>
+                        <div class="dota punkt4" data-id="4">
+                            <div class="step">4</div>
+                            <p class="steptxt">Пошив
+                            <br> юбки</p>
+                        </div>
+                        <div class="dota punkt5" data-id="5">
+                            <div class="step">5</div>
+                            <p class="steptxt">Пошив брюк
+                            <br> или блузки</p>
+                        </div>
+                        <div class="dota punkt6" data-id="6">
+                            <div class="step">6</div>
+                            <p class="steptxt">Пошив
+                            <br> платья</p>
+                        </div>
+                        <div class="dota punkt7" data-id="7">
+                            <div class="step">7</div>
+                            <p class="steptxt">Подарочная
+                            <br>фотосессия</p>
+                        </div>
+                        <div class="dota punkt8" data-id="8">
+                            <div class="step">8</div>
+                            <p class="steptxt">Перспективы</p>
+                        </div>
+
                     </div>
                 </div>
                 <div class="left_form">
@@ -177,24 +183,88 @@
                         <button class="frm">Оставить заявку</button>
                     </form>
                 </div>
-                <div class="right_sld">
-                    <p class="p_sld">Пробное занятие</p>
-                    <p class="txt_sld">На пробном занятии вы научитесь шить простую деталь — накладной
-                        карман. Мы решили, что такое знакомство лучше любой теории.
-                        <br><br>
-                        Во-первых, вы сразу познакомитесь с одним из преподавателей
-                        и поймете, как проходят уроки. Во-вторых, практика поможет точно
-                        определиться, насколько вам интересен курс.
-                        <br><br>
-                        Пробный урок проходит в выходные дни и занимает от 1,5 до 2 часов.
-                        Основатель школы Тимур Саласенко всегда присутствует на занятии
-                        и готов ответить на интересующие вас вопросы.
-                        <br><br>
-                        В этот день проходит запись в ближайшие группы.
-                        Важно, что в одной группе обучается не больше шести человек,
-                        чтобы преподаватель уделил достаточно времени каждой ученице.
-                    </p>
-                    <div class="pomp">Записаться на пробный урок</div>
+                <div class="slider10">
+                    <div class="slide-control">
+                        <div class="arr left" id="arr1l_obych">
+                        </div>
+                        <div class="arr right" id="arr1r_obych">
+                        </div>
+                    </div>
+                    <div class="slider-wrap_obych">
+                        <div class="item active" data-id="1">
+                            <div class="right_sld">
+                                <p class="p_sld">Оставьте заявку</p>
+                                <p class="txt_sld">Узнать о курсе подробнее и записаться на пробное бесплатное занятие можно по телефону +7 (831) 288-54-10. Можете также оставить заявку на сайте, чтобы мы перезвонили вам сами. Менеджер ответит на вопросы и запишет на пробный урок.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                        <div class="item" data-id="2">
+                            <div class="right_sld">
+                                <p class="p_sld">Пробное занятие</p>
+                                <p class="txt_sld">На пробном занятии вы научитесь шить простую деталь — накладной карман. Мы решили, что такое знакомство лучше любой теории. Во-первых, вы сразу познакомитесь с одним из преподавателей и поймете, как проходят уроки. Во-вторых, практика поможет точно определиться, насколько вам интересен курс.<br><br>Пробный урок проходит в выходные дни и занимает от 1,5 до 2 часов. Основатель школы Тимур Саласенко всегда присутствует на занятии и готов ответить на интересующие вас вопросы.<br><br>
+                                    В этот день проходит запись в ближайшие группы. Важно, что в одной группе обучается не больше шести человек, чтобы преподаватель уделил достаточно времени каждой ученице.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                        <div class="item" data-id="3">
+                            <div class="right_sld">
+                                <p class="p_sld">Практическая вводная часть</p>
+                                <p class="txt_sld">Курс состоит из 16 занятий и длится два месяца. Урок занимает 3 часа практики и проходит 2 раза в неделю.<br><br>
+                                    На вводном части, состоящей из двух уроков, преподаватель рассказывает о базовых вещах, которые необходимо знать для начала работы. Знакомит со швейными машинками, рассказывает о видах ножниц, иголок и других инструментах профессиональной портной.
+                                    Девушки учатся машинным и ручным швам, кто-то уже на втором занятии начинает кроить юбку.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                        <div class="item" data-id="4">
+                            <div class="right_sld">
+                                <p class="p_sld">Пошив юбки
+                                </p>
+                                <p class="txt_sld">Пошив юбки занимает от трех до шести занятий в зависимости от сложности фасона и ткани. Это базовая деталь женского гардероба, которую вы научитесь шить от и до. Преподаватель обучает моделированию выкроек, рассказывает о нюансах и помогает в создании вещи, которая сядет на вас идеально.<br><br>
+                                    Вы сами выбираете фасон, чтобы не прятать свою первую юбку в шкафу, а носить и радоваться. Преподаватели готовы помочь с выбором ткани и дизайна.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                        <div class="item" data-id="5">
+                            <div class="right_sld">
+                                <p class="p_sld">Пошив брюк или блузки</p>
+                                <p class="txt_sld">Если вы не хотите шить брюки, можно выбрать другое изделие из женского гардероба. Например, блузку, топ, шорты. Этот блок занимает около пяти занятий. Скорость выполнения полностью зависит от вашего посещения, выполнения домашних заданий и усердия. Но, в любом случае, преподаватель всегда поможет. Даже когда вы шьете дома, он остается на связи по Viber.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                        <div class="item" data-id="6">
+                            <div class="right_sld">
+                                <p class="p_sld">Пошив платья
+                                </p>
+                                <p class="txt_sld">Самый любимый блок, потому что найти подходящее платье в масс-маркете не так то просто. Обучение также занимает от четырёх до пяти занятий и проходит под чутким руководством преподавателя.<br><br>
+                                    В конце курса у вас будет минимум три готовых изделия и огромный багаж знаний. Вы научитесь шить по своим меркам и адаптировать любые выкройки даже на нестандартную фигуру.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                        <div class="item" data-id="7">
+                            <div class="right_sld">
+                                <p class="p_sld">Подарочная фотосессия
+                                </p>
+                                <p class="txt_sld">Всем выпускницам мы дарим фотосессию в нарядах, сшитых во время курса. Там же, в торжественной обстановке, вручаем сертификаты о прохождении курса. Если вас интересует новая профессия, они придутся кстати.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                        <div class="item" data-id="8">
+                            <div class="right_sld">
+                                <p class="p_sld">Перспективы
+                                </p>
+                                <p class="txt_sld">Треть наших учениц продолжают швейное дело — их хобби становится любимой работой. После базового курса многие берут индивидуальные уроки и обучаются на продвинутых курсах, чтобы довести мастерство до совершенства. К тому же всем нашим ученицам мы дарим скидку 10% на следующие программы.
+                                </p>
+                                <div class="pomp">Записаться на пробный урок</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -221,75 +291,103 @@
             </div>
         </div>
         <div class="dreams">
-            <div class="stp">
-                <div class="dr1">
-                    <div class="kyt"></div>
-                    <div class="cont">
-                        <div class="point1">1</div>
-                        <div class="point_txt">Не хочу переплачивать
-                        <br>за вещи из магазинов</div>
-                    </div>
+            <div class="trbl">
+                <div class="trouble trb_pos active" data-id="1"> 
+                    <div class="trb_pos">1</div>
+                    <p class="name_pos">Нехочу переплачивать<br>за вещи из магазинов</p>
+                    <div class="helper"></div>
                 </div>
-                <div class="dr2">
-                    <div class="cont">
-                        <div class="kyt"></div>
-                        <div class="point2">2</div>
-                        <div class="point_txt">Не могу найти вещи
-                        <br>по фигуре</div>
-                    </div>
+                <div class="trouble trb_pos" data-id="2">
+                    <div class="trb_pos">2</div>
+                    <p class="name_pos">Немогу найти вещи<br>по фигуре</p>
+                    <div class="helper"></div>
                 </div>
-                <div class="dr3">
-                    <div class="kyt"></div>
-                    <div class="cont">
-                        <div class="point3">3</div>
-                        <div class="point_txt">Умею шить, но не умею
-                        <br>кроить</div>
-                    </div>
+                <div class="trouble trb_pos" data-id="3">
+                    <div class="trb_pos">3</div>
+                    <p class="name_pos">Умею шить,но не умею<br>кроить</p>
+                    <div class="helper"></div>
                 </div>
-                <div class="dr4">
-                    <div class="kyt"></div>
-                    <div class="cont">
-                        <div class="point4">4</div>
-                        <div class="point_txt">Мечтаю открыть
-                        <br>свою мастерскую</div>
-                    </div>
+                <div class="trouble trb_pos" data-id="4">
+                    <div class="trb_pos">4</div>
+                    <p class="name_pos">Мечтаю открыть<br>свою мастерскую</p>
+                    <div class="helper"></div>
                 </div>
-                <div class="dr5">
-                    <div class="kyt"></div>
-                    <div class="cont">
-                        <div class="point5">5</div>
-                        <div class="point_txt">Устала от рутины</div>
-                    </div>
+                <div class="trouble trb_pos" data-id="5">
+                    <div class="trb_pos">5</div>
+                    <p class="name_pos">Устала от рутины</p>
+                    <div class="helper"></div>
                 </div>
-                <div class="dr6">
-                    <div class="kyt"></div>
-                    <div class="cont">
-                        <div class="point6">6</div>
-                        <div class="point_txt">Много красивых тканей,
-                        <br>из которых хочется шить</div>
-                    </div>
+                <div class="trouble trb_pos" data-id="6">
+                    <div class="trb_pos">6</div>
+                    <p class="name_pos">Мечтаю открыть<br>свою мастерскую</p>
+                    <div class="helper"></div>
                 </div>
             </div>
         </div>
-        <div class="comments">
-            <p class="drm">Не хочу переплачивать
-            <br>за вещи из магазинов</p>
-            <p class="drm_txt">Стоимость вещей из масс-маркета
-                <br> складывается из человеческого труда,
-                <br> материалов и наценки магазинов.
-                <br>
-                <br> Когда вы шьете сами, экономите
-                <br> до 50% средств. При этом сами
-                <br> выбираете ткань по вкусу
-                <br> и эксклюзивный фасон.
-                <br>
-                <br> Зачем подстраиваться под
-                <br> магазины, когда можно
-            <br> сшить самой?</p>
-            <div class="sld_control">
-                <div class="arrs">
-                    <div class="arr_l"></div>
-                    <div class="arr_r"></div>
+        
+        <div class="slider8">
+            <div class="slide-control">
+                <div class="arr left" id="arr1l_trbll">
+                </div>
+                <div class="arr right" id="arr1r_trbll">
+                </div>
+            </div>
+            <div class="slider-wrap_tbrl">
+                <div class="item active" data-id="1">
+                    <div class="comments">
+                        <p class="drm">Не хочу переплачивать
+                        <br>за вещи из магазинов</p>
+                        <p class="drm_txt">Стоимость вещей из масс-маркета
+                            <br> складывается из человеческого труда,
+                            <br> материалов и наценки магазинов.
+                            <br>
+                            <br> Когда вы шьете сами, экономите
+                            <br> до 50% средств. При этом сами
+                            <br> выбираете ткань по вкусу
+                            <br> и эксклюзивный фасон.
+                            <br>
+                            <br> Зачем подстраиваться под
+                            <br> магазины, когда можно
+                        <br> сшить самой?</p>
+                        
+                    </div>
+                </div>
+                <div class="item" data-id="2">
+                    <div class="comments">
+                        <p class="drm">Не могу найти вещи по фигуре</p>
+                        <p class="drm_txt">Вас научат, как правильно посадить вещи, чтобы они корректировали фигуру. Больше не будет муторного поиска того самого платья. Спустя два месяца вы сами его сошьете. Сошьете на себя, по своим меркам, с учетом особенностей фигуры.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="item" data-id="3">
+                    <div class="comments">
+                        <p class="drm">Умею шить, но не умею кроить</p>
+                        <p class="drm_txt">Знания, полученные в нашей школе кройки и шитья, помогают даже опытным мастерам. Преподаватели рассказывают нюансы, о которых умалчивают на разовых курсах. Например, о секретах раскроя изделия. Обладая не только навыками шитья, но и кроя, вы становитесь «универсальным солдатом».</p>
+                        
+                    </div>
+                </div>
+                <div class="item" data-id="4">
+                    <div class="comments">
+                        <p class="drm">Мечтаю открыть свою мастерскую</p>
+                        <p class="drm_txt">Вы получаете сертификат о прохождении обучения. Это документ, который поможет при устройстве на работу и открытии своего бизнеса.
+                        </p>
+                    </div>
+                </div>
+                <div class="item" data-id="5">
+                    <div class="comments">
+                        <p class="drm">Устала от рутины</p>
+                        <p class="drm_txt">К нам часто приходят молодые мамы, чтобы почерпнуть вдохновение и освоить новую профессию. Спустя два месяца они шьют вещи для себя и своей семьи. Многие признаются, что уроки подарили им второе дыхание.
+                        </p>
+                    </div>
+                </div>
+                <div class="item" data-id="6">
+                    <div class="comments">
+                        <p class="drm">Много красивых тканей,<br> из который хочется шить
+                        </p>
+                        <p class="drm_txt">На курсах проходим не только особенности пошива изделий, но и рассказываем о тканях. Даже в самом большом магазине тканей    вы сможете быстро сориентироваться и выбрать подходящий товар. Из которого потом сошьете удивительные вещи с авторским дизайном.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -508,7 +606,10 @@
                                 <div class="tryd">
                                     <img src="img/tryd.jpg" alt="">
                                 </div>
-                                <div class="skidka">6950444</div>
+                                <div class="skidka">
+                                    <p class="sk1">8 450 рублей/месяц</p>
+                                    <p class="sk2">6 950 рублей/месяц</p>
+                                </div>
                             </div>
                             <div class="r_textn">
                                 <p class="txt_1">
@@ -547,7 +648,10 @@
                                 <div class="tryd">
                                     <img src="img/tryd.jpg" alt="">
                                 </div>
-                                <div class="skidka">6950444</div>
+                                <div class="skidka">
+                                    <p class="sk1">9 450 рублей/месяц</p>
+                                    <p class="sk2">6 950 рублей/месяц</p>
+                                </div>
                             </div>
                             <div class="r_textn">
                                 <p class="txt_1">
@@ -586,7 +690,10 @@
                                 <div class="tryd">
                                     <img src="img/tryd.jpg" alt="">
                                 </div>
-                                <div class="skidka">6950444</div>
+                                <div class="skidka">
+                                    <p class="sk1">9 450 рублей/месяц</p>
+                                    <p class="sk2">6 450 рублей/месяц</p>
+                                </div>
                             </div>
                             <div class="r_textn">
                                 <p class="txt_1">
@@ -595,7 +702,19 @@
                                 <p class="txt_2">Только для тех, кто прошел наш курс Технология пошива, 1 ступень.
                                 Обучаем пошиву верхней одежды и дарим скидку 10% на эту программу.</p>
                                 <p class="txt_3">
-                                    10 практических занятий по 3 часа каждое
+                                    <p class="txt_3">
+                                        Длительность курса:
+                                        <span>10 практический занятий по 3 часа каждое</span>
+                                    </p>
+                                </p>
+                                <p class="txt_3">
+                                    Изделия: <span>на ваш выбор, любой сложности</span>
+                                </p>
+                                <p class="txt_4">
+                                    Фасоны: <span>средней и повышенной сложности</span>
+                                </p>
+                                <p class="txt_5">
+                                    Ткани: <span>любые, в том числе и сложные</span>
                                 </p>
                                 <div class="txt_6">
                                     <p class="takge">А также:</p>
@@ -606,7 +725,7 @@
                                     <p class="pnk">скидка 10% на все последующие обучения
                                     <br> в нашей школе</p>
                                 </div>
-                                <p class="txt_8">10 практических занятий по 3 часа каждое
+                                <p class="txt_8">
                                 </p>
                             </div>
                             <button class="kyrs">Записаться на курс</button>
@@ -617,18 +736,20 @@
                                 <div class="tryd">
                                     <img src="img/tryd.jpg" alt="">
                                 </div>
-                                <div class="skidka">6950444</div>
+                                <div class="skidka">
+                                    <!--<p class="sk1">8 450 рублей/месяц</p>-->
+                                    <p class="sk2">9 900 рублей</p>
+                                </div>
                             </div>
                             <div class="r_textn">
                                 <p class="txt_1">
                                     Курс: Конструирование и моделирование
-                                    , <span>Учим создавать выкройки разной сложности.</span>
                                 </p>
-                                <p class="txt_2">15 практических занятий (2 месяца)
-                                    2 раза в неделю по 3 часа каждое
+                                <p class="txt_2">
+                                    Учим создавать выкройки разной сложности.
                                 </p>
                                 <p class="txt_3">
-                                    Длительность курса
+                                    Длительность курса:
                                     <span>два месяца</span>
                                 </p>
                                 <p class="txt_4">
@@ -685,8 +806,8 @@
         <div class="logo_f"></div>
         <div class="soc_f">
             <p class="h3">Социальные сети:</p>
-            <div class="vk"></div>
-            <div class="inst"></div>
+            <a href="https://vk.com/shkola_shitya52" class="vk" target="_blank"></a>
+            <a  href="https://www.instagram.com/shkola_shitya52/" class="inst" target="_blank"></a>
             <p class="gskw">#ЖШКШ</p>
         </div>
         <div class="nmbphone">
