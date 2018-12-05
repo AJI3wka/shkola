@@ -5,17 +5,19 @@
         <?php include('html/meta.html'); ?>
 
 
-
-        <script src="http://localhost:3413/livereload.js"></script>
+<script src="http://localhost:0000/livereload.js"></script> 
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
         
-       
+        <!-- блок статического и динамического критического css не удалять -->
+        <style>
+            <?php include('css/head.css'); ?>
+        </style>
     </head>
     <body>
         
-        <?php include('html/header.html'); ?>
+        <?php include('html/header.php'); ?>
         <section class="sec1">
             <div>
                 <div class="logo"></div>
@@ -23,13 +25,13 @@
                     <div class="information">
                         <div class="adress">
                             <p class="txt">Адрес:</p>
-                            <p class="ad">г. Нижний Новгород,<br>ул. Печёрский съезд 24а (за а/с Сенной)</p>
+                            <p class="ad"><?php $text = file_get_contents('settings/adr.txt'); echo(str_replace(PHP_EOL, "<br>", $text)); ?></p>
                         </div>
                     </div>
                     <div class="soc">
                         <p class="h3">Социальные сети:</p>
-                        <a href="https://vk.com/shkola_shitya52" class="vk" target="_blank"></a>
-                        <a  href="https://www.instagram.com/shkola_shitya52/" class="inst" target="_blank"></a>
+                        <a href="<?php include('settings/vk.txt') ?>" class="vk" target="_blank"></a>
+                        <a  href="<?php include('settings/insta.txt') ?>" class="inst" target="_blank"></a>
                         <p class="gskw">#ЖШКШ</p>
                     </div>
                 </div>
@@ -47,7 +49,7 @@
                     </div>
                 </div>
                 <div class="school_r">
-                    <form class="form" action="ajax/mail.php" method="post">
+                    <form class="form"  action="#" method="get">
                         <p class="xotite">Хотите записаться <br> <span class="bl">на</span> <span class="pink">бесплатное занятие?</span></p>
                         <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
                         <input type="text" name="name" class="input" placeholder="Введите ваше имя">
@@ -92,7 +94,7 @@
                 <div class="dyg_wrp">
                     <div class="dyga"></div>
                     <button class="dwnlmetod">
-                    <a class="metdwnld" href="#metodichka">Скачать методички</a>
+                    Скачать методички
                     </button>
                 </div>
                 <div class="how">Как проходить обучение<br> в #ЖШКШ</div>
@@ -150,7 +152,7 @@
                     </div>
                 </div>
                 <div class="left_form">
-                    <form class="form" action="ajax/mail.php" method="post">
+                    <form class="form"  action="#" method="get">
                         <p class="xotite">Хотите записаться<span class="bl">на</span> <span class="pink">бесплатное занятие?</span></p>
                         <div class="zajavka">Оставьте заявку, и мы свяжемся
                         <br> с вами. </div>
@@ -367,7 +369,7 @@
                 </div>
             </div>
         </div>
-        <form class="form" action="ajax/mail.php" method="post">
+        <form class="form"  action="#" method="get">
             <p class="xotite">Хотите записаться
                 <br> <span class="bl">на</span> <span class="pink">бесплатное занятие?</span></p>
                 <div class="zajavka">Оставьте заявку, и мы свяжемся
@@ -764,11 +766,11 @@
             <p class="contacts">Контакты</p>
             <div class="l_foot">
                 <div class="map"></div>
-                <div class="adrs">Адрес<br>г. Нижний Новгород, ул. Печёрский съезд 24а (за а/с Сенной)
+                <div class="adrs">Адрес<br><?php include('settings/adr.txt'); ?>
                 </div>
             </div>
             <div class="r_foot">
-                <form class="form" action="ajax/mail.php" method="post">
+                <form class="form"  action="#" method="get">
                     <p class="xotite">Остались вопросы?<br> <span class="bl">Закажите</span> <span class="pink">обратный звонок</span></p>
                     <div class="zajavka">Наш менеджер перезвонит вам в<br> ближайшее время и ответит на<br> оставшиеся вопросы</div>
                     <input type="text" name="name" class="input" placeholder="Введите ваше имя">
@@ -779,7 +781,7 @@
         </div>
     </section>
         
-            <?php include('html/footer.html'); ?>
+            <?php include('html/footer.php'); ?>
     <div class="hidden-box">
         <div id="form-error-pop" class="i-pop">
             <div class="close"></div>
@@ -789,8 +791,8 @@
             <div class="close"></div>
             Спасибо за заявку!
         </div>
-        <div id="okgo" class="pop_z">
-            <form class="form" action="ajax/mail.php" method="post">
+        <div class="pop_z" id="pop_head">
+            <form class="form"  action="#" method="get">
                 <p class="xotite">Хотите записаться<br> <span class="bl">на</span> <span class="pink">курс</span></p>
                 <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
                 <input type="text" name="name" class="input" placeholder="Введите ваше имя">
@@ -799,6 +801,24 @@
                 <button class="frm">Оставить заявку</button>
             </form>
         </div>
+        <div class="pop_z" id="pop_metodichka">
+            <form class="form"  action="#" method="get">
+                <p class="xotite">Хотите получить методичку<br> <span class="bl">на</span> <span class="pink">курс</span></p>
+                <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
+                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                <input type="text" name="phone" class="input" placeholder="Телефон">
+                <input type="hidden" name="frmid" value="Скачать методичку">
+                <button class="frm">Оставить заявку</button>
+            </form>
+        </div>
+        <div class="vcard">
+         <div>
+           <span class="category">Школа</span>
+           <span class="fn org">Женская школа кройки и шитья</span>
+         </div>
+         <div class="adr"><?php include('settings/adr.txt'); ?></div>
+         <div>Телефон: <span class="tel"><?php include('settings/phone.txt'); ?></span></div>
+         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
     <script src="js/init.js"></script>

@@ -2,6 +2,27 @@ function getURLParameter(name) {
     return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
 }
 
+window.downloadFile = function(sUrl) {
+    if (window.downloadFile.isChrome || window.downloadFile.isSafari) {
+        var link = document.createElement('a');
+        link.href = sUrl;
+        if (link.download !== undefined) {
+            var fileName = sUrl.substring(sUrl.lastIndexOf('/') + 1, sUrl.length);
+            link.download = fileName;
+        }
+        if (document.createEvent) {
+            var e = document.createEvent('MouseEvents');
+            e.initEvent('click', true, true);
+            link.dispatchEvent(e);
+            return true;
+        }
+    }
+    var query = '?download';
+    window.open(sUrl + query, '_self');
+};
+window.downloadFile.isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+window.downloadFile.isSafari = navigator.userAgent.toLowerCase().indexOf('safari') > -1;
+
 function run_geo(geo_url) {
     $.ajax({
         type: 'GET',
@@ -70,10 +91,10 @@ $(document).ready(function() {
 
 
 
-    $('.map').append('<iframe src="ajax/map.html"></iframe>');
+    $('.map').append('<iframe src="ajax/map.php"></iframe>');
 
     $('input[name="name"]').blur(function() {
-        if ($(this).val().length < 2) {
+        if ($(this).val().length < 1) {
             $(this).addClass(' error-input ');
         }
     });
@@ -84,10 +105,17 @@ $(document).ready(function() {
 
 
 
-    $('input[name="phone"]').mask('+7 (999) 999-99-99');
     $('input[name="phone"]').blur(function() {
-        if ($(this).val().length != 18) {
-            $(this).addClass('error-input');
+        var val = $(this).val();
+        var filtered_num = '';
+        for (var i = 0; i < val.length; i++) {
+            if (/[0-9]/.test(val[i])) {
+                filtered_num += val[i];
+            }
+
+        }
+        if (filtered_num.length < 11) {
+            $(this).addClass(' error-input ');
         }
     });
     $('input[name="phone"]').focus(function() {
@@ -104,8 +132,12 @@ $(document).ready(function() {
     });
 
 
-    $('.kyrs,.dwnlmetod,.zapisb,.bonus').click(function() {
-        $('.pop_z').arcticmodal();
+    $('.kyrs,.zapisb,.bonus').click(function() {
+        $('.pop_z#pop_head').arcticmodal();
+    });
+
+    $('.dwnlmetod').click(function() {
+        $('.pop_z#pop_metodichka').arcticmodal();
     });
 
 
@@ -113,11 +145,11 @@ $(document).ready(function() {
     $('.nav a').click(function(e) {
 
         if ($(this).hasClass('scrollto')) {
-            var $el = $('#'+$(this).attr('href').split('#')[1]);
+            var $el = $('#' + $(this).attr('href').split('#')[1]);
             if ($(this).attr('href') == './') {
                 $el = $('.sec1');
             }
-            if ($el.length>0) {
+            if ($el.length > 0) {
 
                 e.preventDefault();
                 $("html, body").animate({
@@ -127,11 +159,11 @@ $(document).ready(function() {
             }
         }
     });
-    !function move_scroll_on_init(){
+    ! function move_scroll_on_init() {
         var hash = document.location.hash;
-        if (hash.length>0) {
+        if (hash.length > 0) {
             var $el = $(hash);
-            if ($el.length>0) {
+            if ($el.length > 0) {
                 $("html, body").scrollTop($el.offset().top - 70);
             }
         }
@@ -161,20 +193,20 @@ $(document).ready(function() {
         }
     });
 
-    $sw_wrap.find('.shmotki').find('.el').click(function(){
+    $sw_wrap.find('.shmotki').find('.el').click(function() {
         var $this = $(this);
         $this.parent().children().removeClass('active');
         $this.addClass('active');
         $sw_wrap.removeClass('opened');
 
-        var $act_item = $sw_wrap.find('.item[data-id="'+$this.attr('data-id')+'"]');
+        var $act_item = $sw_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
-        
+
     });
 
 
-    $sw_wrap.find('.more').click(function(){
+    $sw_wrap.find('.more').click(function() {
         $sw_wrap.addClass('opened');
 
     });
@@ -205,21 +237,21 @@ $(document).ready(function() {
         }
     });
 
-    $t_wrap.find('.prepodi').find('.chl').click(function(){
+    $t_wrap.find('.prepodi').find('.chl').click(function() {
         var $this = $(this);
         $this.parent().children().removeClass('active');
         $this.addClass('active');
 
-        var $act_item = $t_wrap.find('.item[data-id="'+$this.attr('data-id')+'"]');
+        var $act_item = $t_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
-        
+
     });
 
 
 
-     //komanda end
-  
+    //komanda end
+
     //trbl start
     var $trbl_wrap = $('.sec3');
 
@@ -241,15 +273,15 @@ $(document).ready(function() {
         }
     });
 
-    $trbl_wrap.find('.trbl').find('.trouble').click(function(){
+    $trbl_wrap.find('.trbl').find('.trouble').click(function() {
         var $this = $(this);
         $this.parent().children().removeClass('active');
         $this.addClass('active');
 
-        var $act_item = $trbl_wrap.find('.item[data-id="'+$this.attr('data-id')+'"]');
+        var $act_item = $trbl_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
-        
+
     });
     //trb end
     //
@@ -260,7 +292,7 @@ $(document).ready(function() {
 
     $obych_wrap.find('.slide-control').find('#arr1l_obych,#arr1r_obych').click(function() {
         var $active = $obych_wrap.find('.wrp_step').find('.dota.active');
-        $active.removeClass('active');  
+        $active.removeClass('active');
         if ($(this).is('#arr1l_obych')) {
             if ($active.prev().length > 0) {
                 $active.prev().trigger('click');
@@ -276,19 +308,19 @@ $(document).ready(function() {
         }
     });
 
-    $obych_wrap.find('.wrp_step').find('.dota').click(function(){
+    $obych_wrap.find('.wrp_step').find('.dota').click(function() {
         var $this = $(this);
         $this.parent().children().removeClass('active');
         $this.addClass('active');
 
-        var $act_item = $obych_wrap.find('.item[data-id="'+$this.attr('data-id')+'"]');
+        var $act_item = $obych_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
-        
+
     });
     //trb end
     //
-    
+
     //
     //kyrsi_ceni start
     var $ceni_wrap = $('.sec7');
@@ -311,28 +343,28 @@ $(document).ready(function() {
         }
     });
 
-    $ceni_wrap.find('.kyrsi').find('.ceni_kyrsi').click(function(){
+    $ceni_wrap.find('.kyrsi').find('.ceni_kyrsi').click(function() {
         var $this = $(this);
         $this.parent().children().removeClass('active');
         $this.addClass('active');
 
-        var $act_item = $ceni_wrap.find('.item[data-id="'+$this.attr('data-id')+'"]');
+        var $act_item = $ceni_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
-        
+
     });
     //kyrsi_ceni end
     //  pos_start
-        var $pos_wrap = $('.sec2');
-        $pos_wrap.find('.trouble').find('.trb_pos').click(function(){
+    var $pos_wrap = $('.sec2');
+    $pos_wrap.find('.trouble').find('.trb_pos').click(function() {
         var $this = $(this);
         $this.parent().children().removeClass('active');
         $this.addClass('active');
 
-        var $act_item = $pos_wrap.find('.item[data-id="'+$this.attr('data-id')+'"]');
+        var $act_item = $pos_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
         $act_item.parent().children().removeClass('active');
-        $act_item.addClass('active'); 
-        
+        $act_item.addClass('active');
+
     });
     //end
 
@@ -415,23 +447,6 @@ $(document).ready(function() {
         pager: false,
         auto: false,
         speed: 500,
-        minSlides: 1, 
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
-        onSliderLoad: function() {}
-
-    });
-   /* var slider10 = $('.sec2').find('.slider-wrap_obych').bxSlider({
-        infiniteLoop: true,
-        //pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r_obych',
-        prevSelector: '#arr1l_obych',
-        pager: false,
-        auto: false,
-        speed: 500,
         minSlides: 1,
         maxSlides: 1,
         moveSlides: 1,
@@ -439,9 +454,26 @@ $(document).ready(function() {
         onSlidePrev: function($slideElement, oldIndex, newIndex) {},
         onSliderLoad: function() {}
 
-    });*/
-   
-    
+    });
+    /* var slider10 = $('.sec2').find('.slider-wrap_obych').bxSlider({
+         infiniteLoop: true,
+         //pagerCustom:'.pager',
+         controls: true,
+         nextSelector: '#arr1r_obych',
+         prevSelector: '#arr1l_obych',
+         pager: false,
+         auto: false,
+         speed: 500,
+         minSlides: 1,
+         maxSlides: 1,
+         moveSlides: 1,
+         onSlideNext: function($slideElement, oldIndex, newIndex) {},
+         onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+         onSliderLoad: function() {}
+
+     });*/
+
+
     var slider7 = $('.sec5').find('.slider-wrap_type').bxSlider({
         infiniteLoop: true,
         //pagerCustom:'.pager',
@@ -490,19 +522,24 @@ $(document).ready(function() {
 
     $('form').submit(function(e) {
         e.preventDefault();
+        var frmid = $(this).find('input[name="frmid"]').val();
         $(this).find('input[type="text"]').trigger('blur');
         if (!$(this).find('input[type="text"]').hasClass('error-input')) {
-            var type = $(this).attr('method');
-            var url = $(this).attr('action');
             var data = $(this).serialize();
             var track_event = $(this).find('input[name="event"]').val();
             $.ajax({
-                type: type,
-                url: url,
+                type: 'POST',
+                url: 'ajax/mail.php',
                 data: data,
                 success: function() {
                     $.arcticmodal('close');
                     $('#okgo').arcticmodal();
+                    if (frmid == 'Скачать методичку') {
+
+                        window.downloadFile('metodichka.pdf');
+
+
+                    }
                     //submit_track_event(track_event);
                 }
             });

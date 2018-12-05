@@ -219,6 +219,27 @@ module.exports = function(grunt) {
                 src: '**',
                 dest: 'dist/ajax/',
             },
+            desktop_html: {
+                expand: true,
+                flatten: true,
+                cwd: 'src/html/',
+                src: '**',
+                dest: 'dist/html/',
+            },
+            desktop_img: {
+                expand: true,
+                flatten: true,
+                cwd: 'src/img/',
+                src: '**',
+                dest: 'dist/img/',
+            },
+            desktop_settings: {
+                expand: true,
+                flatten: true,
+                cwd: 'src/settings/',
+                src: '**',
+                dest: 'dist/settings/',
+            },
             desktop_fonts: {
                 expand: true,
                 flatten: true,
@@ -300,7 +321,7 @@ module.exports = function(grunt) {
             },
             desktop_rebase: {
                 files: {
-                    './': ['dist/js/init.min.js', 'dist/index.*', 'dist/ajax/map.html','dist/*.html','dist/*.php','dist/ajax/*.html','dist/js/*.js']
+                    './': ['dist/js/main.min.js','dist/js/init.min.js', 'dist/index.*', 'dist/ajax/map.php','dist/*.html','dist/*.php','dist/ajax/*.html','dist/js/*.js']
                 },
                 options: {
                     replacements: [{
@@ -636,8 +657,8 @@ module.exports = function(grunt) {
         'concat:desktop_libs_js', //Склейка src/js/libs/*.js в src/js/libs.js
         'concat:desktop_libs_css', //Склейка src/css/libs/*.css в src/css/libs.css
         'csscomb:desktop', //beautify src/css/**/* 
-        'htmlcomb:desktop', //beautify src/index.php ,src/ajax/map.html часть1
-        'prettify:desktop', //beautify src/index.php ,src/ajax/map.html часть2
+        //'htmlcomb:desktop', //beautify src/index.php ,src/ajax/map.html часть1
+        //'prettify:desktop', //beautify src/index.php ,src/ajax/map.html часть2
         'jsbeautifier:desktop', //beautify (src/js/) init.js, main.js, map.js
         //'csslint:desktop'
     ]);
@@ -658,8 +679,8 @@ if(!mobile&&!tablet&&adaptive){
     grunt.registerTask('fin-desktop', [
         'concat:desktop_full_css', //Склейка (src/css/) libs.css,style.css,media.css,scripts.css, в src/css/full.css
         'copy:desktop_for_critical', //Копия (src/) index.* в кеш файл index_fc.html для выдиление критического css
-        'string-replace:comment_livereload',
-        'critical-dtm', //Выделение критического css для src/index_fc.html с src/css/full.css в src/css/bp/critical.css 
+        
+        //'critical-dtm', //Выделение критического css для src/index_fc.html с src/css/full.css в src/css/bp/critical.css 
         'string-replace:desktop_remove_img_from_head', //Удаление всех графических ресурсов с src/css/bp/critical.css
         'concat:desktop_head_css', // Склейка src/css/head.css и src/css/bp/critical.css в src/css/bp/head.css
         'autoprefixer:desktop', //autoprefix src/css/full.css в src/css/ap/full.css, src/css/bp/head.css в src/css/ap/head.css
@@ -668,7 +689,7 @@ if(!mobile&&!tablet&&adaptive){
         'uglify:desktop_src', //Сжатие (src/js/) init.js, main.js, init.js в dist/js/*.min.js
         'copy:desktop_libs_js', //Копирование src/js/libs.js в dist/js/libs.min.js
         'cssmin:desktop', //Сжатие (src/css/ap/) head.css,full.css в dist/css/*.min.css
-        'imagemin:desktop', //Сжатие src/img/*.* в dist/img/
+        //'imagemin:desktop', //Сжатие src/img/*.* в dist/img/
         'clean:desktop', //Удаление src/index_fc.html,src/css/bp,src/css/ap,src/js/bp
         'copy:desktop_fonts',
         'copy:desktop_fonts_css',
@@ -676,20 +697,24 @@ if(!mobile&&!tablet&&adaptive){
         'string-replace:comment_livereload',
         'copy:desktop_httaccess', //Копирование src/.httaccess в dist/
         'copy:desktop_ajax', //Копирование src/ajax/ в dist/ajax/
+        'copy:desktop_html', //Копирование src/ajax/ в dist/ajax/
+        'copy:desktop_img', //Копирование src/ajax/ в dist/ajax/
+        'copy:desktop_settings', //Копирование src/ajax/ в dist/ajax/
         'string-replace:desktop_async_init', //добавления блока асинхронной инициализации в index.php
         'string-replace:desktop_remove_sync_init', //Удаление синхронной инициализации в index.php
         'string-replace:desktop_rebase', //Замена путей к track/ mobile/ tablet/ в dist/ версии desktop
-        'inlineImgSize:desktop', //Добавление width и height на img
-        'string-replace:desktop_for_lazyload', //замена установка lazy-load закгрузки <img> на dist/index.php
-        'string-replace:desktop_for_lazyload_js',
+        //'inlineImgSize:desktop', //Добавление width и height на img
+        //'string-replace:desktop_for_lazyload', //замена установка lazy-load закгрузки <img> на dist/index.php
+        //'string-replace:desktop_for_lazyload_js',
         'string-replace:desktop_remove_link_css', //удаление link[rel="stylesheet"] из dist/index.php
         'string-replace:desktop_beforebase', //замена путей /img->../img для base64uri маленьких картинок в dist/css/head.min.css
         'dataUri:desktop', //перевод картинок до 2048 байт в base64uri в dist/css/head.min.css, dist/css/full.min.css
         'string-replace:desktop_afterbase', //замена путей ../img->img непереведдных картинок в dist/css/head.min.css
-        'htmlmin:desktop', //сжатие dist/index.php и dist/ajax/map.html
-        'unusedimages:desktop', //Удаление неиспользованных картинок из dist/img/
+        //'htmlmin:desktop', //сжатие dist/index.php и dist/ajax/map.html
+        //'unusedimages:desktop', //Удаление неиспользованных картинок из dist/img/
         'copy:track', //Копирование src/track/ в dist/track/
-        'string-replace:desktop_br_space'
+        'string-replace:desktop_br_space',
+        'string-replace:comment_livereload'
     ]);
 
 
@@ -710,7 +735,7 @@ var validate_command = ['validation'];
 var check_command = ['check-desktop'];
 
 
-fin_array.push('validation:dist');
+//fin_array.push('validation:dist');
 
 check_command.push('validation:src');
 

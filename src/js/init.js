@@ -3,10 +3,10 @@ WebFont.load({
     // google: {
     //     families: ['Roboto:300,700:latin,cyrillic', 'Oranienbaum:400:latin,cyrillic']
     // },
-      custom: {
+    custom: {
         families: ['GothamPro'],
         urls: ['css/fonts.css']
-      },
+    },
     active: function() {
         console.log('fonts-active');
         initalize();
@@ -74,6 +74,3 @@ function initalize() {
     console.log('main-js.injected');
 
 }
-
-
-

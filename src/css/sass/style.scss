@@ -636,12 +636,10 @@ header {
             border: none;
             transition: all 0.25s;
 
-            a.metdwnld {
                 color: #100f10;
-                line-height: 50px;
+                padding-top: 4px;
                 font-size: 18px;
-                font-weight: 800;
-            }
+                font-weight: 800; 
         }
     }
 
@@ -3868,12 +3866,12 @@ footer {
             margin-bottom: 7px;
         }
 
-        p.num {
+        .num {
             font-weight: 300;
             font-size: 16px;
             line-height: 23px;
             color: white;
-        }
+        } 
     }
 
     button.poleznoctb {

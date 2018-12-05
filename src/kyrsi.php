@@ -2,10 +2,7 @@
 <html lang="en">
     <head>
         <?php include('html/meta.html'); ?>
-
-
-        
-        <script src="http://localhost:3413/livereload.js"></script>
+<script src="http://localhost:0000/livereload.js"></script> 
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
@@ -13,7 +10,7 @@
     </head>
     <body>
         
-        <?php include('html/header.html'); ?>
+        <?php include('html/header.php'); ?>
         <section class="sec7">
             <div>
                 <div class="pink">
@@ -335,7 +332,7 @@
                 </div>
             </section>
         
-            <?php include('html/footer.html'); ?>
+            <?php include('html/footer.php'); ?>
             <div class="hidden-box">
                 <div id="form-error-pop" class="i-pop">
                     <div class="close"></div>
@@ -346,7 +343,7 @@
                     Спасибо за заявку!
                 </div>
                 <div id="okgo" class="pop_z">
-                    <form class="form" action="ajax/mail.php" method="post">
+                    <form class="form" action="#" method="get">
                         <p class="xotite">Хотите записаться
                             <br> <span class="bl">на</span> <span class="pink">курс</span></p>
                             <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
