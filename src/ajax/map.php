@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Карта</title>
-        <script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;key=AIzaSyDJ-HDjSq2SeGl788I-5-7-EHAK29oUt2g"></script>
+        <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU"></script>
         <script src="../js/map.js"></script>
     <link rel="stylesheet" href="../css/fonts.css">
     </head>

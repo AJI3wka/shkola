@@ -61,21 +61,21 @@ if((strlen($name)>0) and (strlen($phone)>0)){
 	// if(isset($_POST['referer'])){
 	// 	$clientReferer = htmlspecialchars(urldecode($_POST['referer']));
 	// }else{
-	// 	$clientReferer = htmlspecialchars($_COOKIE['shityo_referer']);
 	// }
-	// $clientGaID = str_replace('GA1.2.', '', $_COOKIE['_ga']);
-	// $clientGaUTM = $_COOKIE['shityo_utm'];
+	$clientReferer = htmlspecialchars($_COOKIE['shityo_referer']);	
+	$clientGaID = str_replace('GA1.2.', '', $_COOKIE['_ga']);
+	$clientGaUTM = $_COOKIE['shityo_utm'];
 	// filter
-	// $clientPhone = preg_replace("/[^+0-9]+/", "", $clientPhone);
+	$phone = preg_replace("/[^+0-9]+/", "", $phone);
 	// amocrm
 		require ('Amocrm/functions.php');
 		$dealData = array(
 			'name' => $name.', новый сайт',
 			'phone' => $phone,
 			'context' => $frm,
-			// 'referer' => $clientReferer,
-	  //     'ga_cid' => $clientGaID,
-	  //     'ga_utm' => $clientGaUTM
+			'referer' => $clientReferer,
+	      	'ga_cid' => $clientGaID,
+	      	'ga_utm' => $clientGaUTM
 	  );
 	amocrm('setDeal', $dealData);
 }
