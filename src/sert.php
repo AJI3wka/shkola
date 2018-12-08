@@ -5,7 +5,7 @@
         <?php include('html/meta.html'); ?>
 
 
-        <script src="http://localhost:0000/livereload.js"></script> 
+        <script src="http://localhost:9052/livereload.js"></script> 
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
@@ -56,7 +56,7 @@
                         Мы позаботились об оформлении подарка — сертификат<br>
                         предоставляется в формате А4, украшенный аккуратной рамкой.
                     </div>
-                    <button class="present">Заказать подарок</button>
+                    <button class="present" data-id="prsnt">Заказать подарок</button>
     </div>
 </section>
 
@@ -82,7 +82,32 @@
                      <input type="hidden" name="frmid" value="Форма в шапке">
                     <button class="frm">Оставить заявку</button>
             </form>
-        </div>
+        </div> 
+        <div class="pop_present" id="prsnt">
+        <form class="form"  action="#" method="get">
+            <p class="xotite">Хотите заказать <span class="pink">подарок?</span></p>
+            <div class="zajavka">Оставьте заявку и мы свяжемся с вами</div>
+            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+            <input type="text" name="phone" class="input" placeholder="Телефон">
+            <input type="hidden" name="frmid" value="Индивидуальное">
+            <button class="frm">Заказать</button> 
+        </form>
+    </div>
+    <div class="pop_met" id="pop_metodichka">
+        <form class="form"  action="#" method="get">
+            <p class="xotite">Хотите получить методичку по <span class="pink">тканям</span> и <span class="pink"> швейным машинкам?</span></p>
+            <div class="zajavka">Заполните формы и получите методички</div>
+            <div class="miniatyri">
+                <div class="el"></div>
+                <div class="el"></div>
+            </div>
+            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+            <input type="text" name="phone" class="input" placeholder="Телефон">
+            <input type="hidden" name="frmid" value="Скачать методичку">
+            <button class="frm">Скачать методички</button>
+        </form>
+    </div>
+    </div>
     </div> 
 <!--<div id="maket"></div>-->
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>    

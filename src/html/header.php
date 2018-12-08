@@ -11,8 +11,8 @@
                     <a href="./gallery.php" class="nv6">Фотогалерея</a>
                     <a href="./#contacts" class="nv7 scrollto" id="#contacts">Контакты</a>
                 </div>
-                <div class="ibw">
-                    <button class="bonus">получить бонус</button>
+                <div class="ibw pop_met">
+                    <button class="bonus"id="pop_metodichka">получить бонус</button> 
                    <div class="call">
                         <a href="tel:<?php $text = file_get_contents('settings/phone.txt'); echo(str_replace(['-',' ','(',')'], "", $text)); ?>" class="phone"><?php include('settings/phone.txt') ?></a>
                         
@@ -20,6 +20,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </header>

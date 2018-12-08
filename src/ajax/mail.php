@@ -47,7 +47,7 @@ if((strlen($name)>0) and (strlen($phone)>0)){
 	$message .= "Ссылка на сайт: $url\n";
 	$message .= "Заголовок: $title\n\n";
 
-	$to = "hangman6@i.ua";
+	$to = "info@shkola-shitya52.ru";
 
 	mail ($to,$subject,$message,$headers); 
 

@@ -128,18 +128,13 @@ $(document).ready(function() {
         }
     });
     $('input[name="email"]').focus(function() {
-        $(this).removeClass('error-input');
+        $(this).removeClass('error-input'); 
     });
 
 
-    $('.kyrs,.zapisb,.bonus').click(function() {
-        $('.pop_z#pop_head').arcticmodal();
-    });
 
-    $('.dwnlmetod').click(function() {
-        $('.pop_z#pop_metodichka').arcticmodal();
-    });
-
+    
+ 
 
     //nav start
     $('.nav a').click(function(e) {
@@ -212,6 +207,21 @@ $(document).ready(function() {
     });
 
     //students works end
+         var $gall_wrap = $('.slider_1')
+        var $block_wrap =  $gall_wrap.closest('section').find('.block-wrap');
+
+            $gall_wrap.find('.wrp_albom').click(function() {
+                var $this = $(this).closest('.item');
+                $this.parent().children().removeClass('active');
+                $this.addClass('active');
+               
+
+                $sw_wrap.removeClass('opened');
+                var $act_item = $block_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
+                $act_item.parent().children().removeClass('active');
+                $act_item.addClass('active');
+
+            });
 
 
 
@@ -353,6 +363,7 @@ $(document).ready(function() {
         $act_item.addClass('active');
 
     });
+
     //kyrsi_ceni end
     //  pos_start
     var $pos_wrap = $('.sec2');
@@ -421,7 +432,24 @@ $(document).ready(function() {
         onSliderLoad: function() {}
 
     });
-    var slider3 = $('.sec3').find('.slider-wrap').bxSlider({
+    var slider8555 = $('.sec8').find('.slider-wrap_vid').bxSlider({
+        infiniteLoop: true,
+        //pagerCustom:'.pager',
+        controls: true,
+        nextSelector: '#arr1r_vid',
+        prevSelector: '#arr1l_vid',
+        pager: true,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        onSlideNext: function($slideElement, oldIndex, newIndex) {},
+        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+        onSliderLoad: function() {}
+
+    });
+    var slider8 = $('.sec3').find('.slider-wrap').bxSlider({
         infiniteLoop: true,
         //pagerCustom:'.pager',
         controls: true,
@@ -438,7 +466,7 @@ $(document).ready(function() {
         onSliderLoad: function() {}
 
     });
-    var slider4 = $('.sec8').find('.slider-wrap_otz').bxSlider({
+    var slider12 = $('.sec8').find('.slider-wrap_otz').bxSlider({
         infiniteLoop: true,
         //pagerCustom:'.pager',
         controls: true,
@@ -518,6 +546,63 @@ $(document).ready(function() {
         }
     });
 
+//
+
+    $('.kyrs[data-id="texn_poshiv1"]').click(function() {
+        $('.pop_texn#texn_poshiv1').arcticmodal();
+    });
+    $('.kyrs[data-id="texn_poshiv2"]').click(function() {
+        $('.pop_texn#texn_poshiv2').arcticmodal();
+    });
+    $('.kyrs[data-id="palto"]').click(function() {
+        $('.pop_texn#palto').arcticmodal();
+    });
+    $('.kyrs[data-id="konstr_model"]').click(function() {
+        $('.pop_texn#konstr_model').arcticmodal();
+    });
+    $('.kyrs[data-id="individ"]').click(function() {
+        $('.pop_texn#individ').arcticmodal();
+    });
+//
+
+//
+
+    $('.zapisb[data-id="texn_poshiv1"]').click(function() {
+        $('.pop_texn#texn_poshiv1').arcticmodal();
+    });
+    $('.zapisb[data-id="texn_poshiv2"]').click(function() {
+        $('.pop_texn#texn_poshiv2').arcticmodal();
+    });
+    $('.zapisb[data-id="palto"]').click(function() {
+        $('.pop_texn#palto').arcticmodal();
+    });
+    $('.zapisb[data-id="konstr_model"]').click(function() {
+        $('.pop_texn#konstr_model').arcticmodal();
+    });
+    $('.zapisb[data-id="individ"]').click(function() {
+        $('.pop_texn#individ').arcticmodal();
+    });
+    $('.zapisb[data-id="akcii"]').click(function() {
+        $('.pop_akcii#akcii').arcticmodal();
+    });
+
+    
+
+//
+$('.podrobno[data-id="pdrb"]').click(function() {
+        $('.pop_podrobnosti#pdrb').arcticmodal();
+    });
+$('.podrobno[data-id="konctr_pdrb"]').click(function() {
+        $('.pop_podrobnosti#konctr_pdrb').arcticmodal();
+    });
+//
+$('.dwnlmetod,.poleznoctb,.present,.bonus').click(function() {
+        $('.pop_met#pop_metodichka').arcticmodal(); 
+    });
+//
+$('.present[data-id="prsnt"]').click(function() {
+        $('.pop_present#prsnt').arcticmodal();
+    });
 
 
     $('form').submit(function(e) {

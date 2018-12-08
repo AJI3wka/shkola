@@ -2,11 +2,11 @@
 <html lang="en">
     <head>
         <?php include('html/meta.html'); ?>
-<script src="http://localhost:0000/livereload.js"></script> 
+        <script src="http://localhost:9052/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
-      
+        
     </head>
     <body>
         
@@ -87,8 +87,8 @@
                                     <p class="name">Индивидуальное<br>обучение</p>
                                     <div class="helper"></div>
                                 </div>
-                                <div class="ceni_kyrsi" data-id="6">
-                                    <img class="" src="img/tn6.jpg" alt="">
+                                <div class="ceni_kyrsi ceni_akcii" data-id="6">
+                                    <div class="akcii_wrp">%</div>
                                     <p class="name">Наши акции</p>
                                     <div class="helper"></div>
                                 </div>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="slider9">
                             <div class="slider-wrap_ceni">
-                                <div class="item active" data-id="1">
+                                <div class="item active pop_texn" data-id="1">
                                     <div class="r_t">
                                         <div class="teksta">
                                             <p class="txt_1">
@@ -135,8 +135,9 @@
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
-                                        <button class="zapisb">Записаться на курс</button>
-                                        <button class="podrobno">Подробнее о курсе</button>
+                                        <button class="zapisb" data-id="texn_poshiv1">Записаться на курс</button>
+                                        <button class="podrobno"data-id="pdrb">Подробнее о курсе</button>
+                                        
                                     </div>
                                 </div>
                                 <div class="item" data-id="2">
@@ -176,7 +177,7 @@
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
-                                        <button class="zapisb">Записаться на курс</button>
+                                        <button class="zapisb" data-id="texn_poshiv2">Записаться на курс</button>
                                         <button class="podrobno">Подробнее о курсе</button>
                                     </div>
                                 </div>
@@ -219,7 +220,7 @@
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца
                                         </p>
-                                        <button class="zapisb">Записаться на курс</button>
+                                        <button class="zapisb" data-id="palto">Записаться на курс</button>
                                         <button class="podrobno">Подробнее о курсе</button>
                                     </div>
                                 </div>
@@ -259,8 +260,8 @@
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
-                                        <button class="zapisb">Записаться на курс</button>
-                                        <button class="podrobno">Подробнее о курсе</button>
+                                        <button class="zapisb" data-id="konstr_model">Записаться на курс</button>
+                                        <button class="podrobno" data-id="konctr_pdrb">Подробнее о курсе</button>
                                     </div>
                                 </div>
                                 <div class="item" data-id="5">
@@ -294,12 +295,12 @@
                                             <p class="txt_8">График: подбирается индивидуально 16 практических занятий по 3 часа каждое
                                             </p>
                                             <div class="skidka">
-                                                <p class="sk1">38 680 рублей/месяц</p>
+                                                <!--<p class="sk1">38 680 рублей/месяц</p>-->
                                                 <p class="sk2">32 900 рублей/месяц</p>
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
-                                        <button class="zapisb">Записаться на курс</button>
+                                        <button class="zapisb" data-id="individ">Записаться на курс</button>
                                         <button class="podrobno">Подробнее о курсе</button>
                                     </div>
                                 </div>
@@ -307,55 +308,250 @@
                                     <div class="r_t">
                                         <div class="teksta">
                                             <p class="txt_1">
-                                               Акция 1+1
+                                                Акции
                                             </p>
-                                            <p class="txt_2">Приглашайте своих подруг обучаться вместе. Тогда каждой подружке скидка 500 рублей. </p>
-                                            <p class="txt_3">
-                                                Акция для наших выпускников:<span>При прохождении первой ступени курса «Технологии пошива» дарим скидку 10% на другие курсы.</span>
-                                            </p>
+                                            <p class="txt_3">1. Акция 1+1: <span>Приглашайте своих подруг обучаться вместе. Тогда каждой подружке скидка 500 рублей.</span></p>
                                             <p class="txt_4">
-                                               Курс в подарок:<span>Курсы кройки и шитья дарят новые эмоции и впечатления, возможность стать профессионалом в любимом хобби и открыть свое дело. Для женщин — это глоток свежего воздуха и шаг во что-то новое.
-                                                Вы можете подарить курс своей маме, любимой подруге или супруге. Каждая из них скажет вам огромное спасибо за заботу и еще не раз отблагодарит новыми вещами и счастливой улыбкой.
-                                                </span>
+                                                2. Акция для наших выпускников: <span>При прохождении первой ступени курса «Технологии пошива» дарим скидку 10% на другие курсы.</span></p>
                                             </p>
                                             <p class="txt_5">
-                                               Мы позаботились об оформлении подарка — сертификат предоставляется в формате А4, украшенный аккуратной рамкой
+                                                3. Курс в подарок: <span>Курсы кройки и шитья дарят новые эмоции и впечатления, возможность стать профессионалом в любимом хобби и открыть свое дело. Для женщин — это глоток свежего воздуха и шаг во что-то новое.<br><br>
+                                                    Вы можете подарить курс своей маме, любимой подруге или супруге. Каждая из них скажет вам огромное спасибо за заботу и еще не раз отблагодарит новыми вещами и счастливой улыбкой.
+                                                    <br><br>
+                                                    Мы позаботились об оформлении подарка — сертификат предоставляется в формате А4, украшенный аккуратной рамкой.
+                                                </span>
                                             </p>
+                                        </div>
+                                        <p class="dlina">Длительность курса 2 месяца</p>
+                                        <button class="zapisb"data-id="akcii">Оставить заявку</button>
+                                        <a href="./sert.php" class="podrobno">Подробнее о подарке</a>
                                     </div>
-                                    <p class="dlina">Длительность курса 2 месяца</p>
-                                    <button class="zapisb">Записаться на курс</button>
-                                    <button class="podrobno">Подробнее о курсе</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        
-            <?php include('html/footer.php'); ?>
-            <div class="hidden-box">
-                <div id="form-error-pop" class="i-pop">
-                    <div class="close"></div>
-                    <div id="form-error-text"></div>
-                </div>
-                <div id="okgo" class="i-pop">
-                    <div class="close"></div>
-                    Спасибо за заявку!
-                </div>
-                <div id="okgo" class="pop_z">
-                    <form class="form" action="#" method="get">
-                        <p class="xotite">Хотите записаться
-                            <br> <span class="bl">на</span> <span class="pink">курс</span></p>
+                </section>
+                
+                <?php include('html/footer.php'); ?>
+                <div class="hidden-box">
+                    <div id="form-error-pop" class="i-pop">
+                        <div class="close"></div>
+                        <div id="form-error-text"></div>
+                    </div>
+                    <div id="okgo" class="i-pop">
+                        <div class="close"></div>
+                        Спасибо за заявку!
+                    </div>
+                    <div class="pop_z" id="pop_head">
+                        <form class="form"  action="#" method="get">
+                            <p class="xotite">Хотите записаться на <span class="pink">курс технология пошива?</span></p>
                             <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
                             <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                             <input type="text" name="phone" class="input" placeholder="Телефон">
                             <input type="hidden" name="frmid" value="Форма в шапке">
-                            <button class="frm">Оставить заявку</button>
+                            <button class="frm">Записаться</button>
                         </form>
                     </div>
-                </div>
-                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-                <script src="js/init.js"></script>
-                <!--<div id="maket"></div>-->
-            </body>
-        </html>
+                    <div class="pop_met" id="pop_metodichka">
+                        <form class="form"  action="#" method="get">
+                            <p class="xotite">Хотите получить методичку по <span class="pink">тканям</span> и <span class="pink"> швейным машинкам?</span></p>
+                            <div class="zajavka">Заполните формы и получите методички</div>
+                            <div class="miniatyri">
+                                <div class="el"></div>
+                                <div class="el"></div>
+                            </div>
+                            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                            <input type="text" name="phone" class="input" placeholder="Телефон">
+                            <input type="hidden" name="frmid" value="Скачать методичку">
+                            <button class="frm">Скачать методички</button>
+                        </form>
+                    </div>
+                    <div id="okgo" class="pop_z">
+                        <form class="form" action="#" method="get">
+                            <p class="xotite">Хотите записаться
+                                <br> <span class="bl">на</span> <span class="pink">курс?</span></p>
+                                <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Форма в шапке">
+                                <button class="frm">Оставить заявку</button>
+                            </form>
+                        </div>
+                        <div class="pop_texn" id="texn_poshiv1">
+                            <form class="form"  action="#" method="get">
+                                <p class="xotite">Хотите записаться на курс <span class="pink"> Технология пошива?</span></p>
+                                <div class="zajavka">Оставьте заявку и мы свяжемся с вами</div>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Первая ступень">
+                                <button class="frm">Оставьте заявку</button>
+                            </form>
+                        </div>
+                        <div class="pop_texn" id="texn_poshiv2">
+                            <form class="form"  action="#" method="get">
+                                <p class="xotite">Хотите записаться на курс <span class="pink"> Технология пошива?</span></p></p>
+                                <div class="zajavka">Оставьте заявку и мы свяжемся с вами</div>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Вторая ступень">
+                                <button class="frm">Оставьте заявку</button>
+                            </form>
+                        </div>
+                        <div class="pop_texn" id="palto">
+                            <form class="form"  action="#" method="get">
+                                <p class="xotite">Хотите записаться на курс <span class="pink">Пальто?</span></p></p>
+                                <div class="zajavka">Оставьте заявку и мы свяжемся с вами</div>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Курс пальто">
+                                <button class="frm">Оставьте заявку</button>
+                            </form>
+                        </div>
+                        <div class="pop_texn" id="konstr_model">
+                            <form class="form"  action="#" method="get">
+                                <p class="xotite">Хотите записаться на курс <span class="pink">Конструирование и моделирование?</span></p>
+                                <div class="zajavka">Оставьте заявку и мы свяжемся с вами</div>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Конструирование и моделирование">
+                                <button class="frm">Оставьте заявку</button>
+                            </form>
+                        </div>
+                        <div class="pop_texn" id="individ">
+                            <form class="form"  action="#" method="get">
+                                <p class="xotite">Хотите записаться на курс <span class="pink">Индивидуальное обучение?</span></p>
+                                <div class="zajavka">Оставьте заявку и мы свяжемся с вами</div>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Индивидуальное">
+                                <button class="frm">Оставьте заявку</button>
+                            </form>
+                        </div>
+                        <div class="pop_akcii" id="akcii">
+                            <form class="form"  action="#" method="get">
+                                <p class="xotite">Оставьте заявку <br><span class="pink">для получения подарка</span></p>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Индивидуальное">
+                                <button class="frm">Оставьте заявку</button>
+                            </form>
+                        </div>
+                        <div class="pop_podrobnosti" id="pdrb">
+                            <div class="okyrse">
+                                <p class="txt_1">
+                                    1. Вводная часть
+                                </p>
+                                <p class="txt_2">Состоит не только из теории, но и практики.</p>
+                                <p class="txt_3">
+                                    <span>- в этом блоке вы получите общую информацию об одежде;<br><br>
+                                        - узнаете о разных материалах для шитья. Начнете разбираться в видах, свойствах и особенностях тканей для пошива гардероба. Сможете подобрать нужный материал для раскроя, а также подберете необходимую фурнитуру, прокладочные и отделочные ткани для будущей работы;<br><br>
+                                        - приступите к ручной работе, а именно научитесь ручным стежкам;<br><br>
+                                        - изучите виды машинных швов и освоите их на практике;<br><br>
+                                        - обучитесь тонкостям утюжильных работ. Сможете управляться с оборудованием <br>и изучить тонкости процесса;<br><br>
+                                        - изучите швейное оборудование, его виды, назначение и приемы работы;<br><br>
+                                        - ознакомитесь с обработкой дополнительных деталей в одежде:
+                                        • накладных и прорезных карманов;<br>
+                                        • застежек (застежка-молния и обтачками);<br>
+                                    • отложных, цельновыкроенных и воротников-стоек.</span>
+                                </p>
+                                <p class="txt_4">
+                                    2. Юбка : <span>Ваша первая полноценная вещь, которую вы сошьете на курсе:<br>
+                                        - сначала происходит замер мерок;<br>
+                                        - далее раскрой изделия и подготовка его к примерке. После чего вы перейдете к подгонке вещи по фигуре;<br>
+                                        - и приступите к пошиву юбки. А также научитесь влажно-тепловым работам со всеми тонкостями, которые включают:<br>
+                                        • обработку изделия, вытачек и швов;<br>
+                                        • работу с поясом;<br>
+                                        • с отделочными деталями, а именно клапанами, карманами и шлевками;<br>
+                                        • конечную влажно-тепловую обработку всей модели.<br>
+                                    </span>
+                                </p>
+                                <p class="txt_5">
+                                    3. Брюки : <span>Можете выбрать любую модель для пошива, на свое усмотрение. Пошив брюк также происходит в три основных этапа:<br>
+                                        - работа начинается с изготовления лекал, раскроя и подготовки брюк к примерке;<br>
+                                        - далее приступаете к обработке брюк и подрезке деталей;<br>
+                                        - потом наступает этап пошива брюк и ВТО, а именно:<br>
+                                        • обработка и ВТО вытачек, а также швов;<br>
+                                        • работа с карманами (в шве и накладных);<br>
+                                        • работа с поясом и отделочными элементами;<br>
+                                        • полноценная влажно-тепловая обработка всего изделия.<br>
+                                    </span>
+                                </p>
+                                <p class="txt_7">
+                                    4. Платье или другая деталь гардероба на ваш выбор <span>На этом этапе вы можете выбрать другое изделие, но его создание включает те же общие этапы:<br>
+                                        - после выбора вещи вы приступите к изготовлению лекал и раскрою изделия;<br>
+                                        - далее готовитесь к примерке. После вас ждет подгонка модели под вашу фигуру и внесение корректировок;<br>
+                                        - приступаете к первой обработке вещи, осноровке и подрезке мелких элементов;<br>
+                                        - этап пошива модели и ВТО схожи с предыдущими:<br>
+                                        • начинаете с обработки и ВТО швов;<br>
+                                        • далее приступаете к небольшим элементам;<br>
+                                        • переходите к обработке горловины, ворота и его присоединению к модели;<br>
+                                        • рукава также обрабатываются и соединяются с моделью;<br>
+                                        • под конец всегда производится ВТО всего изделия.<br>
+                                    </span>
+                                </p>
+                                <p class="txt_8">16 практических занятий (2 месяца)
+                                </div>
+                            </div>
+                            <div class="pop_podrobnosti" id="konctr_pdrb">
+                                <div class="okyrse">
+                                    <p class="txt_1">
+                                        Программа курса «Конструирование и моделирование изделий»
+                                    </p>
+                                    <p class="txt_2">Обучение включает пять основных этапов, которые помогут вам полностью погрузиться в основы этого мастерства.</p>
+                                    <p class="txt_3">
+                                        1. Вступительная часть :
+                                        <span>На этом этапе вы знакомитесь с типологией, осанкой и измерением фигуры. Изучаете:<br>
+                                            - инструменты в работе с вещами.<br>
+                                            - прибавки;<br>
+                                            - виды и стили одежды.<br>
+                                        </span>
+                                    </p>
+                                    <p class="txt_4">
+                                        2. Юбка : <span>На этом этапе вы узнаете тонкости работы с этой деталью гардероба:<br>
+                                            - научитесь измерять и снимать мерки;<br>
+                                            - проведете расчет и построение основы прямой и конической юбок. Будете работать над разными стилями:<br>
+                                            • с юбкой-солнце и полусолнце;<br>
+                                            • моделью кроя колокол;<br>
+                                            • и кроя клеш.<br>
+                                            - научитесь строить основы клиньевого фасона (годэ и 4,6,8-ми шовные) и его моделированию:<br>
+                                            • изучите кокетки;<br>
+                                            • плиссировку;<br>
+                                            • подрезы;<br>
+                                            • драпировки;<br>
+                                            • и воланы.<br>
+                                        </span>
+                                    </p>
+                                    <p class="txt_5">
+                                        3. Женская плечевая одежда  (платье):
+                                        <span>В целом этапы схожи, но в каждом есть свои тонкости, о которых вы узнаете на курсе:<br>
+                                            - начнете с измерения и снятия мерок;<br>
+                                            - проведете расчет, а также построение основы плечевой одежды, втачных рукавов и воротников различных видов:<br>
+                                            • отложных;<br>
+                                            • плосколежащих;<br>
+                                            • ворота-стойки;<br>
+                                            - приступите к моделированию платья. Учтете такие детали как:<br>
+                                            • кокетки;<br>
+                                            • рельефные швы;<br>
+                                            • драпировки;<br>
+                                            • и подрезы.<br>
+                                            <br>
+                                        </span>
+                                    </p>
+                                    <p class="txt_7">
+                                        4. Женские брюки: <span>Работа с ними включает те же этапы:<br>
+                                            - измерение и снятие мерок;<br>
+                                            - расчет и построение брюк;<br>
+                                            - их моделирование.<br>
+                                        </span>
+                                    </p>
+                                    <p class="txt_5">5. Жакет с подкладкой<br>
+                                        <span>Состоит из двух основных этапов: построения основы жакета и его моделирования.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+                            <script src="js/init.js"></script>
+                            <!--<div id="maket"></div>-->
+                        </body>
+                    </html>
