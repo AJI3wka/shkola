@@ -444,8 +444,28 @@ $(document).ready(function() {
         minSlides: 1,
         maxSlides: 1,
         moveSlides: 1,
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+        onSlideNext: function($slideElement, oldIndex, newIndex) {
+
+            if($slideElement.prev().hasClass('bx-clone')){
+                var $el = $slideElement.parent().children('.item.bx-clone').last().prev()
+                var el_html = $el.html();
+                $el.html(el_html);
+            }else{                
+                var html = $slideElement.prev().html();
+                $slideElement.prev().html(html);
+            }
+        },
+        onSlidePrev: function($slideElement, oldIndex, newIndex) {
+            if($slideElement.next().hasClass('bx-clone')){
+                var $el = $slideElement.parent().children('.item.bx-clone').first().next()
+                var el_html = $el.html();
+                $el.html(el_html);
+            }else{                
+                var html = $slideElement.next().html();
+                $slideElement.next().html(html);
+            }
+
+        },
         onSliderLoad: function() {}
 
     });
