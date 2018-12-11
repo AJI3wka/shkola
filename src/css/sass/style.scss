@@ -253,7 +253,7 @@ header {
 }
 
 .sec1 { 
-    background-image: url(../img/bg1.png);
+    background-image: url(../img/bg1.png); 
     background-position: top center;
     height: 670px;
     position: relative;
@@ -288,9 +288,9 @@ header {
 
             .adress {
                 p.txt {
-                    font-size: 16px;
+                    font-size: 18px;
                     color: white;
-                    font-weight: 500;
+                    font-weight: 600;
                     margin-bottom: 3px;
                 }
 
@@ -311,7 +311,7 @@ header {
             z-index: 1;
 
             p.h3 {
-                font-size: 16px;
+                font-size: 18px;
                 color: white;
                 font-weight: 500;
                 padding-left: 1px;

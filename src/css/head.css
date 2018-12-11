@@ -220,7 +220,7 @@ header .header .call .phoneback {
 }
 
 .sec1 {
-    background-image : url(img/bg1.jpg);
+    background-image : url(img/bg1.png);
     background-position : top center;
     height : 743px;
     position : relative;
@@ -252,15 +252,15 @@ header .header .call .phoneback {
     margin-top : 29px;
 }
 .sec1 .wrap .information .adress p.txt {
-    font-size : 16px;
+    font-size : 18px;
     color : white;
-    font-weight : 500;
+    font-weight : 600;
     margin-bottom : 3px;
 }
 .sec1 .wrap .information .adress p.ad {
-    font-size : 16px;
+    font-size : 17px;
     color : white;
-    font-weight : 300;
+    font-weight : 500;
     line-height : 20px;
     letter-spacing : -0.1px;
 }
@@ -271,7 +271,7 @@ header .header .call .phoneback {
     z-index : 1;
 }
 .sec1 .wrap .soc p.h3 {
-    font-size : 16px;
+    font-size : 18px;
     color : white;
     font-weight : 500;
     padding-left : 1px;
@@ -304,7 +304,7 @@ header .header .call .phoneback {
 }
 .sec1 .wrap .soc p.gskw {
     font-size : 14px;
-    font-weight : 300;
+    font-weight : 600;
     color : white;
     display : inline-block;
     vertical-align : top;

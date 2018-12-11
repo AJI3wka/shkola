@@ -191,9 +191,10 @@
                                             <img src="img/comm13.jpg" alt="">
                                         </div>
                                     </div>
+
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm14.jpg" alt="">
+                                            <img src="img/comm19.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -218,18 +219,6 @@
                                     <div class="r_com">
                                         <div class="wrp_comm">
                                             <img src="img/comm18.jpg" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="l_com">
-                                        <div class="wrp_comm">
-                                            <img src="img/comm19.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="r_com">
-                                        <div class="wrp_comm">
-                                            <img src="img/comm20.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
