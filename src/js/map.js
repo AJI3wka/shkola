@@ -73,9 +73,9 @@ var myPointGeoObject = [];
 
 function init() {
 
-    var cen = [56.322720, 44.041616];
+    var cen = [56.3226, 44.0418];
     myMap = new ymaps.Map("map", {
-        center: cen,
+        center: cen, 
         zoom: 17,
         behaviors: ["default"],
         //zoomMargin: [0, 0, 0, 800],
@@ -92,7 +92,7 @@ function init() {
     }));
 
     myMap.behaviors.disable('scrollZoom');
-    myMap.geoObjects.add(new ymaps.Placemark(cen));
+    myMap.geoObjects.add(new ymaps.Placemark(cen)); 
 
 }
 setTimeout(function() {

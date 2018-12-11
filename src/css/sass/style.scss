@@ -17,7 +17,7 @@ $dark: #141414;
 @mixin sec {
     width: 100%;
     min-width: $wievport;
-    overflow: hidden;
+    overflow: hidden; 
     position: relative;
     z-index: 2;
     background-size: cover !important;
@@ -252,8 +252,8 @@ header {
     }
 }
 
-.sec1 {
-    background-image: url(../img/bg1.jpg);
+.sec1 { 
+    background-image: url(../img/bg1.png);
     background-position: top center;
     height: 670px;
     position: relative;
@@ -1384,7 +1384,7 @@ header {
 
                     p.drm {
                         font-size: 18px;
-                        font-weight: 500;
+                        font-weight: 700;
                         color: #100f10;
                         text-align: center;
                         margin-top: 42px;
@@ -1938,12 +1938,16 @@ header {
 
         .txt_tm {
             font-size: 16px;
-            font-weight: 300;
+            font-weight: 400;
             font-style: italic;
             padding-left: 30px;
             text-align: left;
             color: #3a3737;
             position: relative;
+            span.normal_txt{
+                font-style:normal;
+                font-weight:400;
+            }
 
             &:before {
                 position: absolute;
@@ -2060,7 +2064,7 @@ header {
                 padding-left: 15px;
                 font-size: 16px;
                 color: white;
-                background-color: #eb477a;
+                background-color: #cd497a;
                 box-shadow: 0 -1px 30px rgba(43, 28, 34, 0.67);
                 border-bottom: 1px solid white;
                 line-height: 51px;
@@ -2074,7 +2078,7 @@ header {
 
             .obychenie {
                 display: block;
-                background-color: #eb477a;
+                background-color: #cd497a;
                 box-shadow: 0 -1px 29px rgba(43, 28, 34, 0.46);
                 height: 48px;
                 font-size: 16px;
@@ -2709,7 +2713,7 @@ header {
                 padding-left: 15px;
                 font-size: 16px;
                 color: white;
-                background-color: #eb477a;
+                background-color: #cd497a;
                 box-shadow: 0 -1px 30px rgba(43, 28, 34, 0.4);
                 border-bottom: 1px solid white;
                 line-height: 51px;
@@ -2723,7 +2727,7 @@ header {
 
             .obychenie {
                 display: block;
-                background-color: #eb477a;
+                background-color: #cd497a;
                 box-shadow: 0 -1px 29px rgba(43, 28, 34, 0.4);
                 height: 48px;
                 font-size: 16px;
@@ -2989,8 +2993,7 @@ header {
         .slider-wrap_ceni {
             .item {
                 .r_t {
-                    float: right;
-
+                    text-align:center;
                     .teksta {
                         background-image: url(../img/ramka8.png);
                         background-position: 7px 8px;
@@ -3000,6 +3003,7 @@ header {
                         box-shadow: 0 -1px 8px rgba(43, 28, 34, 0.36);
                         margin-bottom: 27px;
                         height: 612px;
+                        text-align:left; 
 
                         .skidka {
                             text-align: center;
@@ -3177,9 +3181,9 @@ header {
                     border-radius: 23px;
                     box-shadow: inset 0 1px 0 #eaeb6d;
                     display: inline-block;
+                    text-align:center;
+                    margin:0 auto;
                     border: none;
-                    margin-left: 10px;
-                    margin-right: 7px;
                     line-height: 44px;
                     transition: all 0.25s;
                     font-weight: 700;
@@ -3202,6 +3206,11 @@ header {
                     color: #b0386d;
                     line-height: 44px;
                     text-align: center;
+                    margin: 0 auto;
+                    &.cntr{
+                        display: block;
+
+                    }
                 }
             }
         }
@@ -3383,8 +3392,9 @@ header {
 
                     .wrp_comm {
                         background-image: url(../img/ramka9.png);
-                        width: 556px; 
-                        height: 236px;
+                        width: 700px;
+                        height: 300px;
+                        background-size: 700px 300px;
                         position: relative;
                         z-index: -1;
                         border: 2px solid transparent;
@@ -3397,8 +3407,8 @@ header {
                             background-repeat: no-repeat;
                             width: 87px;
                             height: 67px;
-                            right: 223px;
-                            bottom: -46px;
+                            right: 290px;
+                            bottom: -46px; 
                             z-index: 1;
                         }
 
@@ -3420,22 +3430,24 @@ header {
 
                     .wrp_comm {
                         background-image: url(../img/ramka9.png);
-                        width: 556px;
-                        height: 236px;
+                        width: 700px;
+                        height: 300px;
+                        background-size: 700px 300px;
                         position: relative;
-                        margin: 0 auto;
                         z-index: -1;
                         border: 2px solid transparent;
+                        margin: 0 auto;
 
                         &:after {
-                            position: absolute;
+                           position: absolute;
                             background-image: url(../img/komki2.png);
                             background-position: 0 0;
                             background-repeat: no-repeat;
                             width: 87px;
                             height: 67px;
-                            right: 222px;
-                            bottom: -45px;
+                            right: 290px;
+                            bottom: -46px; 
+                            z-index: 1;
                         }
 
                         img {
@@ -3466,8 +3478,8 @@ header {
                     background-image: url(../img/arr_l.png);
                     cursor: pointer;
                     position: absolute;
-                    top: -329px;
-                    left:20px;
+                    top: -389px;
+                    left: -20px;
                     background-repeat: no-repeat;
 
                     a {
@@ -3482,15 +3494,15 @@ header {
                     }
                 }
 
-                &.right {
+                &.right { 
                     position: absolute;
                     width: 45px;
                     height: 45px;
                     background-image: url(../img/arr_l.png);
                     cursor: pointer;
                     transform: rotate(180deg);
-                    top: -329px;
-                        right: 20px;
+                    top: -389px;
+                    right: -20px;
                     z-index: 2;
                     background-repeat: no-repeat;
 
@@ -3651,6 +3663,10 @@ header {
 
             & > .item {
                 cursor:pointer;
+                &.active{
+                       position:relative;
+                       bottom:10px;
+                    }
                 .wrp_albom {
                     width: 220px;
                     height: 284px;
@@ -3662,6 +3678,7 @@ header {
                     background-repeat: no-repeat;
                     background-image: linear-gradient(to top, transparent 0%, transparent 1%, transparent 100%);
                     box-shadow: 0 -1px 32px rgba(12, 10, 6, 0.35);
+                    
 
                     .wrp_fts {
                         margin-bottom: 1px;
@@ -3785,9 +3802,12 @@ header {
                 transition: all 0.25s;
                 color: #989595;
 
+
+
                 &.active {
                     color: #d95291;
                     border-bottom: 2px solid #d95291;
+                        font-weight: 600;
                 }
 
                 &:nth-of-type(4) {
@@ -3819,12 +3839,12 @@ header {
 
                 p.el_txt {
                     font-size: 17px;
-                    font-weight: 300;
+                    font-weight: 600;
 
                     &:hover,
                     &:active {
                         color: #d95291;
-                        font-weight: 300;
+                        font-weight: 600;
                     }
                 }
             }
@@ -3921,6 +3941,9 @@ header {
             display: none;
             height: 672px;
             overflow: hidden;
+            .no_more{
+                display: none;
+            }
 
             &.active {
                 display: block;
@@ -3932,9 +3955,7 @@ header {
                 height: initial;
             }
 
-            .more {
-                display: none;
-            }
+            
         }
     }
 
@@ -4098,6 +4119,89 @@ footer {
             color: #1f1d1f;
             text-align: center;
             margin-bottom: 27px;
+        }
+
+        input {
+            width: 296px;
+            height: 45px;
+            background-color: white;
+            border-radius: 4px;
+            border: 1px solid #636363;
+            margin: 0 auto;
+            text-align: left;
+            padding-left: 14px;
+            display: block;
+            margin-bottom: 17px;
+        }
+
+        button.frm {
+            display: block;
+            margin: 0 auto;
+            border: none;
+            width: 296px;
+            height: 50px;
+            margin-top: 30px;
+            font-size: 18px;
+            line-height: 40px;
+            font-weight: bold;
+            color: #100f10;
+            letter-spacing: 0.6px;
+            background-color: #f1e32e;
+            background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+            border-radius: 23px;
+            box-shadow: inset 0 1px 0 #eaeb6d;
+            transition: all 0.25s;
+
+            &:hover {
+                background-color: #f1e32e;
+                background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+                box-shadow: inset 0 1px 0 #eaeb6d, 0 0 27px rgba(236, 223, 45, 0.4);
+            }
+        }
+    }
+}
+.pop_zakazatb {
+    form {
+        width: 359px;
+        height: 434px;
+        background-color: #fcfcfc;
+        border-radius: 6px;
+        background-image: url(../img/ramkaform.png);
+        background-position: 10px 0px;
+
+        p.xotite {
+               
+            font-family: GothamPro;
+            font-weight: 600;
+            color: #100f10;
+            
+            padding-left: 28px;
+            line-height: 29px;
+           
+        
+                font-size: 27px;
+   
+    text-align: center;
+    padding-top: 48px;
+    margin-bottom: 21px;
+
+            span.bl {
+                color: #100f10;
+                font-size: 23px;
+            }
+
+            span.pink {
+                color: #d4548e;
+                font-size: 26px;
+            }
+        }
+
+        .zajavka {
+            font-size: 15px;
+            font-weight: 300;
+            color: #1f1d1f;
+            text-align: center;
+               margin-bottom: 57px;
         }
 
         input {
@@ -4338,15 +4442,19 @@ footer {
             line-height: 29px;
             letter-spacing: 0.6px;
             margin-bottom: 6px;
+            font-size: 20px;
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 55px;
 
             span.bl {
                 color: #100f10;
-                font-size: 23px;
+                font-size: 19px;
             }
 
             span.pink {
                 color: #d4548e;
-                font-size: 21px;
+                font-size: 19px;
             }
         }
 

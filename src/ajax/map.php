@@ -25,7 +25,8 @@
     </style>
     <body>
         <div id="main_adrs" style="display: none;"><?php include('../settings/adr.txt'); ?></div>
-        <div id="map"></div>
+        <div id="map">
+        </div>
 
         
     </body>

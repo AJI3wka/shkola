@@ -6,7 +6,7 @@
         <?php include('html/meta.html'); ?>
 
 
-        <script src="http://localhost:9052/livereload.js"></script> 
+        <script src="http://localhost:6659/livereload.js"></script> 
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
@@ -23,7 +23,7 @@
             <div class="kyrsi_ceni">Подарочный сертификат</div>
 
         </div>
-        <p class="krs">Подари любимой обучение<br>в Женской школе кройки и шитья</p>
+        <p class="krs">Подари любимым обучение<br> в Женской школе кройки и шитья</p>
         <div class="l_sert">
             <div class="ft_1">
                 <img src="img/st1.jpg" alt="">
@@ -72,40 +72,13 @@
             <div class="close"></div>
             Спасибо за заявку!
         </div>
-
-        <div id="okgo" class="pop_z">
-            <form class="form" action="#" method="get">
-                <p class="xotite">Хотите записаться
-                        <br> <span class="bl">на</span> <span class="pink">курс</span></p>
-                    <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
-                    <input type="text" name="name" class="input" placeholder="Введите ваше имя">
-                    <input type="text" name="phone" class="input" placeholder="Телефон">
-                     <input type="hidden" name="frmid" value="Форма в шапке">
-                    <button class="frm">Оставить заявку</button>
-            </form>
-        </div> 
         <div class="pop_present" id="prsnt">
         <form class="form"  action="#" method="get">
-            <p class="xotite">Хотите заказать <span class="pink">подарок?</span></p>
-            <div class="zajavka">Оставьте заявку и мы свяжемся с вами</div>
+            <p class="xotite">Оставить заявку для покупки <br><span class="pink">подарка близким?</span></p>
             <input type="text" name="name" class="input" placeholder="Введите ваше имя">
             <input type="text" name="phone" class="input" placeholder="Телефон">
-            <input type="hidden" name="frmid" value="Индивидуальное">
-            <button class="frm">Заказать</button> 
-        </form>
-    </div>
-    <div class="pop_met" id="pop_metodichka">
-        <form class="form"  action="#" method="get">
-            <p class="xotite">Хотите получить методичку по <span class="pink">тканям</span> и <span class="pink"> швейным машинкам?</span></p>
-            <div class="zajavka">Заполните формы и получите методички</div>
-            <div class="miniatyri">
-                <div class="el"></div>
-                <div class="el"></div>
-            </div>
-            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
-            <input type="text" name="phone" class="input" placeholder="Телефон">
-            <input type="hidden" name="frmid" value="Скачать методичку">
-            <button class="frm">Скачать методички</button>
+            <input type="hidden" name="frmid" value="Индивидуальное"> 
+            <button class="frm">Оставить заявку</button> 
         </form>
     </div>
     </div>

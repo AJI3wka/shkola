@@ -3,7 +3,7 @@
 <html lang="ru">
     <head>
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:9052/livereload.js"></script>
+        <script src="http://localhost:6659/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
@@ -101,11 +101,12 @@
                                         <div class="el active" data-id="1">
                                             <p class="el_txt active">Юбки</p>
                                         </div>
-                                        <div class="el" data-id="2">
-                                            <p class="el_txt">Брюки</p>
-                                        </div>
+
                                         <div class="el" data-id="3">
                                             <p class="el_txt">Платья и Сарафаны</p>
+                                        </div>
+                                        <div class="el" data-id="2">
+                                            <p class="el_txt">Брюки</p>
                                         </div>
                                         <div class="el" data-id="4">
                                             <p class="el_txt">Блузки и Пуловеры</p>
@@ -322,6 +323,11 @@
                                                         </a>
                                                         
                                                     </div>
+                                                    <div class="wrp_foto">
+                                                        <a class="glr fancy" data-fancybox-group="1" href="img/g44b.jpg" style="background-image:url(img/g44.jpg)">
+                                                        </a>
+                                                        
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -346,7 +352,7 @@
                                                     </div>
                                                     <div class="wrp_foto">
                                                         <a class="glr fancy" data-fancybox-group="2" href="img/bb5.jpg" style="background-image:url(img/b5.jpg)">
-                                                        </a>
+                                                        </a> 
                                                     </div>
                                                     <div class="wrp_foto">
                                                         <a class="glr fancy" data-fancybox-group="2" href="img/bb6.jpg" style="background-image:url(img/b6.jpg)">
@@ -358,10 +364,6 @@
                                                     </div>
                                                     <div class="wrp_foto">
                                                         <a class="glr fancy" data-fancybox-group="2" href="img/bb8.jpg" style="background-image:url(img/b8.jpg)">
-                                                        </a>
-                                                    </div>
-                                                    <div class="wrp_foto">
-                                                        <a class="glr fancy" data-fancybox-group="2" href="img/bb9.jpg" style="background-image:url(img/b9.jpg)">
                                                         </a>
                                                     </div>
                                                     <div class="wrp_foto">
@@ -498,8 +500,8 @@
                                                         <a class="glr fancy" data-fancybox-group="3" href="img/cc17.jpg" style="background-image:url(img/c17.jpg)">
                                                         </a>
                                                     </div>
-                                                    <div class="wrp_foto"
-                                                        <a class="glr fancy" data-fancybox-group="3" href="img/cc18.jpg" style="background-image:url(img/c18.jpg)">
+                                                    <div class="wrp_foto">
+                                                        <a class="glr fancy" data-fancybox-group="3" href="img/cc18.jpg" style="background-image:url(img/18.jpg)">
                                                         </a>
                                                     </div>
                                                     <div class="wrp_foto">

@@ -3,7 +3,7 @@
 <html lang="ru">
     <head>
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:9052/livereload.js"></script>
+        <script src="http://localhost:6659/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">

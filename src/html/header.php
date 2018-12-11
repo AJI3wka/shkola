@@ -16,11 +16,26 @@
                    <div class="call">
                         <a href="tel:<?php $text = file_get_contents('settings/phone.txt'); echo(str_replace(['-',' ','(',')'], "", $text)); ?>" class="phone"><?php include('settings/phone.txt') ?></a>
                         
-                        <div class="phoneback">заказать звонок</div>
+                        <div class="phoneback" data-id="zakazatb">заказать звонок</div>
                     </div>
                 </div>
             </div>
 
         </div>
+        
     </div>
+
 </header>
+<div class="hidden-box">
+                   
+                        <div id="zakazatb" class="pop_zakazatb">
+                        <form class="form" action="#" method="get">
+                            <p class="xotite">Хотите заказать <span class="pink">звонок?</span></p>
+                                <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
+                                <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                                <input type="text" name="phone" class="input" placeholder="Телефон">
+                                <input type="hidden" name="frmid" value="Форма в шапке">
+                                <button class="frm">Заказать</button>
+                            </form>
+                        </div>
+         </div>

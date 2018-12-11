@@ -572,20 +572,27 @@ $(document).ready(function() {
     });
     $('.zapisb[data-id="texn_poshiv2"]').click(function() {
         $('.pop_texn#texn_poshiv2').arcticmodal();
-    });
+    }); 
     $('.zapisb[data-id="palto"]').click(function() {
         $('.pop_texn#palto').arcticmodal();
+    });
+     $('.zapisb[data-id="belbe"]').click(function() {
+        $('.pop_texn#belbe').arcticmodal();
     });
     $('.zapisb[data-id="konstr_model"]').click(function() {
         $('.pop_texn#konstr_model').arcticmodal();
     });
-    $('.zapisb[data-id="individ"]').click(function() {
+     $('.zapisb[data-id="individ"]').click(function() {
         $('.pop_texn#individ').arcticmodal();
     });
+   
     $('.zapisb[data-id="akcii"]').click(function() {
         $('.pop_akcii#akcii').arcticmodal();
     });
-
+     $('.phoneback[data-id="zakazatb"]').click(function() {
+        $('.pop_zakazatb#zakazatb').arcticmodal();
+    });
+ 
     
 
 //
