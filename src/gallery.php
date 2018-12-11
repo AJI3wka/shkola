@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
         <script src="http://localhost:6659/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
@@ -23,7 +24,7 @@
                 <div class="slider_1">
                     <div class="ibw">
                         <div class="item active" data-id="1">
-                            <div class="wrp_albom">
+                            <div class="wrp_albom ">
                                 <div class="wrp_fts">
                                     <a class="ico1"  style="background-image:url(img/u1_s.jpg)">
                                     </a>
@@ -501,7 +502,7 @@
                                                         </a>
                                                     </div>
                                                     <div class="wrp_foto">
-                                                        <a class="glr fancy" data-fancybox-group="3" href="img/cc18.jpg" style="background-image:url(img/18.jpg)">
+                                                        <a class="glr fancy" data-fancybox-group="3" href="img/cc18.jpg" style="background-image:url(img/с18.jpg)">
                                                         </a>
                                                     </div>
                                                     <div class="wrp_foto">

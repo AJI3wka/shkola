@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
         <script src="http://localhost:6659/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">

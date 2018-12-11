@@ -17,7 +17,7 @@ $dark: #141414;
 @mixin sec {
     width: 100%;
     min-width: $wievport;
-    overflow: hidden; 
+    overflow: hidden;
     position: relative;
     z-index: 2;
     background-size: cover !important;
@@ -110,7 +110,7 @@ footer {
 }
 
 header {
-     height: 85px;
+    height: 85px;
     background-color: white;
     overflow: inherit;
     position: fixed;
@@ -227,7 +227,7 @@ header {
                 margin-top: 5px;
                 border: none;
                 padding-left: 25px;
-                    background-color: transparent;
+                background-color: transparent;
             }
         }
 
@@ -252,17 +252,17 @@ header {
     }
 }
 
-.sec1 { 
-    background-image: url(../img/bg1.png); 
+.sec1 {
+    background-image: url(../img/bg1.png);
     background-position: top center;
-    height: 670px;
+    height: 631px;
     position: relative;
     margin-top: 69px;
     z-index: 2;
 
     .logo {
         background-image: url(../img/logo.png);
-        background-size:contain;
+        background-size: contain;
         width: 94px;
         height: 94px;
         margin-right: 21px;
@@ -307,7 +307,7 @@ header {
         .soc {
             display: inline-block;
             vertical-align: top;
-            margin: 29px 31px 0px;
+            margin: 27px 7px 0;
             z-index: 1;
 
             p.h3 {
@@ -359,6 +359,16 @@ header {
     .school_l {
         float: left;
         margin-top: 13px;
+        position: relative;
+
+        .wnyr {
+            height: 251px;
+            position: absolute;
+            width: 218px;
+            background-image: url(../img/wnyr.png);
+            right: -236px;
+            top: 92px;
+        }
 
         h3 {
             font-size: 64px;
@@ -378,11 +388,10 @@ header {
             margin-left: 30px;
             width: 528px;
             height: 277px;
-            opacity: 0.83;
             background-color: #b2356e;
             border-radius: 6px;
             box-shadow: 0 -1px 21px rgba(0, 0, 0, 0.31);
-            padding: 16px 30px 0;
+            padding: 15px 30px 0;
 
             .new {
                 font-size: 24px;
@@ -399,7 +408,7 @@ header {
                 line-height: 26px;
                 color: white;
                 text-shadow: 0 1px 3px rgba(30, 7, 17, 0.25);
-                margin-bottom: 12px;
+                margin-bottom: 10px;
                 letter-spacing: 0.2px;
             }
 
@@ -519,6 +528,7 @@ header {
 
 .sec2 {
     padding-bottom: 39px;
+    padding-top: 39px;
     background-color: #fcfcfc;
 
     h2 {
@@ -637,10 +647,10 @@ header {
             clear: both;
             border: none;
             transition: all 0.25s;
-            color: #100f10; 
+            color: #100f10;
             font-size: 18px;
             font-weight: 800;
-            padding-bottom:2px;  
+            padding-bottom: 2px;
         }
     }
 
@@ -906,7 +916,7 @@ header {
                     cursor: pointer;
                     position: absolute;
                     top: 138px;
-                        left: -52px;
+                    left: -28px;
                     background-repeat: no-repeat;
 
                     a {
@@ -929,7 +939,7 @@ header {
                     cursor: pointer;
                     transform: rotate(180deg);
                     top: 138px;
-                    right: -52px;
+                    right: -59px;
                     background-repeat: no-repeat;
 
                     a {
@@ -949,9 +959,9 @@ header {
         .slider-wrap_obych {
             .item {
                 .dot_fot_wrap {
-                        width: 299px; 
-                        height: 361px;
-                      margin-left: 161px;
+                    width: 299px;
+                    height: 361px;
+                    margin-left: 161px;
                     position: relative;
                     float: left;
 
@@ -964,14 +974,16 @@ header {
                         max-height: 110%;
                         transform: translate3d(-50%, -50%, 0);
                         cursor: pointer;
-                        &.gor_dot_fot_wrap{
+
+                        &.gor_dot_fot_wrap {
                             min-height: initial;
                         }
                     }
-                    &.gor_fot{
-                            height: 240px;
-                            min-height: initial;
-                            overflow: hidden;
+
+                    &.gor_fot {
+                        height: 240px;
+                        min-height: initial;
+                        overflow: hidden;
                     }
                 }
 
@@ -979,7 +991,7 @@ header {
                     float: left;
                     width: 299px;
                     height: 361px;
-                    margin-left: 161px;
+                    margin-left: 104px;
                     background-color: white;
                     border-radius: 6px;
                     background-image: url(../img/ramka3.png);
@@ -1064,10 +1076,10 @@ header {
 
                 .right_sld {
                     float: right;
+                    padding-left: 57px;
                     margin-top: 17px;
                     position: relative;
                     width: 650px;
-                    padding-left: 30px;
 
                     &:before {}
 
@@ -1113,7 +1125,7 @@ header {
 
 .sec3 {
     background-image: url(../img/bg2.jpg);
-    height: 968px;
+    height: 930px;
     padding-top: 45px;
 
     .trb {
@@ -1175,7 +1187,7 @@ header {
         position: relative;
         width: 355px;
         background-position: center 0px;
-        cursor:pointer;
+        cursor: pointer;
 
         .trbl {
             border: 2px solid white;
@@ -1493,8 +1505,9 @@ header {
 }
 
 .sec4 {
-    padding-bottom: 57px;
     background-color: #fcfcfc;
+    padding-top: 38px;
+    padding-bottom: 26px;
 
     .fotogallery {
         font-size: 35px;
@@ -1513,11 +1526,13 @@ header {
     }
 
     .slider3 {
-        margin-bottom: 79px;
-            .bx-pager{
-                position:relative;
-                top:40px;  
-            }
+        margin-bottom: 63px;
+
+        .bx-pager {
+            position: relative;
+            top: 40px;
+        }
+
         .slider-wrap {
             .sld_foto {
                 width: 945px;
@@ -1637,7 +1652,7 @@ header {
         display: block;
         border: none;
         line-height: 50px;
-        margin-bottom: 42px;
+        margin-bottom: 43px;
         transition: all 0.25s;
 
         &:hover {
@@ -1804,12 +1819,13 @@ header {
 
         .inf_year {
             width: 330px;
-            height: 364px;
             opacity: 0.83;
             background-color: #b2356e;
             border-radius: 6px;
             box-shadow: 0 1px 13px rgba(0, 0, 0, 0.23);
             margin-top: 19px;
+            padding-bottom: 11px;
+            line-height: 20px;
 
             .p_inf_y {
                 font-size: 16px;
@@ -1926,7 +1942,7 @@ header {
             color: black;
             text-align: center;
             letter-spacing: -0.2px;
-            margin-bottom: 55px;
+            margin-bottom: 30px;
             padding-left: 53px;
             padding-right: 74px;
 
@@ -1940,13 +1956,15 @@ header {
             font-size: 16px;
             font-weight: 400;
             font-style: italic;
-            padding-left: 30px;
+            padding-left: 26px;
+            line-height: 20px;
             text-align: left;
             color: #3a3737;
             position: relative;
-            span.normal_txt{
-                font-style:normal;
-                font-weight:400;
+
+            span.normal_txt {
+                font-style: normal;
+                font-weight: 400;
             }
 
             &:before {
@@ -1977,7 +1995,7 @@ header {
 }
 
 .sec5 {
-    background-image: url(../img/bg3.jpg); 
+    background-image: url(../img/bg3.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     height: 1048px;
@@ -1994,7 +2012,7 @@ header {
 
     p.kyrs_txt {
         color: white;
-        font-size: 18px; 
+        font-size: 18px;
         font-weight: 300;
         text-align: center;
         margin-bottom: 28px;
@@ -2079,12 +2097,16 @@ header {
             .obychenie {
                 display: block;
                 background-color: #cd497a;
-                box-shadow: 0 -1px 29px rgba(43, 28, 34, 0.46);
+                box-shadow: 0 -1px 9px rgba(43, 28, 34, 0.46);
                 height: 48px;
                 font-size: 16px;
                 padding-left: 14px;
                 color: white;
                 line-height: 45px;
+
+                &.mytb {
+                    background-color: #bd5582;
+                }
 
                 span {
                     line-height: 18px;
@@ -2308,9 +2330,10 @@ header {
                         .txt_2 {
                             font-size: 16px;
                             color: #100f10;
-                            margin-bottom: 16px;
+                            margin-bottom: 10px;
                             letter-spacing: 0.2px;
                             padding-right: 20px;
+                            line-height: 20px;
                         }
 
                         .txt_3 {
@@ -2608,7 +2631,7 @@ header {
     background-color: #fcfcfc;
 
     .pink {
-           margin-top: 89px;
+        margin-top: 89px;
         position: relative;
         height: 77px;
 
@@ -2616,7 +2639,7 @@ header {
             background-image: url(../img/bgcen.jpg);
             width: 200%;
             position: absolute;
-            margin-left: -100%; 
+            margin-left: -100%;
             left: 50%;
             height: 77px;
             z-index: -1;
@@ -2683,6 +2706,7 @@ header {
                 .obychenie {
                     box-shadow: 0 -1px 29px rgba(43, 28, 34, 0.46);
                     padding-left: 10px;
+                    background-color: #cd497a;
                 }
             }
 
@@ -2728,12 +2752,16 @@ header {
             .obychenie {
                 display: block;
                 background-color: #cd497a;
-                box-shadow: 0 -1px 29px rgba(43, 28, 34, 0.4);
+                box-shadow: 0 -1px 19px rgba(43, 28, 34, 0.4);
                 height: 48px;
                 font-size: 16px;
                 padding-left: 14px;
                 color: white;
                 line-height: 45px;
+
+                &.mytb {
+                    background-color: #bd5582;
+                }
 
                 span {
                     line-height: 18px;
@@ -2859,8 +2887,9 @@ header {
                     padding-top: 7px;
                     padding-bottom: 7px;
                     position: relative;
-                    &.ceni_akcii{
-                        .akcii_wrp{
+
+                    &.ceni_akcii {
+                        .akcii_wrp {
                             width: 62px;
                             height: 62px;
                             border-radius: 100%;
@@ -2868,11 +2897,10 @@ header {
                             display: inline-block;
                             text-align: center;
                             line-height: 60px;
-                            color:white; 
-                            background-color:#c76b94;
+                            color: white;
+                            background-color: #c76b94;
                             background-image: radial-gradient(circle 47px at center, rgba(198, 101, 144, 0.06) 0%, rgba(175, 57, 109, 0.06) 100%);
                             box-shadow: 0 1px 4px rgba(0, 0, 0, 0.32);
-
                         }
                     }
 
@@ -2993,7 +3021,8 @@ header {
         .slider-wrap_ceni {
             .item {
                 .r_t {
-                    text-align:center;
+                    text-align: center;
+
                     .teksta {
                         background-image: url(../img/ramka8.png);
                         background-position: 7px 8px;
@@ -3003,7 +3032,8 @@ header {
                         box-shadow: 0 -1px 8px rgba(43, 28, 34, 0.36);
                         margin-bottom: 27px;
                         height: 612px;
-                        text-align:left; 
+                        text-align: left;
+                        position: relative;
 
                         .skidka {
                             text-align: center;
@@ -3012,7 +3042,7 @@ header {
                             height: 68px;
                             position: absolute;
                             width: 100%;
-                            bottom: 145px;
+                            bottom: 0;
 
                             p.sk1 {
                                 font-size: 27px;
@@ -3068,6 +3098,7 @@ header {
                             margin-bottom: 16px;
                             letter-spacing: 0.2px;
                             padding-left: 44px;
+                            line-height: 20px;
                         }
 
                         .txt_3 {
@@ -3105,6 +3136,7 @@ header {
                             color: #1c1b1c;
                             margin-bottom: 17px;
                             padding-left: 44px;
+                            line-height: 20px;
 
                             span {
                                 font-weight: 300;
@@ -3181,8 +3213,8 @@ header {
                     border-radius: 23px;
                     box-shadow: inset 0 1px 0 #eaeb6d;
                     display: inline-block;
-                    text-align:center;
-                    margin:0 auto;
+                    text-align: center;
+                    margin: 0 auto;
                     border: none;
                     line-height: 44px;
                     transition: all 0.25s;
@@ -3207,9 +3239,9 @@ header {
                     line-height: 44px;
                     text-align: center;
                     margin: 0 auto;
-                    &.cntr{
-                        display: block;
 
+                    &.cntr {
+                        display: block;
                     }
                 }
             }
@@ -3221,8 +3253,7 @@ header {
     background-color: #fcfcfc;
 
     .pink {
-              margin-top: 89px;
-
+        margin-top: 89px;
         position: relative;
         height: 77px;
 
@@ -3268,86 +3299,88 @@ header {
         width: 861px;
         margin-bottom: 38px;
         text-align: center;
-.item{
-        .video {
-            width: 861px;
-            height: 483px;
-            margin: 0 auto;
-            position: relative;
-            margin-bottom: 37px;
 
-            video {
-                min-height: 100%;
-                min-width: 100%;
-                position: absolute;
-                left: 50%;
-                top: 50%;
-                max-width: 110%;
-                max-height: 110%;
-                transform: translate3d(-50%, -50%, 0);
+        .item {
+            .video {
+                width: 861px;
+                height: 483px;
+                margin: 0 auto;
+                position: relative;
+                margin-bottom: 37px;
+
+                video {
+                    min-height: 100%;
+                    min-width: 100%;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    max-width: 110%;
+                    max-height: 110%;
+                    transform: translate3d(-50%, -50%, 0);
+                }
             }
         }
+
+        .bx-pager {
+            position: relative;
+            top: 20px;
         }
-   
-            .bx-pager{
-                   position:relative;
-                   top:20px;
-               } 
-            .slide-control {
-                .arr {
-                    height: 45px;
+
+        .slide-control {
+            .arr {
+                height: 45px;
+                width: 45px;
+                position: relative;
+                transition: all 0.25s;
+
+                &.left {
                     width: 45px;
-                    position: relative;
-                    transition: all 0.25s;
+                    height: 45px;
+                    background-image: url(../img/arr_l.png);
+                    cursor: pointer;
+                    position: absolute;
+                    top: 453px;
+                    left: 84px;
+                    background-repeat: no-repeat;
 
-                    &.left {
+                    a {
+                        font-size: 0;
                         width: 45px;
                         height: 45px;
-                        background-image: url(../img/arr_l.png);
-                        cursor: pointer;
+                        display: block;
                         position: absolute;
-                        top: 453px;
-                        left: 84px;
-                        background-repeat: no-repeat;
-
-                        a {
-                            font-size: 0;
-                            width: 45px;
-                            height: 45px;
-                            display: block;
-                            position: absolute;
-                            left: 0px;
-                            top: 0px;
-                            z-index: 2;
-                        }
-                    }
-
-                    &.right {
-                        position: absolute;
-                        width: 45px;
-                        height: 45px;
-                        background-image: url(../img/arr_l.png);
-                        cursor: pointer;
-                        transform: rotate(180deg);
-                        top: 453px;
-                        right: 86px;
+                        left: 0px;
+                        top: 0px;
                         z-index: 2;
-                        background-repeat: no-repeat;
+                    }
+                }
 
-                        a {
-                            font-size: 0;
-                            width: 45px;
-                            height: 45px;
-                            display: block;
-                            position: absolute;
-                            left: 0px;
-                            top: 0px;
-                            z-index: 2;
-                        }
+                &.right {
+                    position: absolute;
+                    width: 45px;
+                    height: 45px;
+                    background-image: url(../img/arr_l.png);
+                    cursor: pointer;
+                    transform: rotate(180deg);
+                    top: 453px;
+                    right: 86px;
+                    z-index: 2;
+                    background-repeat: no-repeat;
+
+                    a {
+                        font-size: 0;
+                        width: 45px;
+                        height: 45px;
+                        display: block;
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        z-index: 2;
                     }
                 }
             }
-     }
+        }
+    }
 
     .polosa {
         position: relative;
@@ -3382,7 +3415,6 @@ header {
     }
 
     .slider4 {
-
         .slider-wrap_otz {
             .item {
                 .l_com {
@@ -3408,7 +3440,7 @@ header {
                             width: 87px;
                             height: 67px;
                             right: 290px;
-                            bottom: -46px; 
+                            bottom: -46px;
                             z-index: 1;
                         }
 
@@ -3439,14 +3471,14 @@ header {
                         margin: 0 auto;
 
                         &:after {
-                           position: absolute;
+                            position: absolute;
                             background-image: url(../img/komki2.png);
                             background-position: 0 0;
                             background-repeat: no-repeat;
                             width: 87px;
                             height: 67px;
                             right: 290px;
-                            bottom: -46px; 
+                            bottom: -46px;
                             z-index: 1;
                         }
 
@@ -3494,7 +3526,7 @@ header {
                     }
                 }
 
-                &.right { 
+                &.right {
                     position: absolute;
                     width: 45px;
                     height: 45px;
@@ -3523,10 +3555,10 @@ header {
 }
 
 .sec9 {
-        background-color: #fcfcfc;
-    .pink {
-   margin-top: 89px;
+    background-color: #fcfcfc;
 
+    .pink {
+        margin-top: 89px;
         position: relative;
         height: 77px;
 
@@ -3613,8 +3645,7 @@ header {
     background-color: #fcfcfc;
 
     .pink {
-               margin-top: 89px;
-
+        margin-top: 89px;
         position: relative;
         height: 77px;
 
@@ -3648,25 +3679,35 @@ header {
         line-height: 35px;
     }
 
-        .block-wrap{
-            .item{
-                display: none;
-                &.active{
-                    display: block;
-                }
+    .block-wrap {
+        .item {
+            display: none;
+
+            &.active {
+                display: block;
             }
         }
+    }
+
     .slider_1 {
-        .ibw { 
+        .ibw {
             margin-left: 46px;
             margin-bottom: 49px;
 
             & > .item {
-                cursor:pointer;
-                &.active{
-                       position:relative;
-                       bottom:10px;
+                cursor: pointer;
+
+                &.active {
+                    .wrp_albom {
+                        position: relative;
+                        top: -10px;
+                        background-image: linear-gradient(to top, transparent 0%, transparent 1%, transparent 100%);
+                        box-shadow: 0 -1px 75px rgba(30, 30, 36, 0.9);
+                        width: 230px;
+                        height: 290px;
                     }
+                }
+
                 .wrp_albom {
                     width: 220px;
                     height: 284px;
@@ -3677,8 +3718,7 @@ header {
                     overflow: hidden;
                     background-repeat: no-repeat;
                     background-image: linear-gradient(to top, transparent 0%, transparent 1%, transparent 100%);
-                    box-shadow: 0 -1px 32px rgba(12, 10, 6, 0.35);
-                    
+                    box-shadow: 0 -1px 15px rgba(12, 10, 6, 0.35);
 
                     .wrp_fts {
                         margin-bottom: 1px;
@@ -3760,8 +3800,9 @@ header {
     }
 
     .shmotki {
-        width: 806px;
-        height: 50px;
+        width: 900px;
+        height: 64px;
+        background-size: 900px 64px;
         background-image: url(../img/ramka11.png);
         background-color: white;
         margin: 0 auto;
@@ -3779,35 +3820,33 @@ header {
                 height: 132px;
                 z-index: -1;
                 left: 50%;
-                top: -42px;
+                top: -29px;
                 margin-left: -100%;
             }
         }
 
         .ibw_wrap {
             font-size: 0;
-            text-align: left;
+            text-align: center;
             position: relative;
             border-bottom: 2px solid #989595;
 
             .el {
                 display: inline-block;
                 vertical-align: top;
-                line-height: 43px;
                 height: 38px;
                 margin-bottom: -2px;
-                margin-left: 21px;
+                margin-left: 10px;
                 margin-right: 5px;
                 cursor: pointer;
                 transition: all 0.25s;
                 color: #989595;
-
-
+                line-height: 55px;
 
                 &.active {
                     color: #d95291;
                     border-bottom: 2px solid #d95291;
-                        font-weight: 600;
+                    font-weight: 600;
                 }
 
                 &:nth-of-type(4) {
@@ -3838,7 +3877,7 @@ header {
                 }
 
                 p.el_txt {
-                    font-size: 17px;
+                    font-size: 20px;
                     font-weight: 600;
 
                     &:hover,
@@ -3865,8 +3904,8 @@ header {
                     background-image: url(../img/arr_l.png);
                     cursor: pointer;
                     position: absolute;
-                    top: -36px;
-                    left: -142px;
+                    left: -95px;
+                    top: -23px;
                     background-repeat: no-repeat;
 
                     a {
@@ -3888,8 +3927,8 @@ header {
                     background-image: url(../img/arr_l.png);
                     cursor: pointer;
                     transform: rotate(180deg);
-                    top: -36px;
-                    right: -142px;
+                    right: -95px;
+                    top: -23px;
                     z-index: 2;
                     background-repeat: no-repeat;
 
@@ -3941,7 +3980,8 @@ header {
             display: none;
             height: 672px;
             overflow: hidden;
-            .no_more{
+
+            .no_more {
                 display: none;
             }
 
@@ -3954,8 +3994,6 @@ header {
             .item {
                 height: initial;
             }
-
-            
         }
     }
 
@@ -3982,9 +4020,9 @@ footer {
         width: 58px;
         height: 58px;
         background-image: url(../img/logo.png);
-        background-size:contain;
+        background-size: contain;
         margin-top: 9px;
-        margin-left: 83px;
+        margin-left: 102px;
     }
 
     .soc_f {
@@ -4081,6 +4119,8030 @@ footer {
     }
 }
 
+
+
+
+
+@media only screen and (max-width:1200px) {
+    .section > div,
+    .head > div,
+    header > div,
+    section > div,
+    footer > div {
+        max-width: 960px;
+    }
+    header {
+        
+
+        .header {
+            
+
+            .ibw {
+                
+
+                .nav {
+                    
+
+                    a.nv1 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv2 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv3 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv4 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv5 {
+                        
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv6 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv7 {
+                       
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+                }
+
+                button.bonus {
+                   
+                }
+            }
+
+            .call {
+                
+
+                a.phone {
+                    
+                }
+
+                .phoneback {
+                    
+                }
+            }
+        }
+    }
+
+    .sec1 {
+       font-size: 20px; 
+
+        .logo {
+            
+        }
+
+        .wrap {
+           
+
+            .information {
+               
+
+                .adress {
+                    p.txt {
+                       
+                    }
+
+                    p.ad {
+                       
+                    }
+                }
+            }
+
+            .soc {
+               
+
+                p.h3 {
+                    
+                }
+
+                a.vk {
+                    
+                }
+
+                a.inst {
+                    
+                }
+
+                p.gskw {
+                   
+                }
+            }
+        }
+
+        .school_l {
+            
+
+            .wnyr {
+               
+            }
+
+            h3 {
+                
+            }
+
+            .sch_txt {
+                
+
+                .new {
+                    
+                }
+
+                .smtxt {
+                   
+                }
+
+                .machine {
+                   
+
+                    .wrp_machine {
+                        
+
+                        p.free {
+                            
+                        }
+
+                        p.txtsm {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .school_r {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                       
+                    }
+                }
+            }
+        }
+    }
+
+    .sec2 {
+        
+
+        h2 {
+            
+        }
+
+        .bonus_l {
+           
+
+            .wrp_met {
+                
+
+                p.forme {
+                    
+                }
+
+                p.formetxt {
+                   
+
+                    span.fin {
+                       
+                    }
+                }
+            }
+        }
+
+        .bonus_r {
+            
+
+            .wrp_met {
+               
+
+                p.tkanb {
+                    
+                }
+
+                p.tkanbtxt {
+                    
+
+                    span.fin {
+                        
+                    }
+                }
+            }
+        }
+
+        .dyg_wrp {
+            
+
+            .dyga {
+               
+            }
+
+            button.dwnlmetod {
+               
+            }
+        }
+
+        .how {
+            
+        }
+
+        .wrp_how {
+            
+
+            &:after {
+              
+            }
+
+            &:before {
+                
+            }
+
+            .how_txt {
+                
+            }
+        }
+
+        .wrp_step {
+           
+
+            .dyga {
+                
+            }
+
+            .punkt1 {
+                
+            }
+
+            .punkt2 {
+                
+            }
+
+            .punkt3 {
+                
+            }
+
+            .punkt4 {
+                
+            }
+
+            .punkt5 {
+                
+            }
+
+            .punkt6 {
+               
+            }
+
+            .punkt7 {
+                
+            }
+
+            .punkt8 {
+                
+            }
+
+            .dota {
+                
+
+                &.active {
+                    .step {
+                        
+                    }
+                }
+
+                .step {
+                    
+                }
+
+                .steptxt {
+                    
+                }
+            }
+        }
+
+        .left_form {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                   
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .slider10 {
+           
+
+            .item {
+                
+
+                &.active {
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                           
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_obych {
+                .item {
+                    .dot_fot_wrap {
+                       
+
+                        img {
+                            
+
+                            &.gor_dot_fot_wrap {
+                               
+                            }
+                        }
+
+                        &.gor_fot {
+                           
+                        }
+                    }
+
+                    .left_form {
+                        
+
+                        form {
+                            p.xotite {
+                                
+
+                                span.bl {
+                                    
+                                }
+
+                                span.pink {
+                                    
+                                }
+                            }
+
+                            .zajavka {
+                                
+                            }
+
+                            input {
+                                
+                            }
+
+                            button.frm {
+                               
+
+                                &:hover {
+                                   
+                                }
+                            }
+                        }
+                    }
+
+                    .right_sld {
+                        
+
+                        &:before {}
+
+                        p.p_sld {
+                            
+                        }
+
+                        p.txt_sld {
+                            
+                        }
+
+                        .pomp {
+                            
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        
+
+        .trb {
+            
+        }
+
+        .l_trbl {
+            
+
+            img {
+                
+            }
+
+            .name {
+               
+            }
+        }
+
+        .r_trbl {
+           
+
+            .citata {
+                
+            }
+        }
+
+        .dreams {
+           
+
+            .trbl {
+                
+
+                .trouble {
+                   
+
+                    &.active {
+                        .trb_pos {
+                           
+                        }
+                    }
+
+                    .trb_pos {
+                        
+                    }
+
+                    &:after, &:before {
+                        
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                        
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                            
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                            
+                        }
+                    }
+
+                    &.active {
+                       
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+
+                    p.name_pos {
+                        
+
+                        span {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider8 {
+            
+            .item {
+                
+
+                &.active {
+                   
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                       
+
+                        a {
+                          
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_tbrl {
+              
+
+                .item {
+                    .comments {
+                        
+
+                        p.drm {
+                            
+                        }
+
+                        p.drm_txt {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        form {
+            
+
+            p.xotite {
+                
+
+                span.bl {
+                    
+                }
+
+                span.pink {
+                   
+                }
+            }
+
+            .zajavka {
+               
+            }
+
+            input {
+               
+            }
+
+            button.frm {
+                
+
+                &:hover {
+                   
+                }
+            }
+        }
+    }
+
+    .sec4 {
+     
+
+        .fotogallery {
+            
+        }
+
+        .gal_txt {
+           
+        }
+
+        .slider3 {
+           
+
+            .bx-pager {
+              
+            }
+
+            .slider-wrap {
+                .sld_foto {
+                    
+
+                   
+
+                    img {
+                       
+                    }
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        /*.pager {
+            display: block;
+            width: 960px;
+            height: 14px;
+            font-size: 0;
+            bottom: 218px;
+            text-align: center;
+            margin: 0 auto 22px;
+            a {
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                border-radius: 10px;
+                background: white;
+                border: 1px solid #cf4583;
+                cursor: pointer;
+                transition: all 0.25s;
+                margin: 0 4px;
+                opacity: 0.76;
+                &.active,
+                &:hover {
+                    background: #cf4583; 
+                }
+            }
+        }*/
+        a.gotogall {
+           
+
+            &:hover {
+                
+            }
+        }
+
+        .polosa {
+           
+
+            .gz {
+               
+            }
+
+            .ourteam {
+               
+            }
+
+            .gz_dygga {
+               
+            }
+        }
+
+        .l_team {
+            
+
+            .prepodi {
+                
+
+                .chl {
+                   
+
+                    &:after, &:before {
+                      
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                       
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                          
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                         
+                        }
+                    }
+
+                    &.active {
+                     
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                                
+                            }
+                        }
+                    }
+
+                    img {
+                       
+                    }
+
+                    p.name {
+                       
+
+                        span {
+                           
+                        }
+                    }
+                }
+            }
+
+            .inf_year {
+                
+
+                .p_inf_y {
+                   
+                }
+            }
+        }
+
+        .r_team {
+           
+
+            .slider6 {
+              
+
+                .item {
+                   
+
+                    &.active {
+                       
+                    }
+                }
+
+                .slider-wrap_comm {
+                    .face {
+                        
+
+                        img {
+                            
+                        }
+                    }
+                }
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                                
+                            }
+                        }
+
+                        &.right {
+                            
+
+                            a {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            p.nmr {
+                
+
+                span {
+                    
+                }
+            }
+
+            .txt_tm {
+                
+
+                span.normal_txt {
+                   
+                }
+
+                &:before {
+                   
+                }
+
+                &:after {
+                    
+                }
+            }
+        }
+    }
+
+    .sec5 {
+       
+
+        p.kyrsi {
+           
+        }
+
+        p.kyrs_txt {
+           
+        }
+
+        .grafik {
+           
+
+            
+
+            .kln {
+               
+
+                &.td_head {
+                  
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                    
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                    
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                   
+
+                    span {
+                       
+                    }
+                }
+
+                .obychenie {
+                   
+
+                    &.mytb {
+                      
+                    }
+
+                    span {
+                       
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                    
+                }
+
+                .obychenie {
+                    
+                }
+            }
+
+            .kln_l {
+               
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .texnologja {
+           
+
+            .slide-control_type {
+                .arr {
+                    
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .l_textn {
+               
+
+                .tryd {
+
+
+                    img {
+                       
+                    }
+                }
+
+                .skidka {
+                    
+
+                    // display: none;
+
+                    // &.active {
+                    //     display: block;
+                    // }
+                    p.sk1 {
+                        
+                    }
+
+                    p.sk2 {
+                        
+                    }
+                }
+
+           
+            }
+
+            .slider7 {
+                
+
+                .slider-wrap_type {
+                    .item {
+                        .r_textn {
+                            
+
+                            .txt_1 {
+                               
+
+                                span {
+                                  
+                                }
+                            }
+
+                            .txt_2 {
+                                
+                            }
+
+                            .txt_3 {
+                              
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_4 {
+                              
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                              
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                       
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_8 {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+
+            button.kyrs {
+               
+
+                &:hover {
+                   
+                }
+            }
+
+            p.dlina {
+               
+            }
+        }
+
+        a.kyrsu {
+            
+
+            &:hover {
+                
+            }
+        }
+    }
+
+    .sec6 {
+       
+
+        .contacts {
+            
+        }
+
+        .l_foot {
+           
+            .adrs {
+               
+            }
+        }
+
+        .r_foot {
+            
+
+            form {
+                
+
+                p.xotite {
+                  
+
+                    span.bl {
+                      
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                   
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .map {
+            
+
+            iframe {
+               
+            }
+        }
+    }
+
+    .sec7 {
+     
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+          
+        }
+
+        p.krs_txt {
+           
+        }
+
+        .grafik {
+          
+
+            .kln {
+                
+
+                &.td_head {
+                   
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                  
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                   
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                    
+
+                    span {
+                        
+                    }
+                }
+
+                .obychenie {
+                    
+
+                    &.mytb {
+                       
+                    }
+
+                    span {
+                        
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                  
+                }
+
+                .obychenie {
+                   
+                }
+            }
+
+            .kln_l {
+               
+
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .l_t {
+            
+
+            .ceni {
+               
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                               
+                            }
+                        }
+
+                        &.right {
+                           
+
+                            a {
+                                
+                            }
+                        }
+                    }
+                }
+
+                .kyrsi {
+                   
+                    .ceni_kyrsi {
+                        
+
+                        &.ceni_akcii {
+                            .akcii_wrp {
+                                
+                            }
+                        }
+
+                        &:after, &:before {
+                           
+                        }
+
+                        &:after {
+                            
+                        }
+
+                        &:before {
+                         
+                        }
+
+                        &:first-of-type {
+                            &:before {
+                                
+                            }
+                        }
+
+                        &:last-of-type {
+                            &:after {
+                                
+                            }
+                        }
+
+                        &.active {
+                           
+
+                            &:after, &:before {
+                            
+                            }
+
+                            .helper {
+                               
+
+                                &:after, &:before {
+                                   
+                                }
+
+                                &:after {
+                                  
+                                }
+
+                                &:before {
+                                  
+                                }
+                            }
+                        }
+
+                        img {
+                            
+                        }
+
+                        p.name {
+                           
+
+                            span {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider9 {
+           
+
+            .item {
+               
+
+                &.active {
+                   
+                }
+            }
+
+            .slider-wrap_ceni {
+                .item {
+                    .r_t {
+                      
+
+                        .teksta {
+                         
+
+                            .skidka {
+                               
+
+                                p.sk1 {
+                                   
+                                }
+
+                                p.sk2 {
+                                   
+                                }
+                            }
+
+                            .txt_1 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_2 {
+                               
+                            }
+
+                            .txt_3 {
+                                
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_4 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                               
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                             
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                   
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_8 {
+                              
+                            }
+                        }
+                    }
+
+                    p.dlina {
+                       
+                    }
+
+                    .zapisb {
+                       
+
+                        &:hover {
+                           
+                        }
+                    }
+
+                    .podrobno {
+                       
+                        &.cntr {
+                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec8 {
+       
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        p.krs_txt {
+            
+        }
+
+        .slider12 {
+           
+            .item {
+                .video {
+                   
+
+                    video {
+                       
+                    }
+                }
+            }
+
+            .bx-pager {
+             
+            }
+
+            .slide-control {
+                .arr {
+                 
+
+                    &.left {
+                    
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                     
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+        
+            .gz_dygga {
+               
+            }
+
+            .otzivi {
+                
+            }
+        }
+
+        p.pystbgovor9t {
+          
+        }
+
+        .slider4 {
+            .slider-wrap_otz {
+                .item {
+                    .l_com {
+                       
+
+                        .wrp_comm {
+                           
+
+                            &:before {
+                               
+                            }
+
+                            img {
+                              
+                            }
+                        }
+                    }
+
+                    .r_com {
+                       
+
+                        .wrp_comm {
+                          
+                            &:after {
+                                
+                            }
+
+                            img {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slide-control_otz {
+             
+                .arr {
+                 
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                      
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec9 {
+    
+        .pink {
+         
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+             
+            }
+        }
+
+        p.krs {
+            
+        }
+
+        .l_sert {
+            
+
+            .ft_1 {
+               
+
+                img {}
+            }
+
+            .ft_2 {
+                
+
+                img {}
+            }
+        }
+
+        .r_sert {
+          
+        }
+
+        button.present {
+            
+        }
+    }
+
+    .sec10 {
+     
+
+        .pink {
+           
+
+            .polosa {
+            
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        .block-wrap {
+            .item {
+                
+
+                &.active {
+                    
+                }
+            }
+        }
+
+        .slider_1 {
+            .ibw {
+               
+                & > .item {
+                 
+
+                    &.active {
+                        .wrp_albom {
+                           
+                        }
+                    }
+
+                    .wrp_albom {
+                       
+
+                        .wrp_fts {
+                          
+
+                            .ico1 {
+                               
+
+                                &:nth-of-type(3n) {
+                                   
+                                }
+
+                                a {
+                                   
+                                }
+                            }
+                        }
+
+                        .zarabotoi {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+         
+            .gz_dygga {
+             
+            }
+
+            .otzivi {
+               
+            }
+
+            p.yserdie {
+               
+            }
+        }
+
+        .shmotki {
+           
+
+            .polosa {
+              
+
+                .gz_dygga {
+                   
+                }
+            }
+
+            .ibw_wrap {
+               
+                .el {
+                    
+
+                    &.active {
+                       
+                    }
+
+                    &:nth-of-type(4) {
+                     
+                    }
+
+                    &:nth-of-type(5) {
+                        
+                    }
+
+                    &:nth-of-type(6) {
+                        
+                    }
+
+                    &:nth-of-type(7) {
+                        
+                    }
+
+                    &:hover,
+                    &:active {
+                        
+                    }
+
+                    p.el_txt {
+                       
+
+                        &:hover,
+                        &:active {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slide-control_gal {
+                
+                .arr {
+                    
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrp_gallery {
+            .gallery {
+               
+              
+
+                .wrp_foto {
+                   
+
+                    a {
+                        
+                    }
+                }
+            }
+        }
+
+        .students_works {
+            .item {
+                
+
+               
+
+                &.active {
+                  
+                }
+            }
+
+            &.opened {
+                .item {
+               
+                }
+            }
+        }
+
+        .more {
+            
+        }
+    }
+
+    footer {
+      
+
+        .logo_f {
+          
+        }
+
+        .soc_f {
+           
+
+            p.h3 {
+               
+            }
+
+            a.vk {
+               
+            }
+
+            a.inst {
+                
+            }
+
+            p.gskw {
+               
+            }
+        }
+
+        .nmbphone {
+            
+
+            p.number {
+             
+            }
+
+            .num {
+               
+            }
+        }
+
+        button.poleznoctb {
+           
+
+            a {
+               
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width:980px) {
+    .section > div,
+    .head > div,
+    header > div,
+    section > div,
+    footer > div {
+        max-width: 740px;
+    }
+    header {
+        
+
+        .header {
+            
+
+            .ibw {
+                
+
+                .nav {
+                    
+
+                    a.nv1 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv2 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv3 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv4 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv5 {
+                        
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv6 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv7 {
+                       
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+                }
+
+                button.bonus {
+                   
+                }
+            }
+
+            .call {
+                
+
+                a.phone {
+                    
+                }
+
+                .phoneback {
+                    
+                }
+            }
+        }
+    }
+
+    .sec1 {
+       font-size: 20px;
+
+        .logo {
+            
+        }
+
+        .wrap {
+           
+
+            .information {
+               
+
+                .adress {
+                    p.txt {
+                       
+                    }
+
+                    p.ad {
+                       
+                    }
+                }
+            }
+
+            .soc {
+               
+
+                p.h3 {
+                    
+                }
+
+                a.vk {
+                    
+                }
+
+                a.inst {
+                    
+                }
+
+                p.gskw {
+                   
+                }
+            }
+        }
+
+        .school_l {
+            
+
+            .wnyr {
+               
+            }
+
+            h3 {
+                
+            }
+
+            .sch_txt {
+                
+
+                .new {
+                    
+                }
+
+                .smtxt {
+                   
+                }
+
+                .machine {
+                   
+
+                    .wrp_machine {
+                        
+
+                        p.free {
+                            
+                        }
+
+                        p.txtsm {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .school_r {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                       
+                    }
+                }
+            }
+        }
+    }
+
+    .sec2 {
+        
+
+        h2 {
+            
+        }
+
+        .bonus_l {
+           
+
+            .wrp_met {
+                
+
+                p.forme {
+                    
+                }
+
+                p.formetxt {
+                   
+
+                    span.fin {
+                       
+                    }
+                }
+            }
+        }
+
+        .bonus_r {
+            
+
+            .wrp_met {
+               
+
+                p.tkanb {
+                    
+                }
+
+                p.tkanbtxt {
+                    
+
+                    span.fin {
+                        
+                    }
+                }
+            }
+        }
+
+        .dyg_wrp {
+            
+
+            .dyga {
+               
+            }
+
+            button.dwnlmetod {
+               
+            }
+        }
+
+        .how {
+            
+        }
+
+        .wrp_how {
+            
+
+            &:after {
+              
+            }
+
+            &:before {
+                
+            }
+
+            .how_txt {
+                
+            }
+        }
+
+        .wrp_step {
+           
+
+            .dyga {
+                
+            }
+
+            .punkt1 {
+                
+            }
+
+            .punkt2 {
+                
+            }
+
+            .punkt3 {
+                
+            }
+
+            .punkt4 {
+                
+            }
+
+            .punkt5 {
+                
+            }
+
+            .punkt6 {
+               
+            }
+
+            .punkt7 {
+                
+            }
+
+            .punkt8 {
+                
+            }
+
+            .dota {
+                
+
+                &.active {
+                    .step {
+                        
+                    }
+                }
+
+                .step {
+                    
+                }
+
+                .steptxt {
+                    
+                }
+            }
+        }
+
+        .left_form {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                   
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .slider10 {
+           
+
+            .item {
+                
+
+                &.active {
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                           
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_obych {
+                .item {
+                    .dot_fot_wrap {
+                       
+
+                        img {
+                            
+
+                            &.gor_dot_fot_wrap {
+                               
+                            }
+                        }
+
+                        &.gor_fot {
+                           
+                        }
+                    }
+
+                    .left_form {
+                        
+
+                        form {
+                            p.xotite {
+                                
+
+                                span.bl {
+                                    
+                                }
+
+                                span.pink {
+                                    
+                                }
+                            }
+
+                            .zajavka {
+                                
+                            }
+
+                            input {
+                                
+                            }
+
+                            button.frm {
+                               
+
+                                &:hover {
+                                   
+                                }
+                            }
+                        }
+                    }
+
+                    .right_sld {
+                        
+
+                        &:before {}
+
+                        p.p_sld {
+                            
+                        }
+
+                        p.txt_sld {
+                            
+                        }
+
+                        .pomp {
+                            
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        
+
+        .trb {
+            
+        }
+
+        .l_trbl {
+            
+
+            img {
+                
+            }
+
+            .name {
+               
+            }
+        }
+
+        .r_trbl {
+           
+
+            .citata {
+                
+            }
+        }
+
+        .dreams {
+           
+
+            .trbl {
+                
+
+                .trouble {
+                   
+
+                    &.active {
+                        .trb_pos {
+                           
+                        }
+                    }
+
+                    .trb_pos {
+                        
+                    }
+
+                    &:after, &:before {
+                        
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                        
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                            
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                            
+                        }
+                    }
+
+                    &.active {
+                       
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+
+                    p.name_pos {
+                        
+
+                        span {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider8 {
+            
+            .item {
+                
+
+                &.active {
+                   
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                       
+
+                        a {
+                          
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_tbrl {
+              
+
+                .item {
+                    .comments {
+                        
+
+                        p.drm {
+                            
+                        }
+
+                        p.drm_txt {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        form {
+            
+
+            p.xotite {
+                
+
+                span.bl {
+                    
+                }
+
+                span.pink {
+                   
+                }
+            }
+
+            .zajavka {
+               
+            }
+
+            input {
+               
+            }
+
+            button.frm {
+                
+
+                &:hover {
+                   
+                }
+            }
+        }
+    }
+
+    .sec4 {
+     
+
+        .fotogallery {
+            
+        }
+
+        .gal_txt {
+           
+        }
+
+        .slider3 {
+           
+
+            .bx-pager {
+              
+            }
+
+            .slider-wrap {
+                .sld_foto {
+                    
+
+                   
+
+                    img {
+                       
+                    }
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        /*.pager {
+            display: block;
+            width: 960px;
+            height: 14px;
+            font-size: 0;
+            bottom: 218px;
+            text-align: center;
+            margin: 0 auto 22px;
+            a {
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                border-radius: 10px;
+                background: white;
+                border: 1px solid #cf4583;
+                cursor: pointer;
+                transition: all 0.25s;
+                margin: 0 4px;
+                opacity: 0.76;
+                &.active,
+                &:hover {
+                    background: #cf4583; 
+                }
+            }
+        }*/
+        a.gotogall {
+           
+
+            &:hover {
+                
+            }
+        }
+
+        .polosa {
+           
+
+            .gz {
+               
+            }
+
+            .ourteam {
+               
+            }
+
+            .gz_dygga {
+               
+            }
+        }
+
+        .l_team {
+            
+
+            .prepodi {
+                
+
+                .chl {
+                   
+
+                    &:after, &:before {
+                      
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                       
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                          
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                         
+                        }
+                    }
+
+                    &.active {
+                     
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                                
+                            }
+                        }
+                    }
+
+                    img {
+                       
+                    }
+
+                    p.name {
+                       
+
+                        span {
+                           
+                        }
+                    }
+                }
+            }
+
+            .inf_year {
+                
+
+                .p_inf_y {
+                   
+                }
+            }
+        }
+
+        .r_team {
+           
+
+            .slider6 {
+              
+
+                .item {
+                   
+
+                    &.active {
+                       
+                    }
+                }
+
+                .slider-wrap_comm {
+                    .face {
+                        
+
+                        img {
+                            
+                        }
+                    }
+                }
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                                
+                            }
+                        }
+
+                        &.right {
+                            
+
+                            a {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            p.nmr {
+                
+
+                span {
+                    
+                }
+            }
+
+            .txt_tm {
+                
+
+                span.normal_txt {
+                   
+                }
+
+                &:before {
+                   
+                }
+
+                &:after {
+                    
+                }
+            }
+        }
+    }
+
+    .sec5 {
+       
+
+        p.kyrsi {
+           
+        }
+
+        p.kyrs_txt {
+           
+        }
+
+        .grafik {
+           
+
+            
+
+            .kln {
+               
+
+                &.td_head {
+                  
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                    
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                    
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                   
+
+                    span {
+                       
+                    }
+                }
+
+                .obychenie {
+                   
+
+                    &.mytb {
+                      
+                    }
+
+                    span {
+                       
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                    
+                }
+
+                .obychenie {
+                    
+                }
+            }
+
+            .kln_l {
+               
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .texnologja {
+           
+
+            .slide-control_type {
+                .arr {
+                    
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .l_textn {
+               
+
+                .tryd {
+
+
+                    img {
+                       
+                    }
+                }
+
+                .skidka {
+                    
+
+                    // display: none;
+
+                    // &.active {
+                    //     display: block;
+                    // }
+                    p.sk1 {
+                        
+                    }
+
+                    p.sk2 {
+                        
+                    }
+                }
+
+           
+            }
+
+            .slider7 {
+                
+
+                .slider-wrap_type {
+                    .item {
+                        .r_textn {
+                            
+
+                            .txt_1 {
+                               
+
+                                span {
+                                  
+                                }
+                            }
+
+                            .txt_2 {
+                                
+                            }
+
+                            .txt_3 {
+                              
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_4 {
+                              
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                              
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                       
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_8 {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+
+            button.kyrs {
+               
+
+                &:hover {
+                   
+                }
+            }
+
+            p.dlina {
+               
+            }
+        }
+
+        a.kyrsu {
+            
+
+            &:hover {
+                
+            }
+        }
+    }
+
+    .sec6 {
+       
+
+        .contacts {
+            
+        }
+
+        .l_foot {
+           
+            .adrs {
+               
+            }
+        }
+
+        .r_foot {
+            
+
+            form {
+                
+
+                p.xotite {
+                  
+
+                    span.bl {
+                      
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                   
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .map {
+            
+
+            iframe {
+               
+            }
+        }
+    }
+
+    .sec7 {
+     
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+          
+        }
+
+        p.krs_txt {
+           
+        }
+
+        .grafik {
+          
+
+            .kln {
+                
+
+                &.td_head {
+                   
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                  
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                   
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                    
+
+                    span {
+                        
+                    }
+                }
+
+                .obychenie {
+                    
+
+                    &.mytb {
+                       
+                    }
+
+                    span {
+                        
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                  
+                }
+
+                .obychenie {
+                   
+                }
+            }
+
+            .kln_l {
+               
+
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .l_t {
+            
+
+            .ceni {
+               
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                               
+                            }
+                        }
+
+                        &.right {
+                           
+
+                            a {
+                                
+                            }
+                        }
+                    }
+                }
+
+                .kyrsi {
+                   
+                    .ceni_kyrsi {
+                        
+
+                        &.ceni_akcii {
+                            .akcii_wrp {
+                                
+                            }
+                        }
+
+                        &:after, &:before {
+                           
+                        }
+
+                        &:after {
+                            
+                        }
+
+                        &:before {
+                         
+                        }
+
+                        &:first-of-type {
+                            &:before {
+                                
+                            }
+                        }
+
+                        &:last-of-type {
+                            &:after {
+                                
+                            }
+                        }
+
+                        &.active {
+                           
+
+                            &:after, &:before {
+                            
+                            }
+
+                            .helper {
+                               
+
+                                &:after, &:before {
+                                   
+                                }
+
+                                &:after {
+                                  
+                                }
+
+                                &:before {
+                                  
+                                }
+                            }
+                        }
+
+                        img {
+                            
+                        }
+
+                        p.name {
+                           
+
+                            span {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider9 {
+           
+
+            .item {
+               
+
+                &.active {
+                   
+                }
+            }
+
+            .slider-wrap_ceni {
+                .item {
+                    .r_t {
+                      
+
+                        .teksta {
+                         
+
+                            .skidka {
+                               
+
+                                p.sk1 {
+                                   
+                                }
+
+                                p.sk2 {
+                                   
+                                }
+                            }
+
+                            .txt_1 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_2 {
+                               
+                            }
+
+                            .txt_3 {
+                                
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_4 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                               
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                             
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                   
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_8 {
+                              
+                            }
+                        }
+                    }
+
+                    p.dlina {
+                       
+                    }
+
+                    .zapisb {
+                       
+
+                        &:hover {
+                           
+                        }
+                    }
+
+                    .podrobno {
+                       
+                        &.cntr {
+                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec8 {
+       
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        p.krs_txt {
+            
+        }
+
+        .slider12 {
+           
+            .item {
+                .video {
+                   
+
+                    video {
+                       
+                    }
+                }
+            }
+
+            .bx-pager {
+             
+            }
+
+            .slide-control {
+                .arr {
+                 
+
+                    &.left {
+                    
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                     
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+        
+            .gz_dygga {
+               
+            }
+
+            .otzivi {
+                
+            }
+        }
+
+        p.pystbgovor9t {
+          
+        }
+
+        .slider4 {
+            .slider-wrap_otz {
+                .item {
+                    .l_com {
+                       
+
+                        .wrp_comm {
+                           
+
+                            &:before {
+                               
+                            }
+
+                            img {
+                              
+                            }
+                        }
+                    }
+
+                    .r_com {
+                       
+
+                        .wrp_comm {
+                          
+                            &:after {
+                                
+                            }
+
+                            img {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slide-control_otz {
+             
+                .arr {
+                 
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                      
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec9 {
+    
+        .pink {
+         
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+             
+            }
+        }
+
+        p.krs {
+            
+        }
+
+        .l_sert {
+            
+
+            .ft_1 {
+               
+
+                img {}
+            }
+
+            .ft_2 {
+                
+
+                img {}
+            }
+        }
+
+        .r_sert {
+          
+        }
+
+        button.present {
+            
+        }
+    }
+
+    .sec10 {
+     
+
+        .pink {
+           
+
+            .polosa {
+            
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        .block-wrap {
+            .item {
+                
+
+                &.active {
+                    
+                }
+            }
+        }
+
+        .slider_1 {
+            .ibw {
+               
+                & > .item {
+                 
+
+                    &.active {
+                        .wrp_albom {
+                           
+                        }
+                    }
+
+                    .wrp_albom {
+                       
+
+                        .wrp_fts {
+                          
+
+                            .ico1 {
+                               
+
+                                &:nth-of-type(3n) {
+                                   
+                                }
+
+                                a {
+                                   
+                                }
+                            }
+                        }
+
+                        .zarabotoi {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+         
+            .gz_dygga {
+             
+            }
+
+            .otzivi {
+               
+            }
+
+            p.yserdie {
+               
+            }
+        }
+
+        .shmotki {
+           
+
+            .polosa {
+              
+
+                .gz_dygga {
+                   
+                }
+            }
+
+            .ibw_wrap {
+               
+                .el {
+                    
+
+                    &.active {
+                       
+                    }
+
+                    &:nth-of-type(4) {
+                     
+                    }
+
+                    &:nth-of-type(5) {
+                        
+                    }
+
+                    &:nth-of-type(6) {
+                        
+                    }
+
+                    &:nth-of-type(7) {
+                        
+                    }
+
+                    &:hover,
+                    &:active {
+                        
+                    }
+
+                    p.el_txt {
+                       
+
+                        &:hover,
+                        &:active {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slide-control_gal {
+                
+                .arr {
+                    
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrp_gallery {
+            .gallery {
+               
+              
+
+                .wrp_foto {
+                   
+
+                    a {
+                        
+                    }
+                }
+            }
+        }
+
+        .students_works {
+            .item {
+                
+
+               
+
+                &.active {
+                  
+                }
+            }
+
+            &.opened {
+                .item {
+               
+                }
+            }
+        }
+
+        .more {
+            
+        }
+    }
+
+    footer {
+      
+
+        .logo_f {
+          
+        }
+
+        .soc_f {
+           
+
+            p.h3 {
+               
+            }
+
+            a.vk {
+               
+            }
+
+            a.inst {
+                
+            }
+
+            p.gskw {
+               
+            }
+        }
+
+        .nmbphone {
+            
+
+            p.number {
+             
+            }
+
+            .num {
+               
+            }
+        }
+
+        button.poleznoctb {
+           
+
+            a {
+               
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width:768px) {
+    .section > div,
+    .head > div,
+    header > div,
+    section > div,
+    footer > div {
+        max-width:480px;
+    }
+    header {
+        
+
+        .header {
+            
+
+            .ibw {
+                
+
+                .nav {
+                    
+
+                    a.nv1 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv2 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv3 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv4 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv5 {
+                        
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv6 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv7 {
+                       
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+                }
+
+                button.bonus {
+                   
+                }
+            }
+
+            .call {
+                
+
+                a.phone {
+                    
+                }
+
+                .phoneback {
+                    
+                }
+            }
+        }
+    }
+
+    .sec1 {
+       font-size: 20px;
+
+        .logo {
+            
+        }
+
+        .wrap {
+           
+
+            .information {
+               
+
+                .adress {
+                    p.txt {
+                       
+                    }
+
+                    p.ad {
+                       
+                    }
+                }
+            }
+
+            .soc {
+               
+
+                p.h3 {
+                    
+                }
+
+                a.vk {
+                    
+                }
+
+                a.inst {
+                    
+                }
+
+                p.gskw {
+                   
+                }
+            }
+        }
+
+        .school_l {
+            
+
+            .wnyr {
+               
+            }
+
+            h3 {
+                
+            }
+
+            .sch_txt {
+                
+
+                .new {
+                    
+                }
+
+                .smtxt {
+                   
+                }
+
+                .machine {
+                   
+
+                    .wrp_machine {
+                        
+
+                        p.free {
+                            
+                        }
+
+                        p.txtsm {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .school_r {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                       
+                    }
+                }
+            }
+        }
+    }
+
+    .sec2 {
+        
+
+        h2 {
+            
+        }
+
+        .bonus_l {
+           
+
+            .wrp_met {
+                
+
+                p.forme {
+                    
+                }
+
+                p.formetxt {
+                   
+
+                    span.fin {
+                       
+                    }
+                }
+            }
+        }
+
+        .bonus_r {
+            
+
+            .wrp_met {
+               
+
+                p.tkanb {
+                    
+                }
+
+                p.tkanbtxt {
+                    
+
+                    span.fin {
+                        
+                    }
+                }
+            }
+        }
+
+        .dyg_wrp {
+            
+
+            .dyga {
+               
+            }
+
+            button.dwnlmetod {
+               
+            }
+        }
+
+        .how {
+            
+        }
+
+        .wrp_how {
+            
+
+            &:after {
+              
+            }
+
+            &:before {
+                
+            }
+
+            .how_txt {
+                
+            }
+        }
+
+        .wrp_step {
+           
+
+            .dyga {
+                
+            }
+
+            .punkt1 {
+                
+            }
+
+            .punkt2 {
+                
+            }
+
+            .punkt3 {
+                
+            }
+
+            .punkt4 {
+                
+            }
+
+            .punkt5 {
+                
+            }
+
+            .punkt6 {
+               
+            }
+
+            .punkt7 {
+                
+            }
+
+            .punkt8 {
+                
+            }
+
+            .dota {
+                
+
+                &.active {
+                    .step {
+                        
+                    }
+                }
+
+                .step {
+                    
+                }
+
+                .steptxt {
+                    
+                }
+            }
+        }
+
+        .left_form {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                   
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .slider10 {
+           
+
+            .item {
+                
+
+                &.active {
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                           
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_obych {
+                .item {
+                    .dot_fot_wrap {
+                       
+
+                        img {
+                            
+
+                            &.gor_dot_fot_wrap {
+                               
+                            }
+                        }
+
+                        &.gor_fot {
+                           
+                        }
+                    }
+
+                    .left_form {
+                        
+
+                        form {
+                            p.xotite {
+                                
+
+                                span.bl {
+                                    
+                                }
+
+                                span.pink {
+                                    
+                                }
+                            }
+
+                            .zajavka {
+                                
+                            }
+
+                            input {
+                                
+                            }
+
+                            button.frm {
+                               
+
+                                &:hover {
+                                   
+                                }
+                            }
+                        }
+                    }
+
+                    .right_sld {
+                        
+
+                        &:before {}
+
+                        p.p_sld {
+                            
+                        }
+
+                        p.txt_sld {
+                            
+                        }
+
+                        .pomp {
+                            
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        
+
+        .trb {
+            
+        }
+
+        .l_trbl {
+            
+
+            img {
+                
+            }
+
+            .name {
+               
+            }
+        }
+
+        .r_trbl {
+           
+
+            .citata {
+                
+            }
+        }
+
+        .dreams {
+           
+
+            .trbl {
+                
+
+                .trouble {
+                   
+
+                    &.active {
+                        .trb_pos {
+                           
+                        }
+                    }
+
+                    .trb_pos {
+                        
+                    }
+
+                    &:after, &:before {
+                        
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                        
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                            
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                            
+                        }
+                    }
+
+                    &.active {
+                       
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+
+                    p.name_pos {
+                        
+
+                        span {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider8 {
+            
+            .item {
+                
+
+                &.active {
+                   
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                       
+
+                        a {
+                          
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_tbrl {
+              
+
+                .item {
+                    .comments {
+                        
+
+                        p.drm {
+                            
+                        }
+
+                        p.drm_txt {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        form {
+            
+
+            p.xotite {
+                
+
+                span.bl {
+                    
+                }
+
+                span.pink {
+                   
+                }
+            }
+
+            .zajavka {
+               
+            }
+
+            input {
+               
+            }
+
+            button.frm {
+                
+
+                &:hover {
+                   
+                }
+            }
+        }
+    }
+
+    .sec4 {
+     
+
+        .fotogallery {
+            
+        }
+
+        .gal_txt {
+           
+        }
+
+        .slider3 {
+           
+
+            .bx-pager {
+              
+            }
+
+            .slider-wrap {
+                .sld_foto {
+                    
+
+                   
+
+                    img {
+                       
+                    }
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        /*.pager {
+            display: block;
+            width: 960px;
+            height: 14px;
+            font-size: 0;
+            bottom: 218px;
+            text-align: center;
+            margin: 0 auto 22px;
+            a {
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                border-radius: 10px;
+                background: white;
+                border: 1px solid #cf4583;
+                cursor: pointer;
+                transition: all 0.25s;
+                margin: 0 4px;
+                opacity: 0.76;
+                &.active,
+                &:hover {
+                    background: #cf4583; 
+                }
+            }
+        }*/
+        a.gotogall {
+           
+
+            &:hover {
+                
+            }
+        }
+
+        .polosa {
+           
+
+            .gz {
+               
+            }
+
+            .ourteam {
+               
+            }
+
+            .gz_dygga {
+               
+            }
+        }
+
+        .l_team {
+            
+
+            .prepodi {
+                
+
+                .chl {
+                   
+
+                    &:after, &:before {
+                      
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                       
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                          
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                         
+                        }
+                    }
+
+                    &.active {
+                     
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                                
+                            }
+                        }
+                    }
+
+                    img {
+                       
+                    }
+
+                    p.name {
+                       
+
+                        span {
+                           
+                        }
+                    }
+                }
+            }
+
+            .inf_year {
+                
+
+                .p_inf_y {
+                   
+                }
+            }
+        }
+
+        .r_team {
+           
+
+            .slider6 {
+              
+
+                .item {
+                   
+
+                    &.active {
+                       
+                    }
+                }
+
+                .slider-wrap_comm {
+                    .face {
+                        
+
+                        img {
+                            
+                        }
+                    }
+                }
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                                
+                            }
+                        }
+
+                        &.right {
+                            
+
+                            a {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            p.nmr {
+                
+
+                span {
+                    
+                }
+            }
+
+            .txt_tm {
+                
+
+                span.normal_txt {
+                   
+                }
+
+                &:before {
+                   
+                }
+
+                &:after {
+                    
+                }
+            }
+        }
+    }
+
+    .sec5 {
+       
+
+        p.kyrsi {
+           
+        }
+
+        p.kyrs_txt {
+           
+        }
+
+        .grafik {
+           
+
+            
+
+            .kln {
+               
+
+                &.td_head {
+                  
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                    
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                    
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                   
+
+                    span {
+                       
+                    }
+                }
+
+                .obychenie {
+                   
+
+                    &.mytb {
+                      
+                    }
+
+                    span {
+                       
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                    
+                }
+
+                .obychenie {
+                    
+                }
+            }
+
+            .kln_l {
+               
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .texnologja {
+           
+
+            .slide-control_type {
+                .arr {
+                    
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .l_textn {
+               
+
+                .tryd {
+
+
+                    img {
+                       
+                    }
+                }
+
+                .skidka {
+                    
+
+                    // display: none;
+
+                    // &.active {
+                    //     display: block;
+                    // }
+                    p.sk1 {
+                        
+                    }
+
+                    p.sk2 {
+                        
+                    }
+                }
+
+           
+            }
+
+            .slider7 {
+                
+
+                .slider-wrap_type {
+                    .item {
+                        .r_textn {
+                            
+
+                            .txt_1 {
+                               
+
+                                span {
+                                  
+                                }
+                            }
+
+                            .txt_2 {
+                                
+                            }
+
+                            .txt_3 {
+                              
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_4 {
+                              
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                              
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                       
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_8 {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+
+            button.kyrs {
+               
+
+                &:hover {
+                   
+                }
+            }
+
+            p.dlina {
+               
+            }
+        }
+
+        a.kyrsu {
+            
+
+            &:hover {
+                
+            }
+        }
+    }
+
+    .sec6 {
+       
+
+        .contacts {
+            
+        }
+
+        .l_foot {
+           
+            .adrs {
+               
+            }
+        }
+
+        .r_foot {
+            
+
+            form {
+                
+
+                p.xotite {
+                  
+
+                    span.bl {
+                      
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                   
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .map {
+            
+
+            iframe {
+               
+            }
+        }
+    }
+
+    .sec7 {
+     
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+          
+        }
+
+        p.krs_txt {
+           
+        }
+
+        .grafik {
+          
+
+            .kln {
+                
+
+                &.td_head {
+                   
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                  
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                   
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                    
+
+                    span {
+                        
+                    }
+                }
+
+                .obychenie {
+                    
+
+                    &.mytb {
+                       
+                    }
+
+                    span {
+                        
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                  
+                }
+
+                .obychenie {
+                   
+                }
+            }
+
+            .kln_l {
+               
+
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .l_t {
+            
+
+            .ceni {
+               
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                               
+                            }
+                        }
+
+                        &.right {
+                           
+
+                            a {
+                                
+                            }
+                        }
+                    }
+                }
+
+                .kyrsi {
+                   
+                    .ceni_kyrsi {
+                        
+
+                        &.ceni_akcii {
+                            .akcii_wrp {
+                                
+                            }
+                        }
+
+                        &:after, &:before {
+                           
+                        }
+
+                        &:after {
+                            
+                        }
+
+                        &:before {
+                         
+                        }
+
+                        &:first-of-type {
+                            &:before {
+                                
+                            }
+                        }
+
+                        &:last-of-type {
+                            &:after {
+                                
+                            }
+                        }
+
+                        &.active {
+                           
+
+                            &:after, &:before {
+                            
+                            }
+
+                            .helper {
+                               
+
+                                &:after, &:before {
+                                   
+                                }
+
+                                &:after {
+                                  
+                                }
+
+                                &:before {
+                                  
+                                }
+                            }
+                        }
+
+                        img {
+                            
+                        }
+
+                        p.name {
+                           
+
+                            span {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider9 {
+           
+
+            .item {
+               
+
+                &.active {
+                   
+                }
+            }
+
+            .slider-wrap_ceni {
+                .item {
+                    .r_t {
+                      
+
+                        .teksta {
+                         
+
+                            .skidka {
+                               
+
+                                p.sk1 {
+                                   
+                                }
+
+                                p.sk2 {
+                                   
+                                }
+                            }
+
+                            .txt_1 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_2 {
+                               
+                            }
+
+                            .txt_3 {
+                                
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_4 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                               
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                             
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                   
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_8 {
+                              
+                            }
+                        }
+                    }
+
+                    p.dlina {
+                       
+                    }
+
+                    .zapisb {
+                       
+
+                        &:hover {
+                           
+                        }
+                    }
+
+                    .podrobno {
+                       
+                        &.cntr {
+                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec8 {
+       
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        p.krs_txt {
+            
+        }
+
+        .slider12 {
+           
+            .item {
+                .video {
+                   
+
+                    video {
+                       
+                    }
+                }
+            }
+
+            .bx-pager {
+             
+            }
+
+            .slide-control {
+                .arr {
+                 
+
+                    &.left {
+                    
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                     
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+        
+            .gz_dygga {
+               
+            }
+
+            .otzivi {
+                
+            }
+        }
+
+        p.pystbgovor9t {
+          
+        }
+
+        .slider4 {
+            .slider-wrap_otz {
+                .item {
+                    .l_com {
+                       
+
+                        .wrp_comm {
+                           
+
+                            &:before {
+                               
+                            }
+
+                            img {
+                              
+                            }
+                        }
+                    }
+
+                    .r_com {
+                       
+
+                        .wrp_comm {
+                          
+                            &:after {
+                                
+                            }
+
+                            img {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slide-control_otz {
+             
+                .arr {
+                 
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                      
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec9 {
+    
+        .pink {
+         
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+             
+            }
+        }
+
+        p.krs {
+            
+        }
+
+        .l_sert {
+            
+
+            .ft_1 {
+               
+
+                img {}
+            }
+
+            .ft_2 {
+                
+
+                img {}
+            }
+        }
+
+        .r_sert {
+          
+        }
+
+        button.present {
+            
+        }
+    }
+
+    .sec10 {
+     
+
+        .pink {
+           
+
+            .polosa {
+            
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        .block-wrap {
+            .item {
+                
+
+                &.active {
+                    
+                }
+            }
+        }
+
+        .slider_1 {
+            .ibw {
+               
+                & > .item {
+                 
+
+                    &.active {
+                        .wrp_albom {
+                           
+                        }
+                    }
+
+                    .wrp_albom {
+                       
+
+                        .wrp_fts {
+                          
+
+                            .ico1 {
+                               
+
+                                &:nth-of-type(3n) {
+                                   
+                                }
+
+                                a {
+                                   
+                                }
+                            }
+                        }
+
+                        .zarabotoi {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+         
+            .gz_dygga {
+             
+            }
+
+            .otzivi {
+               
+            }
+
+            p.yserdie {
+               
+            }
+        }
+
+        .shmotki {
+           
+
+            .polosa {
+              
+
+                .gz_dygga {
+                   
+                }
+            }
+
+            .ibw_wrap {
+               
+                .el {
+                    
+
+                    &.active {
+                       
+                    }
+
+                    &:nth-of-type(4) {
+                     
+                    }
+
+                    &:nth-of-type(5) {
+                        
+                    }
+
+                    &:nth-of-type(6) {
+                        
+                    }
+
+                    &:nth-of-type(7) {
+                        
+                    }
+
+                    &:hover,
+                    &:active {
+                        
+                    }
+
+                    p.el_txt {
+                       
+
+                        &:hover,
+                        &:active {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slide-control_gal {
+                
+                .arr {
+                    
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrp_gallery {
+            .gallery {
+               
+              
+
+                .wrp_foto {
+                   
+
+                    a {
+                        
+                    }
+                }
+            }
+        }
+
+        .students_works {
+            .item {
+                
+
+               
+
+                &.active {
+                  
+                }
+            }
+
+            &.opened {
+                .item {
+               
+                }
+            }
+        }
+
+        .more {
+            
+        }
+    }
+
+    footer {
+      
+
+        .logo_f {
+          
+        }
+
+        .soc_f {
+           
+
+            p.h3 {
+               
+            }
+
+            a.vk {
+               
+            }
+
+            a.inst {
+                
+            }
+
+            p.gskw {
+               
+            }
+        }
+
+        .nmbphone {
+            
+
+            p.number {
+             
+            }
+
+            .num {
+               
+            }
+        }
+
+        button.poleznoctb {
+           
+
+            a {
+               
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width:520px) {
+    .section > div,
+    .head > div,
+    header > div,
+    section > div,
+    footer > div {
+        max-width: 320px;
+    }
+    header {
+        
+
+        .header {
+            
+
+            .ibw {
+                
+
+                .nav {
+                    
+
+                    a.nv1 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv2 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv3 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv4 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv5 {
+                        
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv6 {
+                        
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+
+                    a.nv7 {
+                       
+
+                        &:hover,
+                        &:active {
+                            
+                        }
+                    }
+                }
+
+                button.bonus {
+                   
+                }
+            }
+
+            .call {
+                
+
+                a.phone {
+                    
+                }
+
+                .phoneback {
+                    
+                }
+            }
+        }
+    }
+
+    .sec1 {
+       font-size: 20px;
+
+        .logo {
+            
+        }
+
+        .wrap {
+           
+
+            .information {
+               
+
+                .adress {
+                    p.txt {
+                       
+                    }
+
+                    p.ad {
+                       
+                    }
+                }
+            }
+
+            .soc {
+               
+
+                p.h3 {
+                    
+                }
+
+                a.vk {
+                    
+                }
+
+                a.inst {
+                    
+                }
+
+                p.gskw {
+                   
+                }
+            }
+        }
+
+        .school_l {
+            
+
+            .wnyr {
+               
+            }
+
+            h3 {
+                
+            }
+
+            .sch_txt {
+                
+
+                .new {
+                    
+                }
+
+                .smtxt {
+                   
+                }
+
+                .machine {
+                   
+
+                    .wrp_machine {
+                        
+
+                        p.free {
+                            
+                        }
+
+                        p.txtsm {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .school_r {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                       
+                    }
+                }
+            }
+        }
+    }
+
+    .sec2 {
+        
+
+        h2 {
+            
+        }
+
+        .bonus_l {
+           
+
+            .wrp_met {
+                
+
+                p.forme {
+                    
+                }
+
+                p.formetxt {
+                   
+
+                    span.fin {
+                       
+                    }
+                }
+            }
+        }
+
+        .bonus_r {
+            
+
+            .wrp_met {
+               
+
+                p.tkanb {
+                    
+                }
+
+                p.tkanbtxt {
+                    
+
+                    span.fin {
+                        
+                    }
+                }
+            }
+        }
+
+        .dyg_wrp {
+            
+
+            .dyga {
+               
+            }
+
+            button.dwnlmetod {
+               
+            }
+        }
+
+        .how {
+            
+        }
+
+        .wrp_how {
+            
+
+            &:after {
+              
+            }
+
+            &:before {
+                
+            }
+
+            .how_txt {
+                
+            }
+        }
+
+        .wrp_step {
+           
+
+            .dyga {
+                
+            }
+
+            .punkt1 {
+                
+            }
+
+            .punkt2 {
+                
+            }
+
+            .punkt3 {
+                
+            }
+
+            .punkt4 {
+                
+            }
+
+            .punkt5 {
+                
+            }
+
+            .punkt6 {
+               
+            }
+
+            .punkt7 {
+                
+            }
+
+            .punkt8 {
+                
+            }
+
+            .dota {
+                
+
+                &.active {
+                    .step {
+                        
+                    }
+                }
+
+                .step {
+                    
+                }
+
+                .steptxt {
+                    
+                }
+            }
+        }
+
+        .left_form {
+            
+
+            form {
+                p.xotite {
+                    
+
+                    span.bl {
+                        
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                   
+                }
+
+                input {
+                    
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .slider10 {
+           
+
+            .item {
+                
+
+                &.active {
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                           
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_obych {
+                .item {
+                    .dot_fot_wrap {
+                       
+
+                        img {
+                            
+
+                            &.gor_dot_fot_wrap {
+                               
+                            }
+                        }
+
+                        &.gor_fot {
+                           
+                        }
+                    }
+
+                    .left_form {
+                        
+
+                        form {
+                            p.xotite {
+                                
+
+                                span.bl {
+                                    
+                                }
+
+                                span.pink {
+                                    
+                                }
+                            }
+
+                            .zajavka {
+                                
+                            }
+
+                            input {
+                                
+                            }
+
+                            button.frm {
+                               
+
+                                &:hover {
+                                   
+                                }
+                            }
+                        }
+                    }
+
+                    .right_sld {
+                        
+
+                        &:before {}
+
+                        p.p_sld {
+                            
+                        }
+
+                        p.txt_sld {
+                            
+                        }
+
+                        .pomp {
+                            
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec3 {
+        
+
+        .trb {
+            
+        }
+
+        .l_trbl {
+            
+
+            img {
+                
+            }
+
+            .name {
+               
+            }
+        }
+
+        .r_trbl {
+           
+
+            .citata {
+                
+            }
+        }
+
+        .dreams {
+           
+
+            .trbl {
+                
+
+                .trouble {
+                   
+
+                    &.active {
+                        .trb_pos {
+                           
+                        }
+                    }
+
+                    .trb_pos {
+                        
+                    }
+
+                    &:after, &:before {
+                        
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                        
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                            
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                            
+                        }
+                    }
+
+                    &.active {
+                       
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                               
+                            }
+                        }
+                    }
+
+                    p.name_pos {
+                        
+
+                        span {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider8 {
+            
+            .item {
+                
+
+                &.active {
+                   
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                       
+
+                        a {
+                          
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .slider-wrap_tbrl {
+              
+
+                .item {
+                    .comments {
+                        
+
+                        p.drm {
+                            
+                        }
+
+                        p.drm_txt {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        form {
+            
+
+            p.xotite {
+                
+
+                span.bl {
+                    
+                }
+
+                span.pink {
+                   
+                }
+            }
+
+            .zajavka {
+               
+            }
+
+            input {
+               
+            }
+
+            button.frm {
+                
+
+                &:hover {
+                   
+                }
+            }
+        }
+    }
+
+    .sec4 {
+     
+
+        .fotogallery {
+            
+        }
+
+        .gal_txt {
+           
+        }
+
+        .slider3 {
+           
+
+            .bx-pager {
+              
+            }
+
+            .slider-wrap {
+                .sld_foto {
+                    
+
+                   
+
+                    img {
+                       
+                    }
+                }
+            }
+
+            .slide-control {
+                .arr {
+                   
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                        
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        /*.pager {
+            display: block;
+            width: 960px;
+            height: 14px;
+            font-size: 0;
+            bottom: 218px;
+            text-align: center;
+            margin: 0 auto 22px;
+            a {
+                display: inline-block;
+                width: 13px;
+                height: 13px;
+                border-radius: 10px;
+                background: white;
+                border: 1px solid #cf4583;
+                cursor: pointer;
+                transition: all 0.25s;
+                margin: 0 4px;
+                opacity: 0.76;
+                &.active,
+                &:hover {
+                    background: #cf4583; 
+                }
+            }
+        }*/
+        a.gotogall {
+           
+
+            &:hover {
+                
+            }
+        }
+
+        .polosa {
+           
+
+            .gz {
+               
+            }
+
+            .ourteam {
+               
+            }
+
+            .gz_dygga {
+               
+            }
+        }
+
+        .l_team {
+            
+
+            .prepodi {
+                
+
+                .chl {
+                   
+
+                    &:after, &:before {
+                      
+                    }
+
+                    &:after {
+                       
+                    }
+
+                    &:before {
+                       
+                    }
+
+                    &:first-of-type {
+                        &:before {
+                          
+                        }
+                    }
+
+                    &:last-of-type {
+                        &:after {
+                         
+                        }
+                    }
+
+                    &.active {
+                     
+
+                        &:after, &:before {
+                            
+                        }
+
+                        .helper {
+                            
+
+                            &:after, &:before {
+                                
+                            }
+
+                            &:after {
+                                
+                            }
+
+                            &:before {
+                                
+                            }
+                        }
+                    }
+
+                    img {
+                       
+                    }
+
+                    p.name {
+                       
+
+                        span {
+                           
+                        }
+                    }
+                }
+            }
+
+            .inf_year {
+                
+
+                .p_inf_y {
+                   
+                }
+            }
+        }
+
+        .r_team {
+           
+
+            .slider6 {
+              
+
+                .item {
+                   
+
+                    &.active {
+                       
+                    }
+                }
+
+                .slider-wrap_comm {
+                    .face {
+                        
+
+                        img {
+                            
+                        }
+                    }
+                }
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                                
+                            }
+                        }
+
+                        &.right {
+                            
+
+                            a {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            p.nmr {
+                
+
+                span {
+                    
+                }
+            }
+
+            .txt_tm {
+                
+
+                span.normal_txt {
+                   
+                }
+
+                &:before {
+                   
+                }
+
+                &:after {
+                    
+                }
+            }
+        }
+    }
+
+    .sec5 {
+       
+
+        p.kyrsi {
+           
+        }
+
+        p.kyrs_txt {
+           
+        }
+
+        .grafik {
+           
+
+            
+
+            .kln {
+               
+
+                &.td_head {
+                  
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                    
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                    
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                   
+
+                    span {
+                       
+                    }
+                }
+
+                .obychenie {
+                   
+
+                    &.mytb {
+                      
+                    }
+
+                    span {
+                       
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                    
+                }
+
+                .obychenie {
+                    
+                }
+            }
+
+            .kln_l {
+               
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .texnologja {
+           
+
+            .slide-control_type {
+                .arr {
+                    
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+
+            .l_textn {
+               
+
+                .tryd {
+
+
+                    img {
+                       
+                    }
+                }
+
+                .skidka {
+                    
+
+                    // display: none;
+
+                    // &.active {
+                    //     display: block;
+                    // }
+                    p.sk1 {
+                        
+                    }
+
+                    p.sk2 {
+                        
+                    }
+                }
+
+           
+            }
+
+            .slider7 {
+                
+
+                .slider-wrap_type {
+                    .item {
+                        .r_textn {
+                            
+
+                            .txt_1 {
+                               
+
+                                span {
+                                  
+                                }
+                            }
+
+                            .txt_2 {
+                                
+                            }
+
+                            .txt_3 {
+                              
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_4 {
+                              
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                              
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                       
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_8 {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+
+            button.kyrs {
+               
+
+                &:hover {
+                   
+                }
+            }
+
+            p.dlina {
+               
+            }
+        }
+
+        a.kyrsu {
+            
+
+            &:hover {
+                
+            }
+        }
+    }
+
+    .sec6 {
+       
+
+        .contacts {
+            
+        }
+
+        .l_foot {
+           
+            .adrs {
+               
+            }
+        }
+
+        .r_foot {
+            
+
+            form {
+                
+
+                p.xotite {
+                  
+
+                    span.bl {
+                      
+                    }
+
+                    span.pink {
+                        
+                    }
+                }
+
+                .zajavka {
+                    
+                }
+
+                input {
+                   
+                }
+
+                button.frm {
+                    
+
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+
+        .map {
+            
+
+            iframe {
+               
+            }
+        }
+    }
+
+    .sec7 {
+     
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+          
+        }
+
+        p.krs_txt {
+           
+        }
+
+        .grafik {
+          
+
+            .kln {
+                
+
+                &.td_head {
+                   
+
+                    .groups {
+                        
+                    }
+
+                    .obychenie {
+                       
+                    }
+                }
+
+                &.td1 {
+                  
+                }
+
+                &.td2 {
+                   
+                }
+
+                &.td3 {
+                   
+                }
+
+                &.td4 {
+                  
+                }
+
+                &.td5 {
+                   
+                }
+
+                .groups {
+                    
+
+                    span {
+                        
+                    }
+                }
+
+                .obychenie {
+                    
+
+                    &.mytb {
+                       
+                    }
+
+                    span {
+                        
+                    }
+                }
+            }
+
+            .kln_b {
+                
+
+                .groups {
+                  
+                }
+
+                .obychenie {
+                   
+                }
+            }
+
+            .kln_l {
+               
+
+                .groups {}
+
+                .obychenie {}
+            }
+        }
+
+        .l_t {
+            
+
+            .ceni {
+               
+
+                .slide-control {
+                    .arr {
+                        
+
+                        &.left {
+                           
+
+                            a {
+                               
+                            }
+                        }
+
+                        &.right {
+                           
+
+                            a {
+                                
+                            }
+                        }
+                    }
+                }
+
+                .kyrsi {
+                   
+                    .ceni_kyrsi {
+                        
+
+                        &.ceni_akcii {
+                            .akcii_wrp {
+                                
+                            }
+                        }
+
+                        &:after, &:before {
+                           
+                        }
+
+                        &:after {
+                            
+                        }
+
+                        &:before {
+                         
+                        }
+
+                        &:first-of-type {
+                            &:before {
+                                
+                            }
+                        }
+
+                        &:last-of-type {
+                            &:after {
+                                
+                            }
+                        }
+
+                        &.active {
+                           
+
+                            &:after, &:before {
+                            
+                            }
+
+                            .helper {
+                               
+
+                                &:after, &:before {
+                                   
+                                }
+
+                                &:after {
+                                  
+                                }
+
+                                &:before {
+                                  
+                                }
+                            }
+                        }
+
+                        img {
+                            
+                        }
+
+                        p.name {
+                           
+
+                            span {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider9 {
+           
+
+            .item {
+               
+
+                &.active {
+                   
+                }
+            }
+
+            .slider-wrap_ceni {
+                .item {
+                    .r_t {
+                      
+
+                        .teksta {
+                         
+
+                            .skidka {
+                               
+
+                                p.sk1 {
+                                   
+                                }
+
+                                p.sk2 {
+                                   
+                                }
+                            }
+
+                            .txt_1 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_2 {
+                               
+                            }
+
+                            .txt_3 {
+                                
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_4 {
+                               
+
+                                span {
+                                    
+                                }
+                            }
+
+                            .txt_5 {
+                               
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_6 {
+                             
+
+                                p.takge {
+                                 
+                                }
+
+                                p.pnk {
+                                   
+
+                                    &:before {
+                                   
+                                    }
+                                }
+                            }
+
+                            .txt_7 {
+                             
+
+                                span {
+                                   
+                                }
+                            }
+
+                            .txt_8 {
+                              
+                            }
+                        }
+                    }
+
+                    p.dlina {
+                       
+                    }
+
+                    .zapisb {
+                       
+
+                        &:hover {
+                           
+                        }
+                    }
+
+                    .podrobno {
+                       
+                        &.cntr {
+                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec8 {
+       
+
+        .pink {
+            
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        p.krs_txt {
+            
+        }
+
+        .slider12 {
+           
+            .item {
+                .video {
+                   
+
+                    video {
+                       
+                    }
+                }
+            }
+
+            .bx-pager {
+             
+            }
+
+            .slide-control {
+                .arr {
+                 
+
+                    &.left {
+                    
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                     
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+        
+            .gz_dygga {
+               
+            }
+
+            .otzivi {
+                
+            }
+        }
+
+        p.pystbgovor9t {
+          
+        }
+
+        .slider4 {
+            .slider-wrap_otz {
+                .item {
+                    .l_com {
+                       
+
+                        .wrp_comm {
+                           
+
+                            &:before {
+                               
+                            }
+
+                            img {
+                              
+                            }
+                        }
+                    }
+
+                    .r_com {
+                       
+
+                        .wrp_comm {
+                          
+                            &:after {
+                                
+                            }
+
+                            img {
+                               
+                            }
+                        }
+                    }
+                }
+            }
+
+            .slide-control_otz {
+             
+                .arr {
+                 
+
+                    &.left {
+                       
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                      
+
+                        a {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sec9 {
+    
+        .pink {
+         
+
+            .polosa {
+               
+            }
+
+            .kyrsi_ceni {
+             
+            }
+        }
+
+        p.krs {
+            
+        }
+
+        .l_sert {
+            
+
+            .ft_1 {
+               
+
+                img {}
+            }
+
+            .ft_2 {
+                
+
+                img {}
+            }
+        }
+
+        .r_sert {
+          
+        }
+
+        button.present {
+            
+        }
+    }
+
+    .sec10 {
+     
+
+        .pink {
+           
+
+            .polosa {
+            
+            }
+
+            .kyrsi_ceni {
+                
+            }
+        }
+
+        p.krs {
+           
+        }
+
+        .block-wrap {
+            .item {
+                
+
+                &.active {
+                    
+                }
+            }
+        }
+
+        .slider_1 {
+            .ibw {
+               
+                & > .item {
+                 
+
+                    &.active {
+                        .wrp_albom {
+                           
+                        }
+                    }
+
+                    .wrp_albom {
+                       
+
+                        .wrp_fts {
+                          
+
+                            .ico1 {
+                               
+
+                                &:nth-of-type(3n) {
+                                   
+                                }
+
+                                a {
+                                   
+                                }
+                            }
+                        }
+
+                        .zarabotoi {
+                            
+                        }
+                    }
+                }
+            }
+        }
+
+        .polosa {
+         
+            .gz_dygga {
+             
+            }
+
+            .otzivi {
+               
+            }
+
+            p.yserdie {
+               
+            }
+        }
+
+        .shmotki {
+           
+
+            .polosa {
+              
+
+                .gz_dygga {
+                   
+                }
+            }
+
+            .ibw_wrap {
+               
+                .el {
+                    
+
+                    &.active {
+                       
+                    }
+
+                    &:nth-of-type(4) {
+                     
+                    }
+
+                    &:nth-of-type(5) {
+                        
+                    }
+
+                    &:nth-of-type(6) {
+                        
+                    }
+
+                    &:nth-of-type(7) {
+                        
+                    }
+
+                    &:hover,
+                    &:active {
+                        
+                    }
+
+                    p.el_txt {
+                       
+
+                        &:hover,
+                        &:active {
+                           
+                        }
+                    }
+                }
+            }
+
+            .slide-control_gal {
+                
+                .arr {
+                    
+
+                    &.left {
+                        
+
+                        a {
+                            
+                        }
+                    }
+
+                    &.right {
+                       
+
+                        a {
+                           
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrp_gallery {
+            .gallery {
+               
+              
+
+                .wrp_foto {
+                   
+
+                    a {
+                        
+                    }
+                }
+            }
+        }
+
+        .students_works {
+            .item {
+                
+
+               
+
+                &.active {
+                  
+                }
+            }
+
+            &.opened {
+                .item {
+               
+                }
+            }
+        }
+
+        .more {
+            
+        }
+    }
+
+    footer {
+      
+
+        .logo_f {
+          
+        }
+
+        .soc_f {
+           
+
+            p.h3 {
+               
+            }
+
+            a.vk {
+               
+            }
+
+            a.inst {
+                
+            }
+
+            p.gskw {
+               
+            }
+        }
+
+        .nmbphone {
+            
+
+            p.number {
+             
+            }
+
+            .num {
+               
+            }
+        }
+
+        button.poleznoctb {
+           
+
+            a {
+               
+            }
+        }
+    }
+    
+}
 .pop_z {
     form {
         width: 359px;
@@ -4091,7 +12153,7 @@ footer {
         background-position: 10px 0px;
 
         p.xotite {
-                font-size: 27px;
+            font-size: 27px;
             font-family: GothamPro;
             font-weight: 600;
             color: #100f10;
@@ -4160,6 +12222,7 @@ footer {
         }
     }
 }
+
 .pop_zakazatb {
     form {
         width: 359px;
@@ -4170,20 +12233,15 @@ footer {
         background-position: 10px 0px;
 
         p.xotite {
-               
             font-family: GothamPro;
             font-weight: 600;
             color: #100f10;
-            
             padding-left: 28px;
             line-height: 29px;
-           
-        
-                font-size: 27px;
-   
-    text-align: center;
-    padding-top: 48px;
-    margin-bottom: 21px;
+            font-size: 27px;
+            text-align: center;
+            padding-top: 48px;
+            margin-bottom: 21px;
 
             span.bl {
                 color: #100f10;
@@ -4201,7 +12259,7 @@ footer {
             font-weight: 300;
             color: #1f1d1f;
             text-align: center;
-               margin-bottom: 57px;
+            margin-bottom: 57px;
         }
 
         input {
@@ -4243,104 +12301,103 @@ footer {
         }
     }
 }
+
 .pop_podrobnosti {
+    width: 600px;
+    background-color: white;
 
-            width: 600px;
-            background-color: white;
-            .okyrse {
-                        float: left;
-                        width: 523px;
-                        margin-top: 38px;
-                        padding-left: 15px;
-                        padding-right: 8px;
-                        margin-left: 20px;
+    .okyrse {
+        float: left;
+        width: 523px;
+        margin-top: 38px;
+        padding-left: 15px;
+        padding-right: 8px;
+        margin-left: 20px;
 
-                        .txt_1 {
-                            font-size: 22px;
-                            font-weight: 700;
-                            color: #100f10;
-                            margin-bottom: 8px;
-                            letter-spacing: 0.2px;
+        .txt_1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #100f10;
+            margin-bottom: 8px;
+            letter-spacing: 0.2px;
 
-                            span {
-                                font-weight: 300;
-                                padding-left: 2px;
-                                letter-spacing: 0.5px;
-                            }
-                        }
+            span {
+                font-weight: 300;
+                padding-left: 2px;
+                letter-spacing: 0.5px;
+            }
+        }
 
-                        .txt_2 {
-                            font-size: 16px;
-                            color: #100f10;
-                            margin-bottom: 16px;
-                            letter-spacing: 0.2px;
-                            padding-right: 20px;
-                        }
+        .txt_2 {
+            font-size: 16px;
+            color: #100f10;
+            margin-bottom: 16px;
+            letter-spacing: 0.2px;
+            padding-right: 20px;
+        }
 
-                        .txt_3 {
-                            font-weight: 600;
-                            color: #1c1b1c;
-                            margin-bottom: 14px;
+        .txt_3 {
+            font-weight: 600;
+            color: #1c1b1c;
+            margin-bottom: 14px;
 
-                            span {
-                                font-weight: 300;
-                                line-height: 12px;
-                                color: #100f10;
-                                padding-left: 3px;
-                                letter-spacing: 0.5px;
-                            }
-                        }
+            span {
+                font-weight: 300;
+                line-height: 12px;
+                color: #100f10;
+                padding-left: 3px;
+                letter-spacing: 0.5px;
+            }
+        }
 
-                        .txt_4 {
-                            font-weight: 600;
-                            color: #1c1b1c;
-                            margin-bottom: 13px;
+        .txt_4 {
+            font-weight: 600;
+            color: #1c1b1c;
+            margin-bottom: 13px;
 
-                            span {
-                                font-weight: 300;
-                                line-height: 12px;
-                                color: #100f10;
-                                letter-spacing: 0.5px;
-                                padding-left: 1px;
-                            }
-                        }
+            span {
+                font-weight: 300;
+                line-height: 12px;
+                color: #100f10;
+                letter-spacing: 0.5px;
+                padding-left: 1px;
+            }
+        }
 
-                        .txt_5 {
-                            font-weight: 600;
-                            color: #1c1b1c;
-                            margin-bottom: 12px;
+        .txt_5 {
+            font-weight: 600;
+            color: #1c1b1c;
+            margin-bottom: 12px;
 
-                            span {
-                                font-weight: 300;
-                                line-height: 12px;
-                                color: #100f10;
-                                letter-spacing: 0.4px;
-                            }
-                        }
+            span {
+                font-weight: 300;
+                line-height: 12px;
+                color: #100f10;
+                letter-spacing: 0.4px;
+            }
+        }
 
-                        .txt_7 {
-                            font-weight: 600;
-                            color: #1c1b1c;
-                            margin-bottom: 16px;
+        .txt_7 {
+            font-weight: 600;
+            color: #1c1b1c;
+            margin-bottom: 16px;
 
-                            span {
-                                font-weight: 300;
-                                line-height: 12px;
-                                color: #100f10;
-                                letter-spacing: 0.4px;
-                            }
-                        }
+            span {
+                font-weight: 300;
+                line-height: 12px;
+                color: #100f10;
+                letter-spacing: 0.4px;
+            }
+        }
 
-                        .txt_8 {
-                            font-size: 16px;
-                            font-weight: 300;
-                            color: #100f10;
-                            letter-spacing: 0.4px;
-                            margin-bottom: 22px;
-                        }
-                    }
-
-    
+        .txt_8 {
+            font-size: 16px;
+            font-weight: 300;
+            color: #100f10;
+            letter-spacing: 0.4px;
+            margin-bottom: 22px;
+        }
+    }
 }
 
 .pop_texn {
@@ -4353,7 +12410,7 @@ footer {
         background-position: 10px 0px;
 
         p.xotite {
-                font-size: 27px;
+            font-size: 27px;
             font-family: GothamPro;
             font-weight: 600;
             color: #100f10;
@@ -4422,6 +12479,7 @@ footer {
         }
     }
 }
+
 .pop_present {
     form {
         width: 359px;
@@ -4432,7 +12490,7 @@ footer {
         background-position: 10px 0px;
 
         p.xotite {
-                font-size: 27px;
+            font-size: 27px;
             font-family: GothamPro;
             font-weight: 600;
             color: #100f10;
@@ -4443,9 +12501,9 @@ footer {
             letter-spacing: 0.6px;
             margin-bottom: 6px;
             font-size: 20px;
-    text-align: center;
-    padding-left: 0px;
-    margin-bottom: 55px;
+            text-align: center;
+            padding-left: 0px;
+            margin-bottom: 55px;
 
             span.bl {
                 color: #100f10;
@@ -4505,24 +12563,25 @@ footer {
         }
     }
 }
+
 .pop_akcii {
     form {
         width: 359px;
-        height: 434px; 
+        height: 434px;
         background-color: #fcfcfc;
         border-radius: 6px;
         background-image: url(../img/ramkaform.png);
         background-position: 10px 0px;
 
         p.xotite {
-                font-size: 27px;
+            font-size: 27px;
             font-family: GothamPro;
             font-weight: 600;
             color: #100f10;
             text-align: left;
-                padding-left: 46px;
-    padding-top: 47px;
-    margin-bottom: 46px;
+            padding-left: 46px;
+            padding-top: 47px;
+            margin-bottom: 46px;
             line-height: 29px;
             letter-spacing: 0.6px;
 
@@ -4555,7 +12614,7 @@ footer {
             text-align: left;
             padding-left: 14px;
             display: block;
-          margin-bottom: 47px;
+            margin-bottom: 47px;
         }
 
         button.frm {
@@ -4584,6 +12643,7 @@ footer {
         }
     }
 }
+
 .pop_palt {
     form {
         width: 359px;
@@ -4594,7 +12654,7 @@ footer {
         background-position: 10px 0px;
 
         p.xotite {
-                font-size: 27px;
+            font-size: 27px;
             font-family: GothamPro;
             font-weight: 600;
             color: #100f10;
@@ -4780,15 +12840,4 @@ footer {
 
 .hidden {
     display: none;
-}
-
-#maket {
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    background: url(../maket.jpg) no-repeat top center;
-    height: 13200px;
-    opacity: 0.5;
-    z-index: 10;
 }

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
         <script src="http://localhost:6659/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
@@ -18,6 +19,7 @@
         <?php include('html/header.php'); ?>
         <section class="sec1">
             <div>
+
                 <div class="logo"></div>
                 <div class="wrap">
                     <div class="information"> 
@@ -34,12 +36,13 @@
                     </div>
                 </div>
                 <div class="school_l">
+                    <div class="wnyr"></div> 
                     <h3>Женская школа <br>кройки и шитья</h3>
                     <div class="sch_txt">
                         <p class="new">Школа шитья для начинающих.</p>
                         <p class="smtxt">Научим професcиональному шитью<br> и созданию эксклюзивной одежды<br> по вашим меркам</p>
                         <div class="machine">
-                            <div class="wrp_machine">
+                            <div class="wrp_machine"> 
                                 <p class="free">Посетите одно занятие бесплатно.</p>
                                 <p class="txtsm">Урок не вводный и не теоретический.<br>На пробном занятии вы уже будете<br> шить на швейных машинках</p>
                             </div>
@@ -89,10 +92,10 @@
                         </p>
                     </div> 
                 </div>
-                <div class="dyg_wrp">
+                <div class="dyg_wrp"> 
                     <div class="dyga"></div>
-                    <button class="dwnlmetod">
-                    Скачать методички
+                    <button class="dwnlmetod"> 
+                    Скачать две методички
                     </button>
                 </div>
                 <div class="how">Как проходить обучение<br> в #ЖШКШ</div>
@@ -586,28 +589,28 @@
         <br>и умения шить.</p>
         <div class="grafik">
             <div class="kln td_head">
-                <div class="groups"><span>Группы:</span></div>
-                <div class="obychenie"><span>График обучения</span></div>
+                <div class="groups"><span>Группы:</span></div> 
+                <div class="obychenie "><span>График обучения</span></div>
             </div>
             <div class="kln td1">
                 <div class="groups"><span>Утренние</span></div>
-                <div class="obychenie "><span>с 11 до 14<br>будни</span></div>
+                <div class="obychenie mytb"><span>с 11 до 14<br>будни</span></div>
             </div>
             <div class="kln td2">
                 <div class="groups"><span>Дневные:</span></div>
-                <div class="obychenie "><span>с 15 до 18<br>будни</span></div>
+                <div class="obychenie mytb"><span>с 15 до 18<br>будни</span></div>
             </div>
             <div class="kln td3">
                 <div class="groups"><span>Вечерние:</span></div>
-                <div class="obychenie "><span>с 18 до 12<br>будни</span></div>
+                <div class="obychenie mytb"><span>с 18 до 12<br>будни</span></div>
             </div>
             <div class="kln td4">
                 <div class="groups"><span>Группа выходного дня</span></div>
-                <div class="obychenie "><span>с 10 до 13<br>Сб и Вс</span></div>
+                <div class="obychenie mytb"><span>с 10 до 13<br>Сб и Вс</span></div>
             </div>
             <div class="kln td5">
                 <div class="groups"><span>Индивидуальное<br>обучение</span></div>
-                <div class="obychenie dt5">
+                <div class="obychenie dt5 mytb">
                     <span>график подбирается индивидуально</span>
                 </div>
             </div>
@@ -858,7 +861,7 @@
     </div>
     <div id="okgo" class="i-pop">
         <div class="close"></div>
-        Спасибо за заявку!
+        Спасибо за заявку!<br>Мы перезвоним  вам в ближайшее время
     </div>
     <div class="pop_z" id="pop_head">
         <form class="form"  action="#" method="get">
@@ -945,6 +948,5 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
 <script src="js/init.js"></script>
-<!--<div id="maket"></div>-
 </body>
 </html>

@@ -222,7 +222,7 @@ header .header .call .phoneback {
 .sec1 {
     background-image : url(img/bg1.png);
     background-position : top center;
-    height : 743px;
+    height: 631px;
     position : relative;
     margin-top : 69px;
     z-index : 2;
@@ -267,7 +267,7 @@ header .header .call .phoneback {
 .sec1 .wrap .soc {
     display : inline-block;
     vertical-align : top;
-    margin : 29px 31px 0;
+    margin : 29px 7px 0;
     z-index : 1;
 }
 .sec1 .wrap .soc p.h3 {
@@ -331,7 +331,6 @@ header .header .call .phoneback {
     margin-left : 30px;
     width : 528px;
     height : 277px;
-    opacity : 0.83;
     background-color : #b2356e;
     border-radius : 6px;
     box-shadow : 0 -1px 21px rgba(0, 0, 0, 0.31);

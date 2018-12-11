@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
         <script src="http://localhost:6659/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
@@ -27,28 +28,28 @@
                     </div>
                     <div class="kln td1">
                         <div class="groups"><span>Утренние</span></div>
-                        <div class="obychenie "><span>с 11 до 14
+                        <div class="obychenie mytb"><span>с 11 до 14
                         <br>будни</span></div>
                     </div>
                     <div class="kln td2">
                         <div class="groups"><span>Дневные:</span></div>
-                        <div class="obychenie "><span>с 15 до 18
+                        <div class="obychenie mytb"><span>с 15 до 18
                         <br>будни</span></div>
                     </div>
                     <div class="kln td3">
                         <div class="groups"><span>Вечерние:</span></div>
-                        <div class="obychenie "><span>с 18 до 12
+                        <div class="obychenie mytb"><span>с 18 до 12
                         <br>будни</span></div>
                     </div>
                     <div class="kln td4">
                         <div class="groups"><span>Группа выходного дня</span></div>
-                        <div class="obychenie "><span>с 10 до 13
+                        <div class="obychenie mytb"><span>с 10 до 13
                         <br>Сб и Вс</span></div>
                     </div>
                     <div class="kln td5">
                         <div class="groups"><span>Индивидуальное
                         <br>обучение</span></div>
-                        <div class="obychenie dt5">
+                        <div class="obychenie dt5 mytb">
                             <span>график подбирается индивидуально</span></div>
                         </div>
                     </div>
@@ -210,8 +211,6 @@
                                                 <p class="sk2">9 900 рублей за весь курс</p>
                                             </div>
                                         </div>
-                                        <p class="dlina">Длительность курса 2 месяца
-                                        </p>
                                         <button class="zapisb" data-id="palto">Записаться на курс</button>
                                     </div>
                                     
@@ -274,7 +273,7 @@
                                         <p class="txt_5">
                                             Ткани: <span>легкие и средние в пошиве</span>
                                         </p>
-                                        <div class="txt_6">
+                                        <div class="txt_6"> 
                                             <p class="takge">А также:</p>
                                             <p class="pnk">поддержка в Viber</p>
                                             <p class="pnk">скидки на ткани и швейную технику от партнеров;</p>
@@ -293,7 +292,7 @@
                                             <p class="sk2">32 900 рублей за весь курс</p>
                                         </div>
                                     </div>
-                                    <p class="dlina">Длительность курса 2 месяца</p>
+                                    
                                      <button class="zapisb" data-id="individ">Записаться на курс</button>
                                 </div>
                                

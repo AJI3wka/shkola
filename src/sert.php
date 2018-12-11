@@ -3,6 +3,7 @@
 <html lang="ru">
 
 <head>
+    <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
 
 
@@ -10,6 +11,7 @@
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
+
     
 </head>
 
