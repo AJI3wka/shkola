@@ -80,7 +80,7 @@ footer {
 
 .ibw {
     text-align : center;
-    font-size : 0; 
+    font-size : 0;
 }
 .ibw > * {
     font-size : 1rem;
@@ -212,7 +212,7 @@ header .header .call .phoneback {
 .sec1 {
     background-image : url(img/bg1.png);
     background-position : top center;
-    height: 631px;
+    height : 631px;
     position : relative;
     margin-top : 69px;
     z-index : 2;
@@ -446,52 +446,48 @@ header .header .call .phoneback {
     header > div,
     section > div,
     footer > div {
-        max-width: 960px;
-       
+        max-width : 960px;
     }
 
-header .header .ibw .nav{
-    margin: 13px 0px 0;
-}
-header .header .ibw .nav a.nv1{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv2{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv3{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv4{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv5{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv6{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv7{
-    margin-right: 0px;
-} 
- 
-header .header .ibw{
-        
-
-}
-header .header .ibw button.bonus{
-    display: block;
-}
-header .header .call{
-    display: block;
-}
-.sec1{
-            margin-top: 88px;
+    header .header .ibw .nav {
+        margin : 13px 0 0;
     }
- .sec1 .wrap .soc{
-       margin-left: 130px;
- }   
+    header .header .ibw .nav a.nv1 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv2 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv3 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv4 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv5 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv6 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv7 {
+        margin-right : 0;
+    }
 
+    header .header .ibw {
+    }
+    header .header .ibw button.bonus {
+        display : block;
+    }
+    header .header .call {
+        display : block;
+    }
+    .sec1 {
+        margin-top : 88px;
+    }
+    .sec1 .wrap .soc {
+        margin-left : 130px;
+    }
 }
 @media only screen and (max-width: 980px) {
     .section > div,
@@ -499,82 +495,77 @@ header .header .call{
     header > div,
     section > div,
     footer > div {
-        max-width: 740px;
-       
+        max-width : 740px;
     }
 
-header .header .ibw .nav{
-   font-size: 17px;
-    display: block;
-    margin-bottom: 10px;
-}
-header .header .ibw .nav a.nv1{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv2{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv3{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv4{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv5{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv6{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv7{
-    margin-right: 0px;
-} 
- 
-header .header .ibw{
-        
-
-}
-header .header .ibw button.bonus{
-    display: inline-block;
-        margin: 0 auto;
-}
-header .header .call{
-    display: inline-block;
-    margin: 0 auto;
-        margin-left: 20px;
-}
-header .header .ibw{
-        margin-left: 0px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-.sec1 .wrap .soc{
-    margin-left: 112px;
-}
-.sec1{
-    height: initial;
-            margin-top: 88px;
+    header .header .ibw .nav {
+        font-size : 17px;
+        display : block;
+        margin-bottom : 10px;
     }
-   
- .sec1 .school_l{
-        float: none;
-    margin: 0 auto;
- }
-  .sec1 .school_r{
-        float: none;
-    margin: 0 auto;
-    margin-bottom: 70px;
- }
- .sec1 .school_l h3{
-    text-align: center;
- }
- .sec1 .school_l .sch_txt{
-        margin: 0 auto;
-    margin-bottom: 30px;
- }
-     
+    header .header .ibw .nav a.nv1 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv2 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv3 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv4 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv5 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv6 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv7 {
+        margin-right : 0;
+    }
 
+    header .header .ibw {
+    }
+    header .header .ibw button.bonus {
+        display : inline-block;
+        margin : 0 auto;
+    }
+    header .header .call {
+        display : inline-block;
+        margin : 0 auto;
+        margin-left : 20px;
+    }
+    header .header .ibw {
+        margin-left : 0;
+        display : block;
+        margin : 0 auto;
+        text-align : center;
+    }
+    .sec1 .wrap .soc {
+        margin-left : 112px;
+    }
+    .sec1 {
+        height : initial;
+        margin-top : 88px;
+    }
+
+    .sec1 .school_l {
+        float : none;
+        margin : 0 auto;
+    }
+    .sec1 .school_r {
+        float : none;
+        margin : 0 auto;
+        margin-bottom : 70px;
+    }
+    .sec1 .school_l h3 {
+        text-align : center;
+    }
+    .sec1 .school_l .sch_txt {
+        margin : 0 auto;
+        margin-bottom : 30px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -583,82 +574,77 @@ header .header .ibw{
     header > div,
     section > div,
     footer > div {
-        max-width: 480px;
-       
+        max-width : 480px;
     }
-header{
-        height: 120px;
-}
-header .header .ibw .nav{
-   font-size: 17px;
-    display: block;
-    margin-bottom: 10px;
-}
-header .header .ibw .nav a.nv1{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv2{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv3{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv4{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv5{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv6{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv7{
-    margin-right: 0px;
-} 
- 
-header .header .ibw{
-        
-
-}
-header .header .ibw button.bonus{
-    display: inline-block;
-        margin: 0 auto;
-}
-header .header .call{
-    display: inline-block;
-    margin: 0 auto;
-        margin-left: 20px;
-}
-header .header .ibw{
-        margin-left: 0px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-.sec1 .wrap .soc{
-    margin-left: 112px;
-}
-.sec1{
-    height: initial;
-              margin-top: 110px;
+    header {
+        height : 120px;
     }
-   
- .sec1 .school_l{
-        float: none;
-    margin: 0 auto;
- }
-  .sec1 .school_r{
-        float: none;
-    margin: 0 auto;
-    margin-bottom: 70px;
- }
- .sec1 .school_l h3{
-    text-align: center;
- }
- .sec1 .school_l .sch_txt{
-        margin: 0 auto;
-    margin-bottom: 30px;
- }
-
-
+    header .header .ibw .nav {
+        font-size : 17px;
+        display : block;
+        margin-bottom : 10px;
     }
+    header .header .ibw .nav a.nv1 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv2 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv3 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv4 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv5 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv6 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv7 {
+        margin-right : 0;
+    }
+
+    header .header .ibw {
+    }
+    header .header .ibw button.bonus {
+        display : inline-block;
+        margin : 0 auto;
+    }
+    header .header .call {
+        display : inline-block;
+        margin : 0 auto;
+        margin-left : 20px;
+    }
+    header .header .ibw {
+        margin-left : 0;
+        display : block;
+        margin : 0 auto;
+        text-align : center;
+    }
+    .sec1 .wrap .soc {
+        margin-left : 112px;
+    }
+    .sec1 {
+        height : initial;
+        margin-top : 110px;
+    }
+
+    .sec1 .school_l {
+        float : none;
+        margin : 0 auto;
+    }
+    .sec1 .school_r {
+        float : none;
+        margin : 0 auto;
+        margin-bottom : 70px;
+    }
+    .sec1 .school_l h3 {
+        text-align : center;
+    }
+    .sec1 .school_l .sch_txt {
+        margin : 0 auto;
+        margin-bottom : 30px;
+    }
+}

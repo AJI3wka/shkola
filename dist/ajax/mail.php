@@ -24,7 +24,7 @@ if((strlen($name)>0) and (strlen($phone)>0)){
 
 	//$headers= "From: noreply <noreply@noreply.ru>\r\n";
 	//$headers.= "Reply-To: noreply <noreply@noreply.ru>\r\n";
-	$headers.= "X-Mailer: PHP/" . phpversion()."\r\n";
+	$headers= "X-Mailer: PHP/" . phpversion()."\r\n";
 	$headers.= "MIME-Version: 1.0" . "\r\n";
 	$headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
@@ -47,7 +47,7 @@ if((strlen($name)>0) and (strlen($phone)>0)){
 	$message .= "Ссылка на сайт: $url\n";
 	$message .= "Заголовок: $title\n\n";
 
-	$to = "hangman6@i.ua";
+	$to = "triowork2@gmail.com";
 
 	mail ($to,$subject,$message,$headers); 
 
@@ -61,21 +61,26 @@ if((strlen($name)>0) and (strlen($phone)>0)){
 	// if(isset($_POST['referer'])){
 	// 	$clientReferer = htmlspecialchars(urldecode($_POST['referer']));
 	// }else{
-	// 	$clientReferer = htmlspecialchars($_COOKIE['shityo_referer']);
 	// }
-	// $clientGaID = str_replace('GA1.2.', '', $_COOKIE['_ga']);
-	// $clientGaUTM = $_COOKIE['shityo_utm'];
+	$clientReferer = htmlspecialchars($_COOKIE['shityo_referer']);	
+	$clientGaID = str_replace('GA1.2.', '', $_COOKIE['_ga']);
+	if(isset($_COOKIE['shityo_utm'])){
+
+		$clientGaUTM = $_COOKIE['shityo_utm'];
+	}else{
+		$clientGaUTM = '';
+	}
 	// filter
-	// $clientPhone = preg_replace("/[^+0-9]+/", "", $clientPhone);
+	$phone = preg_replace("/[^+0-9]+/", "", $phone);
 	// amocrm
 		require ('Amocrm/functions.php');
 		$dealData = array(
 			'name' => $name.', новый сайт',
 			'phone' => $phone,
 			'context' => $frm,
-			// 'referer' => $clientReferer,
-	  //     'ga_cid' => $clientGaID,
-	  //     'ga_utm' => $clientGaUTM
+			'referer' => $clientReferer,
+	      	'ga_cid' => $clientGaID,
+	      	'ga_utm' => $clientGaUTM
 	  );
 	amocrm('setDeal', $dealData);
 }

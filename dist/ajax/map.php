@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Карта</title>
-        <script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;key=AIzaSyDJ-HDjSq2SeGl788I-5-7-EHAK29oUt2g"></script>
+        <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU"></script>
         <script src="../js/map.min.js"></script>
     <link rel="stylesheet" href="../css/fonts.css">
     </head>
@@ -25,7 +25,8 @@
     </style>
     <body>
         <div id="main_adrs" style="display: none;"><?php include('../settings/adr.txt'); ?></div>
-        <div id="map"></div>
+        <div id="map">
+        </div>
 
         
     </body>

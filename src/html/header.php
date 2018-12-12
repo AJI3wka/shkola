@@ -1,6 +1,6 @@
-<meta id="viewport" name="viewport" content="width=device-width">
+<div class="loading"><div></div></div>
 <header>
-
+    
     <div>
         <div class="header">
             <div class="ibw">

@@ -114,8 +114,8 @@ $(document).ready(function() {
             }
 
         }
-        if (filtered_num.length < 11) {
-            $(this).addClass(' error-input ');
+        if (filtered_num.length != 11) {
+            $(this).addClass('error-input');
         }
     });
     $('input[name="phone"]').focus(function() {
@@ -128,13 +128,13 @@ $(document).ready(function() {
         }
     });
     $('input[name="email"]').focus(function() {
-        $(this).removeClass('error-input'); 
+        $(this).removeClass('error-input');
     });
 
 
 
-    
- 
+
+
 
     //nav start
     $('.nav a').click(function(e) {
@@ -198,6 +198,15 @@ $(document).ready(function() {
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
 
+            $sw_wrap.removeClass('opened');
+        if($act_item.find('.gallery').find('.wrp_foto').length>10){
+
+
+        }else{
+
+            $sw_wrap.addClass('opened');
+        }
+
     });
 
 
@@ -207,21 +216,26 @@ $(document).ready(function() {
     });
 
     //students works end
-         var $gall_wrap = $('.slider_1')
-        var $block_wrap =  $gall_wrap.closest('section').find('.block-wrap');
+    var $gall_wrap = $('.slider_1')
+    var $block_wrap = $gall_wrap.closest('section').find('.block-wrap');
 
-            $gall_wrap.find('.wrp_albom').click(function() {
-                var $this = $(this).closest('.item');
-                $this.parent().children().removeClass('active');
-                $this.addClass('active');
-               
+    $gall_wrap.find('.wrp_albom').click(function() {
+        var $this = $(this).closest('.item');
+        $this.parent().children().removeClass('active');
+        $this.addClass('active');
 
-                $sw_wrap.removeClass('opened');
-                var $act_item = $block_wrap.find('.item[data-id="' + $this.attr('data-id') + '"]');
-                $act_item.parent().children().removeClass('active');
-                $act_item.addClass('active');
+        var $act_item = $block_wrap.children('.item[data-id="' + $this.attr('data-id') + '"]');
+        $act_item.parent().children().removeClass('active');
+        $act_item.addClass('active');
+        $sw_wrap.removeClass('opened');
+        if($act_item.find('.item').find('.gallery').find('.wrp_foto').length>10){
 
-            });
+
+        }else{
+
+            $sw_wrap.addClass('opened');
+        }
+    });
 
 
 
@@ -446,21 +460,21 @@ $(document).ready(function() {
         moveSlides: 1,
         onSlideNext: function($slideElement, oldIndex, newIndex) {
 
-            if($slideElement.prev().hasClass('bx-clone')){
+            if ($slideElement.prev().hasClass('bx-clone')) {
                 var $el = $slideElement.parent().children('.item.bx-clone').last().prev()
                 var el_html = $el.html();
                 $el.html(el_html);
-            }else{                
+            } else {
                 var html = $slideElement.prev().html();
                 $slideElement.prev().html(html);
             }
         },
         onSlidePrev: function($slideElement, oldIndex, newIndex) {
-            if($slideElement.next().hasClass('bx-clone')){
+            if ($slideElement.next().hasClass('bx-clone')) {
                 var $el = $slideElement.parent().children('.item.bx-clone').first().next()
                 var el_html = $el.html();
                 $el.html(el_html);
-            }else{                
+            } else {
                 var html = $slideElement.next().html();
                 $slideElement.next().html(html);
             }
@@ -566,7 +580,7 @@ $(document).ready(function() {
         }
     });
 
-//
+    //
 
     $('.kyrs[data-id="texn_poshiv1"]').click(function() {
         $('.pop_texn#texn_poshiv1').arcticmodal();
@@ -583,51 +597,51 @@ $(document).ready(function() {
     $('.kyrs[data-id="individ"]').click(function() {
         $('.pop_texn#individ').arcticmodal();
     });
-//
+    //
 
-//
+    //
 
     $('.zapisb[data-id="texn_poshiv1"]').click(function() {
         $('.pop_texn#texn_poshiv1').arcticmodal();
     });
     $('.zapisb[data-id="texn_poshiv2"]').click(function() {
         $('.pop_texn#texn_poshiv2').arcticmodal();
-    }); 
+    });
     $('.zapisb[data-id="palto"]').click(function() {
         $('.pop_texn#palto').arcticmodal();
     });
-     $('.zapisb[data-id="belbe"]').click(function() {
+    $('.zapisb[data-id="belbe"]').click(function() {
         $('.pop_texn#belbe').arcticmodal();
     });
     $('.zapisb[data-id="konstr_model"]').click(function() {
         $('.pop_texn#konstr_model').arcticmodal();
     });
-     $('.zapisb[data-id="individ"]').click(function() {
+    $('.zapisb[data-id="individ"]').click(function() {
         $('.pop_texn#individ').arcticmodal();
     });
-   
+
     $('.zapisb[data-id="akcii"]').click(function() {
         $('.pop_akcii#akcii').arcticmodal();
     });
-     $('.phoneback[data-id="zakazatb"]').click(function() {
+    $('.phoneback[data-id="zakazatb"]').click(function() {
         $('.pop_zakazatb#zakazatb').arcticmodal();
     });
- 
-    
 
-//
-$('.podrobno[data-id="pdrb"]').click(function() {
+
+
+    //
+    $('.podrobno[data-id="pdrb"]').click(function() {
         $('.pop_podrobnosti#pdrb').arcticmodal();
     });
-$('.podrobno[data-id="konctr_pdrb"]').click(function() {
+    $('.podrobno[data-id="konctr_pdrb"]').click(function() {
         $('.pop_podrobnosti#konctr_pdrb').arcticmodal();
     });
-//
-$('.dwnlmetod,.poleznoctb,.present,.bonus').click(function() {
-        $('.pop_met#pop_metodichka').arcticmodal(); 
+    //
+    $('.dwnlmetod,.poleznoctb,.present,.bonus').click(function() {
+        $('.pop_met#pop_metodichka').arcticmodal();
     });
-//
-$('.present[data-id="prsnt"]').click(function() {
+    //
+    $('.present[data-id="prsnt"]').click(function() {
         $('.pop_present#prsnt').arcticmodal();
     });
 
@@ -637,6 +651,7 @@ $('.present[data-id="prsnt"]').click(function() {
         var frmid = $(this).find('input[name="frmid"]').val();
         $(this).find('input[type="text"]').trigger('blur');
         if (!$(this).find('input[type="text"]').hasClass('error-input')) {
+            $('.loading').show();
             var data = $(this).serialize();
             var track_event = $(this).find('input[name="event"]').val();
             $.ajax({
@@ -645,6 +660,7 @@ $('.present[data-id="prsnt"]').click(function() {
                 data: data,
                 success: function() {
                     $.arcticmodal('close');
+                    $('.loading').hide();
                     $('#okgo').arcticmodal();
                     if (frmid == 'Скачать методичку') {
 
