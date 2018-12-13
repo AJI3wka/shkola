@@ -472,13 +472,11 @@ header .header .call .phoneback {
 .sec2 .bonus_l {
   float: left;
   width: 571px;
-  height: 520px;
   margin-bottom: 35px;
 }
 .sec2 .bonus_l .wrp_met {
   background-image: url(../img/metod1.png);
   background-position: 69px 0px;
-  height: 447px;
   background-repeat: no-repeat;
   padding-top: 318px;
   text-align: center;
@@ -493,7 +491,7 @@ header .header .call .phoneback {
 }
 .sec2 .bonus_l .wrp_met p.formetxt {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 22px;
   color: #3c3c3c;
   padding-left: 8px;
@@ -507,12 +505,10 @@ header .header .call .phoneback {
 .sec2 .bonus_r {
   float: right;
   width: 600px;
-  height: 520px;
 }
 .sec2 .bonus_r .wrp_met {
   background-image: url(../img/metod2.png);
   background-position: 82px 0px;
-  height: 447px;
   background-repeat: no-repeat;
   padding-top: 317px;
   text-align: center;
@@ -526,7 +522,7 @@ header .header .call .phoneback {
 }
 .sec2 .bonus_r .wrp_met p.tkanbtxt {
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 22px;
   color: #3c3c3c;
   padding-left: 20px;
@@ -1567,11 +1563,10 @@ header .header .call .phoneback {
   line-height: 16px;
 }
 .sec4 .l_team .prepodi .chl p.name span {
-  font-weight: 300;
+  font-weight: 400;
 }
 .sec4 .l_team .inf_year {
   width: 330px;
-  opacity: 0.83;
   background-color: #b2356e;
   border-radius: 6px;
   box-shadow: 0 1px 13px rgba(0, 0, 0, 0.23);
@@ -3533,8 +3528,167 @@ footer button.poleznoctb a {
     max-width: 960px;
   }
 
+  header .header .ibw {
+    margin-left: 20px;
+  }
+  header .header .ibw .nav {
+    margin: 13px 0px 0;
+  }
+  header .header .ibw .nav a.nv1 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv2 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv3 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv4 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv5 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv6 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv7 {
+    margin-right: 10px;
+  }
+  header .header .ibw button.bonus {
+    display: block;
+  }
+  header .header .call {
+    display: block;
+  }
+
   .sec1 {
-    font-size: 20px;
+    margin-top: 88px;
+  }
+  .sec1 .wrap .soc {
+    margin-left: 113px;
+  }
+
+  .sec2 .bonus_l {
+    width: 471px;
+  }
+  .sec2 .bonus_l .wrp_met {
+    background-position: 0px 0px;
+    margin-bottom: 30px;
+  }
+  .sec2 .bonus_r {
+    width: 471px;
+  }
+  .sec2 .bonus_r .wrp_met {
+    background-position: 0px 0px;
+  }
+  .sec2 .wrp_step {
+    margin-bottom: 30px;
+  }
+  .sec2 .wrp_step .dyga {
+    display: none;
+  }
+  .sec2 .wrp_step .punkt1 {
+    margin-left: 0px;
+  }
+  .sec2 .wrp_step .punkt2 {
+    margin-left: 45px;
+  }
+  .sec2 .wrp_step .punkt3 {
+    margin-left: 25px;
+    margin-top: 27px;
+  }
+  .sec2 .wrp_step .punkt4 {
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .sec2 .wrp_step .punkt5 {
+    margin-left: 25px;
+  }
+  .sec2 .wrp_step .punkt6 {
+    margin-left: 25px;
+  }
+  .sec2 .wrp_step .punkt7 {
+    margin-left: 25px;
+  }
+  .sec2 .wrp_step .punkt8 {
+    margin-left: 25px;
+    margin-top: 61px;
+  }
+  .sec2 .left_form {
+    margin-left: 34px;
+  }
+  .sec2 .slider10 {
+    margin-left: 0px;
+  }
+  .sec2 .slider10 .item .left_form {
+    margin-left: 34px;
+  }
+  .sec2 .slider10 .item .right_sld {
+    width: 620px;
+    padding-right: 30px;
+  }
+  .sec2 .slider10 .slide-control .arr.left {
+    left: -40px;
+  }
+  .sec2 .slider10 .slide-control .arr.right {
+    right: -40px;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .dot_fot_wrap {
+    margin-left: 34px;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .left_form {
+    margin-left: 34px;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .right_sld {
+    width: 620px;
+    padding-right: 30px;
+  }
+
+  .sec3 {
+    height: initial;
+    padding-bottom: 40px;
+  }
+  .sec3 .l_trbl {
+    float: none;
+    display: inline-block;
+    margin-left: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .sec3 .r_trbl {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .sec3 .dreams {
+    margin-left: 0;
+    width: 315px;
+    margin-right: 30px;
+  }
+  .sec3 .slider8 .slide-control .arr.left {
+    top: 422px;
+    left: 65px;
+  }
+  .sec3 .slider8 .slide-control .arr.right {
+    right: 70px;
+    top: 422px;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments {
+    width: 299px;
+    height: 393px;
+    background-size: 278px 370px;
+    padding: 10px;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments p.drm {
+    margin-top: 22px;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments p.drm_txt br.m1 {
+    display: block;
+  }
+  .sec3 form {
+    margin-left: 17px;
   }
 
   .sec4 {
@@ -3563,6 +3717,67 @@ footer button.poleznoctb a {
             }
         }
     }*/
+  }
+  .sec4 .slider3 .slide-control .arr {
+    left: -48px;
+  }
+  .sec4 .slider3 .slide-control .arr.right {
+    right: -48px;
+  }
+  .sec4 .l_team {
+    margin-left: 0;
+    width: 320px;
+  }
+  .sec4 .l_team .prepodi .chl {
+    padding-left: 14px;
+  }
+  .sec4 .r_team {
+    width: 550px;
+    margin-right: 60px;
+  }
+  .sec4 .r_team .slider6 .slider-wrap_comm .face {
+    margin-right: 168px;
+  }
+  .sec4 .r_team .slider6 .slide-control .arr.left {
+    top: 215px;
+  }
+  .sec4 .r_team .slider6 .slide-control .arr.right {
+    top: 215px;
+  }
+  .sec4 .r_team .txt_tm br {
+    display: none;
+  }
+  .sec4 .r_team .txt_tm br.m1 {
+    display: block;
+  }
+
+  .sec5 .grafik {
+    margin: 0;
+    margin-bottom: 41px;
+  }
+  .sec5 .texnologja .slide-control_type .arr.left {
+    left: -48px;
+  }
+  .sec5 .texnologja .slide-control_type .arr.right {
+    right: -48px;
+  }
+
+  .sec6 .l_foot {
+    margin-left: 0;
+    width: 562px;
+  }
+  .sec6 .l_foot .adrs {
+    width: 562px;
+  }
+  .sec6 .r_foot {
+    margin-right: 0;
+  }
+  .sec6 .map {
+    width: 562px;
+  }
+
+  footer button.poleznoctb {
+    margin-left: 230px;
   }
 }
 @media only screen and (max-width: 980px) {
@@ -3574,8 +3789,206 @@ footer button.poleznoctb a {
     max-width: 740px;
   }
 
+  header .header .ibw {
+    margin-left: 20px;
+  }
+  header .header .ibw .nav {
+    margin: 13px 0px 0;
+  }
+  header .header .ibw .nav a.nv1 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv2 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv3 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv4 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv5 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv6 {
+    margin-right: 10px;
+  }
+  header .header .ibw .nav a.nv7 {
+    margin-right: 10px;
+  }
+  header .header .ibw button.bonus {
+    display: block;
+  }
+  header .header .call {
+    display: block;
+  }
+
   .sec1 {
-    font-size: 20px;
+    height: initial;
+  }
+  .sec1 .wrap .information {
+    width: 240px;
+  }
+  .sec1 .wrap .soc {
+    margin-left: 112px;
+  }
+  .sec1 .school_l {
+    float: none;
+    margin: 0 auto;
+  }
+  .sec1 .school_l .wnyr {
+    display: none;
+  }
+  .sec1 .school_l h3 {
+    text-align: center;
+  }
+  .sec1 .school_l .sch_txt {
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .sec1 .school_l .sch_txt .smtxt br {
+    display: none;
+  }
+  .sec1 .school_r {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+
+  .sec2 .bonus_l {
+    float: none;
+    margin: 0 auto;
+  }
+  .sec2 .bonus_l .wrp_met p.formetxt {
+    text-align: center;
+    padding: 0;
+  }
+  .sec2 .bonus_r {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .sec2 .bonus_r .wrp_met p.tkanbtxt {
+    text-align: center;
+    padding: 0;
+  }
+  .sec2 .wrp_how {
+    margin-bottom: 40px;
+  }
+  .sec2 .wrp_step {
+    text-align: center;
+  }
+  .sec2 .wrp_step .dyga {
+    display: none;
+  }
+  .sec2 .wrp_step .punkt1 {
+    margin-top: 0;
+    margin-left: 28px;
+  }
+  .sec2 .wrp_step .punkt2 {
+    margin-top: 0;
+    margin-left: 100px;
+  }
+  .sec2 .wrp_step .punkt3 {
+    margin-top: 0;
+    margin-left: 100px;
+  }
+  .sec2 .wrp_step .punkt4 {
+    margin-top: 0;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  .sec2 .wrp_step .punkt5 {
+    margin-top: 0;
+    margin-left: 20px;
+  }
+  .sec2 .wrp_step .punkt6 {
+    margin-top: 0;
+    margin-left: 88px;
+  }
+  .sec2 .wrp_step .punkt7 {
+    margin-top: 0;
+    margin-left: 106px;
+  }
+  .sec2 .wrp_step .punkt8 {
+    margin-top: 0;
+    margin-left: 89px;
+  }
+  .sec2 .slider10 .slide-control .arr.left {
+    left: -70px;
+  }
+  .sec2 .slider10 .slide-control .arr.right {
+    right: -70px;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .left_form {
+    margin-left: 0px;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .right_sld {
+    padding-right: 0;
+    margin-left: 0;
+    width: 440px;
+    margin-top: 0;
+    padding-left: 40px;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .right_sld p.txt_sld {
+    font-weight: 400;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .dot_fot_wrap {
+    margin-left: 0px;
+  }
+
+  .sec3 .l_trbl {
+    float: left;
+    margin-top: 55px;
+  }
+  .sec3 .r_trbl {
+    width: 593px;
+    height: 256px;
+    background-position: 7px -1px;
+    background-size: 593px 256px;
+  }
+  .sec3 .r_trbl .citata {
+    padding-left: 50px;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-right: 17px;
+    line-height: 22px;
+  }
+  .sec3 .r_trbl .citata br {
+    display: none;
+  }
+  .sec3 .slider8 {
+    margin-bottom: 20px;
+  }
+  .sec3 .slider8 .slide-control .arr.left {
+    top: 224px;
+    left: -425px;
+  }
+  .sec3 .slider8 .slide-control .arr.right {
+    right: -80px;
+    top: 222px;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments {
+    height: 460px;
+    width: 350px;
+    background-size: 330px 439px;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments p.drm {
+    margin-bottom: 30px;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments p.drm_txt {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments p.drm_txt br.m1 {
+    display: block;
+  }
+  .sec3 form {
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    float: none;
   }
 
   .sec4 {
@@ -3605,6 +4018,145 @@ footer button.poleznoctb a {
         }
     }*/
   }
+  .sec4 .slider3 {
+    position: relative;
+  }
+  .sec4 .slider3 .slider-wrap .sld_foto {
+    height: 240px;
+  }
+  .sec4 .slider3 .slide-control .arr.left {
+    top: 113px;
+    left: 22px;
+  }
+  .sec4 .slider3 .slide-control .arr.right {
+    left: 680px;
+    top: 113px;
+  }
+  .sec4 .polosa .gz_dygga {
+    display: none;
+  }
+  .sec4 .l_team {
+    margin-left: 0;
+    width: 320px;
+  }
+  .sec4 .r_team {
+    width: 420px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .sec4 .r_team .slider6 .slider-wrap_comm .face {
+    margin-right: 48px;
+  }
+  .sec4 .r_team .slider6 .slide-control .arr.right {
+    right: 25px;
+  }
+  .sec4 .r_team p.nmr {
+    padding: 0;
+    margin-bottom: 12px;
+    padding: 0 34px 0;
+  }
+  .sec4 .r_team .txt_tm {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .sec5 .grafik .kln.td_head {
+    width: 13.1%;
+  }
+  .sec5 .grafik .kln.td_head .groups {
+    font-size: 15px;
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .sec5 .grafik .kln.td_head .obychenie {
+    font-size: 15px;
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .sec5 .grafik .kln.td1 {
+    width: 13.3%;
+  }
+  .sec5 .grafik .kln.td2 {
+    width: 13%;
+  }
+  .sec5 .grafik .kln.td3 {
+    width: 14.7%;
+  }
+  .sec5 .grafik .kln.td4 {
+    width: 19.4%;
+  }
+  .sec5 .grafik .kln.td5 {
+    width: 26.5%;
+  }
+  .sec5 .grafik .kln .groups {
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .sec5 .grafik .kln .obychenie {
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .sec5 .grafik .kln_b .groups {
+    padding-left: 10px;
+  }
+  .sec5 .grafik .kln_b .obychenie {
+    padding-left: 10px;
+  }
+  .sec5 .grafik .kln_l .groups {
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .sec5 .grafik .kln_l .obychenie {
+    padding-left: 10px;
+    font-size: 17px;
+  }
+  .sec5 .texnologja {
+    height: 720px;
+    background-size: 720px 705px;
+    width: 740px;
+  }
+  .sec5 .texnologja .l_textn {
+    width: 320px;
+    margin-bottom: 140px;
+    margin-top: 40px;
+  }
+  .sec5 .texnologja .l_textn .tryd {
+    width: 320px;
+    height: 280px;
+  }
+  .sec5 .texnologja .l_textn .skidka p.sk1 span.month {
+    display: none;
+  }
+  .sec5 .texnologja .l_textn .skidka p.sk2 span.month {
+    display: none;
+  }
+  .sec5 .texnologja .slider7 .slider-wrap_type .item {
+    width: 740px;
+  }
+  .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn {
+    margin-left: 0;
+    margin-top: 20px;
+    width: 420px;
+  }
+  .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_8 {
+    margin-bottom: 20px;
+  }
+
+  .sec6 .l_foot {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sec6 .l_foot .adrs {
+    width: 100%;
+  }
+  .sec6 .r_foot {
+    float: none;
+    margin: 0 auto;
+  }
+  .sec6 .map {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .section > div,
@@ -3615,8 +4167,12 @@ footer button.poleznoctb a {
     max-width: 480px;
   }
 
-  .sec1 {
-    font-size: 20px;
+  .sec1 .wrap {
+    border: none;
+  }
+  .sec1 .school_l .sch_txt {
+    width: 100%;
+    padding: 12px;
   }
 
   .sec4 {
@@ -3654,10 +4210,6 @@ footer button.poleznoctb a {
   section > div,
   footer > div {
     max-width: 320px;
-  }
-
-  .sec1 {
-    font-size: 20px;
   }
 
   .sec4 {

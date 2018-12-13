@@ -544,13 +544,11 @@ header {
     .bonus_l {
         float: left;
         width: 571px;
-        height: 520px;
         margin-bottom: 35px;
 
         .wrp_met {
             background-image: url(../img/metod1.png);
             background-position: 69px 0px;
-            height: 447px;
             background-repeat: no-repeat;
             padding-top: 318px;
             text-align: center;
@@ -566,7 +564,7 @@ header {
 
             p.formetxt {
                 font-size: 16px;
-                font-weight: 300;
+                font-weight: 400;
                 line-height: 22px;
                 color: #3c3c3c;
                 padding-left: 8px;
@@ -584,12 +582,10 @@ header {
     .bonus_r {
         float: right;
         width: 600px;
-        height: 520px;
 
         .wrp_met {
             background-image: url(../img/metod2.png);
             background-position: 82px 0px;
-            height: 447px;
             background-repeat: no-repeat;
             padding-top: 317px;
             text-align: center;
@@ -604,7 +600,7 @@ header {
 
             p.tkanbtxt {
                 font-size: 16px;
-                font-weight: 300;
+                font-weight: 400;
                 line-height: 22px;
                 color: #3c3c3c;
                 padding-left: 20px;
@@ -1811,7 +1807,7 @@ header {
                     line-height: 16px;
 
                     span {
-                        font-weight: 300;
+                        font-weight: 400;
                     }
                 }
             }
@@ -1819,7 +1815,6 @@ header {
 
         .inf_year {
             width: 330px;
-            opacity: 0.83;
             background-color: #b2356e;
             border-radius: 6px;
             box-shadow: 0 1px 13px rgba(0, 0, 0, 0.23);
@@ -4119,11 +4114,7 @@ footer {
     }
 }
 
-
-
-
-
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
     .section > div,
     .head > div,
     header > div,
@@ -4131,419 +4122,321 @@ footer {
     footer > div {
         max-width: 960px;
     }
+
     header {
-        
-
         .header {
-            
-
             .ibw {
-                
+                margin-left: 20px;
 
                 .nav {
-                    
+                    margin: 13px 0px 0;
 
                     a.nv1 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv2 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv3 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv4 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv5 {
-                        
+                        margin-right: 10px;
+
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv6 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv7 {
-                       
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
                 }
 
                 button.bonus {
-                   
+                    display: block;
                 }
             }
 
             .call {
-                
+                display: block;
 
-                a.phone {
-                    
-                }
+                a.phone {}
 
-                .phoneback {
-                    
-                }
+                .phoneback {}
             }
         }
     }
 
     .sec1 {
-       font-size: 20px; 
+        margin-top: 88px;
 
-        .logo {
-            
-        }
+        .logo {}
 
         .wrap {
-           
-
             .information {
-               
-
                 .adress {
-                    p.txt {
-                       
-                    }
+                    p.txt {}
 
-                    p.ad {
-                       
-                    }
+                    p.ad {}
                 }
             }
 
             .soc {
-               
+                margin-left: 113px;
 
-                p.h3 {
-                    
-                }
+                p.h3 {}
 
-                a.vk {
-                    
-                }
+                a.vk {}
 
-                a.inst {
-                    
-                }
+                a.inst {}
 
-                p.gskw {
-                   
-                }
+                p.gskw {}
             }
         }
 
         .school_l {
-            
+            .wnyr {}
 
-            .wnyr {
-               
-            }
-
-            h3 {
-                
-            }
+            h3 {}
 
             .sch_txt {
-                
+                .new {}
 
-                .new {
-                    
-                }
-
-                .smtxt {
-                   
-                }
+                .smtxt {}
 
                 .machine {
-                   
-
                     .wrp_machine {
-                        
+                        p.free {}
 
-                        p.free {
-                            
-                        }
-
-                        p.txtsm {
-                            
-                        }
+                        p.txtsm {}
                     }
                 }
             }
         }
 
         .school_r {
-            
-
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                       
-                    }
+                    &:hover {}
                 }
             }
         }
     }
 
     .sec2 {
-        
-
-        h2 {
-            
-        }
+        h2 {}
 
         .bonus_l {
-           
+            width: 471px;
 
             .wrp_met {
-                
+                background-position: 0px 0px;
+                margin-bottom: 30px;
 
-                p.forme {
-                    
-                }
+                p.forme {}
 
                 p.formetxt {
-                   
-
-                    span.fin {
-                       
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .bonus_r {
-            
+            width: 471px;
 
             .wrp_met {
-               
+                background-position: 0px 0px;
 
-                p.tkanb {
-                    
-                }
+                p.tkanb {}
 
                 p.tkanbtxt {
-                    
-
-                    span.fin {
-                        
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .dyg_wrp {
-            
+            .dyga {}
 
-            .dyga {
-               
-            }
-
-            button.dwnlmetod {
-               
-            }
+            button.dwnlmetod {}
         }
 
-        .how {
-            
-        }
+        .how {}
 
         .wrp_how {
-            
+            &:after {}
 
-            &:after {
-              
-            }
+            &:before {}
 
-            &:before {
-                
-            }
-
-            .how_txt {
-                
-            }
+            .how_txt {}
         }
 
         .wrp_step {
-           
+            margin-bottom: 30px;
 
             .dyga {
-                
+                display: none;
             }
 
             .punkt1 {
-                
+                margin-left: 0px;
             }
 
             .punkt2 {
-                
+                margin-left: 45px;
             }
 
             .punkt3 {
-                
+                margin-left: 25px;
+                margin-top: 27px;
             }
 
             .punkt4 {
-                
+                margin-left: 25px;
+                margin-top: 20px;
             }
 
             .punkt5 {
-                
+                margin-left: 25px;
             }
 
             .punkt6 {
-               
+                margin-left: 25px;
             }
 
             .punkt7 {
-                
+                margin-left: 25px;
             }
 
             .punkt8 {
-                
+                margin-left: 25px;
+                margin-top: 61px;
             }
 
             .dota {
-                
-
                 &.active {
-                    .step {
-                        
-                    }
+                    .step {}
                 }
 
-                .step {
-                    
-                }
+                .step {}
 
-                .steptxt {
-                    
-                }
+                .steptxt {}
             }
         }
 
         .left_form {
-            
+            margin-left: 34px;
 
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                   
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .slider10 {
-           
+            margin-left: 0px;
 
             .item {
-                
+                &.active {}
 
-                &.active {
+                .left_form {
+                    margin-left: 34px;
+
+                    form {
+                        p.xotite {
+                            span.bl {}
+
+                            span.pink {}
+                        }
+
+                        .zajavka {}
+
+                        input {}
+
+                        button.frm {
+                            &:hover {}
+                        }
+                    }
+                }
+
+                .right_sld {
+                    width: 620px;
+                    padding-right: 30px;
+
+                    &:before {}
+
+                    p.p_sld {}
+
+                    p.txt_sld {}
+
+                    .pomp {
+                        &:before {}
+                    }
                 }
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                        
+                        left: -40px;
 
-                        a {
-                           
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
+                        right: -40px;
 
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -4551,74 +4444,47 @@ footer {
             .slider-wrap_obych {
                 .item {
                     .dot_fot_wrap {
-                       
+                        margin-left: 34px;
 
                         img {
-                            
-
-                            &.gor_dot_fot_wrap {
-                               
-                            }
+                            &.gor_dot_fot_wrap {}
                         }
 
-                        &.gor_fot {
-                           
-                        }
+                        &.gor_fot {}
                     }
 
                     .left_form {
-                        
+                        margin-left: 34px;
 
                         form {
                             p.xotite {
-                                
+                                span.bl {}
 
-                                span.bl {
-                                    
-                                }
-
-                                span.pink {
-                                    
-                                }
+                                span.pink {}
                             }
 
-                            .zajavka {
-                                
-                            }
+                            .zajavka {}
 
-                            input {
-                                
-                            }
+                            input {}
 
                             button.frm {
-                               
-
-                                &:hover {
-                                   
-                                }
+                                &:hover {}
                             }
                         }
                     }
 
                     .right_sld {
-                        
+                        width: 620px;
+                        padding-right: 30px;
 
                         &:before {}
 
-                        p.p_sld {
-                            
-                        }
+                        p.p_sld {}
 
-                        p.txt_sld {
-                            
-                        }
+                        p.txt_sld {}
 
                         .pomp {
-                            
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
                     }
                 }
@@ -4627,155 +4493,117 @@ footer {
     }
 
     .sec3 {
-        
+        height: initial;
+        padding-bottom: 40px;
 
-        .trb {
-            
-        }
+        .trb {}
 
         .l_trbl {
-            
+            float: none;
+            display: inline-block;
+            margin-left: 0;
+            text-align: center;
+            margin: 0 auto;
 
-            img {
-                
-            }
+            img {}
 
-            .name {
-               
-            }
+            .name {}
         }
 
         .r_trbl {
-           
+            float: none;
+            display: inline-block;
+            text-align: left;
+            margin: 0 auto;
 
-            .citata {
-                
-            }
+            .citata {}
         }
 
         .dreams {
-           
+            margin-left: 0;
+            width: 315px;
+            margin-right: 30px;
 
             .trbl {
-                
-
                 .trouble {
-                   
-
                     &.active {
-                        .trb_pos {
-                           
-                        }
+                        .trb_pos {}
                     }
 
-                    .trb_pos {
-                        
-                    }
+                    .trb_pos {}
 
-                    &:after, &:before {
-                        
-                    }
+                    &:after, &:before {}
 
-                    &:after {
-                       
-                    }
+                    &:after {}
 
-                    &:before {
-                        
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                            
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                            
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                       
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
                     }
 
                     p.name_pos {
-                        
-
-                        span {
-                            
-                        }
+                        span {}
                     }
                 }
             }
         }
 
         .slider8 {
-            
             .item {
-                
-
-                &.active {
-                   
-                }
+                &.active {}
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                       
+                        top: 422px;
+                        left: 65px;
 
-                        a {
-                          
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
+                        right: 70px;
+                        top: 422px;
 
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .slider-wrap_tbrl {
-              
-
                 .item {
                     .comments {
-                        
+                        width: 299px;
+                        height: 393px;
+                        background-size: 278px 370px;
+                        padding: 10px;
 
                         p.drm {
-                            
+                            margin-top: 22px;
                         }
 
                         p.drm_txt {
-                           
+                            br.m1 {
+                                display: block;
+                            }
                         }
                     }
                 }
@@ -4783,86 +4611,50 @@ footer {
         }
 
         form {
-            
+            margin-left: 17px;
 
             p.xotite {
-                
+                span.bl {}
 
-                span.bl {
-                    
-                }
-
-                span.pink {
-                   
-                }
+                span.pink {}
             }
 
-            .zajavka {
-               
-            }
+            .zajavka {}
 
-            input {
-               
-            }
+            input {}
 
             button.frm {
-                
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
         }
     }
 
     .sec4 {
-     
+        .fotogallery {}
 
-        .fotogallery {
-            
-        }
-
-        .gal_txt {
-           
-        }
+        .gal_txt {}
 
         .slider3 {
-           
-
-            .bx-pager {
-              
-            }
+            .bx-pager {}
 
             .slider-wrap {
                 .sld_foto {
-                    
-
-                   
-
-                    img {
-                       
-                    }
+                    img {}
                 }
             }
 
             .slide-control {
                 .arr {
-                   
+                    left: -48px;
 
                     &.left {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
+                        right: -48px;
 
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -4894,268 +4686,164 @@ footer {
             }
         }*/
         a.gotogall {
-           
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
 
         .polosa {
-           
+            .gz {}
 
-            .gz {
-               
-            }
+            .ourteam {}
 
-            .ourteam {
-               
-            }
-
-            .gz_dygga {
-               
-            }
+            .gz_dygga {}
         }
 
         .l_team {
-            
+            margin-left: 0;
+            width: 320px;
 
             .prepodi {
-                
-
                 .chl {
-                   
+                    padding-left: 14px;
 
-                    &:after, &:before {
-                      
-                    }
+                    &:after, &:before {}
 
-                    &:after {
-                       
-                    }
+                    &:after {}
 
-                    &:before {
-                       
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                          
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                         
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                     
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
                     }
 
-                    img {
-                       
-                    }
+                    img {}
 
                     p.name {
-                       
-
-                        span {
-                           
-                        }
+                        span {}
                     }
                 }
             }
 
             .inf_year {
-                
-
-                .p_inf_y {
-                   
-                }
+                .p_inf_y {}
             }
         }
 
         .r_team {
-           
+            width: 550px;
+            margin-right: 60px;
 
             .slider6 {
-              
-
                 .item {
-                   
-
-                    &.active {
-                       
-                    }
+                    &.active {}
                 }
 
                 .slider-wrap_comm {
                     .face {
-                        
+                        margin-right: 168px;
 
-                        img {
-                            
-                        }
+                        img {}
                     }
                 }
 
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
+                            top: 215px;
 
-                            a {
-                                
-                            }
+                            a {}
                         }
 
                         &.right {
-                            
+                            top: 215px;
 
-                            a {
-                               
-                            }
+                            a {}
                         }
                     }
                 }
             }
 
             p.nmr {
-                
-
-                span {
-                    
-                }
+                span {}
             }
 
             .txt_tm {
-                
-
-                span.normal_txt {
-                   
+                br {
+                    display: none;
                 }
 
-                &:before {
-                   
+                br.m1 {
+                    display: block;
                 }
 
-                &:after {
-                    
-                }
+                span.normal_txt {}
+
+                &:before {}
+
+                &:after {}
             }
         }
     }
 
     .sec5 {
-       
+        p.kyrsi {}
 
-        p.kyrsi {
-           
-        }
-
-        p.kyrs_txt {
-           
-        }
+        p.kyrs_txt {}
 
         .grafik {
-           
-
-            
+            margin: 0;
+            margin-bottom: 41px;
 
             .kln {
-               
-
                 &.td_head {
-                  
+                    .groups {}
 
-                    .groups {
-                        
-                    }
-
-                    .obychenie {
-                       
-                    }
+                    .obychenie {}
                 }
 
-                &.td1 {
-                    
-                }
+                &.td1 {}
 
-                &.td2 {
-                   
-                }
+                &.td2 {}
 
-                &.td3 {
-                    
-                }
+                &.td3 {}
 
-                &.td4 {
-                  
-                }
+                &.td4 {}
 
-                &.td5 {
-                   
-                }
+                &.td5 {}
 
                 .groups {
-                   
-
-                    span {
-                       
-                    }
+                    span {}
                 }
 
                 .obychenie {
-                   
+                    &.mytb {}
 
-                    &.mytb {
-                      
-                    }
-
-                    span {
-                       
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
+                .groups {}
 
-                .groups {
-                    
-                }
-
-                .obychenie {
-                    
-                }
+                .obychenie {}
             }
 
             .kln_l {
-               
                 .groups {}
 
                 .obychenie {}
@@ -5163,315 +4851,177 @@ footer {
         }
 
         .texnologja {
-           
-
             .slide-control_type {
                 .arr {
-                    
-
                     &.left {
-                       
+                        left: -48px;
 
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
+                        right: -48px;
 
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .l_textn {
-               
-
                 .tryd {
-
-
-                    img {
-                       
-                    }
+                    img {}
                 }
 
                 .skidka {
-                    
-
                     // display: none;
 
                     // &.active {
                     //     display: block;
                     // }
-                    p.sk1 {
-                        
-                    }
+                    p.sk1 {}
 
-                    p.sk2 {
-                        
-                    }
+                    p.sk2 {}
                 }
-
-           
             }
 
             .slider7 {
-                
-
                 .slider-wrap_type {
                     .item {
                         .r_textn {
-                            
-
                             .txt_1 {
-                               
-
-                                span {
-                                  
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                                
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                              
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                              
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                              
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                       
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
-                            .txt_8 {
-                                
-                            }
+                            .txt_8 {}
                         }
                     }
                 }
             }
 
             button.kyrs {
-               
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
 
-            p.dlina {
-               
-            }
+            p.dlina {}
         }
 
         a.kyrsu {
-            
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
     }
 
     .sec6 {
-       
-
-        .contacts {
-            
-        }
+        .contacts {}
 
         .l_foot {
-           
+            margin-left: 0;
+            width: 562px;
+
             .adrs {
-               
+                width: 562px;
             }
         }
 
         .r_foot {
-            
+            margin-right: 0;
 
             form {
-                
-
                 p.xotite {
-                  
+                    span.bl {}
 
-                    span.bl {
-                      
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                   
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .map {
-            
+            width: 562px;
 
-            iframe {
-               
-            }
+            iframe {}
         }
     }
 
     .sec7 {
-     
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-          
-        }
+        p.krs {}
 
-        p.krs_txt {
-           
-        }
+        p.krs_txt {}
 
         .grafik {
-          
-
             .kln {
-                
-
                 &.td_head {
-                   
+                    .groups {}
 
-                    .groups {
-                        
-                    }
-
-                    .obychenie {
-                       
-                    }
+                    .obychenie {}
                 }
 
-                &.td1 {
-                  
-                }
+                &.td1 {}
 
-                &.td2 {
-                   
-                }
+                &.td2 {}
 
-                &.td3 {
-                   
-                }
+                &.td3 {}
 
-                &.td4 {
-                  
-                }
+                &.td4 {}
 
-                &.td5 {
-                   
-                }
+                &.td5 {}
 
                 .groups {
-                    
-
-                    span {
-                        
-                    }
+                    span {}
                 }
 
                 .obychenie {
-                    
+                    &.mytb {}
 
-                    &.mytb {
-                       
-                    }
-
-                    span {
-                        
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
+                .groups {}
 
-                .groups {
-                  
-                }
-
-                .obychenie {
-                   
-                }
+                .obychenie {}
             }
 
             .kln_l {
-               
-
                 .groups {}
 
                 .obychenie {}
@@ -5479,102 +5029,55 @@ footer {
         }
 
         .l_t {
-            
-
             .ceni {
-               
-
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
-
-                            a {
-                               
-                            }
+                            a {}
                         }
 
                         &.right {
-                           
-
-                            a {
-                                
-                            }
+                            a {}
                         }
                     }
                 }
 
                 .kyrsi {
-                   
                     .ceni_kyrsi {
-                        
-
                         &.ceni_akcii {
-                            .akcii_wrp {
-                                
-                            }
+                            .akcii_wrp {}
                         }
 
-                        &:after, &:before {
-                           
-                        }
+                        &:after, &:before {}
 
-                        &:after {
-                            
-                        }
+                        &:after {}
 
-                        &:before {
-                         
-                        }
+                        &:before {}
 
                         &:first-of-type {
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
 
                         &:last-of-type {
-                            &:after {
-                                
-                            }
+                            &:after {}
                         }
 
                         &.active {
-                           
-
-                            &:after, &:before {
-                            
-                            }
+                            &:after, &:before {}
 
                             .helper {
-                               
+                                &:after, &:before {}
 
-                                &:after, &:before {
-                                   
-                                }
+                                &:after {}
 
-                                &:after {
-                                  
-                                }
-
-                                &:before {
-                                  
-                                }
+                                &:before {}
                             }
                         }
 
-                        img {
-                            
-                        }
+                        img {}
 
                         p.name {
-                           
-
-                            span {
-                                
-                            }
+                            span {}
                         }
                     }
                 }
@@ -5582,119 +5085,62 @@ footer {
         }
 
         .slider9 {
-           
-
             .item {
-               
-
-                &.active {
-                   
-                }
+                &.active {}
             }
 
             .slider-wrap_ceni {
                 .item {
                     .r_t {
-                      
-
                         .teksta {
-                         
-
                             .skidka {
-                               
+                                p.sk1 {}
 
-                                p.sk1 {
-                                   
-                                }
-
-                                p.sk2 {
-                                   
-                                }
+                                p.sk2 {}
                             }
 
                             .txt_1 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                               
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                                
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                               
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                             
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                   
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
-                            .txt_8 {
-                              
-                            }
+                            .txt_8 {}
                         }
                     }
 
-                    p.dlina {
-                       
-                    }
+                    p.dlina {}
 
                     .zapisb {
-                       
-
-                        &:hover {
-                           
-                        }
+                        &:hover {}
                     }
 
                     .podrobno {
-                       
-                        &.cntr {
-                         
-                        }
+                        &.cntr {}
                     }
                 }
             }
@@ -5702,137 +5148,75 @@ footer {
     }
 
     .sec8 {
-       
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
-        p.krs_txt {
-            
-        }
+        p.krs_txt {}
 
         .slider12 {
-           
             .item {
                 .video {
-                   
-
-                    video {
-                       
-                    }
+                    video {}
                 }
             }
 
-            .bx-pager {
-             
-            }
+            .bx-pager {}
 
             .slide-control {
                 .arr {
-                 
-
                     &.left {
-                    
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                     
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
         }
 
         .polosa {
-        
-            .gz_dygga {
-               
-            }
+            .gz_dygga {}
 
-            .otzivi {
-                
-            }
+            .otzivi {}
         }
 
-        p.pystbgovor9t {
-          
-        }
+        p.pystbgovor9t {}
 
         .slider4 {
             .slider-wrap_otz {
                 .item {
                     .l_com {
-                       
-
                         .wrp_comm {
-                           
+                            &:before {}
 
-                            &:before {
-                               
-                            }
-
-                            img {
-                              
-                            }
+                            img {}
                         }
                     }
 
                     .r_com {
-                       
-
                         .wrp_comm {
-                          
-                            &:after {
-                                
-                            }
+                            &:after {}
 
-                            img {
-                               
-                            }
+                            img {}
                         }
                     }
                 }
             }
 
             .slide-control_otz {
-             
                 .arr {
-                 
-
                     &.left {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                      
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
@@ -5840,202 +5224,109 @@ footer {
     }
 
     .sec9 {
-    
         .pink {
-         
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-             
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-            
-        }
+        p.krs {}
 
         .l_sert {
-            
-
             .ft_1 {
-               
-
                 img {}
             }
 
             .ft_2 {
-                
-
                 img {}
             }
         }
 
-        .r_sert {
-          
-        }
+        .r_sert {}
 
-        button.present {
-            
-        }
+        button.present {}
     }
 
     .sec10 {
-     
-
         .pink {
-           
+            .polosa {}
 
-            .polosa {
-            
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
         .block-wrap {
             .item {
-                
-
-                &.active {
-                    
-                }
+                &.active {}
             }
         }
 
         .slider_1 {
             .ibw {
-               
                 & > .item {
-                 
-
                     &.active {
-                        .wrp_albom {
-                           
-                        }
+                        .wrp_albom {}
                     }
 
                     .wrp_albom {
-                       
-
                         .wrp_fts {
-                          
-
                             .ico1 {
-                               
+                                &:nth-of-type(3n) {}
 
-                                &:nth-of-type(3n) {
-                                   
-                                }
-
-                                a {
-                                   
-                                }
+                                a {}
                             }
                         }
 
-                        .zarabotoi {
-                            
-                        }
+                        .zarabotoi {}
                     }
                 }
             }
         }
 
         .polosa {
-         
-            .gz_dygga {
-             
-            }
+            .gz_dygga {}
 
-            .otzivi {
-               
-            }
+            .otzivi {}
 
-            p.yserdie {
-               
-            }
+            p.yserdie {}
         }
 
         .shmotki {
-           
-
             .polosa {
-              
-
-                .gz_dygga {
-                   
-                }
+                .gz_dygga {}
             }
 
             .ibw_wrap {
-               
                 .el {
-                    
+                    &.active {}
 
-                    &.active {
-                       
-                    }
+                    &:nth-of-type(4) {}
 
-                    &:nth-of-type(4) {
-                     
-                    }
+                    &:nth-of-type(5) {}
 
-                    &:nth-of-type(5) {
-                        
-                    }
+                    &:nth-of-type(6) {}
 
-                    &:nth-of-type(6) {
-                        
-                    }
-
-                    &:nth-of-type(7) {
-                        
-                    }
+                    &:nth-of-type(7) {}
 
                     &:hover,
-                    &:active {
-                        
-                    }
+                    &:active {}
 
                     p.el_txt {
-                       
-
                         &:hover,
-                        &:active {
-                           
-                        }
+                        &:active {}
                     }
                 }
             }
 
             .slide-control_gal {
-                
                 .arr {
-                    
-
                     &.left {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -6043,92 +5334,53 @@ footer {
 
         .wrp_gallery {
             .gallery {
-               
-              
-
                 .wrp_foto {
-                   
-
-                    a {
-                        
-                    }
+                    a {}
                 }
             }
         }
 
         .students_works {
             .item {
-                
-
-               
-
-                &.active {
-                  
-                }
+                &.active {}
             }
 
             &.opened {
-                .item {
-               
-                }
+                .item {}
             }
         }
 
-        .more {
-            
-        }
+        .more {}
     }
 
     footer {
-      
-
-        .logo_f {
-          
-        }
+        .logo_f {}
 
         .soc_f {
-           
+            p.h3 {}
 
-            p.h3 {
-               
-            }
+            a.vk {}
 
-            a.vk {
-               
-            }
+            a.inst {}
 
-            a.inst {
-                
-            }
-
-            p.gskw {
-               
-            }
+            p.gskw {}
         }
 
         .nmbphone {
-            
+            p.number {}
 
-            p.number {
-             
-            }
-
-            .num {
-               
-            }
+            .num {}
         }
 
         button.poleznoctb {
-           
+            margin-left: 230px;
 
-            a {
-               
-            }
+            a {}
         }
     }
-    
 }
-@media only screen and (max-width:980px) {
+
+@media only screen and (max-width: 980px) {
     .section > div,
     .head > div,
     header > div,
@@ -6136,495 +5388,369 @@ footer {
     footer > div {
         max-width: 740px;
     }
+
     header {
-        
-
         .header {
-            
-
             .ibw {
-                
+                margin-left: 20px;
 
                 .nav {
-                    
+                    margin: 13px 0px 0;
 
                     a.nv1 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv2 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv3 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv4 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv5 {
-                        
+                        margin-right: 10px;
+
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv6 {
-                        
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv7 {
-                       
+                        margin-right: 10px;
 
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
                 }
 
                 button.bonus {
-                   
+                    display: block;
                 }
             }
 
             .call {
-                
+                display: block;
 
-                a.phone {
-                    
-                }
+                a.phone {}
 
-                .phoneback {
-                    
-                }
+                .phoneback {}
             }
         }
     }
 
     .sec1 {
-       font-size: 20px;
+        height: initial;
 
-        .logo {
-            
-        }
+        .logo {}
 
         .wrap {
-           
-
             .information {
-               
+                width: 240px;
 
                 .adress {
-                    p.txt {
-                       
-                    }
+                    p.txt {}
 
-                    p.ad {
-                       
-                    }
+                    p.ad {}
                 }
             }
 
             .soc {
-               
+                margin-left: 112px;
 
-                p.h3 {
-                    
-                }
+                p.h3 {}
 
-                a.vk {
-                    
-                }
+                a.vk {}
 
-                a.inst {
-                    
-                }
+                a.inst {}
 
-                p.gskw {
-                   
-                }
+                p.gskw {}
             }
         }
 
         .school_l {
-            
+            float: none;
+            margin: 0 auto;
 
             .wnyr {
-               
+                display: none;
             }
 
             h3 {
-                
+                text-align: center;
             }
 
             .sch_txt {
-                
+                margin: 0 auto;
+                margin-bottom: 30px;
 
-                .new {
-                    
-                }
+                .new {}
 
                 .smtxt {
-                   
+                    br {
+                        display: none;
+                    }
                 }
 
                 .machine {
-                   
-
                     .wrp_machine {
-                        
+                        p.free {}
 
-                        p.free {
-                            
-                        }
-
-                        p.txtsm {
-                            
-                        }
+                        p.txtsm {}
                     }
                 }
             }
         }
 
         .school_r {
-            
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 70px;
 
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                       
-                    }
+                    &:hover {}
                 }
             }
         }
     }
 
     .sec2 {
-        
-
-        h2 {
-            
-        }
+        h2 {}
 
         .bonus_l {
-           
+            float: none;
+            margin: 0 auto;
 
             .wrp_met {
-                
-
-                p.forme {
-                    
-                }
+                p.forme {}
 
                 p.formetxt {
-                   
+                    text-align: center;
+                    padding: 0;
 
-                    span.fin {
-                       
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .bonus_r {
-            
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 50px;
 
             .wrp_met {
-               
-
-                p.tkanb {
-                    
-                }
+                p.tkanb {}
 
                 p.tkanbtxt {
-                    
+                    text-align: center;
+                    padding: 0;
 
-                    span.fin {
-                        
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .dyg_wrp {
-            
+            .dyga {}
 
-            .dyga {
-               
-            }
-
-            button.dwnlmetod {
-               
-            }
+            button.dwnlmetod {}
         }
 
-        .how {
-            
-        }
+        .how {}
 
         .wrp_how {
-            
+            margin-bottom: 40px;
 
-            &:after {
-              
-            }
+            &:after {}
 
-            &:before {
-                
-            }
+            &:before {}
 
-            .how_txt {
-                
-            }
+            .how_txt {}
         }
 
         .wrp_step {
-           
+            text-align: center;
 
             .dyga {
-                
+                display: none;
             }
 
             .punkt1 {
-                
+                margin-top: 0;
+                margin-left: 28px;
             }
 
             .punkt2 {
-                
+                margin-top: 0;
+                margin-left: 100px;
             }
 
             .punkt3 {
-                
+                margin-top: 0;
+                margin-left: 100px;
             }
 
             .punkt4 {
-                
+                margin-top: 0;
+                margin-left: 100px;
+                margin-right: 10px;
+                margin-bottom: 20px;
             }
 
             .punkt5 {
-                
+                margin-top: 0;
+                margin-left: 20px;
             }
 
             .punkt6 {
-               
+                margin-top: 0;
+                margin-left: 88px;
             }
 
             .punkt7 {
-                
+                margin-top: 0;
+                margin-left: 106px;
             }
 
             .punkt8 {
-                
+                margin-top: 0;
+                margin-left: 89px;
             }
 
             .dota {
-                
-
                 &.active {
-                    .step {
-                        
-                    }
+                    .step {}
                 }
 
-                .step {
-                    
-                }
+                .step {}
 
-                .steptxt {
-                    
-                }
+                .steptxt {}
             }
         }
 
         .left_form {
-            
-
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                   
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .slider10 {
-           
-
             .item {
-                
-
-                &.active {
-                }
+                &.active {}
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                        
+                        left: -70px;
 
-                        a {
-                           
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
+                        right: -70px;
 
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
 
             .slider-wrap_obych {
                 .item {
-                    .dot_fot_wrap {
-                       
-
-                        img {
-                            
-
-                            &.gor_dot_fot_wrap {
-                               
-                            }
-                        }
-
-                        &.gor_fot {
-                           
-                        }
-                    }
-
                     .left_form {
-                        
+                        margin-left: 0px;
 
                         form {
                             p.xotite {
-                                
+                                span.bl {}
 
-                                span.bl {
-                                    
-                                }
-
-                                span.pink {
-                                    
-                                }
+                                span.pink {}
                             }
 
-                            .zajavka {
-                                
-                            }
+                            .zajavka {}
 
-                            input {
-                                
-                            }
+                            input {}
 
                             button.frm {
-                               
-
-                                &:hover {
-                                   
-                                }
+                                &:hover {}
                             }
                         }
                     }
 
                     .right_sld {
-                        
+                        padding-right: 0;
+                        margin-left: 0;
+                        width: 440px;
+                        margin-top: 0;
+                        padding-left: 40px;
 
                         &:before {}
 
-                        p.p_sld {
-                            
-                        }
+                        p.p_sld {}
 
                         p.txt_sld {
-                            
+                            font-weight: 400;
                         }
 
                         .pomp {
-                            
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
+                    }
+
+                    .dot_fot_wrap {
+                        margin-left: 0px;
+
+                        img {
+                            &.gor_dot_fot_wrap {}
+                        }
+
+                        &.gor_fot {}
                     }
                 }
             }
@@ -6632,155 +5758,121 @@ footer {
     }
 
     .sec3 {
-        
-
-        .trb {
-            
-        }
+        .trb {}
 
         .l_trbl {
-            
+            float: left;
+            margin-top: 55px;
 
-            img {
-                
-            }
+            img {}
 
-            .name {
-               
-            }
+            .name {}
         }
 
         .r_trbl {
-           
+            width: 593px;
+            height: 256px;
+            background-position: 7px -1px;
+            background-size: 593px 256px;
 
             .citata {
-                
+                padding-left: 50px;
+                font-size: 15px;
+                padding-top: 30px;
+                padding-right: 17px;
+                line-height: 22px;
+
+                br {
+                    display: none;
+                }
             }
         }
 
         .dreams {
-           
-
             .trbl {
-                
-
                 .trouble {
-                   
-
                     &.active {
-                        .trb_pos {
-                           
-                        }
+                        .trb_pos {}
                     }
 
-                    .trb_pos {
-                        
-                    }
+                    .trb_pos {}
 
-                    &:after, &:before {
-                        
-                    }
+                    &:after, &:before {}
 
-                    &:after {
-                       
-                    }
+                    &:after {}
 
-                    &:before {
-                        
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                            
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                            
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                       
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
                     }
 
                     p.name_pos {
-                        
-
-                        span {
-                            
-                        }
+                        span {}
                     }
                 }
             }
         }
 
         .slider8 {
-            
-            .item {
-                
+            margin-bottom: 20px;
 
-                &.active {
-                   
-                }
+            .item {
+                &.active {}
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                       
+                        top: 224px;
+                        left: -425px;
 
-                        a {
-                          
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
+                        right: -80px;
+                        top: 222px;
 
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .slider-wrap_tbrl {
-              
-
                 .item {
                     .comments {
-                        
+                        height: 460px;
+                        width: 350px;
+                        background-size: 330px 439px;
 
                         p.drm {
-                            
+                            margin-bottom: 30px;
                         }
 
                         p.drm_txt {
-                           
+                            font-size: 18px;
+                            font-weight: 400;
+
+                            br.m1 {
+                                display: block;
+                            }
                         }
                     }
                 }
@@ -6788,86 +5880,59 @@ footer {
         }
 
         form {
-            
+            margin: 0 auto;
+            clear: both;
+            display: block;
+            float: none;
 
             p.xotite {
-                
+                span.bl {}
 
-                span.bl {
-                    
-                }
-
-                span.pink {
-                   
-                }
+                span.pink {}
             }
 
-            .zajavka {
-               
-            }
+            .zajavka {}
 
-            input {
-               
-            }
+            input {}
 
             button.frm {
-                
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
         }
     }
 
     .sec4 {
-     
+        .fotogallery {}
 
-        .fotogallery {
-            
-        }
-
-        .gal_txt {
-           
-        }
+        .gal_txt {}
 
         .slider3 {
-           
+            position: relative;
 
-            .bx-pager {
-              
-            }
+            .bx-pager {}
 
             .slider-wrap {
                 .sld_foto {
-                    
+                    height: 240px;
 
-                   
-
-                    img {
-                       
-                    }
+                    img {}
                 }
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                        
+                        top: 113px;
+                        left: 22px;
 
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
+                        left: 680px;
+                        top: 113px;
 
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -6899,400 +5964,285 @@ footer {
             }
         }*/
         a.gotogall {
-           
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
 
         .polosa {
-           
+            .gz {}
 
-            .gz {
-               
-            }
-
-            .ourteam {
-               
-            }
+            .ourteam {}
 
             .gz_dygga {
-               
+                display: none;
             }
         }
 
         .l_team {
-            
+            margin-left: 0;
+            width: 320px;
 
             .prepodi {
-                
-
                 .chl {
-                   
+                    &:after, &:before {}
 
-                    &:after, &:before {
-                      
-                    }
+                    &:after {}
 
-                    &:after {
-                       
-                    }
-
-                    &:before {
-                       
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                          
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                         
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                     
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
                     }
 
-                    img {
-                       
-                    }
+                    img {}
 
                     p.name {
-                       
-
-                        span {
-                           
-                        }
+                        span {}
                     }
                 }
             }
 
             .inf_year {
-                
-
-                .p_inf_y {
-                   
-                }
+                .p_inf_y {}
             }
         }
 
         .r_team {
-           
+            width: 420px;
+            margin-right: 0;
+            margin-top: 0;
 
             .slider6 {
-              
-
                 .item {
-                   
-
-                    &.active {
-                       
-                    }
+                    &.active {}
                 }
 
                 .slider-wrap_comm {
                     .face {
-                        
+                        margin-right: 48px;
 
-                        img {
-                            
-                        }
+                        img {}
                     }
                 }
 
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
-
-                            a {
-                                
-                            }
+                            a {}
                         }
 
                         &.right {
-                            
+                            right: 25px;
 
-                            a {
-                               
-                            }
+                            a {}
                         }
                     }
                 }
             }
 
             p.nmr {
-                
+                padding: 0;
+                margin-bottom: 12px;
+                padding: 0 34px 0;
 
-                span {
-                    
-                }
+                span {}
             }
 
             .txt_tm {
-                
+                font-size: 15px;
+                line-height: 17px;
 
-                span.normal_txt {
-                   
-                }
+                span.normal_txt {}
 
-                &:before {
-                   
-                }
+                &:before {}
 
-                &:after {
-                    
-                }
+                &:after {}
             }
         }
     }
 
     .sec5 {
-       
+        p.kyrsi {}
 
-        p.kyrsi {
-           
-        }
-
-        p.kyrs_txt {
-           
-        }
+        p.kyrs_txt {}
 
         .grafik {
-           
-
-            
-
             .kln {
-               
-
                 &.td_head {
-                  
+                            width: 13.1%;
 
                     .groups {
-                        
+                        font-size: 15px;
+                        padding-left: 10px;
+                        font-size: 17px;
+
                     }
 
                     .obychenie {
-                       
+                            font-size: 15px;
+                            padding-left: 10px;
+                                font-size: 17px;
                     }
                 }
 
                 &.td1 {
-                    
+                        width: 13.3%;
                 }
 
                 &.td2 {
-                   
+                        width: 13%;
                 }
 
                 &.td3 {
-                    
+                   width: 14.7%;
                 }
 
                 &.td4 {
-                  
+                       width: 19.4%;
                 }
 
                 &.td5 {
-                   
+                          width: 26.5%;
                 }
 
-                .groups {
-                   
-
-                    span {
-                       
-                    }
+                .groups { padding-left: 10px;
+                    font-size: 17px;
+                    span {}
                 }
 
-                .obychenie {
-                   
+                .obychenie { padding-left: 10px;
+                    font-size: 17px;
+                    &.mytb {}
 
-                    &.mytb {
-                      
-                    }
-
-                    span {
-                       
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
-
-                .groups {
-                    
+                .groups { padding-left: 10px;
+                   
                 }
 
                 .obychenie {
-                    
+                     padding-left: 10px;
+
                 }
             }
 
             .kln_l {
-               
-                .groups {}
+                .groups { padding-left: 10px;
+                    font-size: 17px;
+                }
 
-                .obychenie {}
+                .obychenie { padding-left: 10px;
+                    font-size: 17px;
+                }
             }
         }
 
         .texnologja {
-           
+                     height: 720px;
+    background-size: 720px 705px;
+        width: 740px;
 
             .slide-control_type {
                 .arr {
-                    
-
                     &.left {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .l_textn {
-               
-
+                    width: 320px;
+                    margin-bottom: 140px;
+        margin-top: 40px;
                 .tryd {
-
-
-                    img {
-                       
-                    }
+                        width: 320px;
+    height: 280px;
+                    img {}
                 }
 
                 .skidka {
-                    
-
                     // display: none;
 
                     // &.active {
                     //     display: block;
                     // }
                     p.sk1 {
-                        
+                        span.month{
+                            display: none;
+                        }
                     }
 
                     p.sk2 {
-                        
+                        span.month{
+                            display: none;
+                        }
                     }
                 }
-
-           
             }
 
             .slider7 {
-                
-
                 .slider-wrap_type {
                     .item {
+                        width: 740px;
                         .r_textn {
-                            
-
+                                margin-left: 0;
+                                    margin-top: 20px;
+                                width: 420px;
                             .txt_1 {
-                               
-
-                                span {
-                                  
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                                
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                              
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                              
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                              
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                       
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_8 {
-                                
+
+       margin-bottom: 20px;
                             }
                         }
                     }
@@ -7300,183 +6250,102 @@ footer {
             }
 
             button.kyrs {
-               
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
 
-            p.dlina {
-               
-            }
+            p.dlina {}
         }
 
         a.kyrsu {
-            
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
     }
 
     .sec6 {
-       
-
-        .contacts {
-            
-        }
+        .contacts {}
 
         .l_foot {
-           
+            width: 100%;
+                margin-bottom: 20px;
             .adrs {
-               
+                    width: 100%;
             }
         }
 
         .r_foot {
-            
-
+            float: none;
+            margin: 0 auto;
             form {
-                
-
                 p.xotite {
-                  
+                    span.bl {}
 
-                    span.bl {
-                      
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                   
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .map {
-            
-
-            iframe {
-               
-            }
+                width: 100%;
+                margin-bottom: 20px;
+            iframe {}
         }
     }
 
     .sec7 {
-     
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-          
-        }
+        p.krs {}
 
-        p.krs_txt {
-           
-        }
+        p.krs_txt {}
 
         .grafik {
-          
-
             .kln {
-                
-
                 &.td_head {
-                   
+                    .groups {}
 
-                    .groups {
-                        
-                    }
-
-                    .obychenie {
-                       
-                    }
+                    .obychenie {}
                 }
 
-                &.td1 {
-                  
-                }
+                &.td1 {}
 
-                &.td2 {
-                   
-                }
+                &.td2 {}
 
-                &.td3 {
-                   
-                }
+                &.td3 {}
 
-                &.td4 {
-                  
-                }
+                &.td4 {}
 
-                &.td5 {
-                   
-                }
+                &.td5 {}
 
                 .groups {
-                    
-
-                    span {
-                        
-                    }
+                    span {}
                 }
 
                 .obychenie {
-                    
+                    &.mytb {}
 
-                    &.mytb {
-                       
-                    }
-
-                    span {
-                        
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
+                .groups {}
 
-                .groups {
-                  
-                }
-
-                .obychenie {
-                   
-                }
+                .obychenie {}
             }
 
             .kln_l {
-               
-
                 .groups {}
 
                 .obychenie {}
@@ -7484,102 +6353,55 @@ footer {
         }
 
         .l_t {
-            
-
             .ceni {
-               
-
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
-
-                            a {
-                               
-                            }
+                            a {}
                         }
 
                         &.right {
-                           
-
-                            a {
-                                
-                            }
+                            a {}
                         }
                     }
                 }
 
                 .kyrsi {
-                   
                     .ceni_kyrsi {
-                        
-
                         &.ceni_akcii {
-                            .akcii_wrp {
-                                
-                            }
+                            .akcii_wrp {}
                         }
 
-                        &:after, &:before {
-                           
-                        }
+                        &:after, &:before {}
 
-                        &:after {
-                            
-                        }
+                        &:after {}
 
-                        &:before {
-                         
-                        }
+                        &:before {}
 
                         &:first-of-type {
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
 
                         &:last-of-type {
-                            &:after {
-                                
-                            }
+                            &:after {}
                         }
 
                         &.active {
-                           
-
-                            &:after, &:before {
-                            
-                            }
+                            &:after, &:before {}
 
                             .helper {
-                               
+                                &:after, &:before {}
 
-                                &:after, &:before {
-                                   
-                                }
+                                &:after {}
 
-                                &:after {
-                                  
-                                }
-
-                                &:before {
-                                  
-                                }
+                                &:before {}
                             }
                         }
 
-                        img {
-                            
-                        }
+                        img {}
 
                         p.name {
-                           
-
-                            span {
-                                
-                            }
+                            span {}
                         }
                     }
                 }
@@ -7587,119 +6409,62 @@ footer {
         }
 
         .slider9 {
-           
-
             .item {
-               
-
-                &.active {
-                   
-                }
+                &.active {}
             }
 
             .slider-wrap_ceni {
                 .item {
                     .r_t {
-                      
-
                         .teksta {
-                         
-
                             .skidka {
-                               
+                                p.sk1 {}
 
-                                p.sk1 {
-                                   
-                                }
-
-                                p.sk2 {
-                                   
-                                }
+                                p.sk2 {}
                             }
 
                             .txt_1 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                               
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                                
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                               
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                             
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                   
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
-                            .txt_8 {
-                              
-                            }
+                            .txt_8 {}
                         }
                     }
 
-                    p.dlina {
-                       
-                    }
+                    p.dlina {}
 
                     .zapisb {
-                       
-
-                        &:hover {
-                           
-                        }
+                        &:hover {}
                     }
 
                     .podrobno {
-                       
-                        &.cntr {
-                         
-                        }
+                        &.cntr {}
                     }
                 }
             }
@@ -7707,137 +6472,75 @@ footer {
     }
 
     .sec8 {
-       
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
-        p.krs_txt {
-            
-        }
+        p.krs_txt {}
 
         .slider12 {
-           
             .item {
                 .video {
-                   
-
-                    video {
-                       
-                    }
+                    video {}
                 }
             }
 
-            .bx-pager {
-             
-            }
+            .bx-pager {}
 
             .slide-control {
                 .arr {
-                 
-
                     &.left {
-                    
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                     
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
         }
 
         .polosa {
-        
-            .gz_dygga {
-               
-            }
+            .gz_dygga {}
 
-            .otzivi {
-                
-            }
+            .otzivi {}
         }
 
-        p.pystbgovor9t {
-          
-        }
+        p.pystbgovor9t {}
 
         .slider4 {
             .slider-wrap_otz {
                 .item {
                     .l_com {
-                       
-
                         .wrp_comm {
-                           
+                            &:before {}
 
-                            &:before {
-                               
-                            }
-
-                            img {
-                              
-                            }
+                            img {}
                         }
                     }
 
                     .r_com {
-                       
-
                         .wrp_comm {
-                          
-                            &:after {
-                                
-                            }
+                            &:after {}
 
-                            img {
-                               
-                            }
+                            img {}
                         }
                     }
                 }
             }
 
             .slide-control_otz {
-             
                 .arr {
-                 
-
                     &.left {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                      
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
@@ -7845,202 +6548,109 @@ footer {
     }
 
     .sec9 {
-    
         .pink {
-         
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-             
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-            
-        }
+        p.krs {}
 
         .l_sert {
-            
-
             .ft_1 {
-               
-
                 img {}
             }
 
             .ft_2 {
-                
-
                 img {}
             }
         }
 
-        .r_sert {
-          
-        }
+        .r_sert {}
 
-        button.present {
-            
-        }
+        button.present {}
     }
 
     .sec10 {
-     
-
         .pink {
-           
+            .polosa {}
 
-            .polosa {
-            
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
         .block-wrap {
             .item {
-                
-
-                &.active {
-                    
-                }
+                &.active {}
             }
         }
 
         .slider_1 {
             .ibw {
-               
                 & > .item {
-                 
-
                     &.active {
-                        .wrp_albom {
-                           
-                        }
+                        .wrp_albom {}
                     }
 
                     .wrp_albom {
-                       
-
                         .wrp_fts {
-                          
-
                             .ico1 {
-                               
+                                &:nth-of-type(3n) {}
 
-                                &:nth-of-type(3n) {
-                                   
-                                }
-
-                                a {
-                                   
-                                }
+                                a {}
                             }
                         }
 
-                        .zarabotoi {
-                            
-                        }
+                        .zarabotoi {}
                     }
                 }
             }
         }
 
         .polosa {
-         
-            .gz_dygga {
-             
-            }
+            .gz_dygga {}
 
-            .otzivi {
-               
-            }
+            .otzivi {}
 
-            p.yserdie {
-               
-            }
+            p.yserdie {}
         }
 
         .shmotki {
-           
-
             .polosa {
-              
-
-                .gz_dygga {
-                   
-                }
+                .gz_dygga {}
             }
 
             .ibw_wrap {
-               
                 .el {
-                    
+                    &.active {}
 
-                    &.active {
-                       
-                    }
+                    &:nth-of-type(4) {}
 
-                    &:nth-of-type(4) {
-                     
-                    }
+                    &:nth-of-type(5) {}
 
-                    &:nth-of-type(5) {
-                        
-                    }
+                    &:nth-of-type(6) {}
 
-                    &:nth-of-type(6) {
-                        
-                    }
-
-                    &:nth-of-type(7) {
-                        
-                    }
+                    &:nth-of-type(7) {}
 
                     &:hover,
-                    &:active {
-                        
-                    }
+                    &:active {}
 
                     p.el_txt {
-                       
-
                         &:hover,
-                        &:active {
-                           
-                        }
+                        &:active {}
                     }
                 }
             }
 
             .slide-control_gal {
-                
                 .arr {
-                    
-
                     &.left {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -8048,512 +6658,276 @@ footer {
 
         .wrp_gallery {
             .gallery {
-               
-              
-
                 .wrp_foto {
-                   
-
-                    a {
-                        
-                    }
+                    a {}
                 }
             }
         }
 
         .students_works {
             .item {
-                
-
-               
-
-                &.active {
-                  
-                }
+                &.active {}
             }
 
             &.opened {
-                .item {
-               
-                }
+                .item {}
             }
         }
 
-        .more {
-            
-        }
+        .more {}
     }
 
     footer {
-      
-
-        .logo_f {
-          
-        }
+        .logo_f {}
 
         .soc_f {
-           
+            p.h3 {}
 
-            p.h3 {
-               
-            }
+            a.vk {}
 
-            a.vk {
-               
-            }
+            a.inst {}
 
-            a.inst {
-                
-            }
-
-            p.gskw {
-               
-            }
+            p.gskw {}
         }
 
         .nmbphone {
-            
+            p.number {}
 
-            p.number {
-             
-            }
-
-            .num {
-               
-            }
+            .num {}
         }
 
         button.poleznoctb {
-           
-
-            a {
-               
-            }
+            a {}
         }
     }
-    
 }
-@media only screen and (max-width:768px) {
+
+@media only screen and (max-width: 768px) {
     .section > div,
     .head > div,
     header > div,
     section > div,
-    footer > div {
-        max-width:480px;
+    footer > div { 
+        max-width: 480px;
     }
+
     header {
-        
-
         .header {
-            
-
             .ibw {
-                
-
                 .nav {
-                    
-
                     a.nv1 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv2 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv3 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv4 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv5 {
-                        
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv6 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv7 {
-                       
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
                 }
 
-                button.bonus {
-                   
-                }
+                button.bonus {}
             }
 
             .call {
-                
+                a.phone {}
 
-                a.phone {
-                    
-                }
-
-                .phoneback {
-                    
-                }
+                .phoneback {}
             }
         }
     }
 
     .sec1 {
-       font-size: 20px;
-
-        .logo {
-            
-        }
+        .logo {}
 
         .wrap {
-           
-
+            border:none;
             .information {
-               
-
                 .adress {
-                    p.txt {
-                       
-                    }
+                    p.txt {}
 
-                    p.ad {
-                       
-                    }
+                    p.ad {}
                 }
             }
 
             .soc {
-               
+                p.h3 {}
 
-                p.h3 {
-                    
-                }
+                a.vk {}
 
-                a.vk {
-                    
-                }
+                a.inst {}
 
-                a.inst {
-                    
-                }
-
-                p.gskw {
-                   
-                }
+                p.gskw {}
             }
         }
 
         .school_l {
-            
+            .wnyr {}
 
-            .wnyr {
-               
-            }
-
-            h3 {
-                
-            }
+            h3 {}
 
             .sch_txt {
-                
+                    width: 100%;
+                        padding: 12px;
 
-                .new {
-                    
-                }
+                .new {}
 
-                .smtxt {
-                   
-                }
+                .smtxt {}
 
                 .machine {
-                   
-
                     .wrp_machine {
-                        
+                        p.free {}
 
-                        p.free {
-                            
-                        }
-
-                        p.txtsm {
-                            
-                        }
+                        p.txtsm {}
                     }
                 }
             }
         }
 
         .school_r {
-            
-
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                       
-                    }
+                    &:hover {}
                 }
             }
         }
     }
 
     .sec2 {
-        
-
-        h2 {
-            
-        }
+        h2 {}
 
         .bonus_l {
-           
-
             .wrp_met {
-                
-
-                p.forme {
-                    
-                }
+                p.forme {}
 
                 p.formetxt {
-                   
-
-                    span.fin {
-                       
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .bonus_r {
-            
-
             .wrp_met {
-               
-
-                p.tkanb {
-                    
-                }
+                p.tkanb {}
 
                 p.tkanbtxt {
-                    
-
-                    span.fin {
-                        
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .dyg_wrp {
-            
+            .dyga {}
 
-            .dyga {
-               
-            }
-
-            button.dwnlmetod {
-               
-            }
+            button.dwnlmetod {}
         }
 
-        .how {
-            
-        }
+        .how {}
 
         .wrp_how {
-            
+            &:after {}
 
-            &:after {
-              
-            }
+            &:before {}
 
-            &:before {
-                
-            }
-
-            .how_txt {
-                
-            }
+            .how_txt {}
         }
 
         .wrp_step {
-           
+            .dyga {}
 
-            .dyga {
-                
-            }
+            .punkt1 {}
 
-            .punkt1 {
-                
-            }
+            .punkt2 {}
 
-            .punkt2 {
-                
-            }
+            .punkt3 {}
 
-            .punkt3 {
-                
-            }
+            .punkt4 {}
 
-            .punkt4 {
-                
-            }
+            .punkt5 {}
 
-            .punkt5 {
-                
-            }
+            .punkt6 {}
 
-            .punkt6 {
-               
-            }
+            .punkt7 {}
 
-            .punkt7 {
-                
-            }
-
-            .punkt8 {
-                
-            }
+            .punkt8 {}
 
             .dota {
-                
-
                 &.active {
-                    .step {
-                        
-                    }
+                    .step {}
                 }
 
-                .step {
-                    
-                }
+                .step {}
 
-                .steptxt {
-                    
-                }
+                .steptxt {}
             }
         }
 
         .left_form {
-            
-
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                   
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .slider10 {
-           
-
             .item {
-                
-
-                &.active {
-                }
+                &.active {}
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                        
-
-                        a {
-                           
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -8561,74 +6935,40 @@ footer {
             .slider-wrap_obych {
                 .item {
                     .dot_fot_wrap {
-                       
-
                         img {
-                            
-
-                            &.gor_dot_fot_wrap {
-                               
-                            }
+                            &.gor_dot_fot_wrap {}
                         }
 
-                        &.gor_fot {
-                           
-                        }
+                        &.gor_fot {}
                     }
 
                     .left_form {
-                        
-
                         form {
                             p.xotite {
-                                
+                                span.bl {}
 
-                                span.bl {
-                                    
-                                }
-
-                                span.pink {
-                                    
-                                }
+                                span.pink {}
                             }
 
-                            .zajavka {
-                                
-                            }
+                            .zajavka {}
 
-                            input {
-                                
-                            }
+                            input {}
 
                             button.frm {
-                               
-
-                                &:hover {
-                                   
-                                }
+                                &:hover {}
                             }
                         }
                     }
 
                     .right_sld {
-                        
-
                         &:before {}
 
-                        p.p_sld {
-                            
-                        }
+                        p.p_sld {}
 
-                        p.txt_sld {
-                            
-                        }
+                        p.txt_sld {}
 
                         .pomp {
-                            
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
                     }
                 }
@@ -8637,242 +6977,127 @@ footer {
     }
 
     .sec3 {
-        
-
-        .trb {
-            
-        }
+        .trb {}
 
         .l_trbl {
-            
+            img {}
 
-            img {
-                
-            }
-
-            .name {
-               
-            }
+            .name {}
         }
 
         .r_trbl {
-           
-
-            .citata {
-                
-            }
+            .citata {}
         }
 
         .dreams {
-           
-
             .trbl {
-                
-
                 .trouble {
-                   
-
                     &.active {
-                        .trb_pos {
-                           
-                        }
+                        .trb_pos {}
                     }
 
-                    .trb_pos {
-                        
-                    }
+                    .trb_pos {}
 
-                    &:after, &:before {
-                        
-                    }
+                    &:after, &:before {}
 
-                    &:after {
-                       
-                    }
+                    &:after {}
 
-                    &:before {
-                        
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                            
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                            
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                       
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
                     }
 
                     p.name_pos {
-                        
-
-                        span {
-                            
-                        }
+                        span {}
                     }
                 }
             }
         }
 
         .slider8 {
-            
             .item {
-                
-
-                &.active {
-                   
-                }
+                &.active {}
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                       
-
-                        a {
-                          
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .slider-wrap_tbrl {
-              
-
                 .item {
                     .comments {
-                        
+                        p.drm {}
 
-                        p.drm {
-                            
-                        }
-
-                        p.drm_txt {
-                           
-                        }
+                        p.drm_txt {}
                     }
                 }
             }
         }
 
         form {
-            
-
             p.xotite {
-                
+                span.bl {}
 
-                span.bl {
-                    
-                }
-
-                span.pink {
-                   
-                }
+                span.pink {}
             }
 
-            .zajavka {
-               
-            }
+            .zajavka {}
 
-            input {
-               
-            }
+            input {}
 
             button.frm {
-                
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
         }
     }
 
     .sec4 {
-     
+        .fotogallery {}
 
-        .fotogallery {
-            
-        }
-
-        .gal_txt {
-           
-        }
+        .gal_txt {}
 
         .slider3 {
-           
-
-            .bx-pager {
-              
-            }
+            .bx-pager {}
 
             .slider-wrap {
                 .sld_foto {
-                    
-
-                   
-
-                    img {
-                       
-                    }
+                    img {}
                 }
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -8904,268 +7129,139 @@ footer {
             }
         }*/
         a.gotogall {
-           
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
 
         .polosa {
-           
+            .gz {}
 
-            .gz {
-               
-            }
+            .ourteam {}
 
-            .ourteam {
-               
-            }
-
-            .gz_dygga {
-               
-            }
+            .gz_dygga {}
         }
 
         .l_team {
-            
-
             .prepodi {
-                
-
                 .chl {
-                   
+                    &:after, &:before {}
 
-                    &:after, &:before {
-                      
-                    }
+                    &:after {}
 
-                    &:after {
-                       
-                    }
-
-                    &:before {
-                       
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                          
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                         
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                     
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
                     }
 
-                    img {
-                       
-                    }
+                    img {}
 
                     p.name {
-                       
-
-                        span {
-                           
-                        }
+                        span {}
                     }
                 }
             }
 
             .inf_year {
-                
-
-                .p_inf_y {
-                   
-                }
+                .p_inf_y {}
             }
         }
 
         .r_team {
-           
-
             .slider6 {
-              
-
                 .item {
-                   
-
-                    &.active {
-                       
-                    }
+                    &.active {}
                 }
 
                 .slider-wrap_comm {
                     .face {
-                        
-
-                        img {
-                            
-                        }
+                        img {}
                     }
                 }
 
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
-
-                            a {
-                                
-                            }
+                            a {}
                         }
 
                         &.right {
-                            
-
-                            a {
-                               
-                            }
+                            a {}
                         }
                     }
                 }
             }
 
             p.nmr {
-                
-
-                span {
-                    
-                }
+                span {}
             }
 
             .txt_tm {
-                
+                span.normal_txt {}
 
-                span.normal_txt {
-                   
-                }
+                &:before {}
 
-                &:before {
-                   
-                }
-
-                &:after {
-                    
-                }
+                &:after {}
             }
         }
     }
 
     .sec5 {
-       
+        p.kyrsi {}
 
-        p.kyrsi {
-           
-        }
-
-        p.kyrs_txt {
-           
-        }
+        p.kyrs_txt {}
 
         .grafik {
-           
-
-            
-
             .kln {
-               
-
                 &.td_head {
-                  
+                    .groups {}
 
-                    .groups {
-                        
-                    }
-
-                    .obychenie {
-                       
-                    }
+                    .obychenie {}
                 }
 
-                &.td1 {
-                    
-                }
+                &.td1 {}
 
-                &.td2 {
-                   
-                }
+                &.td2 {}
 
-                &.td3 {
-                    
-                }
+                &.td3 {}
 
-                &.td4 {
-                  
-                }
+                &.td4 {}
 
-                &.td5 {
-                   
-                }
+                &.td5 {}
 
                 .groups {
-                   
-
-                    span {
-                       
-                    }
+                    span {}
                 }
 
                 .obychenie {
-                   
+                    &.mytb {}
 
-                    &.mytb {
-                      
-                    }
-
-                    span {
-                       
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
+                .groups {}
 
-                .groups {
-                    
-                }
-
-                .obychenie {
-                    
-                }
+                .obychenie {}
             }
 
             .kln_l {
-               
                 .groups {}
 
                 .obychenie {}
@@ -9173,315 +7269,164 @@ footer {
         }
 
         .texnologja {
-           
-
             .slide-control_type {
                 .arr {
-                    
-
                     &.left {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .l_textn {
-               
-
                 .tryd {
-
-
-                    img {
-                       
-                    }
+                    img {}
                 }
 
                 .skidka {
-                    
-
                     // display: none;
 
                     // &.active {
                     //     display: block;
                     // }
-                    p.sk1 {
-                        
-                    }
+                    p.sk1 {}
 
-                    p.sk2 {
-                        
-                    }
+                    p.sk2 {}
                 }
-
-           
             }
 
             .slider7 {
-                
-
                 .slider-wrap_type {
                     .item {
                         .r_textn {
-                            
-
                             .txt_1 {
-                               
-
-                                span {
-                                  
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                                
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                              
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                              
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                              
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                       
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
-                            .txt_8 {
-                                
-                            }
+                            .txt_8 {}
                         }
                     }
                 }
             }
 
             button.kyrs {
-               
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
 
-            p.dlina {
-               
-            }
+            p.dlina {}
         }
 
         a.kyrsu {
-            
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
     }
 
     .sec6 {
-       
-
-        .contacts {
-            
-        }
+        .contacts {}
 
         .l_foot {
-           
-            .adrs {
-               
-            }
+            .adrs {}
         }
 
         .r_foot {
-            
-
             form {
-                
-
                 p.xotite {
-                  
+                    span.bl {}
 
-                    span.bl {
-                      
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                   
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .map {
-            
-
-            iframe {
-               
-            }
+            iframe {}
         }
     }
 
     .sec7 {
-     
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-          
-        }
+        p.krs {}
 
-        p.krs_txt {
-           
-        }
+        p.krs_txt {}
 
         .grafik {
-          
-
             .kln {
-                
-
                 &.td_head {
-                   
+                    .groups {}
 
-                    .groups {
-                        
-                    }
-
-                    .obychenie {
-                       
-                    }
+                    .obychenie {}
                 }
 
-                &.td1 {
-                  
-                }
+                &.td1 {}
 
-                &.td2 {
-                   
-                }
+                &.td2 {}
 
-                &.td3 {
-                   
-                }
+                &.td3 {}
 
-                &.td4 {
-                  
-                }
+                &.td4 {}
 
-                &.td5 {
-                   
-                }
+                &.td5 {}
 
                 .groups {
-                    
-
-                    span {
-                        
-                    }
+                    span {}
                 }
 
                 .obychenie {
-                    
+                    &.mytb {}
 
-                    &.mytb {
-                       
-                    }
-
-                    span {
-                        
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
+                .groups {}
 
-                .groups {
-                  
-                }
-
-                .obychenie {
-                   
-                }
+                .obychenie {}
             }
 
             .kln_l {
-               
-
                 .groups {}
 
                 .obychenie {}
@@ -9489,102 +7434,55 @@ footer {
         }
 
         .l_t {
-            
-
             .ceni {
-               
-
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
-
-                            a {
-                               
-                            }
+                            a {}
                         }
 
                         &.right {
-                           
-
-                            a {
-                                
-                            }
+                            a {}
                         }
                     }
                 }
 
                 .kyrsi {
-                   
                     .ceni_kyrsi {
-                        
-
                         &.ceni_akcii {
-                            .akcii_wrp {
-                                
-                            }
+                            .akcii_wrp {}
                         }
 
-                        &:after, &:before {
-                           
-                        }
+                        &:after, &:before {}
 
-                        &:after {
-                            
-                        }
+                        &:after {}
 
-                        &:before {
-                         
-                        }
+                        &:before {}
 
                         &:first-of-type {
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
 
                         &:last-of-type {
-                            &:after {
-                                
-                            }
+                            &:after {}
                         }
 
                         &.active {
-                           
-
-                            &:after, &:before {
-                            
-                            }
+                            &:after, &:before {}
 
                             .helper {
-                               
+                                &:after, &:before {}
 
-                                &:after, &:before {
-                                   
-                                }
+                                &:after {}
 
-                                &:after {
-                                  
-                                }
-
-                                &:before {
-                                  
-                                }
+                                &:before {}
                             }
                         }
 
-                        img {
-                            
-                        }
+                        img {}
 
                         p.name {
-                           
-
-                            span {
-                                
-                            }
+                            span {}
                         }
                     }
                 }
@@ -9592,119 +7490,62 @@ footer {
         }
 
         .slider9 {
-           
-
             .item {
-               
-
-                &.active {
-                   
-                }
+                &.active {}
             }
 
             .slider-wrap_ceni {
                 .item {
                     .r_t {
-                      
-
                         .teksta {
-                         
-
                             .skidka {
-                               
+                                p.sk1 {}
 
-                                p.sk1 {
-                                   
-                                }
-
-                                p.sk2 {
-                                   
-                                }
+                                p.sk2 {}
                             }
 
                             .txt_1 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                               
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                                
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                               
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                             
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                   
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
-                            .txt_8 {
-                              
-                            }
+                            .txt_8 {}
                         }
                     }
 
-                    p.dlina {
-                       
-                    }
+                    p.dlina {}
 
                     .zapisb {
-                       
-
-                        &:hover {
-                           
-                        }
+                        &:hover {}
                     }
 
                     .podrobno {
-                       
-                        &.cntr {
-                         
-                        }
+                        &.cntr {}
                     }
                 }
             }
@@ -9712,137 +7553,75 @@ footer {
     }
 
     .sec8 {
-       
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
-        p.krs_txt {
-            
-        }
+        p.krs_txt {}
 
         .slider12 {
-           
             .item {
                 .video {
-                   
-
-                    video {
-                       
-                    }
+                    video {}
                 }
             }
 
-            .bx-pager {
-             
-            }
+            .bx-pager {}
 
             .slide-control {
                 .arr {
-                 
-
                     &.left {
-                    
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                     
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
         }
 
         .polosa {
-        
-            .gz_dygga {
-               
-            }
+            .gz_dygga {}
 
-            .otzivi {
-                
-            }
+            .otzivi {}
         }
 
-        p.pystbgovor9t {
-          
-        }
+        p.pystbgovor9t {}
 
         .slider4 {
             .slider-wrap_otz {
                 .item {
                     .l_com {
-                       
-
                         .wrp_comm {
-                           
+                            &:before {}
 
-                            &:before {
-                               
-                            }
-
-                            img {
-                              
-                            }
+                            img {}
                         }
                     }
 
                     .r_com {
-                       
-
                         .wrp_comm {
-                          
-                            &:after {
-                                
-                            }
+                            &:after {}
 
-                            img {
-                               
-                            }
+                            img {}
                         }
                     }
                 }
             }
 
             .slide-control_otz {
-             
                 .arr {
-                 
-
                     &.left {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                      
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
@@ -9850,202 +7629,109 @@ footer {
     }
 
     .sec9 {
-    
         .pink {
-         
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-             
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-            
-        }
+        p.krs {}
 
         .l_sert {
-            
-
             .ft_1 {
-               
-
                 img {}
             }
 
             .ft_2 {
-                
-
                 img {}
             }
         }
 
-        .r_sert {
-          
-        }
+        .r_sert {}
 
-        button.present {
-            
-        }
+        button.present {}
     }
 
     .sec10 {
-     
-
         .pink {
-           
+            .polosa {}
 
-            .polosa {
-            
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
         .block-wrap {
             .item {
-                
-
-                &.active {
-                    
-                }
+                &.active {}
             }
         }
 
         .slider_1 {
             .ibw {
-               
                 & > .item {
-                 
-
                     &.active {
-                        .wrp_albom {
-                           
-                        }
+                        .wrp_albom {}
                     }
 
                     .wrp_albom {
-                       
-
                         .wrp_fts {
-                          
-
                             .ico1 {
-                               
+                                &:nth-of-type(3n) {}
 
-                                &:nth-of-type(3n) {
-                                   
-                                }
-
-                                a {
-                                   
-                                }
+                                a {}
                             }
                         }
 
-                        .zarabotoi {
-                            
-                        }
+                        .zarabotoi {}
                     }
                 }
             }
         }
 
         .polosa {
-         
-            .gz_dygga {
-             
-            }
+            .gz_dygga {}
 
-            .otzivi {
-               
-            }
+            .otzivi {}
 
-            p.yserdie {
-               
-            }
+            p.yserdie {}
         }
 
         .shmotki {
-           
-
             .polosa {
-              
-
-                .gz_dygga {
-                   
-                }
+                .gz_dygga {}
             }
 
             .ibw_wrap {
-               
                 .el {
-                    
+                    &.active {}
 
-                    &.active {
-                       
-                    }
+                    &:nth-of-type(4) {}
 
-                    &:nth-of-type(4) {
-                     
-                    }
+                    &:nth-of-type(5) {}
 
-                    &:nth-of-type(5) {
-                        
-                    }
+                    &:nth-of-type(6) {}
 
-                    &:nth-of-type(6) {
-                        
-                    }
-
-                    &:nth-of-type(7) {
-                        
-                    }
+                    &:nth-of-type(7) {}
 
                     &:hover,
-                    &:active {
-                        
-                    }
+                    &:active {}
 
                     p.el_txt {
-                       
-
                         &:hover,
-                        &:active {
-                           
-                        }
+                        &:active {}
                     }
                 }
             }
 
             .slide-control_gal {
-                
                 .arr {
-                    
-
                     &.left {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -10053,92 +7739,51 @@ footer {
 
         .wrp_gallery {
             .gallery {
-               
-              
-
                 .wrp_foto {
-                   
-
-                    a {
-                        
-                    }
+                    a {}
                 }
             }
         }
 
         .students_works {
             .item {
-                
-
-               
-
-                &.active {
-                  
-                }
+                &.active {}
             }
 
             &.opened {
-                .item {
-               
-                }
+                .item {}
             }
         }
 
-        .more {
-            
-        }
+        .more {}
     }
 
     footer {
-      
-
-        .logo_f {
-          
-        }
+        .logo_f {}
 
         .soc_f {
-           
+            p.h3 {}
 
-            p.h3 {
-               
-            }
+            a.vk {}
 
-            a.vk {
-               
-            }
+            a.inst {}
 
-            a.inst {
-                
-            }
-
-            p.gskw {
-               
-            }
+            p.gskw {}
         }
 
         .nmbphone {
-            
+            p.number {}
 
-            p.number {
-             
-            }
-
-            .num {
-               
-            }
+            .num {}
         }
 
         button.poleznoctb {
-           
-
-            a {
-               
-            }
+            a {}
         }
     }
-    
 }
-@media only screen and (max-width:520px) {
+
+@media only screen and (max-width: 520px) {
     .section > div,
     .head > div,
     header > div,
@@ -10146,419 +7791,220 @@ footer {
     footer > div {
         max-width: 320px;
     }
+
     header {
-        
-
         .header {
-            
-
             .ibw {
-                
-
                 .nav {
-                    
-
                     a.nv1 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv2 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv3 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv4 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv5 {
-                        
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv6 {
-                        
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
 
                     a.nv7 {
-                       
-
                         &:hover,
-                        &:active {
-                            
-                        }
+                        &:active {}
                     }
                 }
 
-                button.bonus {
-                   
-                }
+                button.bonus {}
             }
 
             .call {
-                
+                a.phone {}
 
-                a.phone {
-                    
-                }
-
-                .phoneback {
-                    
-                }
+                .phoneback {}
             }
         }
     }
 
     .sec1 {
-       font-size: 20px;
-
-        .logo {
-            
-        }
+        .logo {}
 
         .wrap {
-           
-
             .information {
-               
-
                 .adress {
-                    p.txt {
-                       
-                    }
+                    p.txt {}
 
-                    p.ad {
-                       
-                    }
+                    p.ad {}
                 }
             }
 
             .soc {
-               
+                p.h3 {}
 
-                p.h3 {
-                    
-                }
+                a.vk {}
 
-                a.vk {
-                    
-                }
+                a.inst {}
 
-                a.inst {
-                    
-                }
-
-                p.gskw {
-                   
-                }
+                p.gskw {}
             }
         }
 
         .school_l {
-            
+            .wnyr {}
 
-            .wnyr {
-               
-            }
-
-            h3 {
-                
-            }
+            h3 {}
 
             .sch_txt {
-                
+                .new {}
 
-                .new {
-                    
-                }
-
-                .smtxt {
-                   
-                }
+                .smtxt {}
 
                 .machine {
-                   
-
                     .wrp_machine {
-                        
+                        p.free {}
 
-                        p.free {
-                            
-                        }
-
-                        p.txtsm {
-                            
-                        }
+                        p.txtsm {}
                     }
                 }
             }
         }
 
         .school_r {
-            
-
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                       
-                    }
+                    &:hover {}
                 }
             }
         }
     }
 
     .sec2 {
-        
-
-        h2 {
-            
-        }
+        h2 {}
 
         .bonus_l {
-           
-
             .wrp_met {
-                
-
-                p.forme {
-                    
-                }
+                p.forme {}
 
                 p.formetxt {
-                   
-
-                    span.fin {
-                       
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .bonus_r {
-            
-
             .wrp_met {
-               
-
-                p.tkanb {
-                    
-                }
+                p.tkanb {}
 
                 p.tkanbtxt {
-                    
-
-                    span.fin {
-                        
-                    }
+                    span.fin {}
                 }
             }
         }
 
         .dyg_wrp {
-            
+            .dyga {}
 
-            .dyga {
-               
-            }
-
-            button.dwnlmetod {
-               
-            }
+            button.dwnlmetod {}
         }
 
-        .how {
-            
-        }
+        .how {}
 
         .wrp_how {
-            
+            &:after {}
 
-            &:after {
-              
-            }
+            &:before {}
 
-            &:before {
-                
-            }
-
-            .how_txt {
-                
-            }
+            .how_txt {}
         }
 
         .wrp_step {
-           
+            .dyga {}
 
-            .dyga {
-                
-            }
+            .punkt1 {}
 
-            .punkt1 {
-                
-            }
+            .punkt2 {}
 
-            .punkt2 {
-                
-            }
+            .punkt3 {}
 
-            .punkt3 {
-                
-            }
+            .punkt4 {}
 
-            .punkt4 {
-                
-            }
+            .punkt5 {}
 
-            .punkt5 {
-                
-            }
+            .punkt6 {}
 
-            .punkt6 {
-               
-            }
+            .punkt7 {}
 
-            .punkt7 {
-                
-            }
-
-            .punkt8 {
-                
-            }
+            .punkt8 {}
 
             .dota {
-                
-
                 &.active {
-                    .step {
-                        
-                    }
+                    .step {}
                 }
 
-                .step {
-                    
-                }
+                .step {}
 
-                .steptxt {
-                    
-                }
+                .steptxt {}
             }
         }
 
         .left_form {
-            
-
             form {
                 p.xotite {
-                    
+                    span.bl {}
 
-                    span.bl {
-                        
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                   
-                }
+                .zajavka {}
 
-                input {
-                    
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .slider10 {
-           
-
             .item {
-                
-
-                &.active {
-                }
+                &.active {}
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                        
-
-                        a {
-                           
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -10566,74 +8012,40 @@ footer {
             .slider-wrap_obych {
                 .item {
                     .dot_fot_wrap {
-                       
-
                         img {
-                            
-
-                            &.gor_dot_fot_wrap {
-                               
-                            }
+                            &.gor_dot_fot_wrap {}
                         }
 
-                        &.gor_fot {
-                           
-                        }
+                        &.gor_fot {}
                     }
 
                     .left_form {
-                        
-
                         form {
                             p.xotite {
-                                
+                                span.bl {}
 
-                                span.bl {
-                                    
-                                }
-
-                                span.pink {
-                                    
-                                }
+                                span.pink {}
                             }
 
-                            .zajavka {
-                                
-                            }
+                            .zajavka {}
 
-                            input {
-                                
-                            }
+                            input {}
 
                             button.frm {
-                               
-
-                                &:hover {
-                                   
-                                }
+                                &:hover {}
                             }
                         }
                     }
 
                     .right_sld {
-                        
-
                         &:before {}
 
-                        p.p_sld {
-                            
-                        }
+                        p.p_sld {}
 
-                        p.txt_sld {
-                            
-                        }
+                        p.txt_sld {}
 
                         .pomp {
-                            
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
                     }
                 }
@@ -10642,242 +8054,127 @@ footer {
     }
 
     .sec3 {
-        
-
-        .trb {
-            
-        }
+        .trb {}
 
         .l_trbl {
-            
+            img {}
 
-            img {
-                
-            }
-
-            .name {
-               
-            }
+            .name {}
         }
 
         .r_trbl {
-           
-
-            .citata {
-                
-            }
+            .citata {}
         }
 
         .dreams {
-           
-
             .trbl {
-                
-
                 .trouble {
-                   
-
                     &.active {
-                        .trb_pos {
-                           
-                        }
+                        .trb_pos {}
                     }
 
-                    .trb_pos {
-                        
-                    }
+                    .trb_pos {}
 
-                    &:after, &:before {
-                        
-                    }
+                    &:after, &:before {}
 
-                    &:after {
-                       
-                    }
+                    &:after {}
 
-                    &:before {
-                        
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                            
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                            
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                       
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                               
-                            }
+                            &:before {}
                         }
                     }
 
                     p.name_pos {
-                        
-
-                        span {
-                            
-                        }
+                        span {}
                     }
                 }
             }
         }
 
         .slider8 {
-            
             .item {
-                
-
-                &.active {
-                   
-                }
+                &.active {}
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                       
-
-                        a {
-                          
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .slider-wrap_tbrl {
-              
-
                 .item {
                     .comments {
-                        
+                        p.drm {}
 
-                        p.drm {
-                            
-                        }
-
-                        p.drm_txt {
-                           
-                        }
+                        p.drm_txt {}
                     }
                 }
             }
         }
 
         form {
-            
-
             p.xotite {
-                
+                span.bl {}
 
-                span.bl {
-                    
-                }
-
-                span.pink {
-                   
-                }
+                span.pink {}
             }
 
-            .zajavka {
-               
-            }
+            .zajavka {}
 
-            input {
-               
-            }
+            input {}
 
             button.frm {
-                
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
         }
     }
 
     .sec4 {
-     
+        .fotogallery {}
 
-        .fotogallery {
-            
-        }
-
-        .gal_txt {
-           
-        }
+        .gal_txt {}
 
         .slider3 {
-           
-
-            .bx-pager {
-              
-            }
+            .bx-pager {}
 
             .slider-wrap {
                 .sld_foto {
-                    
-
-                   
-
-                    img {
-                       
-                    }
+                    img {}
                 }
             }
 
             .slide-control {
                 .arr {
-                   
-
                     &.left {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                        
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -10909,268 +8206,139 @@ footer {
             }
         }*/
         a.gotogall {
-           
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
 
         .polosa {
-           
+            .gz {}
 
-            .gz {
-               
-            }
+            .ourteam {}
 
-            .ourteam {
-               
-            }
-
-            .gz_dygga {
-               
-            }
+            .gz_dygga {}
         }
 
         .l_team {
-            
-
             .prepodi {
-                
-
                 .chl {
-                   
+                    &:after, &:before {}
 
-                    &:after, &:before {
-                      
-                    }
+                    &:after {}
 
-                    &:after {
-                       
-                    }
-
-                    &:before {
-                       
-                    }
+                    &:before {}
 
                     &:first-of-type {
-                        &:before {
-                          
-                        }
+                        &:before {}
                     }
 
                     &:last-of-type {
-                        &:after {
-                         
-                        }
+                        &:after {}
                     }
 
                     &.active {
-                     
-
-                        &:after, &:before {
-                            
-                        }
+                        &:after, &:before {}
 
                         .helper {
-                            
+                            &:after, &:before {}
 
-                            &:after, &:before {
-                                
-                            }
+                            &:after {}
 
-                            &:after {
-                                
-                            }
-
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
                     }
 
-                    img {
-                       
-                    }
+                    img {}
 
                     p.name {
-                       
-
-                        span {
-                           
-                        }
+                        span {}
                     }
                 }
             }
 
             .inf_year {
-                
-
-                .p_inf_y {
-                   
-                }
+                .p_inf_y {}
             }
         }
 
         .r_team {
-           
-
             .slider6 {
-              
-
                 .item {
-                   
-
-                    &.active {
-                       
-                    }
+                    &.active {}
                 }
 
                 .slider-wrap_comm {
                     .face {
-                        
-
-                        img {
-                            
-                        }
+                        img {}
                     }
                 }
 
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
-
-                            a {
-                                
-                            }
+                            a {}
                         }
 
                         &.right {
-                            
-
-                            a {
-                               
-                            }
+                            a {}
                         }
                     }
                 }
             }
 
             p.nmr {
-                
-
-                span {
-                    
-                }
+                span {}
             }
 
             .txt_tm {
-                
+                span.normal_txt {}
 
-                span.normal_txt {
-                   
-                }
+                &:before {}
 
-                &:before {
-                   
-                }
-
-                &:after {
-                    
-                }
+                &:after {}
             }
         }
     }
 
     .sec5 {
-       
+        p.kyrsi {}
 
-        p.kyrsi {
-           
-        }
-
-        p.kyrs_txt {
-           
-        }
+        p.kyrs_txt {}
 
         .grafik {
-           
-
-            
-
             .kln {
-               
-
                 &.td_head {
-                  
+                    .groups {}
 
-                    .groups {
-                        
-                    }
-
-                    .obychenie {
-                       
-                    }
+                    .obychenie {}
                 }
 
-                &.td1 {
-                    
-                }
+                &.td1 {}
 
-                &.td2 {
-                   
-                }
+                &.td2 {}
 
-                &.td3 {
-                    
-                }
+                &.td3 {}
 
-                &.td4 {
-                  
-                }
+                &.td4 {}
 
-                &.td5 {
-                   
-                }
+                &.td5 {}
 
                 .groups {
-                   
-
-                    span {
-                       
-                    }
+                    span {}
                 }
 
                 .obychenie {
-                   
+                    &.mytb {}
 
-                    &.mytb {
-                      
-                    }
-
-                    span {
-                       
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
+                .groups {}
 
-                .groups {
-                    
-                }
-
-                .obychenie {
-                    
-                }
+                .obychenie {}
             }
 
             .kln_l {
-               
                 .groups {}
 
                 .obychenie {}
@@ -11178,315 +8346,164 @@ footer {
         }
 
         .texnologja {
-           
-
             .slide-control_type {
                 .arr {
-                    
-
                     &.left {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
 
             .l_textn {
-               
-
                 .tryd {
-
-
-                    img {
-                       
-                    }
+                    img {}
                 }
 
                 .skidka {
-                    
-
                     // display: none;
 
                     // &.active {
                     //     display: block;
                     // }
-                    p.sk1 {
-                        
-                    }
+                    p.sk1 {}
 
-                    p.sk2 {
-                        
-                    }
+                    p.sk2 {}
                 }
-
-           
             }
 
             .slider7 {
-                
-
                 .slider-wrap_type {
                     .item {
                         .r_textn {
-                            
-
                             .txt_1 {
-                               
-
-                                span {
-                                  
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                                
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                              
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                              
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                              
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                       
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
-                            .txt_8 {
-                                
-                            }
+                            .txt_8 {}
                         }
                     }
                 }
             }
 
             button.kyrs {
-               
-
-                &:hover {
-                   
-                }
+                &:hover {}
             }
 
-            p.dlina {
-               
-            }
+            p.dlina {}
         }
 
         a.kyrsu {
-            
-
-            &:hover {
-                
-            }
+            &:hover {}
         }
     }
 
     .sec6 {
-       
-
-        .contacts {
-            
-        }
+        .contacts {}
 
         .l_foot {
-           
-            .adrs {
-               
-            }
+            .adrs {}
         }
 
         .r_foot {
-            
-
             form {
-                
-
                 p.xotite {
-                  
+                    span.bl {}
 
-                    span.bl {
-                      
-                    }
-
-                    span.pink {
-                        
-                    }
+                    span.pink {}
                 }
 
-                .zajavka {
-                    
-                }
+                .zajavka {}
 
-                input {
-                   
-                }
+                input {}
 
                 button.frm {
-                    
-
-                    &:hover {
-                        
-                    }
+                    &:hover {}
                 }
             }
         }
 
         .map {
-            
-
-            iframe {
-               
-            }
+            iframe {}
         }
     }
 
     .sec7 {
-     
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-          
-        }
+        p.krs {}
 
-        p.krs_txt {
-           
-        }
+        p.krs_txt {}
 
         .grafik {
-          
-
             .kln {
-                
-
                 &.td_head {
-                   
+                    .groups {}
 
-                    .groups {
-                        
-                    }
-
-                    .obychenie {
-                       
-                    }
+                    .obychenie {}
                 }
 
-                &.td1 {
-                  
-                }
+                &.td1 {}
 
-                &.td2 {
-                   
-                }
+                &.td2 {}
 
-                &.td3 {
-                   
-                }
+                &.td3 {}
 
-                &.td4 {
-                  
-                }
+                &.td4 {}
 
-                &.td5 {
-                   
-                }
+                &.td5 {}
 
                 .groups {
-                    
-
-                    span {
-                        
-                    }
+                    span {}
                 }
 
                 .obychenie {
-                    
+                    &.mytb {}
 
-                    &.mytb {
-                       
-                    }
-
-                    span {
-                        
-                    }
+                    span {}
                 }
             }
 
             .kln_b {
-                
+                .groups {}
 
-                .groups {
-                  
-                }
-
-                .obychenie {
-                   
-                }
+                .obychenie {}
             }
 
             .kln_l {
-               
-
                 .groups {}
 
                 .obychenie {}
@@ -11494,102 +8511,55 @@ footer {
         }
 
         .l_t {
-            
-
             .ceni {
-               
-
                 .slide-control {
                     .arr {
-                        
-
                         &.left {
-                           
-
-                            a {
-                               
-                            }
+                            a {}
                         }
 
                         &.right {
-                           
-
-                            a {
-                                
-                            }
+                            a {}
                         }
                     }
                 }
 
                 .kyrsi {
-                   
                     .ceni_kyrsi {
-                        
-
                         &.ceni_akcii {
-                            .akcii_wrp {
-                                
-                            }
+                            .akcii_wrp {}
                         }
 
-                        &:after, &:before {
-                           
-                        }
+                        &:after, &:before {}
 
-                        &:after {
-                            
-                        }
+                        &:after {}
 
-                        &:before {
-                         
-                        }
+                        &:before {}
 
                         &:first-of-type {
-                            &:before {
-                                
-                            }
+                            &:before {}
                         }
 
                         &:last-of-type {
-                            &:after {
-                                
-                            }
+                            &:after {}
                         }
 
                         &.active {
-                           
-
-                            &:after, &:before {
-                            
-                            }
+                            &:after, &:before {}
 
                             .helper {
-                               
+                                &:after, &:before {}
 
-                                &:after, &:before {
-                                   
-                                }
+                                &:after {}
 
-                                &:after {
-                                  
-                                }
-
-                                &:before {
-                                  
-                                }
+                                &:before {}
                             }
                         }
 
-                        img {
-                            
-                        }
+                        img {}
 
                         p.name {
-                           
-
-                            span {
-                                
-                            }
+                            span {}
                         }
                     }
                 }
@@ -11597,119 +8567,62 @@ footer {
         }
 
         .slider9 {
-           
-
             .item {
-               
-
-                &.active {
-                   
-                }
+                &.active {}
             }
 
             .slider-wrap_ceni {
                 .item {
                     .r_t {
-                      
-
                         .teksta {
-                         
-
                             .skidka {
-                               
+                                p.sk1 {}
 
-                                p.sk1 {
-                                   
-                                }
-
-                                p.sk2 {
-                                   
-                                }
+                                p.sk2 {}
                             }
 
                             .txt_1 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
-                            .txt_2 {
-                               
-                            }
+                            .txt_2 {}
 
                             .txt_3 {
-                                
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_4 {
-                               
-
-                                span {
-                                    
-                                }
+                                span {}
                             }
 
                             .txt_5 {
-                               
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
                             .txt_6 {
-                             
-
-                                p.takge {
-                                 
-                                }
+                                p.takge {}
 
                                 p.pnk {
-                                   
-
-                                    &:before {
-                                   
-                                    }
+                                    &:before {}
                                 }
                             }
 
                             .txt_7 {
-                             
-
-                                span {
-                                   
-                                }
+                                span {}
                             }
 
-                            .txt_8 {
-                              
-                            }
+                            .txt_8 {}
                         }
                     }
 
-                    p.dlina {
-                       
-                    }
+                    p.dlina {}
 
                     .zapisb {
-                       
-
-                        &:hover {
-                           
-                        }
+                        &:hover {}
                     }
 
                     .podrobno {
-                       
-                        &.cntr {
-                         
-                        }
+                        &.cntr {}
                     }
                 }
             }
@@ -11717,137 +8630,75 @@ footer {
     }
 
     .sec8 {
-       
-
         .pink {
-            
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
-        p.krs_txt {
-            
-        }
+        p.krs_txt {}
 
         .slider12 {
-           
             .item {
                 .video {
-                   
-
-                    video {
-                       
-                    }
+                    video {}
                 }
             }
 
-            .bx-pager {
-             
-            }
+            .bx-pager {}
 
             .slide-control {
                 .arr {
-                 
-
                     &.left {
-                    
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                     
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
         }
 
         .polosa {
-        
-            .gz_dygga {
-               
-            }
+            .gz_dygga {}
 
-            .otzivi {
-                
-            }
+            .otzivi {}
         }
 
-        p.pystbgovor9t {
-          
-        }
+        p.pystbgovor9t {}
 
         .slider4 {
             .slider-wrap_otz {
                 .item {
                     .l_com {
-                       
-
                         .wrp_comm {
-                           
+                            &:before {}
 
-                            &:before {
-                               
-                            }
-
-                            img {
-                              
-                            }
+                            img {}
                         }
                     }
 
                     .r_com {
-                       
-
                         .wrp_comm {
-                          
-                            &:after {
-                                
-                            }
+                            &:after {}
 
-                            img {
-                               
-                            }
+                            img {}
                         }
                     }
                 }
             }
 
             .slide-control_otz {
-             
                 .arr {
-                 
-
                     &.left {
-                       
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                      
-
-                        a {
-                            
-                        }
+                        a {}
                     }
                 }
             }
@@ -11855,202 +8706,109 @@ footer {
     }
 
     .sec9 {
-    
         .pink {
-         
+            .polosa {}
 
-            .polosa {
-               
-            }
-
-            .kyrsi_ceni {
-             
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-            
-        }
+        p.krs {}
 
         .l_sert {
-            
-
             .ft_1 {
-               
-
                 img {}
             }
 
             .ft_2 {
-                
-
                 img {}
             }
         }
 
-        .r_sert {
-          
-        }
+        .r_sert {}
 
-        button.present {
-            
-        }
+        button.present {}
     }
 
     .sec10 {
-     
-
         .pink {
-           
+            .polosa {}
 
-            .polosa {
-            
-            }
-
-            .kyrsi_ceni {
-                
-            }
+            .kyrsi_ceni {}
         }
 
-        p.krs {
-           
-        }
+        p.krs {}
 
         .block-wrap {
             .item {
-                
-
-                &.active {
-                    
-                }
+                &.active {}
             }
         }
 
         .slider_1 {
             .ibw {
-               
                 & > .item {
-                 
-
                     &.active {
-                        .wrp_albom {
-                           
-                        }
+                        .wrp_albom {}
                     }
 
                     .wrp_albom {
-                       
-
                         .wrp_fts {
-                          
-
                             .ico1 {
-                               
+                                &:nth-of-type(3n) {}
 
-                                &:nth-of-type(3n) {
-                                   
-                                }
-
-                                a {
-                                   
-                                }
+                                a {}
                             }
                         }
 
-                        .zarabotoi {
-                            
-                        }
+                        .zarabotoi {}
                     }
                 }
             }
         }
 
         .polosa {
-         
-            .gz_dygga {
-             
-            }
+            .gz_dygga {}
 
-            .otzivi {
-               
-            }
+            .otzivi {}
 
-            p.yserdie {
-               
-            }
+            p.yserdie {}
         }
 
         .shmotki {
-           
-
             .polosa {
-              
-
-                .gz_dygga {
-                   
-                }
+                .gz_dygga {}
             }
 
             .ibw_wrap {
-               
                 .el {
-                    
+                    &.active {}
 
-                    &.active {
-                       
-                    }
+                    &:nth-of-type(4) {}
 
-                    &:nth-of-type(4) {
-                     
-                    }
+                    &:nth-of-type(5) {}
 
-                    &:nth-of-type(5) {
-                        
-                    }
+                    &:nth-of-type(6) {}
 
-                    &:nth-of-type(6) {
-                        
-                    }
-
-                    &:nth-of-type(7) {
-                        
-                    }
+                    &:nth-of-type(7) {}
 
                     &:hover,
-                    &:active {
-                        
-                    }
+                    &:active {}
 
                     p.el_txt {
-                       
-
                         &:hover,
-                        &:active {
-                           
-                        }
+                        &:active {}
                     }
                 }
             }
 
             .slide-control_gal {
-                
                 .arr {
-                    
-
                     &.left {
-                        
-
-                        a {
-                            
-                        }
+                        a {}
                     }
 
                     &.right {
-                       
-
-                        a {
-                           
-                        }
+                        a {}
                     }
                 }
             }
@@ -12058,91 +8816,50 @@ footer {
 
         .wrp_gallery {
             .gallery {
-               
-              
-
                 .wrp_foto {
-                   
-
-                    a {
-                        
-                    }
+                    a {}
                 }
             }
         }
 
         .students_works {
             .item {
-                
-
-               
-
-                &.active {
-                  
-                }
+                &.active {}
             }
 
             &.opened {
-                .item {
-               
-                }
+                .item {}
             }
         }
 
-        .more {
-            
-        }
+        .more {}
     }
 
     footer {
-      
-
-        .logo_f {
-          
-        }
+        .logo_f {}
 
         .soc_f {
-           
+            p.h3 {}
 
-            p.h3 {
-               
-            }
+            a.vk {}
 
-            a.vk {
-               
-            }
+            a.inst {}
 
-            a.inst {
-                
-            }
-
-            p.gskw {
-               
-            }
+            p.gskw {}
         }
 
         .nmbphone {
-            
+            p.number {}
 
-            p.number {
-             
-            }
-
-            .num {
-               
-            }
+            .num {}
         }
 
         button.poleznoctb {
-           
-
-            a {
-               
-            }
+            a {}
         }
     }
-    
 }
+
 .pop_z {
     form {
         width: 359px;
