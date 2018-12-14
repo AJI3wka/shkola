@@ -4,7 +4,7 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:2054/livereload.js"></script>
+        <script src="http://localhost:1753/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
@@ -135,8 +135,8 @@
                                             <p class="txt_8">16 практических занятий (2 месяца)<br>
                                             2 раза в неделю по 3 часа каждое</p>
                                             <div class="skidka">
-                                                <p class="sk1">8 450 рублей/месяц</p>
-                                                <p class="sk2">6 950 рублей/месяц</p>
+                                                <p class="sk1">8 450 рублей<span class="month">/месяц</span></p>
+                                                <p class="sk2">6 950 рублей<span class="month">/месяц</span></p>
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
@@ -175,8 +175,8 @@
                                             <p class="txt_8">16 практических занятий (2 месяца)
                                             <br>2 раза в неделю по 3 часа каждое</p>
                                             <div class="skidka">
-                                                <p class="sk1">9 450 рублей/месяц</p>
-                                                <p class="sk2">6 950 рублей/месяц</p>
+                                                <p class="sk1">9 450 рублей<span class="month">/месяц</p>
+                                                <p class="sk2">6 950 рублей<span class="month">/месяц</p>
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
@@ -208,7 +208,7 @@
                                             
                                             <div class="skidka">
                                                 <!--<p class="sk1">8 450 рублей/месяц</p>-->
-                                                <p class="sk2">9 900 рублей за весь курс</p>
+                                                <p class="sk2">9 900 рублей за <span class="month">весь</span> курс</p>
                                             </div>
                                         </div>
                                         <button class="zapisb" data-id="palto">Записаться на курс</button>
@@ -248,8 +248,8 @@
                                         <p class="txt_8">15 практических занятий (2 месяца)<br>2 раза в неделю по 3 часа каждое
                                         </p>
                                         <div class="skidka">
-                                            <p class="sk1">9 450 рублей/месяц</p>
-                                            <p class="sk2">7 450 рублей/месяц</p>
+                                            <p class="sk1">9 450 рублей<span class="month">/месяц</span></p>
+                                            <p class="sk2">7 450 рублей<span class="month">/месяц</span></p>
                                         </div>
                                     </div>
                                     <p class="dlina">Длительность курса 2 месяца</p>
@@ -288,8 +288,8 @@
                                         <p class="txt_8">График: подбирается индивидуально 16 практических занятий по 3 часа каждое
                                         </p>
                                         <div class="skidka">
-                                            <p class="sk1">38 680 рублей за весь курс</p>
-                                            <p class="sk2">32 900 рублей за весь курс</p>
+                                            <p class="sk1">38 680 <span class="krs">рублей</span> <span class="month">за <span class="krs">весь</span> курс</span></p>
+                                            <p class="sk2">32 900 <span class="krs">рублей</span> <span class="month">за<span class="krs"> весь</span> </span>курс</p>
                                         </div>
                                     </div>
                                     
@@ -556,6 +556,6 @@
             </div>
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
             <script src="js/init.js"></script>
-            <!--<div id="maket"></div>-->
+           <div id="maket"></div>
         </body>
     </html>

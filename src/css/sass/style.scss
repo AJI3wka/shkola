@@ -16,7 +16,6 @@ $dark: #141414;
 
 @mixin sec {
     width: 100%;
-    min-width: $wievport;
     overflow: hidden;
     position: relative;
     z-index: 2;
@@ -110,7 +109,7 @@ footer {
 }
 
 header {
-    height: 85px;
+    height: 68px;
     background-color: white;
     overflow: inherit;
     position: fixed;
@@ -224,7 +223,7 @@ header {
                 margin-right: 13px;
                 background-image: url(../img/bonus.png);
                 border-radius: 10px;
-                margin-top: 5px;
+                margin-top: 3px;
                 border: none;
                 padding-left: 25px;
                 background-color: transparent;
@@ -366,8 +365,8 @@ header {
             position: absolute;
             width: 218px;
             background-image: url(../img/wnyr.png);
-            right: -236px;
-            top: 92px;
+            right: -233px;
+            top: 95px;
         }
 
         h3 {
@@ -527,7 +526,7 @@ header {
 }
 
 .sec2 {
-    padding-bottom: 39px;
+    padding-bottom: 33px;
     padding-top: 39px;
     background-color: #fcfcfc;
 
@@ -544,7 +543,7 @@ header {
     .bonus_l {
         float: left;
         width: 571px;
-        margin-bottom: 35px;
+        margin-bottom: 30px;
 
         .wrp_met {
             background-image: url(../img/metod1.png);
@@ -778,6 +777,7 @@ header {
 
             .step {
                 width: 44px;
+                font-size: 20px;
                 height: 44px;
                 background-color: #fcfcfc;
                 border: 2px solid #be3f67;
@@ -991,7 +991,8 @@ header {
                     background-color: white;
                     border-radius: 6px;
                     background-image: url(../img/ramka3.png);
-                    background-position: 8px 5px;
+                    margin-top: 7px;
+                    background-position: 7px -1px;
                     position: relative;
                     box-shadow: 0 -1px 13px rgba(0, 0, 0, 0.06);
 
@@ -1002,7 +1003,7 @@ header {
                             font-weight: 700;
                             color: #100f10;
                             text-align: left;
-                            padding-top: 52px;
+                            padding-top: 47px;
                             padding-left: 27px;
                             line-height: 24px;
                             letter-spacing: 0.6px;
@@ -1179,9 +1180,9 @@ header {
         float: left;
         margin-left: 31px;
         margin-top: 16px;
-        margin-right: 46px;
+        margin-right: 67px;
         position: relative;
-        width: 355px;
+        width: 330px;
         background-position: center 0px;
         cursor: pointer;
 
@@ -1519,21 +1520,19 @@ header {
         font-weight: 300;
         color: #252424;
         text-align: center;
+        margin-bottom: 29px;
     }
 
     .slider3 {
-        margin-bottom: 63px;
-
         .bx-pager {
             position: relative;
-            top: 40px;
+            top: 16px;
         }
 
         .slider-wrap {
             .sld_foto {
                 width: 945px;
                 height: 445px;
-                margin: 28px auto 0;
 
                 // border-radius: 10px;
                 margin-bottom: 15px;
@@ -1696,7 +1695,7 @@ header {
 
     .l_team {
         float: left;
-        width: 346px;
+        width: 328px;
         background-color: #fefefe;
         border-radius: 4px;
         margin-left: 127px;
@@ -1957,6 +1956,14 @@ header {
             color: #3a3737;
             position: relative;
 
+            br.m1 {
+                display: none;
+            }
+
+            br {
+                display: block;
+            }
+
             span.normal_txt {
                 font-style: normal;
                 font-weight: 400;
@@ -1993,7 +2000,7 @@ header {
     background-image: url(../img/bg3.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    height: 1048px;
+    height: 1046px;
 
     p.kyrsi {
         text-shadow: 0 1px 3px rgba(30, 7, 17, 0.64);
@@ -2267,7 +2274,7 @@ header {
                 p.sk2 {
                     font-size: 27px;
                     font-weight: 600;
-                    height: 41px;
+                    height: 43px;
                     background-color: #b0386d;
                     letter-spacing: 1.4px;
                     color: white;
@@ -2495,14 +2502,15 @@ header {
 
     .l_foot {
         float: left;
-        margin-left: 82px;
+        margin-left: 80px;
         width: 612px;
 
         .adrs {
             height: 61px;
+            margin-top: 373px;
+            line-height: 21px;
             display: block;
             margin-left: 0px;
-            margin-top: 371px;
             padding-left: 21px;
             padding-top: 10px;
             color: white;
@@ -2626,9 +2634,9 @@ header {
     background-color: #fcfcfc;
 
     .pink {
-        margin-top: 89px;
         position: relative;
-        height: 77px;
+        height: 78px;
+        margin-top: 68px;
 
         .polosa {
             background-image: url(../img/bgcen.jpg);
@@ -2636,7 +2644,7 @@ header {
             position: absolute;
             margin-left: -100%;
             left: 50%;
-            height: 77px;
+            height: 78px;
             z-index: -1;
         }
 
@@ -2812,11 +2820,11 @@ header {
         .ceni {
             clear: both;
             float: left;
-            margin-left: 31px;
-            margin-top: 16px;
+            margin-left: 0px;
             margin-right: 46px;
+            margin-top: 0;
+            width: 329px;
             position: relative;
-            width: 355px;
             background-position: center 0px;
 
             .slide-control {
@@ -2832,8 +2840,8 @@ header {
                         background-image: url(../img/arr_l.png);
                         cursor: pointer;
                         position: absolute;
-                        top: 560px;
-                        left: 100px;
+                        top: 616px;
+                        left: 122px;
                         background-repeat: no-repeat;
 
                         a {
@@ -2855,8 +2863,8 @@ header {
                         background-image: url(../img/arr_l.png);
                         cursor: pointer;
                         transform: rotate(180deg);
-                        top: 560px;
-                        right: 100px;
+                        top: 616px;
+                        right: 103px;
                         background-repeat: no-repeat;
 
                         a {
@@ -3020,13 +3028,13 @@ header {
 
                     .teksta {
                         background-image: url(../img/ramka8.png);
-                        background-position: 7px 8px;
+                        background-position: 7px 20px;
                         width: 567px;
                         background-color: white;
                         border-radius: 4px;
                         box-shadow: 0 -1px 8px rgba(43, 28, 34, 0.36);
-                        margin-bottom: 27px;
-                        height: 612px;
+                        margin-bottom: 20px;
+                        height: 636px;
                         text-align: left;
                         position: relative;
 
@@ -3056,7 +3064,8 @@ header {
                             p.sk2 {
                                 font-size: 27px;
                                 font-weight: 600;
-                                height: 34px;
+                                height: 43px;
+                                line-height: 43px;
                                 background-color: #b0386d;
                                 letter-spacing: 1.4px;
                                 color: white;
@@ -3090,7 +3099,7 @@ header {
                         .txt_2 {
                             font-size: 16px;
                             color: #100f10;
-                            margin-bottom: 16px;
+                            margin-bottom: 10px;
                             letter-spacing: 0.2px;
                             padding-left: 44px;
                             line-height: 20px;
@@ -3214,7 +3223,7 @@ header {
                     line-height: 44px;
                     transition: all 0.25s;
                     font-weight: 700;
-                    margin-bottom: 40px;
+                    margin-bottom: 53px;
 
                     &:hover {
                         background-color: #f1e32e;
@@ -3248,8 +3257,8 @@ header {
     background-color: #fcfcfc;
 
     .pink {
-        margin-top: 89px;
         position: relative;
+        margin-top: 69px;
         height: 77px;
 
         .polosa {
@@ -3258,7 +3267,7 @@ header {
             position: absolute;
             margin-left: -100%;
             left: 50%;
-            height: 77px;
+            height: 78px;
             z-index: -1;
         }
 
@@ -3553,7 +3562,7 @@ header {
     background-color: #fcfcfc;
 
     .pink {
-        margin-top: 89px;
+        margin-top: 69px;
         position: relative;
         height: 77px;
 
@@ -3640,7 +3649,7 @@ header {
     background-color: #fcfcfc;
 
     .pink {
-        margin-top: 89px;
+        margin-top: 69px;
         position: relative;
         height: 77px;
 
@@ -3687,7 +3696,7 @@ header {
     .slider_1 {
         .ibw {
             margin-left: 46px;
-            margin-bottom: 49px;
+            margin-bottom: 41px;
 
             & > .item {
                 cursor: pointer;
@@ -3698,13 +3707,13 @@ header {
                         top: -10px;
                         background-image: linear-gradient(to top, transparent 0%, transparent 1%, transparent 100%);
                         box-shadow: 0 -1px 75px rgba(30, 30, 36, 0.9);
-                        width: 230px;
+                        width: 229px;
                         height: 290px;
                     }
                 }
 
                 .wrp_albom {
-                    width: 220px;
+                    width: 219px;
                     height: 284px;
                     border-radius: 8px;
                     color: white;
@@ -3801,7 +3810,7 @@ header {
         background-image: url(../img/ramka11.png);
         background-color: white;
         margin: 0 auto;
-        margin-bottom: 27px;
+        margin-bottom: 11px;
         position: relative;
 
         .polosa {
@@ -3834,7 +3843,6 @@ header {
                 margin-left: 10px;
                 margin-right: 5px;
                 cursor: pointer;
-                transition: all 0.25s;
                 color: #989595;
                 line-height: 55px;
 
@@ -3899,7 +3907,7 @@ header {
                     background-image: url(../img/arr_l.png);
                     cursor: pointer;
                     position: absolute;
-                    left: -95px;
+                    left: -97px;
                     top: -23px;
                     background-repeat: no-repeat;
 
@@ -3922,7 +3930,7 @@ header {
                     background-image: url(../img/arr_l.png);
                     cursor: pointer;
                     transform: rotate(180deg);
-                    right: -95px;
+                    right: -97px;
                     top: -23px;
                     z-index: 2;
                     background-repeat: no-repeat;
@@ -4016,8 +4024,8 @@ footer {
         height: 58px;
         background-image: url(../img/logo.png);
         background-size: contain;
+        margin-left: 79px;
         margin-top: 9px;
-        margin-left: 102px;
     }
 
     .soc_f {
@@ -4113,6 +4121,17 @@ footer {
         }
     }
 }
+
+/*#maket {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    background: url(../maket.jpg) no-repeat top center;
+    height: 13200px;
+    opacity: 0.5;
+    z-index: 10;
+}*/
 
 @media only screen and (max-width: 1200px) {
     .section > div,
@@ -4824,7 +4843,9 @@ footer {
 
                 &.td4 {}
 
-                &.td5 {}
+                &.td5 {
+                    width: 23.3%;
+                }
 
                 .groups {
                     span {}
@@ -4977,6 +4998,8 @@ footer {
 
     .sec7 {
         .pink {
+            margin-top: 78px;
+
             .polosa {}
 
             .kyrsi_ceni {}
@@ -4987,28 +5010,50 @@ footer {
         p.krs_txt {}
 
         .grafik {
+            margin: 0 auto 130px;
+
             .kln {
                 &.td_head {
-                    .groups {}
+                    width: 13.5%;
 
-                    .obychenie {}
+                    .groups {
+                        font-size: 16px;
+                    }
+
+                    .obychenie {
+                        font-size: 16px;
+                    }
                 }
 
-                &.td1 {}
+                &.td1 {
+                    width: 13.5%;
+                }
 
-                &.td2 {}
+                &.td2 {
+                    width: 13.5%;
+                }
 
-                &.td3 {}
+                &.td3 {
+                    width: 13.5%;
+                }
 
-                &.td4 {}
+                &.td4 {
+                    width: 23.2%;
+                }
 
-                &.td5 {}
+                &.td5 {
+                    width: 22.8%;
+                }
 
                 .groups {
+                    font-size: 15px;
+
                     span {}
                 }
 
                 .obychenie {
+                    font-size: 15px;
+
                     &.mytb {}
 
                     span {}
@@ -5029,14 +5074,20 @@ footer {
         }
 
         .l_t {
+            margin-left: 0px;
+
             .ceni {
                 .slide-control {
                     .arr {
                         &.left {
+                            left: 60px;
+
                             a {}
                         }
 
                         &.right {
+                            right: 60px;
+
                             a {}
                         }
                     }
@@ -5136,10 +5187,16 @@ footer {
                     p.dlina {}
 
                     .zapisb {
+                        margin: 0 auto 20px;
+                        display: block;
+
                         &:hover {}
                     }
 
                     .podrobno {
+                        display: inline-block;
+                        margin: 20px 15px 30px;
+
                         &.cntr {}
                     }
                 }
@@ -5159,9 +5216,17 @@ footer {
         p.krs_txt {}
 
         .slider12 {
+            width: 635px;
+
             .item {
                 .video {
-                    video {}
+                    width: 685px;
+                       height: 483px;
+
+                    video {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
 
@@ -5170,10 +5235,16 @@ footer {
             .slide-control {
                 .arr {
                     &.left {
+                        
+                      left: 70px;
+
                         a {}
                     }
 
                     &.right {
+                        
+                        right: 70px;
+
                         a {}
                     }
                 }
@@ -5193,7 +5264,13 @@ footer {
                 .item {
                     .l_com {
                         .wrp_comm {
-                            &:before {}
+                            width: 630px;
+                            height: 300px;
+                            background-size: 630px 300px;
+
+                            &:before {
+                                    right: 260px;
+                            }
 
                             img {}
                         }
@@ -5201,7 +5278,13 @@ footer {
 
                     .r_com {
                         .wrp_comm {
-                            &:after {}
+                            width: 630px;
+                            height: 300px;
+                            background-size: 630px 300px;
+
+                            &:after {
+                                 right: 260px;
+                            }
 
                             img {}
                         }
@@ -5212,10 +5295,13 @@ footer {
             .slide-control_otz {
                 .arr {
                     &.left {
+                            left: -50px;
+
                         a {}
                     }
 
                     &.right {
+                            right: -50px;
                         a {}
                     }
                 }
@@ -5373,7 +5459,7 @@ footer {
         }
 
         button.poleznoctb {
-            margin-left: 230px;
+            margin-left: 70px;
 
             a {}
         }
@@ -5390,12 +5476,17 @@ footer {
     }
 
     header {
+        background-color: #fcfcfc;
+        height: 108px;
+
         .header {
             .ibw {
-                margin-left: 20px;
+                display: block;
+                margin: 0 auto;
+                text-align: center;
 
                 .nav {
-                    margin: 13px 0px 0;
+                    margin: 13px 0px 10px;
 
                     a.nv1 {
                         margin-right: 10px;
@@ -5448,12 +5539,12 @@ footer {
                 }
 
                 button.bonus {
-                    display: block;
+                    display: inline-block;
                 }
             }
 
             .call {
-                display: block;
+                display: inline-block;
 
                 a.phone {}
 
@@ -5464,7 +5555,7 @@ footer {
 
     .sec1 {
         height: initial;
-
+        margin-top: 120px;
         .logo {}
 
         .wrap {
@@ -5603,52 +5694,62 @@ footer {
         }
 
         .wrp_step {
+            display: inline-block;
             text-align: center;
+            margin: 0;
+            font-size: 0;
+            width: 100%;
 
             .dyga {
                 display: none;
             }
 
             .punkt1 {
-                margin-top: 0;
-                margin-left: 28px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .punkt2 {
-                margin-top: 0;
-                margin-left: 100px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .punkt3 {
-                margin-top: 0;
-                margin-left: 100px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .punkt4 {
-                margin-top: 0;
-                margin-left: 100px;
-                margin-right: 10px;
-                margin-bottom: 20px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .punkt5 {
-                margin-top: 0;
-                margin-left: 20px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .punkt6 {
-                margin-top: 0;
-                margin-left: 88px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .punkt7 {
-                margin-top: 0;
-                margin-left: 106px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .punkt8 {
-                margin-top: 0;
-                margin-left: 89px;
+                margin: 0 auto;
+                width: 25%;
+                height: 100px;
             }
 
             .dota {
@@ -6084,49 +6185,52 @@ footer {
         .grafik {
             .kln {
                 &.td_head {
-                            width: 13.1%;
+                    width: 13.1%;
 
                     .groups {
                         font-size: 15px;
                         padding-left: 10px;
                         font-size: 17px;
-
                     }
 
                     .obychenie {
-                            font-size: 15px;
-                            padding-left: 10px;
-                                font-size: 17px;
+                        font-size: 15px;
+                        padding-left: 10px;
+                        font-size: 17px;
                     }
                 }
 
                 &.td1 {
-                        width: 13.3%;
+                    width: 13.3%;
                 }
 
                 &.td2 {
-                        width: 13%;
+                    width: 13%;
                 }
 
                 &.td3 {
-                   width: 14.7%;
+                    width: 14.7%;
                 }
 
                 &.td4 {
-                       width: 19.4%;
+                    width: 19.4%;
                 }
 
                 &.td5 {
-                          width: 26.5%;
+                    width: 26.5%;
                 }
 
-                .groups { padding-left: 10px;
+                .groups {
+                    padding-left: 10px;
                     font-size: 17px;
+
                     span {}
                 }
 
-                .obychenie { padding-left: 10px;
+                .obychenie {
+                    padding-left: 10px;
                     font-size: 17px;
+
                     &.mytb {}
 
                     span {}
@@ -6134,31 +6238,32 @@ footer {
             }
 
             .kln_b {
-                .groups { padding-left: 10px;
-                   
+                .groups {
+                    padding-left: 10px;
                 }
 
                 .obychenie {
-                     padding-left: 10px;
-
+                    padding-left: 10px;
                 }
             }
 
             .kln_l {
-                .groups { padding-left: 10px;
+                .groups {
+                    padding-left: 10px;
                     font-size: 17px;
                 }
 
-                .obychenie { padding-left: 10px;
+                .obychenie {
+                    padding-left: 10px;
                     font-size: 17px;
                 }
             }
         }
 
         .texnologja {
-                     height: 720px;
-    background-size: 720px 705px;
-        width: 740px;
+            height: 720px;
+            background-size: 720px 705px;
+            width: 740px;
 
             .slide-control_type {
                 .arr {
@@ -6173,12 +6278,14 @@ footer {
             }
 
             .l_textn {
-                    width: 320px;
-                    margin-bottom: 140px;
-        margin-top: 40px;
+                width: 320px;
+                margin-bottom: 140px;
+                margin: 35px auto 0;
+
                 .tryd {
-                        width: 320px;
-    height: 280px;
+                    width: 320px;
+                    height: 280px;
+
                     img {}
                 }
 
@@ -6189,13 +6296,13 @@ footer {
                     //     display: block;
                     // }
                     p.sk1 {
-                        span.month{
+                        span.month {
                             display: none;
                         }
                     }
 
                     p.sk2 {
-                        span.month{
+                        span.month {
                             display: none;
                         }
                     }
@@ -6206,10 +6313,12 @@ footer {
                 .slider-wrap_type {
                     .item {
                         width: 740px;
+
                         .r_textn {
-                                margin-left: 0;
-                                    margin-top: 20px;
-                                width: 420px;
+                            margin-left: 0;
+                            margin-top: 20px;
+                            width: 420px;
+
                             .txt_1 {
                                 span {}
                             }
@@ -6241,8 +6350,7 @@ footer {
                             }
 
                             .txt_8 {
-
-       margin-bottom: 20px;
+                                margin-bottom: 20px;
                             }
                         }
                     }
@@ -6266,15 +6374,17 @@ footer {
 
         .l_foot {
             width: 100%;
-                margin-bottom: 20px;
+            margin-bottom: 20px;
+
             .adrs {
-                    width: 100%;
+                width: 100%;
             }
         }
 
         .r_foot {
             float: none;
             margin: 0 auto;
+
             form {
                 p.xotite {
                     span.bl {}
@@ -6293,13 +6403,16 @@ footer {
         }
 
         .map {
-                width: 100%;
-                margin-bottom: 20px;
+            width: 100%;
+            margin-bottom: 20px;
+
             iframe {}
         }
     }
 
     .sec7 {
+        margin-top: 39px;
+
         .pink {
             .polosa {}
 
@@ -6329,10 +6442,20 @@ footer {
                 &.td5 {}
 
                 .groups {
+                    font-size: 17px;
+                    height: 58px;
+                    line-height: 58px;
+                    padding-left: 10px;
+
                     span {}
                 }
 
                 .obychenie {
+                    font-size: 17px;
+                    height: 58px;
+                    line-height: 58px;
+                    padding-left: 10px;
+
                     &.mytb {}
 
                     span {}
@@ -6354,6 +6477,9 @@ footer {
 
         .l_t {
             .ceni {
+                margin-right: 0;
+                width: 300px;
+
                 .slide-control {
                     .arr {
                         &.left {
@@ -6414,10 +6540,23 @@ footer {
             }
 
             .slider-wrap_ceni {
+                float: right;
+                width: 430px;
+
                 .item {
                     .r_t {
                         .teksta {
+                            margin-right: 0;
+                            float: right;
+                            width: 400px;
+                            height: 760px;
+                            background-size: 380px 730px;
+
                             .skidka {
+                                span.krs {
+                                    display: none;
+                                }
+
                                 p.sk1 {}
 
                                 p.sk2 {}
@@ -6427,7 +6566,9 @@ footer {
                                 span {}
                             }
 
-                            .txt_2 {}
+                            .txt_2 {
+                                padding-left: 20px;
+                            }
 
                             .txt_3 {
                                 span {}
@@ -6442,9 +6583,13 @@ footer {
                             }
 
                             .txt_6 {
-                                p.takge {}
+                                p.takge {
+                                    padding-left: 20px;
+                                }
 
                                 p.pnk {
+                                    margin-left: 30px;
+
                                     &:before {}
                                 }
                             }
@@ -6460,6 +6605,8 @@ footer {
                     p.dlina {}
 
                     .zapisb {
+                        margin-bottom: 20px;
+
                         &:hover {}
                     }
 
@@ -6473,6 +6620,8 @@ footer {
 
     .sec8 {
         .pink {
+            margin-top: 110px;
+
             .polosa {}
 
             .kyrsi_ceni {}
@@ -6485,7 +6634,13 @@ footer {
         .slider12 {
             .item {
                 .video {
-                    video {}
+                    width: 620px;
+                    height: 430px;
+
+                    video {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
 
@@ -6494,10 +6649,14 @@ footer {
             .slide-control {
                 .arr {
                     &.left {
+                        left: 3px;
+
                         a {}
                     }
 
                     &.right {
+                        right: 3px;
+
                         a {}
                     }
                 }
@@ -6617,11 +6776,19 @@ footer {
         }
 
         .shmotki {
+            width: 100%;
+    background-image: none;
+    background-color: #fcfcfc;
+    margin: 0 auto 40px;
+  
             .polosa {
-                .gz_dygga {}
+                .gz_dygga {
+                    display: none;
+                }
             }
 
             .ibw_wrap {
+                border:none;
                 .el {
                     &.active {}
 
@@ -6646,10 +6813,14 @@ footer {
             .slide-control_gal {
                 .arr {
                     &.left {
+                            left: -7px;
+    top: -33px;
                         a {}
                     }
 
                     &.right {
+                            right: -7px;
+    top: -33px;
                         a {}
                     }
                 }
@@ -6707,7 +6878,7 @@ footer {
     .head > div,
     header > div,
     section > div,
-    footer > div { 
+    footer > div {
         max-width: 480px;
     }
 
@@ -6766,7 +6937,8 @@ footer {
         .logo {}
 
         .wrap {
-            border:none;
+            border: none;
+
             .information {
                 .adress {
                     p.txt {}
@@ -6787,13 +6959,19 @@ footer {
         }
 
         .school_l {
+            float: none;
+            margin: 0 auto;
+
             .wnyr {}
 
-            h3 {}
+            h3 {
+                text-align: center;
+                margin: 0 0 40px;
+            }
 
             .sch_txt {
-                    width: 100%;
-                        padding: 12px;
+                width: 100%;
+                padding: 13px;
 
                 .new {}
 
@@ -6810,6 +6988,10 @@ footer {
         }
 
         .school_r {
+            float: none;
+            margin: 0 auto;
+            margin-bottom: 70px;
+
             form {
                 p.xotite {
                     span.bl {}
@@ -6860,40 +7042,91 @@ footer {
         .how {}
 
         .wrp_how {
+            width: 100%;
+            padding: 0px;
+            height: 100%;
+            background-size: 480px 100%;
+
+            &:before, &:after {
+                display: none;
+            }
+
+            br {
+                display: none;
+            }
+
             &:after {}
 
             &:before {}
 
-            .how_txt {}
+            .how_txt {
+                line-height: 27px;
+            }
         }
 
         .wrp_step {
             .dyga {}
 
-            .punkt1 {}
+            .d-wrap {
+                display: inline-block;
+                text-align: center;
+                margin: 0;
+                font-size: 0;
+                width: 100%;
 
-            .punkt2 {}
-
-            .punkt3 {}
-
-            .punkt4 {}
-
-            .punkt5 {}
-
-            .punkt6 {}
-
-            .punkt7 {}
-
-            .punkt8 {}
-
-            .dota {
-                &.active {
-                    .step {}
+                .punkt1 {
+                    margin: 0 auto;
+                    width: 100px;
                 }
 
-                .step {}
+                .punkt2 {
+                    margin: 0 auto;
+                    width: 100px;
+                }
 
-                .steptxt {}
+                .punkt3 {
+                    margin: 0 auto;
+                    width: 100px;
+                }
+
+                .punkt4 {
+                    margin: 0 auto;
+                    width: 100px;
+                }
+
+                .punkt5 {
+                    margin: 0 auto;
+                    width: 100px;
+                }
+
+                .punkt6 {
+                    margin: 0 auto;
+                    width: 100px;
+                }
+
+                .punkt7 {
+                    margin: 0 auto;
+                    width: 100px;
+                }
+
+                .punkt8 {
+                    margin: 0 auto;
+                    width: 100px;
+                }
+
+                .dota {
+                    &.active {
+                        .step {
+                            font-size: 20px;
+                        }
+                    }
+
+                    .step {
+                        font-size: 20px;
+                    }
+
+                    .steptxt {}
+                }
             }
         }
 
@@ -6935,6 +7168,9 @@ footer {
             .slider-wrap_obych {
                 .item {
                     .dot_fot_wrap {
+                        margin: 0 auto;
+                        float: none;
+
                         img {
                             &.gor_dot_fot_wrap {}
                         }
@@ -6943,6 +7179,9 @@ footer {
                     }
 
                     .left_form {
+                        float: none;
+                        margin: 0 auto 30px;
+
                         form {
                             p.xotite {
                                 span.bl {}
@@ -6963,9 +7202,13 @@ footer {
                     .right_sld {
                         &:before {}
 
-                        p.p_sld {}
+                        p.p_sld {
+                            text-align: center;
+                        }
 
-                        p.txt_sld {}
+                        p.txt_sld {
+                            margin: 0 auto;
+                        }
 
                         .pomp {
                             &:before {}
@@ -6980,17 +7223,38 @@ footer {
         .trb {}
 
         .l_trbl {
-            img {}
+            display: block;
+            margin: 0 auto;
+            float: none;
+
+            img {
+                margin: 0 auto;
+            }
 
             .name {}
         }
 
         .r_trbl {
+            float: none;
+            margin: 0 auto;
+            background: none;
+            background-color: #b2396f;
+            width: 100%;
+            height: initial;
+            padding-bottom: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+
             .citata {}
         }
 
         .dreams {
+                display: block;
+    margin: 0 auto;
+    float: none;
             .trbl {
+                margin-bottom: 20px;
+
                 .trouble {
                     &.active {
                         .trb_pos {}
@@ -7016,6 +7280,8 @@ footer {
                         &:after, &:before {}
 
                         .helper {
+                            display: none;
+
                             &:after, &:before {}
 
                             &:after {}
@@ -7032,6 +7298,9 @@ footer {
         }
 
         .slider8 {
+            float: none;
+            margin: 0 auto;
+
             .item {
                 &.active {}
             }
@@ -7039,10 +7308,15 @@ footer {
             .slide-control {
                 .arr {
                     &.left {
+                        left: 10px;
+
                         a {}
                     }
 
                     &.right {
+                            left: 430px;
+
+
                         a {}
                     }
                 }
@@ -7051,6 +7325,10 @@ footer {
             .slider-wrap_tbrl {
                 .item {
                     .comments {
+                            display: block;
+    margin: 0 auto;
+    float: none;
+        margin-bottom: 20px;
                         p.drm {}
 
                         p.drm_txt {}
@@ -7093,10 +7371,14 @@ footer {
             .slide-control {
                 .arr {
                     &.left {
+                        display: none;
+
                         a {}
                     }
 
                     &.right {
+                        display: none;
+
                         a {}
                     }
                 }
@@ -7141,6 +7423,9 @@ footer {
         }
 
         .l_team {
+            float: none;
+            margin: 0 auto;
+
             .prepodi {
                 .chl {
                     &:after, &:before {}
@@ -7161,6 +7446,8 @@ footer {
                         &:after, &:before {}
 
                         .helper {
+                            display: none;
+
                             &:after, &:before {}
 
                             &:after {}
@@ -7178,18 +7465,34 @@ footer {
             }
 
             .inf_year {
+                margin-bottom: 20px;
+                width: 100%;
+                height: initial;
+                padding-bottom: 15px;
+
                 .p_inf_y {}
             }
         }
 
         .r_team {
+            float: none;
+            margin: 0 auto;
+
             .slider6 {
                 .item {
-                    &.active {}
+                    &.active {
+                        &.face {
+                            margin: 0 auto;
+                            margin-bottom: 20px;
+                        }
+                    }
                 }
 
                 .slider-wrap_comm {
                     .face {
+                        margin: 0 auto;
+                        margin-bottom: 20px;
+
                         img {}
                     }
                 }
@@ -7197,6 +7500,8 @@ footer {
                 .slide-control {
                     .arr {
                         &.left {
+                            left: 35px;
+
                             a {}
                         }
 
@@ -7222,9 +7527,17 @@ footer {
     }
 
     .sec5 {
+        height: 1580px;
+
         p.kyrsi {}
 
-        p.kyrs_txt {}
+        p.kyrs_txt {
+            line-height: 20px;
+
+            br {
+                display: none;
+            }
+        }
 
         .grafik {
             .kln {
@@ -7269,6 +7582,10 @@ footer {
         }
 
         .texnologja {
+            width: 100%;
+            height: 1100px;
+            background-image: none;
+
             .slide-control_type {
                 .arr {
                     &.left {
@@ -7282,11 +7599,22 @@ footer {
             }
 
             .l_textn {
+                height: initial;
+                background-color: #fcfcfc;
+                float: none;
+                width: 470px;
+                margin: 35px auto 0;
+
                 .tryd {
+                    width: 470px;
+                    height: 317px;
+
                     img {}
                 }
 
                 .skidka {
+                    margin-bottom: 20px;
+
                     // display: none;
 
                     // &.active {
@@ -7299,9 +7627,21 @@ footer {
             }
 
             .slider7 {
+                height: initial;
+
                 .slider-wrap_type {
                     .item {
+                        width: 480px;
+
                         .r_textn {
+                            height: initial;
+                            background-color: #fcfcfc;
+                            padding-bottom: 10px;
+                            margin-bottom: 11px;
+                            float: none;
+                            margin: 0 auto;
+                            width: 100%;
+
                             .txt_1 {
                                 span {}
                             }
@@ -7354,7 +7694,9 @@ footer {
         .contacts {}
 
         .l_foot {
-            .adrs {}
+            .adrs {
+                height: 75px;
+            }
         }
 
         .r_foot {
@@ -7435,6 +7777,10 @@ footer {
 
         .l_t {
             .ceni {
+                float: none;
+                margin: 0 auto 30px;
+                width: 400px;
+
                 .slide-control {
                     .arr {
                         &.left {
@@ -7471,6 +7817,8 @@ footer {
                             &:after, &:before {}
 
                             .helper {
+                                display: none;
+
                                 &:after, &:before {}
 
                                 &:after {}
@@ -7495,9 +7843,17 @@ footer {
             }
 
             .slider-wrap_ceni {
+                clear: both;
+                margin: 0 auto;
+                width: 100%;
+
                 .item {
                     .r_t {
                         .teksta {
+                            width: 100%;
+                            background-size: 460px 730px;
+                            padding: 20px 0 0;
+
                             .skidka {
                                 p.sk1 {}
 
@@ -7554,6 +7910,7 @@ footer {
 
     .sec8 {
         .pink {
+                margin-top: 120px;
             .polosa {}
 
             .kyrsi_ceni {}
@@ -7564,9 +7921,15 @@ footer {
         p.krs_txt {}
 
         .slider12 {
+            width: 480px;
             .item {
                 .video {
-                    video {}
+                       width: 380px;
+    height: 300px;
+                    video {
+                        width: 100%;
+                        height: 100%;
+                    }
                 }
             }
 
@@ -7575,10 +7938,12 @@ footer {
             .slide-control {
                 .arr {
                     &.left {
+                        top: 413px;
                         a {}
                     }
 
                     &.right {
+                        top: 413px;
                         a {}
                     }
                 }
@@ -7598,7 +7963,12 @@ footer {
                 .item {
                     .l_com {
                         .wrp_comm {
-                            &:before {}
+                            width: 480px;
+    height: 300px;
+    background-size: 480px 300px;
+                            &:before {
+                                right: 185px;
+                            }
 
                             img {}
                         }
@@ -7606,7 +7976,12 @@ footer {
 
                     .r_com {
                         .wrp_comm {
-                            &:after {}
+                            width: 480px;
+    height: 300px;
+    background-size: 480px 300px;
+                            &:after {
+                                right: 185px;
+                            }
 
                             img {}
                         }
@@ -7654,6 +8029,7 @@ footer {
 
     .sec10 {
         .pink {
+                margin-top: 120px;
             .polosa {}
 
             .kyrsi_ceni {}
@@ -7663,6 +8039,7 @@ footer {
 
         .block-wrap {
             .item {
+                    margin-bottom: 20px;
                 &.active {}
             }
         }
@@ -7670,8 +8047,12 @@ footer {
         .slider_1 {
             .ibw {
                 & > .item {
+                    margin-bottom: 20px;
                     &.active {
-                        .wrp_albom {}
+                        .wrp_albom {
+                            bottom:0;
+
+                        }
                     }
 
                     .wrp_albom {
@@ -7698,11 +8079,15 @@ footer {
         }
 
         .shmotki {
+                width: 100%;
+    margin-bottom: 80px;
+    background-image: none;
             .polosa {
                 .gz_dygga {}
             }
 
             .ibw_wrap {
+                border:none;
                 .el {
                     &.active {}
 
@@ -7727,10 +8112,12 @@ footer {
             .slide-control_gal {
                 .arr {
                     &.left {
+                        left: 0px;
                         a {}
                     }
 
                     &.right {
+                        right: 0px;
                         a {}
                     }
                 }
@@ -7759,7 +8146,12 @@ footer {
     }
 
     footer {
-        .logo_f {}
+        display: inline-block;
+        text-align: center;
+
+        .logo_f {
+            margin-left: 0;
+        }
 
         .soc_f {
             p.h3 {}
@@ -7778,6 +8170,9 @@ footer {
         }
 
         button.poleznoctb {
+            display: block;
+            margin: 20px auto 0;
+
             a {}
         }
     }
@@ -8067,6 +8462,9 @@ footer {
         }
 
         .dreams {
+            margin: 0 auto;
+            float: none;
+
             .trbl {
                 .trouble {
                     &.active {
@@ -8128,6 +8526,10 @@ footer {
             .slider-wrap_tbrl {
                 .item {
                     .comments {
+                        margin: 0 auto;
+                        float: none;
+                        margin-bottom: 20px;
+
                         p.drm {}
 
                         p.drm_txt {}
@@ -8512,6 +8914,8 @@ footer {
 
         .l_t {
             .ceni {
+                width: 100%;
+
                 .slide-control {
                     .arr {
                         &.left {
@@ -8575,7 +8979,14 @@ footer {
                 .item {
                     .r_t {
                         .teksta {
+                            height: 870px;
+                            background-size: 305px 840px;
+
                             .skidka {
+                                span.month {
+                                    display: none;
+                                }
+
                                 p.sk1 {}
 
                                 p.sk2 {}

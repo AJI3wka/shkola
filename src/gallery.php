@@ -4,7 +4,7 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:2054/livereload.js"></script>
+        <script src="http://localhost:1753/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
@@ -924,7 +924,7 @@
                         </form>
                     </div>
                 </div>
-                <!--<div id="maket"></div>-->
+               <div id="maket"></div>
                 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
                 <script src="js/init.js"></script>
             </body>

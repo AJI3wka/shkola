@@ -5,15 +5,15 @@
     <head>
         
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:2054/livereload.js"></script>
+        <script src="http://localhost:1753/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
         
         <!-- блок статического и динамического критического css не удалять -->
-        <style>
+        <!--<style>
         <?php include('css/head.css'); ?>
-        </style>
+        </style>-->
     </head>
     <body>
         
@@ -81,14 +81,11 @@
                     <div class="wrp_met">
                         <p class="tkanb">Какую ткань выбрать?<br>Разбираемся в материалах для шитья</p>
                         <p class="tkanbtxt">Мы также уделили особое внимание теме тканей. В этой сфере
-                            
                             настоящий бардак, в котором сложно разобраться самому.
-                            
                             Давайте разбираться вместе. В методичке собраны основные виды
-                            тканей с практическими советами и рекомендациями по выбору.
-                            
+                            тканей с практическими советами и рекомендациями по выбору.<br>
                             <span class="fin">Дочитайте до концам — там ждут приятные
-                            бонусы от наших партнеров.</span>
+                            бонусы от наших партнеров.</span> 
                         </p>
                     </div>
                 </div>
@@ -942,7 +939,8 @@
         <div>Телефон: <span class="tel"><?php include('settings/phone.txt'); ?></span></div>
     </div>
 </div>
+<div id="maket"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-<script src="js/init.js"></script>
+<script src="js/init.js"></script> 
 </body>
 </html>

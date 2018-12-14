@@ -71,7 +71,6 @@ header,
 section,
 footer {
     width : 100%;
-    min-width : 1200px;
     overflow : hidden;
     position : relative;
     z-index : 2;
@@ -89,7 +88,7 @@ footer {
 }
 
 header {
-    height : 79px;
+        height: 69px;
     background-color : white;
     overflow : inherit;
     position : fixed;
@@ -102,6 +101,7 @@ header {
 header .header {
     min-height : 67px;
 }
+
 header .header .ibw {
     margin-top : 8px;
     text-align : left;
@@ -228,7 +228,7 @@ header .header .call .phoneback {
 }
 .sec1 .wrap {
     padding-left : 6px;
-    padding-bottom : 10px;
+    padding-bottom : 8px;
     border-bottom : 1px solid white;
     margin : 0 144px 0;
     margin-right : 56px;
@@ -636,7 +636,15 @@ header .header .ibw{
     text-align: center;
 }
 .sec1 .wrap .soc{
-    margin-left: 112px;
+        display: block;
+    margin-left: 0;
+}
+.sec1 .logo{
+    float:left;
+}
+.sec1 .wrap{
+        float: right;
+    margin: 0 0 30px;
 }
 .sec1{
     height: initial;
@@ -654,10 +662,12 @@ header .header .ibw{
  }
  .sec1 .school_l h3{
     text-align: center;
+           margin: 0 0 40px;
  }
  .sec1 .school_l .sch_txt{
-        margin: 0 auto;
-    margin-bottom: 30px;
+           width: 100%;
+    padding: 13px;
+
  }
 
 
