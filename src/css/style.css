@@ -4496,6 +4496,11 @@ footer button.poleznoctb a {
     border-radius: 10px;
     margin-bottom: 30px;
   }
+  .sec3 .dreams {
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
   .sec3 .dreams .trbl {
     margin-bottom: 20px;
   }
@@ -4507,10 +4512,16 @@ footer button.poleznoctb a {
     margin: 0 auto;
   }
   .sec3 .slider8 .slide-control .arr.left {
-    right: 10px;
+    left: 10px;
   }
   .sec3 .slider8 .slide-control .arr.right {
-    left: 10px;
+    left: 430px;
+  }
+  .sec3 .slider8 .slider-wrap_tbrl .item .comments {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
   }
 
   .sec4 {
