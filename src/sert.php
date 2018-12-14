@@ -5,9 +5,7 @@
 <head>
     <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-
-
-        <script src="http://localhost:3568/livereload.js"></script> 
+        <script src="http://localhost:1985/livereload.js"></script> 
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">

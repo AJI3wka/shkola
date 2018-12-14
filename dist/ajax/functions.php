@@ -114,31 +114,32 @@
 			$cleaned = 'false';
 		}
 		if(isset($actionData['context'])){
-			if(($actionData['context'] == 1) or ($actionData['context'] == 97)){
-				$formCaption = 'Бесплатное занятие';
-			}elseif($actionData['context'] == 27){
-				$formCaption = 'Подарок';
-			}elseif($actionData['context'] == 46){
-				$formCaption = 'Заказать звонок';
-			}elseif($actionData['context'] == 74){
-				$formCaption = 'Цены';
-			}elseif($actionData['context'] == 84){
-				$formCaption = 'Неизвестный контекст';
-			}elseif($actionData['context'] == "219"){
-				$formCaption = 'Курс «Технология пошива»';
-			}elseif($actionData['context'] == "220"){
-				$formCaption = 'Курс «Конструирование и моделирование изделий»';
-			}elseif($actionData['context'] == "221"){
-				$formCaption = 'Индивидуальное обучение';
-			}elseif($actionData['context'] == "222"){
-				$formCaption = 'Мастер-класс «Юбка»';
-			}elseif($actionData['context'] == "223"){
-				$formCaption = 'Мастер-класс «Брюки»';
-			}elseif($actionData['context'] == "224"){
-				$formCaption = 'Мастер-класс «Платье»';
-			}elseif($actionData['context'] == "225"){
-				$formCaption = 'Мастер-класс «Жакет на подкладке»';
-			}
+			// if(($actionData['context'] == 1) or ($actionData['context'] == 97)){
+			// 	$formCaption = 'Бесплатное занятие';
+			// }elseif($actionData['context'] == 27){
+			// 	$formCaption = 'Подарок';
+			// }elseif($actionData['context'] == 46){
+			// 	$formCaption = 'Заказать звонок';
+			// }elseif($actionData['context'] == 74){
+			// 	$formCaption = 'Цены';
+			// }elseif($actionData['context'] == 84){
+			// 	$formCaption = 'Неизвестный контекст';
+			// }elseif($actionData['context'] == "219"){
+			// 	$formCaption = 'Курс «Технология пошива»';
+			// }elseif($actionData['context'] == "220"){
+			// 	$formCaption = 'Курс «Конструирование и моделирование изделий»';
+			// }elseif($actionData['context'] == "221"){
+			// 	$formCaption = 'Индивидуальное обучение';
+			// }elseif($actionData['context'] == "222"){
+			// 	$formCaption = 'Мастер-класс «Юбка»';
+			// }elseif($actionData['context'] == "223"){
+			// 	$formCaption = 'Мастер-класс «Брюки»';
+			// }elseif($actionData['context'] == "224"){
+			// 	$formCaption = 'Мастер-класс «Платье»';
+			// }elseif($actionData['context'] == "225"){
+			// 	$formCaption = 'Мастер-класс «Жакет на подкладке»';
+			// }
+			$formCaption = $actionData['context'];
 		}
 		require($path.'Contact/Contact.php');
 		$amocontact = new \Amocrm\Contact\Contact();

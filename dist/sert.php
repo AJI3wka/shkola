@@ -1,7 +1,9 @@
+<?php include('ajax/amo_helper.php'); ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
+    <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
 
 
@@ -9,6 +11,7 @@
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
+
     
 </head>
 
@@ -22,7 +25,7 @@
             <div class="kyrsi_ceni">Подарочный сертификат</div>
 
         </div>
-        <p class="krs">Подари любимой обучение<br>в Женской школе кройки и шитья</p>
+        <p class="krs">Подари любимым обучение<br> в Женской школе кройки и шитья</p>
         <div class="l_sert">
             <div class="ft_1">
                 <img src="img/st1.jpg" alt="">
@@ -56,7 +59,7 @@
                         Мы позаботились об оформлении подарка — сертификат<br>
                         предоставляется в формате А4, украшенный аккуратной рамкой.
                     </div>
-                    <button class="present">Заказать подарок</button>
+                    <button class="present" data-id="prsnt">Заказать подарок</button>
     </div>
 </section>
 
@@ -71,18 +74,16 @@
             <div class="close"></div>
             Спасибо за заявку!
         </div>
-
-        <div id="okgo" class="pop_z">
-            <form class="form" action="#" method="get">
-                <p class="xotite">Хотите записаться
-                        <br> <span class="bl">на</span> <span class="pink">курс</span></p>
-                    <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
-                    <input type="text" name="name" class="input" placeholder="Введите ваше имя">
-                    <input type="text" name="phone" class="input" placeholder="Телефон">
-                     <input type="hidden" name="frmid" value="Форма в шапке">
-                    <button class="frm">Оставить заявку</button>
-            </form>
-        </div>
+        <div class="pop_present" id="prsnt">
+        <form class="form"  action="#" method="get">
+            <p class="xotite">Оставить заявку для покупки <br><span class="pink">подарка близким?</span></p>
+            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+            <input type="text" name="phone" class="input" placeholder="Телефон">
+            <input type="hidden" name="frmid" value="Индивидуальное"> 
+            <button class="frm">Оставить заявку</button> 
+        </form>
+    </div>
+    </div>
     </div> 
 <!--<div id="maket"></div>-->
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>    

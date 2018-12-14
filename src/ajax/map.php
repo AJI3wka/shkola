@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Карта</title>
         <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU"></script>
-        <script src="../js/map.js"></script>
+        <script src="../js/map.min.js"></script>
     <link rel="stylesheet" href="../css/fonts.css">
     </head>
     <style>

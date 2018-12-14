@@ -3979,6 +3979,14 @@ header {
     }
 
     .students_works {
+
+
+        &.opened{  
+            padding-bottom: 73px;
+            .more{
+                display:none; 
+            }
+        } 
         .item {
             display: none;
             height: 672px;
@@ -9969,3 +9977,44 @@ footer {
 .hidden {
     display: none;
 }
+
+.loading { 
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 100;
+  display: none;  }
+  .loading div {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IC0yNTUgMzQ3IDEwMCAxMDAiIHZpZXdCb3g9Ii0yNTUgMzQ3IDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZiI+PHBhdGggZD0ibS0xNzkuOSA0MTEuNXMuMS0uMi40LS41Yy4zLS40LjUtLjcuOC0xLjQuNy0xLjIgMS42LTMgMi40LTUuMy40LTEuMS43LTIuNCAxLTMuOHMuNS0yLjkuNS00LjRjMC0uOC4xLTEuOCAwLTIuNSAwLS44IDAtMS41LS4yLTIuNC0uMS0uOC0uMi0xLjYtLjQtMi41LS4yLS44LS4zLTEuNi0uNi0yLjVsLS4zLTEuMmMtLjEtLjQtLjMtLjgtLjQtMS4ybC0uNC0xLjItLjUtMS4xYy0uMy0uOC0uNy0xLjUtMS4xLTIuMnMtLjgtMS40LTEuMy0yLjFjLS40LS43LS45LTEuMy0xLjQtMS45cy0xLTEuMi0xLjUtMS44LTEtMS4xLTEuNS0xLjZjLS4zLS4yLS41LS41LS44LS43cy0uNS0uNC0uOC0uNmMtMS0uOS0yLTEuNi0yLjktMi4ycy0xLjctMS4xLTIuNC0xLjVjLTEuNC0uNy0yLjItMS4xLTIuMi0xLjFzLjkuMyAyLjMuOGMuNy4zIDEuNi43IDIuNiAxLjEgMSAuNSAyLjEgMS4xIDMuMyAxLjhsLjkuNi45LjZjLjYuNCAxLjIuOSAxLjggMS40czEuMiAxIDEuOCAxLjYgMS4yIDEuMiAxLjggMS44Yy42LjcgMS4yIDEuMyAxLjcgMi4xLjUuNyAxLjEgMS41IDEuNiAyLjJsLjggMS4yLjcgMS4yYy4yLjQuNS44LjcgMS4zbC42IDEuM2MuNC45LjcgMS44IDEgMi43cy42IDEuOC44IDIuN2MuMy45LjQgMS45LjYgMi44LjIgMSAuMiAxLjguMyAyLjYuMiAxLjkuMiAzLjYuMSA1LjNzLS4zIDMuMy0uNiA0LjdjLS42IDIuOS0xLjQgNS4zLTIuMSA2LjktLjMuOC0uNyAxLjUtLjggMS45LS4yLjQtLjMuNi0uMy42LS45IDItMy4zIDIuOS01LjMgMS45LTItLjktMi45LTMuMy0xLjktNS4zLjEuMy4yLjEuMy0uMXoiLz48cGF0aCBkPSJtLTIwNC45IDM2OHMtLjIgMC0uNiAwYy0uNSAwLS45IDAtMS42LS4xLTEuNCAwLTMuNC4xLTUuOC41LTEuMi4yLTIuNS42LTMuOCAxcy0yLjcgMS00IDEuN2MtLjcuNC0xLjYuOC0yLjEgMS4yLS42LjQtMS4zLjgtMiAxLjNzLTEuMyAxLTEuOSAxLjUtMS4zIDEuMS0xLjggMS43bC0uOS45Yy0uMy4zLS41LjYtLjggMWwtLjggMS0uNyAxYy0uNS43LS45IDEuNC0xLjQgMi4xcy0uOCAxLjQtMS4yIDIuMmMtLjQuNy0uNyAxLjUtMSAyLjJzLS41IDEuNS0uOCAyLjItLjQgMS40LS42IDIuMWMtLjEuMy0uMi43LS4zIDFzLS4xLjctLjIgMWMtLjMgMS4zLS4zIDIuNS0uNCAzLjZzLS4xIDItLjEgMi44Yy4xIDEuNi4xIDIuNS4xIDIuNXMtLjEtLjgtLjQtMi40Yy0uMS0uOC0uMi0xLjctLjMtMi44cy0uMS0yLjQtLjEtMy43YzAtLjMgMC0uNyAwLTEuMXMuMS0uNy4xLTEuMWMuMS0uNy4xLTEuNS4zLTIuMy4xLS44LjMtMS42LjUtMi40cy40LTEuNi43LTIuNWMuMy0uOC41LTEuNy45LTIuNS4zLS44LjctMS43IDEuMi0yLjVsLjYtMS4yLjctMS4yYy4zLS40LjUtLjguOC0xLjJsLjgtMS4yYy41LS44IDEuMi0xLjUgMS44LTIuMnMxLjMtMS40IDItMi4xYy42LS43IDEuNC0xLjMgMi4yLTEuOS44LS43IDEuNC0xLjEgMi4xLTEuNiAxLjUtMS4xIDMtMiA0LjUtMi43IDEuNS0uOCAzLTEuNCA0LjQtMS45IDIuOC0xIDUuMy0xLjQgNy0xLjcuOS0uMSAxLjctLjIgMi0uMi40IDAgLjYtLjEuNi0uMSAyLjItLjIgNC4xIDEuNCA0LjMgMy43cy0xLjQgNC4xLTMuNyA0LjNjMCAuMS0uMi4xLS4zLjF6Ii8+PHBhdGggZD0ibS0yMzAuMiA0MTEuM3MuNC44IDEuMiAyLjJjLjQuOC44IDEuNCAxLjMgMi4xLjMuNC41LjguOSAxLjJzLjcuOSAxLjEgMS4zYy4yLjIuNC41LjYuN3MuNS40LjcuN2MuNS41LjkuOSAxLjUgMS40IDEuMS45IDIuMiAxLjkgMy42IDIuNi4zLjIuNy40IDEgLjZzLjcuNCAxLjEuNmMuNy4zIDEuNC44IDIuMiAxLjFzMS41LjYgMi4zLjljLjguMiAxLjYuNSAyLjQuNyAxLjYuNCAzLjMuNyA1IC44LjQgMCAuOC4xIDEuMy4xaDEuMmMuOCAwIDEuNy4xIDIuNS0uMS44LS4xIDEuNi0uMiAyLjQtLjIuOC0uMSAxLjUtLjMgMi4zLS40LjQtLjEuNy0uMSAxLjEtLjIuMy0uMS43LS4yIDEtLjMuNy0uMiAxLjMtLjQgMi0uNiAxLjItLjUgMi4zLTEgMy4zLTEuNCAxLS41IDEuOC0xIDIuNS0xLjQgMS4zLS44IDIuMS0xLjQgMi4xLTEuNHMtLjkuNy0yLjEgMS43Yy0uNi41LTEuNCAxLjEtMi4zIDEuN3MtMiAxLjItMy4yIDEuOWMtLjYuMy0xLjMuNi0xLjkuOS0uMy4yLS43LjMtMSAuNS0uNC4yLS43LjMtMS4xLjQtLjcuMy0xLjUuNS0yLjMuOC0uOC4yLTEuNy40LTIuNS42cy0xLjcuMy0yLjYuNGMtLjUuMS0uOS4xLTEuNC4yLS41IDAtLjkgMC0xLjQuMS0xLjkuMS0zLjggMC01LjctLjEtMS0uMS0xLjktLjItMi45LS40LS45LS4yLTEuOS0uNS0yLjgtLjdzLTEuOC0uNi0yLjctLjljLS40LS4yLS45LS4zLTEuMy0uNXMtLjgtLjQtMS4yLS42Yy0xLjctLjctMy4yLTEuNy00LjYtMi41LS43LS41LTEuNC0xLTItMS40LS4zLS4yLS42LS41LTEtLjctLjMtLjMtLjYtLjUtLjktLjgtLjYtLjUtMS4xLTEtMS42LTEuNHMtLjktMS0xLjQtMS41Yy0uOS0uOS0xLjYtMS44LTItMi40LS45LTEuMy0xLjUtMi0xLjUtMi0xLjMtMS44LTEtNC4zLjgtNS42czQuMy0xIDUuNi44Yy4yLjIuMy40LjQuNXoiLz48L2c+PC9zdmc+);
+    width: 150px;
+    height: 150px;
+    left: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+    position: absolute;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    -webkit-animation: spin .8s infinite linear;
+    animation: spin .8s infinite linear; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }

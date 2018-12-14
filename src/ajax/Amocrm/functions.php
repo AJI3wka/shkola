@@ -1,7 +1,7 @@
 <?php
 
 	function amocrm($actionType, $actionData){
-		$path = $_SERVER['DOCUMENT_ROOT'].'/vendor/Amocrm/';
+		$path = '';
 		$authData['amocrm']['api_key'] 	= 'f8dce1040562f7542c4f509289de6cde';
 		$authData['amocrm']['api_mail'] 	= 'tim-2000@mail.ru';
 		$authData['amocrm']['subdomain'] = 'proekty';
@@ -172,7 +172,7 @@
 					*/
 					sleep(1);
 					$dealData['deal_id'] = $dealsList['response']['leads'][0]['id'];
-					$dealData['deal_name'] = 'Курсы шитья';
+					$dealData['deal_name'] = 'Шитье';
 					if(isset($formCaption)){
 						$dealData['deal_name'] .= ', '.$formCaption;
 					}
@@ -205,7 +205,7 @@
             } else {
                $dealData['ga_cid'] = "Нет данных";
             }
-				$dealData['deal_name'] = 'Курсы шитья';
+				$dealData['deal_name'] = 'Шитье';
 				if(isset($formCaption)){
 					$dealData['deal_name'] .= ', '.$formCaption;
 				}
@@ -291,7 +291,7 @@
          } else {
              $dealData['ga_cid'] = "Нет данных";
          }
-			$dealData['deal_name'] = 'Курсы шитья';
+			$dealData['deal_name'] = 'Шитье';
 			if(isset($formCaption)){
 				$dealData['deal_name'] .= ', '.$formCaption;
 			}
