@@ -4,7 +4,7 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:1753/livereload.js"></script>
+        <script src="http://localhost:3568/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
@@ -59,7 +59,7 @@
                                         <a class="ico1"  style="background-image:url(img/z6_s.jpg)">
                                         </a>
                                     </div>
-                                    <div class="zarabotoi">Ученицы за работой</div>
+                                    <div class="zarabotoi">Ученицы за работой</div> 
                                 </div>
                             </div>
                             <div class="item" data-id="3">

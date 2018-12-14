@@ -5,7 +5,7 @@
     <head>
         
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:1753/livereload.js"></script>
+        <script src="http://localhost:3568/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
