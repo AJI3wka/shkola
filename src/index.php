@@ -584,7 +584,7 @@
         <div class="grafik">
             <div class="kln td_head">
                 <div class="groups"><span>Группы:</span></div>
-                <div class="obychenie "><span>График обучения</span></div>
+                <div class="obychenie "><span>График обучения:</span></div>
             </div>
             <div class="kln td1">
                 <div class="groups"><span>Утренние:</span></div>

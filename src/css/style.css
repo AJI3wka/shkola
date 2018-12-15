@@ -2111,7 +2111,7 @@ header .header .call .phoneback {
   color: #f1e53d;
   font-size: 18px;
   font-weight: 600;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   margin-bottom: 43px;
   transition: all 0.25s;
   text-align: center;
@@ -3739,11 +3739,15 @@ footer button.poleznoctb a {
         }
     }*/
   }
-  .sec4 .slider3 .slide-control .arr {
-    left: -48px;
+  .sec4 .slider3 .slider-wrap .sld_foto {
+    width: 860px;
+    height: 380px;
+  }
+  .sec4 .slider3 .slide-control .arr.left {
+    left: -25px;
   }
   .sec4 .slider3 .slide-control .arr.right {
-    right: -48px;
+    right: -25px;
   }
   .sec4 .l_team {
     margin-left: 0;
@@ -3776,14 +3780,32 @@ footer button.poleznoctb a {
     margin: 0;
     margin-bottom: 41px;
   }
+  .sec5 .grafik .kln.td4 {
+    width: 21.4%;
+  }
   .sec5 .grafik .kln.td5 {
-    width: 23.3%;
+    width: 22.4%;
+  }
+  .sec5 .texnologja {
+    width: 920px;
+    height: 650px;
   }
   .sec5 .texnologja .slide-control_type .arr.left {
-    left: -48px;
+    left: -29px;
   }
   .sec5 .texnologja .slide-control_type .arr.right {
-    right: -48px;
+    right: -29px;
+  }
+  .sec5 .texnologja .l_textn {
+    width: 387px;
+    margin-left: 26px;
+  }
+  .sec5 .texnologja .l_textn .tryd {
+    width: 100%;
+  }
+  .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn {
+    margin: 36px auto 0;
+    width: 500px;
   }
 
   .sec6 .l_foot {
@@ -3801,7 +3823,7 @@ footer button.poleznoctb a {
   }
 
   .sec7 .pink {
-    margin-top: 78px;
+    margin-top: 89px;
   }
   .sec7 .grafik {
     margin: 0 auto 130px;
@@ -3894,6 +3916,13 @@ footer button.poleznoctb a {
     right: -50px;
   }
 
+  .sec10 .shmotki .slide-control_gal .arr.left {
+    left: -80px;
+  }
+  .sec10 .shmotki .slide-control_gal .arr.right {
+    right: -80px;
+  }
+
   footer button.poleznoctb {
     margin-left: 70px;
   }
@@ -3951,11 +3980,25 @@ footer button.poleznoctb a {
     height: initial;
     margin-top: 120px;
   }
+  .sec1 .logo {
+    width: 100%;
+    margin: 0 auto;
+    top: -70px;
+    left: 0;
+  }
+  .sec1 .wrap {
+    width: 100%;
+    margin: 90px auto 30px;
+    text-align: center;
+  }
   .sec1 .wrap .information {
-    width: 240px;
+    display: inline-block;
+    width: 250px;
+    text-align: left;
   }
   .sec1 .wrap .soc {
-    margin-left: 112px;
+    display: inline-block;
+    margin-left: 44px;
   }
   .sec1 .school_l {
     float: none;
@@ -4051,10 +4094,10 @@ footer button.poleznoctb a {
     height: 100px;
   }
   .sec2 .slider10 .slide-control .arr.left {
-    left: -70px;
+    left: -55px;
   }
   .sec2 .slider10 .slide-control .arr.right {
-    right: -70px;
+    right: -55px;
   }
   .sec2 .slider10 .slider-wrap_obych .item .left_form {
     margin-left: 0px;
@@ -4250,10 +4293,17 @@ footer button.poleznoctb a {
     background-size: 720px 705px;
     width: 740px;
   }
+  .sec5 .texnologja .slide-control_type .arr.left {
+    left: -46px;
+  }
+  .sec5 .texnologja .slide-control_type .arr.right {
+    right: -46px;
+  }
   .sec5 .texnologja .l_textn {
     width: 320px;
     margin-bottom: 140px;
     margin: 35px auto 0;
+    margin-left: 10px;
   }
   .sec5 .texnologja .l_textn .tryd {
     width: 320px;
@@ -4271,7 +4321,7 @@ footer button.poleznoctb a {
   .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn {
     margin-left: 0;
     margin-top: 20px;
-    width: 420px;
+    width: 410px;
   }
   .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn .txt_8 {
     margin-bottom: 20px;
@@ -4338,6 +4388,9 @@ footer button.poleznoctb a {
   .sec7 .slider9 .slider-wrap_ceni .item .zapisb {
     margin-bottom: 20px;
   }
+  .sec7 .slider9 .slider-wrap_ceni .item .podrobno {
+    margin: 0 auto;
+  }
 
   .sec8 .pink {
     margin-top: 110px;
@@ -4357,6 +4410,33 @@ footer button.poleznoctb a {
     right: 3px;
   }
 
+  .sec9 .pink {
+    margin-top: 108px;
+  }
+  .sec9 .l_sert {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .sec9 .l_sert .ft_1 {
+    margin: 0 auto 20px;
+  }
+  .sec9 .l_sert .ft_2 {
+    margin: 0 auto;
+  }
+  .sec9 .r_sert {
+    float: none;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    width: 100%;
+    line-height: 25px;
+    padding: 0 30px 0;
+  }
+
+  .sec10 {
+    margin-top: 108px;
+  }
   .sec10 .shmotki {
     width: 100%;
     background-image: none;
@@ -4377,6 +4457,14 @@ footer button.poleznoctb a {
     right: -7px;
     top: -33px;
   }
+
+  footer {
+    text-align: center;
+    display: inline-block;
+  }
+  footer .logo_f {
+    margin-left: 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   .section > div,
@@ -4387,9 +4475,6 @@ footer button.poleznoctb a {
     max-width: 480px;
   }
 
-  .sec1 .wrap {
-    border: none;
-  }
   .sec1 .school_l {
     float: none;
     margin: 0 auto;
@@ -4468,6 +4553,9 @@ footer button.poleznoctb a {
   .sec2 .wrp_step .d-wrap .dota .step {
     font-size: 20px;
   }
+  .sec2 .slider10 {
+    float: none;
+  }
   .sec2 .slider10 .slider-wrap_obych .item .dot_fot_wrap {
     margin: 0 auto;
     float: none;
@@ -4476,6 +4564,9 @@ footer button.poleznoctb a {
     float: none;
     margin: 0 auto 30px;
   }
+  .sec2 .slider10 .slider-wrap_obych .item .right_sld {
+    padding-left: 0;
+  }
   .sec2 .slider10 .slider-wrap_obych .item .right_sld p.p_sld {
     text-align: center;
   }
@@ -4483,6 +4574,9 @@ footer button.poleznoctb a {
     margin: 0 auto;
   }
 
+  .sec3 .trb {
+    font-size: 27px;
+  }
   .sec3 .l_trbl {
     display: block;
     margin: 0 auto;
@@ -4498,9 +4592,11 @@ footer button.poleznoctb a {
     background-color: #b2396f;
     width: 100%;
     height: initial;
-    padding-bottom: 20px;
     border-radius: 10px;
     margin-bottom: 30px;
+  }
+  .sec3 .r_trbl .citata {
+    padding: 20px;
   }
   .sec3 .dreams {
     display: block;
@@ -4557,6 +4653,9 @@ footer button.poleznoctb a {
         }
     }*/
   }
+  .sec4 .slider3 .slider-wrap .sld_foto {
+    width: 430px;
+  }
   .sec4 .slider3 .slide-control .arr.left {
     display: none;
   }
@@ -4593,7 +4692,7 @@ footer button.poleznoctb a {
   }
 
   .sec5 {
-    height: 1580px;
+    height: 2120px;
   }
   .sec5 p.kyrs_txt {
     line-height: 20px;
@@ -4601,10 +4700,69 @@ footer button.poleznoctb a {
   .sec5 p.kyrs_txt br {
     display: none;
   }
+  .sec5 .grafik {
+    width: 300px;
+    margin: 0 auto 30px;
+  }
+  .sec5 .grafik .kln {
+    float: none;
+    border-left: none;
+  }
+  .sec5 .grafik .kln.td_head {
+    width: 100%;
+  }
+  .sec5 .grafik .kln.td_head .groups {
+    text-align: center;
+  }
+  .sec5 .grafik .kln.td_head .obychenie {
+    text-align: center;
+  }
+  .sec5 .grafik .kln.td1 {
+    width: 100%;
+  }
+  .sec5 .grafik .kln.td2 {
+    width: 100%;
+  }
+  .sec5 .grafik .kln.td3 {
+    width: 100%;
+  }
+  .sec5 .grafik .kln.td4 {
+    width: 100%;
+  }
+  .sec5 .grafik .kln.td5 {
+    width: 100%;
+  }
+  .sec5 .grafik .kln .groups {
+    text-align: center;
+  }
+  .sec5 .grafik .kln .obychenie {
+    text-align: center;
+  }
+  .sec5 .grafik .kln_b {
+    float: left;
+  }
+  .sec5 .grafik .kln_l {
+    float: right;
+  }
   .sec5 .texnologja {
     width: 100%;
-    height: 1100px;
+    height: 1185px;
     background-image: none;
+    margin-bottom: 10px;
+  }
+  .sec5 .texnologja .slide-control_type {
+    display: block;
+  }
+  .sec5 .texnologja .slide-control_type .arr {
+    display: block;
+  }
+  .sec5 .texnologja .slide-control_type .arr.left {
+    top: 1020px;
+    left: -50px;
+  }
+  .sec5 .texnologja .slide-control_type .arr.right {
+    top: 1020px;
+    right: -50px;
   }
   .sec5 .texnologja .l_textn {
     height: initial;
@@ -4619,6 +4777,8 @@ footer button.poleznoctb a {
   }
   .sec5 .texnologja .l_textn .skidka {
     margin-bottom: 20px;
+    width: 354px;
+    margin: 0 auto;
   }
   .sec5 .texnologja .slider7 {
     height: initial;
@@ -4633,6 +4793,8 @@ footer button.poleznoctb a {
     margin-bottom: 11px;
     float: none;
     margin: 0 auto;
+    padding-right: 52px;
+    padding-left: 62px;
     width: 100%;
   }
 
@@ -4640,6 +4802,40 @@ footer button.poleznoctb a {
     height: 75px;
   }
 
+  .sec7 .grafik {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .sec7 .grafik .kln {
+    float: none;
+    border-left: none;
+    width: 100%;
+    text-align: center;
+  }
+  .sec7 .grafik .kln.td_head {
+    width: 100%;
+    height: 116px;
+  }
+  .sec7 .grafik .kln.td1 {
+    height: 116px;
+    width: 100%;
+  }
+  .sec7 .grafik .kln.td2 {
+    height: 116px;
+    width: 100%;
+  }
+  .sec7 .grafik .kln.td3 {
+    height: 116px;
+    width: 100%;
+  }
+  .sec7 .grafik .kln.td4 {
+    height: 116px;
+    width: 100%;
+  }
+  .sec7 .grafik .kln.td5 {
+    height: 116px;
+    width: 100%;
+  }
   .sec7 .l_t .ceni {
     float: none;
     margin: 0 auto 30px;
@@ -4657,6 +4853,9 @@ footer button.poleznoctb a {
     width: 100%;
     background-size: 460px 730px;
     padding: 20px 0 0;
+  }
+  .sec7 .slider9 .slider-wrap_ceni .item .podrobno {
+    margin: 0 auto;
   }
 
   .sec8 .pink {
@@ -4694,6 +4893,19 @@ footer button.poleznoctb a {
   }
   .sec8 .slider4 .slider-wrap_otz .item .r_com .wrp_comm:after {
     right: 185px;
+  }
+
+  .sec9 .l_sert {
+    float: none;
+  }
+  .sec9 .r_sert {
+    float: none;
+    width: 100%;
+    padding: 0 62px 0;
+    line-height: 25px;
+  }
+  .sec9 .r_sert br {
+    display: none;
   }
 
   .sec10 .pink {
@@ -4744,11 +4956,109 @@ footer button.poleznoctb a {
     max-width: 320px;
   }
 
+  .sec1 {
+    margin-top: 173px;
+  }
+  .sec1 .logo {
+    width: 100%;
+    top: -93px;
+    left: 0px;
+  }
+  .sec1 .wrap {
+    text-align: center;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 96px;
+  }
+  .sec1 .wrap .information {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .sec1 .wrap .soc {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .sec1 .school_l {
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: 6px -4px;
+  }
+  .sec1 .school_l h3 {
+    padding: 0;
+  }
+  .sec1 .school_l .sch_txt {
+    height: initial;
+  }
+  .sec1 .school_l .sch_txt .machine {
+    width: 100%;
+    background-size: 100% 100%;
+    height: 130px;
+  }
+  .sec1 .school_l .sch_txt .machine .wrp_machine {
+    padding-left: 14px;
+    padding-top: 3px;
+    background-image: none;
+  }
+  .sec1 .school_l .sch_txt .machine .wrp_machine p.free {
+    padding: 0;
+    line-height: 20px;
+  }
+  .sec1 .school_l .sch_txt .machine .wrp_machine p.free br {
+    display: none;
+  }
+  .sec1 .school_l .sch_txt .machine .wrp_machine p.txtsm {
+    line-height: 20px;
+  }
+  .sec1 .school_l .sch_txt .machine .wrp_machine p.txtsm br {
+    display: none;
+  }
+  .sec1 .school_r {
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: 6px -5px;
+  }
+  .sec1 .school_r form p.xotite {
+    padding-left: 80px;
+    padding-top: 37px;
+  }
+  .sec1 .school_r form .zajavka {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .sec2 .bonus_l {
+    width: 100%;
+  }
+  .sec2 .bonus_l .wrp_met {
+    width: 100%;
+    background-size: 100% auto;
+  }
+  .sec2 .bonus_r {
+    width: 100%;
+  }
+  .sec2 .bonus_r .wrp_met {
+    width: 100%;
+    background-size: 100% auto;
+  }
+  .sec2 .wrp_how {
+    background-image: none;
+  }
+  .sec2 .slider10 .slider-wrap_obych .item .right_sld {
+    width: 100%;
+  }
+
   .sec3 .dreams {
     margin: 0 auto;
     float: none;
   }
   .sec3 .slider8 .slider-wrap_tbrl .item .comments {
+    width: 100%;
+    background-size: 300px 439px;
     margin: 0 auto;
     float: none;
     margin-bottom: 20px;
@@ -4781,7 +5091,59 @@ footer button.poleznoctb a {
         }
     }*/
   }
+  .sec4 .r_team {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sec4 .r_team .slider6 .slide-control .arr.left {
+    left: 5px;
+  }
+  .sec4 .r_team .slider6 .slide-control .arr.right {
+    right: 5px;
+  }
+  .sec4 .r_team .txt_tm {
+    width: 100%;
+    padding: 0;
+  }
 
+  .sec5 {
+    height: 2470px;
+  }
+  .sec5 .texnologja {
+    border-radius: 10px;
+    height: 1490px;
+  }
+  .sec5 .texnologja .l_textn {
+    width: 100%;
+  }
+  .sec5 .texnologja .l_textn .tryd {
+    width: 354px;
+    margin: 0 auto;
+    height: 350px;
+  }
+  .sec5 .texnologja .l_textn .skidka {
+    width: 320px;
+    margin-bottom: 0;
+  }
+  .sec5 .texnologja .slider7 .slider-wrap_type .item {
+    width: 320px;
+    min-height: 695px;
+  }
+
+  .sec6 .r_foot {
+    width: 100%;
+  }
+  .sec6 .r_foot form {
+    width: 100%;
+    height: 442px;
+    width: 100%;
+    background-size: 316px 431px;
+    background-position: 5px 1px;
+  }
+
+  .sec7 {
+    margin-top: 99px;
+  }
   .sec7 .l_t .ceni {
     width: 100%;
   }
@@ -4791,6 +5153,40 @@ footer button.poleznoctb a {
   }
   .sec7 .slider9 .slider-wrap_ceni .item .r_t .teksta .skidka span.month {
     display: none;
+  }
+  .sec7 .slider9 .slider-wrap_ceni .item .podrobno {
+    margin-bottom: 20px;
+  }
+
+  .sec8 .slider12 {
+    width: 320px;
+  }
+  .sec8 .slider12 .item .video {
+    width: 320px;
+    height: 300px;
+  }
+  .sec8 .slider12 .slide-control {
+    display: none;
+  }
+  .sec8 .slider4 .slider-wrap_otz .item .l_com .wrp_comm {
+    width: 320px;
+    height: 300px;
+    background-size: 320px 300px;
+  }
+  .sec8 .slider4 .slider-wrap_otz .item .l_com .wrp_comm:before {
+    right: 100px;
+  }
+  .sec8 .slider4 .slider-wrap_otz .item .r_com .wrp_comm {
+    width: 320px;
+    height: 300px;
+    background-size: 320px 300px;
+  }
+  .sec8 .slider4 .slider-wrap_otz .item .r_com .wrp_comm:after {
+    right: 100px;
+  }
+
+  .sec10 {
+    margin-top: 89px;
   }
 }
 .pop_z form {

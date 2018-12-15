@@ -3979,14 +3979,14 @@ header {
     }
 
     .students_works {
-
-
-        &.opened{  
+        &.opened {
             padding-bottom: 73px;
-            .more{
-                display:none; 
+
+            .more {
+                display: none;
             }
-        } 
+        }
+
         .item {
             display: none;
             height: 672px;
@@ -4666,20 +4666,23 @@ footer {
 
             .slider-wrap {
                 .sld_foto {
+                    width: 860px;
+                    height: 380px;
+
                     img {}
                 }
             }
 
             .slide-control {
                 .arr {
-                    left: -48px;
-
                     &.left {
+                        left: -25px;
+
                         a {}
                     }
 
                     &.right {
-                        right: -48px;
+                        right: -25px;
 
                         a {}
                     }
@@ -4849,10 +4852,12 @@ footer {
 
                 &.td3 {}
 
-                &.td4 {}
+                &.td4 {
+                    width: 21.4%;
+                }
 
                 &.td5 {
-                    width: 23.3%;
+                    width: 22.4%;
                 }
 
                 .groups {
@@ -4880,16 +4885,19 @@ footer {
         }
 
         .texnologja {
+            width: 920px;
+            height: 650px;
+
             .slide-control_type {
                 .arr {
                     &.left {
-                        left: -48px;
+                        left: -29px;
 
                         a {}
                     }
 
                     &.right {
-                        right: -48px;
+                        right: -29px;
 
                         a {}
                     }
@@ -4897,7 +4905,12 @@ footer {
             }
 
             .l_textn {
+                width: 387px;
+                margin-left: 26px;
+
                 .tryd {
+                    width: 100%;
+
                     img {}
                 }
 
@@ -4917,6 +4930,9 @@ footer {
                 .slider-wrap_type {
                     .item {
                         .r_textn {
+                            margin: 36px auto 0;
+                            width: 500px;
+
                             .txt_1 {
                                 span {}
                             }
@@ -5006,7 +5022,7 @@ footer {
 
     .sec7 {
         .pink {
-            margin-top: 78px;
+            margin-top: 89px;
 
             .polosa {}
 
@@ -5229,7 +5245,7 @@ footer {
             .item {
                 .video {
                     width: 685px;
-                       height: 483px;
+                    height: 483px;
 
                     video {
                         width: 100%;
@@ -5243,14 +5259,12 @@ footer {
             .slide-control {
                 .arr {
                     &.left {
-                        
-                      left: 70px;
+                        left: 70px;
 
                         a {}
                     }
 
                     &.right {
-                        
                         right: 70px;
 
                         a {}
@@ -5277,7 +5291,7 @@ footer {
                             background-size: 630px 300px;
 
                             &:before {
-                                    right: 260px;
+                                right: 260px;
                             }
 
                             img {}
@@ -5291,7 +5305,7 @@ footer {
                             background-size: 630px 300px;
 
                             &:after {
-                                 right: 260px;
+                                right: 260px;
                             }
 
                             img {}
@@ -5303,13 +5317,14 @@ footer {
             .slide-control_otz {
                 .arr {
                     &.left {
-                            left: -50px;
+                        left: -50px;
 
                         a {}
                     }
 
                     &.right {
-                            right: -50px;
+                        right: -50px;
+
                         a {}
                     }
                 }
@@ -5416,10 +5431,14 @@ footer {
             .slide-control_gal {
                 .arr {
                     &.left {
+                        left: -80px;
+
                         a {}
                     }
 
                     &.right {
+                        right: -80px;
+
                         a {}
                     }
                 }
@@ -5564,11 +5583,23 @@ footer {
     .sec1 {
         height: initial;
         margin-top: 120px;
-        .logo {}
+
+        .logo {
+            width: 100%;
+            margin: 0 auto;
+            top: -70px;
+            left: 0;
+        }
 
         .wrap {
+            width: 100%;
+            margin: 90px auto 30px;
+                text-align: center;
+
             .information {
-                width: 240px;
+                display: inline-block;
+                width: 250px;
+                text-align:left;
 
                 .adress {
                     p.txt {}
@@ -5578,7 +5609,8 @@ footer {
             }
 
             .soc {
-                margin-left: 112px;
+                display: inline-block;
+                margin-left: 44px;
 
                 p.h3 {}
 
@@ -5797,13 +5829,13 @@ footer {
             .slide-control {
                 .arr {
                     &.left {
-                        left: -70px;
+                            left: -55px;
 
                         a {}
                     }
 
                     &.right {
-                        right: -70px;
+                        right: -55px;
 
                         a {}
                     }
@@ -6276,10 +6308,14 @@ footer {
             .slide-control_type {
                 .arr {
                     &.left {
+                        left: -46px;
+
                         a {}
                     }
 
                     &.right {
+                        right: -46px;
+
                         a {}
                     }
                 }
@@ -6289,6 +6325,7 @@ footer {
                 width: 320px;
                 margin-bottom: 140px;
                 margin: 35px auto 0;
+                margin-left: 10px;
 
                 .tryd {
                     width: 320px;
@@ -6325,7 +6362,7 @@ footer {
                         .r_textn {
                             margin-left: 0;
                             margin-top: 20px;
-                            width: 420px;
+                            width: 410px;
 
                             .txt_1 {
                                 span {}
@@ -6619,6 +6656,8 @@ footer {
                     }
 
                     .podrobno {
+                        margin: 0 auto;
+
                         &.cntr {}
                     }
                 }
@@ -6716,6 +6755,8 @@ footer {
 
     .sec9 {
         .pink {
+            margin-top: 108px;
+
             .polosa {}
 
             .kyrsi_ceni {}
@@ -6724,21 +6765,39 @@ footer {
         p.krs {}
 
         .l_sert {
+            float: none;
+            width: 100%;
+            text-align: center;
+
             .ft_1 {
+                margin: 0 auto 20px;
+
                 img {}
             }
 
             .ft_2 {
+                margin: 0 auto;
+
                 img {}
             }
         }
 
-        .r_sert {}
+        .r_sert {
+            float: none;
+            text-align: center;
+            margin-bottom: 30px;
+            margin: 0 auto;
+            width: 100%;
+            line-height: 25px;
+            padding: 0 30px 0;
+        }
 
         button.present {}
     }
 
     .sec10 {
+        margin-top: 108px;
+
         .pink {
             .polosa {}
 
@@ -6785,10 +6844,10 @@ footer {
 
         .shmotki {
             width: 100%;
-    background-image: none;
-    background-color: #fcfcfc;
-    margin: 0 auto 40px;
-  
+            background-image: none;
+            background-color: #fcfcfc;
+            margin: 0 auto 40px;
+
             .polosa {
                 .gz_dygga {
                     display: none;
@@ -6796,7 +6855,8 @@ footer {
             }
 
             .ibw_wrap {
-                border:none;
+                border: none;
+
                 .el {
                     &.active {}
 
@@ -6821,14 +6881,16 @@ footer {
             .slide-control_gal {
                 .arr {
                     &.left {
-                            left: -7px;
-    top: -33px;
+                        left: -7px;
+                        top: -33px;
+
                         a {}
                     }
 
                     &.right {
-                            right: -7px;
-    top: -33px;
+                        right: -7px;
+                        top: -33px;
+
                         a {}
                     }
                 }
@@ -6857,7 +6919,12 @@ footer {
     }
 
     footer {
-        .logo_f {}
+        text-align: center;
+        display: inline-block;
+
+        .logo_f {
+            margin-left: 0;
+        }
 
         .soc_f {
             p.h3 {}
@@ -6945,8 +7012,6 @@ footer {
         .logo {}
 
         .wrap {
-            border: none;
-
             .information {
                 .adress {
                     p.txt {}
@@ -7157,6 +7222,7 @@ footer {
         }
 
         .slider10 {
+            float:none;
             .item {
                 &.active {}
             }
@@ -7208,6 +7274,7 @@ footer {
                     }
 
                     .right_sld {
+                            padding-left: 0;
                         &:before {}
 
                         p.p_sld {
@@ -7228,7 +7295,9 @@ footer {
     }
 
     .sec3 {
-        .trb {}
+        .trb {
+            font-size: 27px;
+        }
 
         .l_trbl {
             display: block;
@@ -7249,17 +7318,19 @@ footer {
             background-color: #b2396f;
             width: 100%;
             height: initial;
-            padding-bottom: 20px;
             border-radius: 10px;
             margin-bottom: 30px;
 
-            .citata {}
+            .citata {
+                padding:20px;
+            }
         }
 
         .dreams {
-                display: block;
-    margin: 0 auto;
-    float: none;
+            display: block;
+            margin: 0 auto;
+            float: none;
+
             .trbl {
                 margin-bottom: 20px;
 
@@ -7322,8 +7393,7 @@ footer {
                     }
 
                     &.right {
-                            left: 430px;
-
+                        left: 430px;
 
                         a {}
                     }
@@ -7333,10 +7403,11 @@ footer {
             .slider-wrap_tbrl {
                 .item {
                     .comments {
-                            display: block;
-    margin: 0 auto;
-    float: none;
-        margin-bottom: 20px;
+                        display: block;
+                        margin: 0 auto;
+                        float: none;
+                        margin-bottom: 20px;
+
                         p.drm {}
 
                         p.drm_txt {}
@@ -7372,6 +7443,8 @@ footer {
 
             .slider-wrap {
                 .sld_foto {
+                    width: 430px;
+
                     img {}
                 }
             }
@@ -7535,7 +7608,7 @@ footer {
     }
 
     .sec5 {
-        height: 1580px;
+           height: 2120px;
 
         p.kyrsi {}
 
@@ -7548,28 +7621,54 @@ footer {
         }
 
         .grafik {
-            .kln {
-                &.td_head {
-                    .groups {}
+            width: 300px;
+            margin: 0 auto 30px;
 
-                    .obychenie {}
+            .kln {
+                float: none;
+                border-left: none;
+
+                &.td_head {
+                    width: 100%;
+
+                    .groups {
+                        text-align: center;
+                    }
+
+                    .obychenie {
+                        text-align: center;
+                    }
                 }
 
-                &.td1 {}
+                &.td1 {
+                    width: 100%;
+                }
 
-                &.td2 {}
+                &.td2 {
+                    width: 100%;
+                }
 
-                &.td3 {}
+                &.td3 {
+                    width: 100%;
+                }
 
-                &.td4 {}
+                &.td4 {
+                    width: 100%;
+                }
 
-                &.td5 {}
+                &.td5 {
+                    width: 100%;
+                }
 
                 .groups {
+                    text-align: center;
+
                     span {}
                 }
 
                 .obychenie {
+                    text-align: center;
+
                     &.mytb {}
 
                     span {}
@@ -7577,12 +7676,16 @@ footer {
             }
 
             .kln_b {
+                float: left;
+
                 .groups {}
 
                 .obychenie {}
             }
 
             .kln_l {
+                float: right;
+
                 .groups {}
 
                 .obychenie {}
@@ -7591,16 +7694,27 @@ footer {
 
         .texnologja {
             width: 100%;
-            height: 1100px;
+            height: 1185px;
             background-image: none;
+                margin-bottom: 10px;
 
             .slide-control_type {
+                display: block;
+
                 .arr {
+                    display: block;
+
                     &.left {
+                        top: 1020px;
+                        left: -50px;
+
                         a {}
                     }
 
                     &.right {
+                        top: 1020px;
+                        right: -50px;
+
                         a {}
                     }
                 }
@@ -7622,6 +7736,8 @@ footer {
 
                 .skidka {
                     margin-bottom: 20px;
+                        width: 354px;
+                    margin: 0 auto;
 
                     // display: none;
 
@@ -7648,6 +7764,8 @@ footer {
                             margin-bottom: 11px;
                             float: none;
                             margin: 0 auto;
+                               padding-right: 52px;
+    padding-left: 62px;
                             width: 100%;
 
                             .txt_1 {
@@ -7742,22 +7860,48 @@ footer {
         p.krs_txt {}
 
         .grafik {
+            width: 300px;
+            margin-bottom: 30px;
+
             .kln {
+                float: none;
+                border-left: none;
+                width: 100%;
+                text-align: center;
+
                 &.td_head {
+                    width: 100%;
+                    height: 116px;
+
                     .groups {}
 
                     .obychenie {}
                 }
 
-                &.td1 {}
+                &.td1 {
+                    height: 116px;
+                    width: 100%;
+                }
 
-                &.td2 {}
+                &.td2 {
+                    height: 116px;
+                    width: 100%;
+                }
 
-                &.td3 {}
+                &.td3 {
+                    height: 116px;
+                    width: 100%;
+                }
 
-                &.td4 {}
+                &.td4 {
+                    height: 116px;
+                    width: 100%;
+                }
 
-                &.td5 {}
+                &.td5 {
+                    height: 116px;
+                    width: 100%;
+                }
 
                 .groups {
                     span {}
@@ -7909,6 +8053,8 @@ footer {
                     }
 
                     .podrobno {
+                        margin: 0 auto;
+
                         &.cntr {}
                     }
                 }
@@ -7918,7 +8064,8 @@ footer {
 
     .sec8 {
         .pink {
-                margin-top: 120px;
+            margin-top: 120px;
+
             .polosa {}
 
             .kyrsi_ceni {}
@@ -7930,10 +8077,12 @@ footer {
 
         .slider12 {
             width: 480px;
+
             .item {
                 .video {
-                       width: 380px;
-    height: 300px;
+                    width: 380px;
+                    height: 300px;
+
                     video {
                         width: 100%;
                         height: 100%;
@@ -7947,11 +8096,13 @@ footer {
                 .arr {
                     &.left {
                         top: 413px;
+
                         a {}
                     }
 
                     &.right {
                         top: 413px;
+
                         a {}
                     }
                 }
@@ -7972,8 +8123,9 @@ footer {
                     .l_com {
                         .wrp_comm {
                             width: 480px;
-    height: 300px;
-    background-size: 480px 300px;
+                            height: 300px;
+                            background-size: 480px 300px;
+
                             &:before {
                                 right: 185px;
                             }
@@ -7985,8 +8137,9 @@ footer {
                     .r_com {
                         .wrp_comm {
                             width: 480px;
-    height: 300px;
-    background-size: 480px 300px;
+                            height: 300px;
+                            background-size: 480px 300px;
+
                             &:after {
                                 right: 185px;
                             }
@@ -8021,6 +8174,8 @@ footer {
         p.krs {}
 
         .l_sert {
+            float: none;
+
             .ft_1 {
                 img {}
             }
@@ -8030,14 +8185,25 @@ footer {
             }
         }
 
-        .r_sert {}
+        .r_sert {
+            float: none;
+            width: 100%;
+            padding: 0 62px 0;
+
+            br {
+                display: none;
+            }
+
+            line-height: 25px;
+        }
 
         button.present {}
     }
 
     .sec10 {
         .pink {
-                margin-top: 120px;
+            margin-top: 120px;
+
             .polosa {}
 
             .kyrsi_ceni {}
@@ -8047,7 +8213,8 @@ footer {
 
         .block-wrap {
             .item {
-                    margin-bottom: 20px;
+                margin-bottom: 20px;
+
                 &.active {}
             }
         }
@@ -8056,10 +8223,10 @@ footer {
             .ibw {
                 & > .item {
                     margin-bottom: 20px;
+
                     &.active {
                         .wrp_albom {
-                            bottom:0;
-
+                            bottom: 0;
                         }
                     }
 
@@ -8087,15 +8254,17 @@ footer {
         }
 
         .shmotki {
-                width: 100%;
-    margin-bottom: 80px;
-    background-image: none;
+            width: 100%;
+            margin-bottom: 80px;
+            background-image: none;
+
             .polosa {
                 .gz_dygga {}
             }
 
             .ibw_wrap {
-                border:none;
+                border: none;
+
                 .el {
                     &.active {}
 
@@ -8121,11 +8290,13 @@ footer {
                 .arr {
                     &.left {
                         left: 0px;
+
                         a {}
                     }
 
                     &.right {
                         right: 0px;
+
                         a {}
                     }
                 }
@@ -8247,10 +8418,26 @@ footer {
     }
 
     .sec1 {
-        .logo {}
+        margin-top: 173px;
+
+        .logo {
+            width: 100%;
+            top: -93px;
+            left: 0px;
+        }
 
         .wrap {
+            text-align: center;
+            border: none;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 96px;
+
             .information {
+                text-align: center;
+                display: block;
+                margin: 0 auto;
+
                 .adress {
                     p.txt {}
 
@@ -8259,6 +8446,12 @@ footer {
             }
 
             .soc {
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 20px;
+                text-align: center;
+
                 p.h3 {}
 
                 a.vk {}
@@ -8270,34 +8463,74 @@ footer {
         }
 
         .school_l {
+            width: 100%;
+            background-size: 100% 100%;
+            background-position: 6px -4px;
+
             .wnyr {}
 
-            h3 {}
+            h3 {
+                padding: 0;
+            }
 
             .sch_txt {
+                height: initial;
+
                 .new {}
 
                 .smtxt {}
 
                 .machine {
-                    .wrp_machine {
-                        p.free {}
+                    width: 100%;
+                    background-size: 100% 100%;
+                    height: 130px;
 
-                        p.txtsm {}
+                    .wrp_machine {
+                        padding-left: 14px;
+                        padding-top: 3px;
+                        background-image: none;
+
+                        p.free {
+                            padding: 0;
+
+                            br {
+                                display: none;
+                            }
+
+                            line-height: 20px;
+                        }
+
+                        p.txtsm {
+                            br {
+                                display: none;
+                            }
+
+                            line-height: 20px;
+                        }
                     }
                 }
             }
         }
 
         .school_r {
+            width: 100%;
+            background-size: 100% 100%;
+            background-position: 6px -5px;
+
             form {
                 p.xotite {
+                    padding-left: 80px;
+                    padding-top: 37px;
+
                     span.bl {}
 
                     span.pink {}
                 }
 
-                .zajavka {}
+                .zajavka {
+                    padding: 10px;
+                    margin-bottom: 10px;
+                }
 
                 input {}
 
@@ -8312,7 +8545,12 @@ footer {
         h2 {}
 
         .bonus_l {
+            width: 100%;
+
             .wrp_met {
+                width: 100%;
+                background-size: 100% auto;
+
                 p.forme {}
 
                 p.formetxt {
@@ -8322,7 +8560,12 @@ footer {
         }
 
         .bonus_r {
+            width: 100%;
+
             .wrp_met {
+                width: 100%;
+                background-size: 100% auto;
+
                 p.tkanb {}
 
                 p.tkanbtxt {
@@ -8340,6 +8583,8 @@ footer {
         .how {}
 
         .wrp_how {
+            background-image: none;
+
             &:after {}
 
             &:before {}
@@ -8441,6 +8686,8 @@ footer {
                     }
 
                     .right_sld {
+                        width: 100%;
+
                         &:before {}
 
                         p.p_sld {}
@@ -8534,6 +8781,8 @@ footer {
             .slider-wrap_tbrl {
                 .item {
                     .comments {
+                        width: 100%;
+                        background-size: 300px 439px;
                         margin: 0 auto;
                         float: none;
                         margin-bottom: 20px;
@@ -8670,6 +8919,9 @@ footer {
         }
 
         .r_team {
+            width: 100%;
+            margin: 0 auto;
+
             .slider6 {
                 .item {
                     &.active {}
@@ -8684,10 +8936,14 @@ footer {
                 .slide-control {
                     .arr {
                         &.left {
+                            left: 5px;
+
                             a {}
                         }
 
                         &.right {
+                            right: 5px;
+
                             a {}
                         }
                     }
@@ -8699,6 +8955,9 @@ footer {
             }
 
             .txt_tm {
+                width: 100%;
+                padding: 0;
+
                 span.normal_txt {}
 
                 &:before {}
@@ -8709,6 +8968,8 @@ footer {
     }
 
     .sec5 {
+           height: 2470px;
+
         p.kyrsi {}
 
         p.kyrs_txt {}
@@ -8756,6 +9017,9 @@ footer {
         }
 
         .texnologja {
+            border-radius: 10px;
+    height: 1490px;
+
             .slide-control_type {
                 .arr {
                     &.left {
@@ -8769,11 +9033,20 @@ footer {
             }
 
             .l_textn {
+                width: 100%;
+
                 .tryd {
+                    width: 354px;
+                    margin: 0 auto;
+                    height: 350px;
+
                     img {}
                 }
 
                 .skidka {
+                    width: 320px;
+                    margin-bottom: 0;
+
                     // display: none;
 
                     // &.active {
@@ -8788,6 +9061,9 @@ footer {
             .slider7 {
                 .slider-wrap_type {
                     .item {
+                        width: 320px;
+                        min-height: 695px;
+
                         .r_textn {
                             .txt_1 {
                                 span {}
@@ -8845,7 +9121,15 @@ footer {
         }
 
         .r_foot {
+            width: 100%;
+
             form {
+                width: 100%;
+                height: 442px;
+                width: 100%;
+                background-size: 316px 431px;
+                background-position: 5px 1px;
+
                 p.xotite {
                     span.bl {}
 
@@ -8868,6 +9152,8 @@ footer {
     }
 
     .sec7 {
+        margin-top: 99px;
+
         .pink {
             .polosa {}
 
@@ -9041,6 +9327,8 @@ footer {
                     }
 
                     .podrobno {
+                        margin-bottom: 20px;
+
                         &.cntr {}
                     }
                 }
@@ -9060,8 +9348,13 @@ footer {
         p.krs_txt {}
 
         .slider12 {
+            width: 320px;
+
             .item {
                 .video {
+                    width: 320px;
+                    height: 300px;
+
                     video {}
                 }
             }
@@ -9069,6 +9362,8 @@ footer {
             .bx-pager {}
 
             .slide-control {
+                display: none;
+
                 .arr {
                     &.left {
                         a {}
@@ -9094,7 +9389,13 @@ footer {
                 .item {
                     .l_com {
                         .wrp_comm {
-                            &:before {}
+                            width: 320px;
+                            height: 300px;
+                            background-size: 320px 300px;
+
+                            &:before {
+                                right: 100px;
+                            }
 
                             img {}
                         }
@@ -9102,7 +9403,13 @@ footer {
 
                     .r_com {
                         .wrp_comm {
-                            &:after {}
+                            width: 320px;
+                            height: 300px;
+                            background-size: 320px 300px;
+
+                            &:after {
+                                right: 100px;
+                            }
 
                             img {}
                         }
@@ -9149,6 +9456,8 @@ footer {
     }
 
     .sec10 {
+        margin-top: 89px;
+
         .pink {
             .polosa {}
 
@@ -9978,17 +10287,19 @@ footer {
     display: none;
 }
 
-.loading { 
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background: #000;
-  opacity: 0.5;
-  z-index: 100;
-  display: none;  }
-  .loading div {
+.loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: 100;
+    display: none;
+}
+
+.loading div {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IC0yNTUgMzQ3IDEwMCAxMDAiIHZpZXdCb3g9Ii0yNTUgMzQ3IDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZiI+PHBhdGggZD0ibS0xNzkuOSA0MTEuNXMuMS0uMi40LS41Yy4zLS40LjUtLjcuOC0xLjQuNy0xLjIgMS42LTMgMi40LTUuMy40LTEuMS43LTIuNCAxLTMuOHMuNS0yLjkuNS00LjRjMC0uOC4xLTEuOCAwLTIuNSAwLS44IDAtMS41LS4yLTIuNC0uMS0uOC0uMi0xLjYtLjQtMi41LS4yLS44LS4zLTEuNi0uNi0yLjVsLS4zLTEuMmMtLjEtLjQtLjMtLjgtLjQtMS4ybC0uNC0xLjItLjUtMS4xYy0uMy0uOC0uNy0xLjUtMS4xLTIuMnMtLjgtMS40LTEuMy0yLjFjLS40LS43LS45LTEuMy0xLjQtMS45cy0xLTEuMi0xLjUtMS44LTEtMS4xLTEuNS0xLjZjLS4zLS4yLS41LS41LS44LS43cy0uNS0uNC0uOC0uNmMtMS0uOS0yLTEuNi0yLjktMi4ycy0xLjctMS4xLTIuNC0xLjVjLTEuNC0uNy0yLjItMS4xLTIuMi0xLjFzLjkuMyAyLjMuOGMuNy4zIDEuNi43IDIuNiAxLjEgMSAuNSAyLjEgMS4xIDMuMyAxLjhsLjkuNi45LjZjLjYuNCAxLjIuOSAxLjggMS40czEuMiAxIDEuOCAxLjYgMS4yIDEuMiAxLjggMS44Yy42LjcgMS4yIDEuMyAxLjcgMi4xLjUuNyAxLjEgMS41IDEuNiAyLjJsLjggMS4yLjcgMS4yYy4yLjQuNS44LjcgMS4zbC42IDEuM2MuNC45LjcgMS44IDEgMi43cy42IDEuOC44IDIuN2MuMy45LjQgMS45LjYgMi44LjIgMSAuMiAxLjguMyAyLjYuMiAxLjkuMiAzLjYuMSA1LjNzLS4zIDMuMy0uNiA0LjdjLS42IDIuOS0xLjQgNS4zLTIuMSA2LjktLjMuOC0uNyAxLjUtLjggMS45LS4yLjQtLjMuNi0uMy42LS45IDItMy4zIDIuOS01LjMgMS45LTItLjktMi45LTMuMy0xLjktNS4zLjEuMy4yLjEuMy0uMXoiLz48cGF0aCBkPSJtLTIwNC45IDM2OHMtLjIgMC0uNiAwYy0uNSAwLS45IDAtMS42LS4xLTEuNCAwLTMuNC4xLTUuOC41LTEuMi4yLTIuNS42LTMuOCAxcy0yLjcgMS00IDEuN2MtLjcuNC0xLjYuOC0yLjEgMS4yLS42LjQtMS4zLjgtMiAxLjNzLTEuMyAxLTEuOSAxLjUtMS4zIDEuMS0xLjggMS43bC0uOS45Yy0uMy4zLS41LjYtLjggMWwtLjggMS0uNyAxYy0uNS43LS45IDEuNC0xLjQgMi4xcy0uOCAxLjQtMS4yIDIuMmMtLjQuNy0uNyAxLjUtMSAyLjJzLS41IDEuNS0uOCAyLjItLjQgMS40LS42IDIuMWMtLjEuMy0uMi43LS4zIDFzLS4xLjctLjIgMWMtLjMgMS4zLS4zIDIuNS0uNCAzLjZzLS4xIDItLjEgMi44Yy4xIDEuNi4xIDIuNS4xIDIuNXMtLjEtLjgtLjQtMi40Yy0uMS0uOC0uMi0xLjctLjMtMi44cy0uMS0yLjQtLjEtMy43YzAtLjMgMC0uNyAwLTEuMXMuMS0uNy4xLTEuMWMuMS0uNy4xLTEuNS4zLTIuMy4xLS44LjMtMS42LjUtMi40cy40LTEuNi43LTIuNWMuMy0uOC41LTEuNy45LTIuNS4zLS44LjctMS43IDEuMi0yLjVsLjYtMS4yLjctMS4yYy4zLS40LjUtLjguOC0xLjJsLjgtMS4yYy41LS44IDEuMi0xLjUgMS44LTIuMnMxLjMtMS40IDItMi4xYy42LS43IDEuNC0xLjMgMi4yLTEuOS44LS43IDEuNC0xLjEgMi4xLTEuNiAxLjUtMS4xIDMtMiA0LjUtMi43IDEuNS0uOCAzLTEuNCA0LjQtMS45IDIuOC0xIDUuMy0xLjQgNy0xLjcuOS0uMSAxLjctLjIgMi0uMi40IDAgLjYtLjEuNi0uMSAyLjItLjIgNC4xIDEuNCA0LjMgMy43cy0xLjQgNC4xLTMuNyA0LjNjMCAuMS0uMi4xLS4zLjF6Ii8+PHBhdGggZD0ibS0yMzAuMiA0MTEuM3MuNC44IDEuMiAyLjJjLjQuOC44IDEuNCAxLjMgMi4xLjMuNC41LjguOSAxLjJzLjcuOSAxLjEgMS4zYy4yLjIuNC41LjYuN3MuNS40LjcuN2MuNS41LjkuOSAxLjUgMS40IDEuMS45IDIuMiAxLjkgMy42IDIuNi4zLjIuNy40IDEgLjZzLjcuNCAxLjEuNmMuNy4zIDEuNC44IDIuMiAxLjFzMS41LjYgMi4zLjljLjguMiAxLjYuNSAyLjQuNyAxLjYuNCAzLjMuNyA1IC44LjQgMCAuOC4xIDEuMy4xaDEuMmMuOCAwIDEuNy4xIDIuNS0uMS44LS4xIDEuNi0uMiAyLjQtLjIuOC0uMSAxLjUtLjMgMi4zLS40LjQtLjEuNy0uMSAxLjEtLjIuMy0uMS43LS4yIDEtLjMuNy0uMiAxLjMtLjQgMi0uNiAxLjItLjUgMi4zLTEgMy4zLTEuNCAxLS41IDEuOC0xIDIuNS0xLjQgMS4zLS44IDIuMS0xLjQgMi4xLTEuNHMtLjkuNy0yLjEgMS43Yy0uNi41LTEuNCAxLjEtMi4zIDEuN3MtMiAxLjItMy4yIDEuOWMtLjYuMy0xLjMuNi0xLjkuOS0uMy4yLS43LjMtMSAuNS0uNC4yLS43LjMtMS4xLjQtLjcuMy0xLjUuNS0yLjMuOC0uOC4yLTEuNy40LTIuNS42cy0xLjcuMy0yLjYuNGMtLjUuMS0uOS4xLTEuNC4yLS41IDAtLjkgMC0xLjQuMS0xLjkuMS0zLjggMC01LjctLjEtMS0uMS0xLjktLjItMi45LS40LS45LS4yLTEuOS0uNS0yLjgtLjdzLTEuOC0uNi0yLjctLjljLS40LS4yLS45LS4zLTEuMy0uNXMtLjgtLjQtMS4yLS42Yy0xLjctLjctMy4yLTEuNy00LjYtMi41LS43LS41LTEuNC0xLTItMS40LS4zLS4yLS42LS41LTEtLjctLjMtLjMtLjYtLjUtLjktLjgtLjYtLjUtMS4xLTEtMS42LTEuNHMtLjktMS0xLjQtMS41Yy0uOS0uOS0xLjYtMS44LTItMi40LS45LTEuMy0xLjUtMi0xLjUtMi0xLjMtMS44LTEtNC4zLjgtNS42czQuMy0xIDUuNi44Yy4yLjIuMy40LjQuNXoiLz48L2c+PC9zdmc+);
     width: 150px;
     height: 150px;
@@ -10001,20 +10312,29 @@ footer {
     background-size: cover;
     background-position: center;
     -webkit-animation: spin .8s infinite linear;
-    animation: spin .8s infinite linear; }
+    animation: spin .8s infinite linear;
+}
 
 @-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
 
 @keyframes spin {
-  0% {
-    -webkit-transform: rotate(0);
-    transform: rotate(0); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
