@@ -97,8 +97,21 @@ footer > div {
   vertical-align: top;
 }
 
+.y_button {
+  background-color: #f1e32e;
+  box-shadow: inset 0 1px 0 #eaeb6d;
+  background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.y_button:hover {
+  background-color: #f1e32e;
+  background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+  box-shadow: inset 0 1px 0 #eaeb6d, 0 0 27px rgba(236, 223, 45, 0.4);
+}
+
 header {
-  height: 68px;
+  min-height: 68px;
   background-color: white;
   overflow: inherit;
   position: fixed;
@@ -213,7 +226,7 @@ header .header .call .phoneback {
 }
 
 .sec1 {
-  background-image: url(../img/bg1.png);
+  background-image: url(../img/bg1.jpg);
   background-position: top center;
   height: 631px;
   position: relative;
@@ -830,7 +843,7 @@ header .header .call .phoneback {
 .sec2 .slider10 .slider-wrap_obych .item .dot_fot_wrap {
   width: 299px;
   height: 361px;
-  margin-left: 161px;
+  margin-left: 104px;
   position: relative;
   float: left;
 }
@@ -913,8 +926,8 @@ header .header .call .phoneback {
   border: none;
   width: 246px;
   height: 44px;
-  background-color: #f1e32e;
   border-radius: 23px;
+  background-color: #f1e32e;
   box-shadow: inset 0 1px 0 #eaeb6d;
   background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
   margin-top: 25px;
@@ -1035,8 +1048,8 @@ header .header .call .phoneback {
 }
 .sec3 .dreams .trbl .trouble {
   padding-left: 23px;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 9px;
+  padding-bottom: 10px;
   position: relative;
 }
 .sec3 .dreams .trbl .trouble.active .trb_pos {
@@ -1054,7 +1067,7 @@ header .header .call .phoneback {
   text-align: center;
   font-weight: 400;
   border-radius: 100%;
-  line-height: 59px;
+  line-height: 58px;
   border: 2.5px solid white;
   background: transparent;
 }
@@ -1092,7 +1105,7 @@ header .header .call .phoneback {
   position: absolute;
   left: 100%;
   top: 0;
-  width: 24px;
+  width: 25px;
   overflow: hidden;
 }
 .sec3 .dreams .trbl .trouble.active .helper:after, .sec3 .dreams .trbl .trouble.active .helper:before {
@@ -1299,7 +1312,7 @@ header .header .call .phoneback {
 .sec4 {
   background-color: #fcfcfc;
   padding-top: 38px;
-  padding-bottom: 26px;
+  padding-bottom: 2px;
   /*.pager {
       display: block;
       width: 960px;
@@ -1350,6 +1363,7 @@ header .header .call .phoneback {
   height: 445px;
   margin-bottom: 15px;
   position: relative;
+  overflow: hidden;
 }
 .sec4 .slider3 .slider-wrap .sld_foto img {
   min-height: 100%;
@@ -1481,6 +1495,7 @@ header .header .call .phoneback {
   padding-top: 7px;
   padding-bottom: 7px;
   position: relative;
+  cursor: pointer;
 }
 .sec4 .l_team .prepodi .chl:after, .sec4 .l_team .prepodi .chl:before {
   position: absolute;
@@ -1613,7 +1628,6 @@ header .header .call .phoneback {
   max-width: 110%;
   max-height: 110%;
   transform: translate3d(-50%, -50%, 0);
-  cursor: pointer;
   border-radius: 100%;
 }
 .sec4 .r_team .slider6 .slide-control .arr {
@@ -1671,8 +1685,9 @@ header .header .call .phoneback {
   text-align: center;
   letter-spacing: -0.2px;
   margin-bottom: 30px;
-  padding-left: 53px;
-  padding-right: 74px;
+  padding-left: 0;
+  padding-right: 20px;
+  min-height: 68px;
 }
 .sec4 .r_team p.nmr span {
   font-weight: 300;
@@ -1683,7 +1698,8 @@ header .header .call .phoneback {
   font-weight: 400;
   font-style: italic;
   padding-left: 26px;
-  line-height: 20px;
+  line-height: 18px;
+  min-height: 380px;
   text-align: left;
   color: #3a3737;
   position: relative;
@@ -1858,7 +1874,6 @@ header .header .call .phoneback {
 .sec5 .texnologja {
   margin: 0 auto;
   width: 946px;
-  height: 615px;
   border-radius: 4px;
   box-shadow: 0 -1px 8px rgba(42, 28, 34, 0.36);
   background-image: url(../img/ramka7.png);
@@ -1968,7 +1983,6 @@ header .header .call .phoneback {
 .sec5 .texnologja .slider7 {
   position: relative;
   float: right;
-  height: 520px;
 }
 .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn {
   float: left;
@@ -2111,7 +2125,7 @@ header .header .call .phoneback {
   color: #f1e53d;
   font-size: 18px;
   font-weight: 600;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   margin-bottom: 43px;
   transition: all 0.25s;
   text-align: center;
@@ -2476,6 +2490,7 @@ header .header .call .phoneback {
   padding-top: 7px;
   padding-bottom: 7px;
   position: relative;
+  cursor: pointer;
 }
 .sec7 .l_t .ceni .kyrsi .ceni_kyrsi.ceni_akcii .akcii_wrp {
   width: 62px;
@@ -3443,7 +3458,7 @@ footer .logo_f {
   height: 58px;
   background-image: url(../img/logo.png);
   background-size: contain;
-  margin-left: 79px;
+  margin-left: 67px;
   margin-top: 9px;
 }
 footer .soc_f {
@@ -3540,7 +3555,7 @@ footer button.poleznoctb a {
     opacity: 0.5;
     z-index: 10;
 }*/
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
   .section > div,
   .head > div,
   header > div,
@@ -3788,7 +3803,6 @@ footer button.poleznoctb a {
   }
   .sec5 .texnologja {
     width: 920px;
-    height: 650px;
   }
   .sec5 .texnologja .slide-control_type .arr.left {
     left: -29px;
@@ -3927,7 +3941,7 @@ footer button.poleznoctb a {
     margin-left: 70px;
   }
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 979px) {
   .section > div,
   .head > div,
   header > div,
@@ -4289,7 +4303,6 @@ footer button.poleznoctb a {
     font-size: 17px;
   }
   .sec5 .texnologja {
-    height: 720px;
     background-size: 720px 705px;
     width: 740px;
   }
@@ -4317,6 +4330,7 @@ footer button.poleznoctb a {
   }
   .sec5 .texnologja .slider7 .slider-wrap_type .item {
     width: 740px;
+    overflow: hidden;
   }
   .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn {
     margin-left: 0;
@@ -4466,13 +4480,52 @@ footer button.poleznoctb a {
     margin-left: 0;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .section > div,
   .head > div,
   header > div,
   section > div,
   footer > div {
     max-width: 480px;
+  }
+
+  header {
+    height: initial;
+  }
+  header .header {
+    padding-top: 10px;
+    text-align: center;
+  }
+  header .header.menu_opened .ibw .nav {
+    display: block;
+  }
+  header .header .ibw .navbtn {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    background: red;
+  }
+  header .header .ibw .pop_met {
+    padding-top: 5px;
+    display: inline-block;
+  }
+  header .header .ibw .nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 2;
+    background: white;
+    display: none;
+  }
+  header .header .ibw .nav a {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #c1c1c1;
   }
 
   .sec1 .school_l {
@@ -4701,12 +4754,13 @@ footer button.poleznoctb a {
     display: none;
   }
   .sec5 .grafik {
-    width: 300px;
+    width: 100%;
     margin: 0 auto 30px;
   }
   .sec5 .grafik .kln {
     float: none;
     border-left: none;
+    height: initial;
   }
   .sec5 .grafik .kln.td_head {
     width: 100%;
@@ -4732,11 +4786,20 @@ footer button.poleznoctb a {
   .sec5 .grafik .kln.td5 {
     width: 100%;
   }
+  .sec5 .grafik .kln.td5 .groups, .sec5 .grafik .kln.td5 .obychenie {
+    border-bottom: none;
+  }
   .sec5 .grafik .kln .groups {
     text-align: center;
+    width: 50%;
+    float: left;
   }
   .sec5 .grafik .kln .obychenie {
     text-align: center;
+    width: 50%;
+    float: left;
+    height: 52px;
+    border-bottom: 1px solid white;
   }
   .sec5 .grafik .kln_b {
     float: left;
@@ -4746,7 +4809,6 @@ footer button.poleznoctb a {
   }
   .sec5 .texnologja {
     width: 100%;
-    height: 1185px;
     background-image: none;
     margin-bottom: 10px;
   }
@@ -4785,6 +4847,8 @@ footer button.poleznoctb a {
   }
   .sec5 .texnologja .slider7 .slider-wrap_type .item {
     width: 480px;
+    background: #fcfcfc;
+    padding-bottom: 10px;
   }
   .sec5 .texnologja .slider7 .slider-wrap_type .item .r_textn {
     height: initial;
@@ -4793,6 +4857,7 @@ footer button.poleznoctb a {
     margin-bottom: 11px;
     float: none;
     margin: 0 auto;
+    min-height: 648px;
     padding-right: 52px;
     padding-left: 62px;
     width: 100%;
@@ -4853,6 +4918,9 @@ footer button.poleznoctb a {
     width: 100%;
     background-size: 460px 730px;
     padding: 20px 0 0;
+  }
+  .sec7 .slider9 .slider-wrap_ceni .item .r_t .teksta .skidka {
+    position: static;
   }
   .sec7 .slider9 .slider-wrap_ceni .item .podrobno {
     margin: 0 auto;
@@ -4947,7 +5015,7 @@ footer button.poleznoctb a {
     margin: 20px auto 0;
   }
 }
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 519px) {
   .section > div,
   .head > div,
   header > div,
@@ -5111,7 +5179,6 @@ footer button.poleznoctb a {
   }
   .sec5 .texnologja {
     border-radius: 10px;
-    height: 1490px;
   }
   .sec5 .texnologja .l_textn {
     width: 100%;
@@ -5554,6 +5621,16 @@ footer button.poleznoctb a {
   border-radius: 23px;
   box-shadow: inset 0 1px 0 #eaeb6d;
   transition: all 0.25s;
+  background-color: #f1e32e;
+  box-shadow: inset 0 1px 0 #eaeb6d;
+  background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.pop_present form button.frm:hover {
+  background-color: #f1e32e;
+  background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+  box-shadow: inset 0 1px 0 #eaeb6d, 0 0 27px rgba(236, 223, 45, 0.4);
 }
 .pop_present form button.frm:hover {
   background-color: #f1e32e;

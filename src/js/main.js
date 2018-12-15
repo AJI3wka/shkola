@@ -137,7 +137,14 @@ $(document).ready(function() {
 
 
     //nav start
+
+    $('.navbtn').click(function(e) {
+        $(this).closest('.header').addClass('menu_opened');
+    });
+
     $('.nav a').click(function(e) {
+
+        $(this).closest('.header').removeClass('menu_opened');
 
         if ($(this).hasClass('scrollto')) {
             var $el = $('#' + $(this).attr('href').split('#')[1]);
@@ -637,9 +644,18 @@ $(document).ready(function() {
         $('.pop_podrobnosti#konctr_pdrb').arcticmodal();
     });
     //
-    $('.dwnlmetod,.poleznoctb,.present,.bonus').click(function() {
+    $('.dwnlmetod,.poleznoctb').click(function() {
         $('.pop_met#pop_metodichka').arcticmodal();
     });
+    
+    $('.dwnlmetod').click(function() {
+        $('.pop_met#pop_metodichka_main').arcticmodal();
+    });
+
+    $('header .header .ibw button.bonus').click(function() {
+        $('.pop_met#pop_metodichka_head').arcticmodal();
+    });    
+    
     //
     $('.present[data-id="prsnt"]').click(function() {
         $('.pop_present#prsnt').arcticmodal();

@@ -5,7 +5,7 @@ $dark: #141414;
 
 @mixin ibw {
     text-align: center;
-    font-size: 0;
+    font-size: 0; 
 
     & > * {
         font-size: 1rem;
@@ -107,9 +107,45 @@ footer {
 .ibw {
     @include ibw;
 }
+@mixin y_button{
 
+
+    background-color: #f1e32e;
+    box-shadow: inset 0 1px 0 #eaeb6d;
+    background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+    transition: all 0.25s;
+    cursor: pointer;
+    &:hover {
+        background-color: #f1e32e;
+        background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
+        box-shadow: inset 0 1px 0 #eaeb6d, 0 0 27px rgba(236, 223, 45, 0.4);
+    }   
+}
+
+.y_button{ 
+    @include y_button;
+}
+
+// #maket{
+//     position: absolute; 
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     height: 6500px;
+//     z-index: 3;
+//     opacity:0.5;
+    
+//     // background-image: url(../maket_main.jpg);
+//     // background-image: url(../maket_kyrsi.jpg);
+//     // background-image: url(../maket_gall.jpg); 
+//     // background-image: url(../maket_otzivi.jpg);
+//     background-image: url(../maket_sert.jpg); 
+
+//     background-position: top center;
+// }
+ 
 header {
-    height: 68px;
+    min-height: 68px; 
     background-color: white;
     overflow: inherit;
     position: fixed;
@@ -252,7 +288,7 @@ header {
 }
 
 .sec1 {
-    background-image: url(../img/bg1.png);
+    background-image: url(../img/bg1.jpg);
     background-position: top center;
     height: 631px;
     position: relative;
@@ -957,7 +993,7 @@ header {
                 .dot_fot_wrap {
                     width: 299px;
                     height: 361px;
-                    margin-left: 161px;
+                    margin-left: 104px; 
                     position: relative;
                     float: left;
 
@@ -1050,8 +1086,8 @@ header {
                             border: none;
                             width: 246px;
                             height: 44px;
-                            background-color: #f1e32e;
                             border-radius: 23px;
+                            background-color: #f1e32e;
                             box-shadow: inset 0 1px 0 #eaeb6d;
                             background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);
                             margin-top: 25px;
@@ -1192,13 +1228,13 @@ header {
 
             .trouble {
                 padding-left: 23px;
-                padding-top: 7px;
-                padding-bottom: 7px;
+                padding-top: 9px;
+                padding-bottom: 10px;     
                 position: relative;
 
                 &.active {
                     .trb_pos {
-                        background-color: white;
+                        background-color: white; 
                         color: #ae366c;
                     }
                 }
@@ -1214,7 +1250,7 @@ header {
                     text-align: center;
                     font-weight: 400;
                     border-radius: 100%;
-                    line-height: 59px;
+                    line-height: 58px;
                     border: 2.5px solid white;
                     background: transparent;
                 }
@@ -1263,7 +1299,7 @@ header {
                         position: absolute;
                         left: 100%;
                         top: 0;
-                        width: 24px;
+                        width: 25px;    
                         overflow: hidden;
 
                         &:after, &:before {
@@ -1504,7 +1540,7 @@ header {
 .sec4 {
     background-color: #fcfcfc;
     padding-top: 38px;
-    padding-bottom: 26px;
+    padding-bottom: 2px;
 
     .fotogallery {
         font-size: 35px;
@@ -1537,6 +1573,7 @@ header {
                 // border-radius: 10px;
                 margin-bottom: 15px;
                 position: relative;
+                overflow: hidden; 
 
                 img {
                     min-height: 100%;
@@ -1710,7 +1747,8 @@ header {
                 padding-top: 7px;
                 padding-bottom: 7px;
                 position: relative;
-
+                cursor: pointer;
+ 
                 &:after, &:before {
                     position: absolute;
                     left: 4px;
@@ -1868,7 +1906,6 @@ header {
                         max-width: 110%;
                         max-height: 110%;
                         transform: translate3d(-50%, -50%, 0);
-                        cursor: pointer;
                         border-radius: 100%;
                     }
                 }
@@ -1937,8 +1974,9 @@ header {
             text-align: center;
             letter-spacing: -0.2px;
             margin-bottom: 30px;
-            padding-left: 53px;
-            padding-right: 74px;
+            padding-left: 0;
+            padding-right: 20px;  
+            min-height: 68px;   
 
             span {
                 font-weight: 300;
@@ -1951,7 +1989,9 @@ header {
             font-weight: 400;
             font-style: italic;
             padding-left: 26px;
-            line-height: 20px;
+            line-height: 18px;
+            min-height: 380px;  
+
             text-align: left;
             color: #3a3737;
             position: relative;
@@ -2159,8 +2199,7 @@ header {
 
     .texnologja {
         margin: 0 auto;
-        width: 946px;
-        height: 615px;
+        width: 946px;  
         border-radius: 4px;
         box-shadow: 0 -1px 8px rgba(42, 28, 34, 0.36);
         background-image: url(../img/ramka7.png);
@@ -2295,11 +2334,11 @@ header {
         .slider7 {
             position: relative;
             float: right;
-            height: 520px;
+            // height: 520px;
 
             // .item {
             //     display: none;
-
+ 
             //     &.active {
             //         display: block;
             //     }
@@ -2890,6 +2929,7 @@ header {
                     padding-top: 7px;
                     padding-bottom: 7px;
                     position: relative;
+                    cursor: pointer;
 
                     &.ceni_akcii {
                         .akcii_wrp {
@@ -4032,7 +4072,7 @@ footer {
         height: 58px;
         background-image: url(../img/logo.png);
         background-size: contain;
-        margin-left: 79px;
+        margin-left: 67px;
         margin-top: 9px;
     }
 
@@ -4139,9 +4179,9 @@ footer {
     height: 13200px;
     opacity: 0.5;
     z-index: 10;
-}*/
+}*/ 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
     .section > div,
     .head > div,
     header > div,
@@ -4886,7 +4926,6 @@ footer {
 
         .texnologja {
             width: 920px;
-            height: 650px;
 
             .slide-control_type {
                 .arr {
@@ -5493,7 +5532,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 979px) {
     .section > div,
     .head > div,
     header > div,
@@ -6301,7 +6340,6 @@ footer {
         }
 
         .texnologja {
-            height: 720px;
             background-size: 720px 705px;
             width: 740px;
 
@@ -6358,6 +6396,8 @@ footer {
                 .slider-wrap_type {
                     .item {
                         width: 740px;
+                        overflow: hidden;
+
 
                         .r_textn {
                             margin-left: 0;
@@ -6948,7 +6988,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .section > div,
     .head > div,
     header > div,
@@ -6958,9 +6998,52 @@ footer {
     }
 
     header {
+        height: initial;
         .header {
+            padding-top: 10px;
+            text-align: center;
+            &.menu_opened{
+                .ibw{
+                    .nav{
+                        display: block;
+                    }
+                }
+            }
             .ibw {
+
+                .navbtn{
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 40px;
+                    cursor: pointer;
+                    background:red;
+
+
+                }
+
+                .pop_met{ 
+                    padding-top: 5px; 
+                    display: inline-block;
+
+
+                }
                 .nav {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    margin: 0;
+                    width: 100%;  
+                    z-index: 2;
+                    background: white;
+                    display: none;
+                    a{
+                        width:100%;
+                        display: block;
+                        padding: 10px 0;
+                        border-bottom: 1px solid #c1c1c1; 
+
+                    }
                     a.nv1 {
                         &:hover,
                         &:active {}
@@ -7621,12 +7704,13 @@ footer {
         }
 
         .grafik {
-            width: 300px;
+            width: 100%;
             margin: 0 auto 30px;
 
             .kln {
                 float: none;
                 border-left: none;
+                height: initial;
 
                 &.td_head {
                     width: 100%;
@@ -7658,16 +7742,29 @@ footer {
 
                 &.td5 {
                     width: 100%;
+                    .groups,.obychenie{
+                        border-bottom: none; 
+
+                    }
                 }
 
                 .groups {
                     text-align: center;
+                    width: 50%;
+                    float: left; 
+
 
                     span {}
                 }
 
                 .obychenie {
                     text-align: center;
+                    width: 50%;
+                    float: left; 
+                    height: 52px;
+                    border-bottom: 1px solid white;
+
+
 
                     &.mytb {}
 
@@ -7694,7 +7791,7 @@ footer {
 
         .texnologja {
             width: 100%;
-            height: 1185px;
+            //height: 1185px; 
             background-image: none;
                 margin-bottom: 10px;
 
@@ -7756,6 +7853,8 @@ footer {
                 .slider-wrap_type {
                     .item {
                         width: 480px;
+                        background:#fcfcfc;
+                        padding-bottom: 10px;
 
                         .r_textn {
                             height: initial;
@@ -7764,6 +7863,8 @@ footer {
                             margin-bottom: 11px;
                             float: none;
                             margin: 0 auto;
+                            min-height: 648px; 
+
                                padding-right: 52px;
     padding-left: 62px;
                             width: 100%;
@@ -8007,6 +8108,8 @@ footer {
                             padding: 20px 0 0;
 
                             .skidka {
+                                position: static;
+
                                 p.sk1 {}
 
                                 p.sk2 {}
@@ -8357,7 +8460,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 519px) {
     .section > div,
     .head > div,
     header > div,
@@ -9017,12 +9120,11 @@ footer {
         }
 
         .texnologja {
-            border-radius: 10px;
-    height: 1490px;
+            border-radius: 10px; 
 
             .slide-control_type {
                 .arr {
-                    &.left {
+                    &.left { 
                         a {}
                     }
 
@@ -9983,6 +10085,7 @@ footer {
         }
 
         button.frm {
+
             display: block;
             margin: 0 auto;
             border: none;
@@ -9999,7 +10102,8 @@ footer {
             border-radius: 23px;
             box-shadow: inset 0 1px 0 #eaeb6d;
             transition: all 0.25s;
-
+            
+            @include y_button;
             &:hover {
                 background-color: #f1e32e;
                 background-image: linear-gradient(to top, transparent 0%, transparent 100%, transparent 100%, transparent 100%);

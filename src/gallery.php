@@ -923,6 +923,20 @@
                             <button class="frm">Скачать методички</button>
                         </form>
                     </div>
+                    <div class="pop_met" id="pop_metodichka_head">
+                        <form class="form"  action="#" method="get">
+                            <p class="xotite">Хотите получить методичку по <span class="pink">тканям</span> и <span class="pink"> швейным машинкам?</span></p>
+                            <div class="zajavka">Заполните формы и получите методички</div>
+                            <div class="miniatyri">
+                                <div class="el"></div>
+                                <div class="el"></div>
+                            </div>
+                            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                            <input type="text" name="phone" class="input" placeholder="Телефон">
+                            <input type="hidden" name="frmid" value="Получить бонус">
+                            <button class="frm">Скачать методички</button>
+                        </form>
+                    </div>
                 </div>
                <div id="maket"></div>
                 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>

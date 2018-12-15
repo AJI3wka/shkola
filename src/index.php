@@ -56,7 +56,7 @@
                         <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                         <input type="text" name="phone" class="input" placeholder="Телефон">
                         <input type="hidden" name="frmid" value="Форма в шапке">
-                        <button class="frm" id="">Оставить заявку</button>
+                        <button class="frm y_button" id="">Оставить заявку</button>
                     </form>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="dyg_wrp">
                     <div class="dyga"></div>
-                    <button class="dwnlmetod">
+                    <button class="dwnlmetod y_button">
                     Скачать две методички
                     </button>
                 </div>
@@ -165,7 +165,7 @@
                                     <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                                     <input type="text" name="phone" class="input" placeholder="Телефон">
                                     <input type="hidden" name="frmid" value="Как проходить обучение">
-                                    <button class="frm">Записаться</button>
+                                    <button class="frm y_button">Записаться</button>
                                 </form>
                             </div>
                             <div class="right_sld">
@@ -185,7 +185,7 @@
                                 <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                                 <input type="text" name="phone" class="input" placeholder="Телефон">
                                 <input type="hidden" name="frmid" value="Как проходить обучение">
-                                <button class="frm">Записаться</button>
+                                <button class="frm y_button">Записаться</button>
                             </form>
                         </div>
                         <div class="right_sld">
@@ -206,7 +206,7 @@
                                 <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                                 <input type="text" name="phone" class="input" placeholder="Телефон">
                                 <input type="hidden" name="frmid" value="Как проходить обучение">
-                                <button class="frm">Записаться</button>
+                                <button class="frm y_button">Записаться</button>
                             </form>
                         </div>
                         <div class="right_sld">
@@ -413,166 +413,174 @@
             <input type="text" name="name" class="input" placeholder="Введите ваше имя">
             <input type="text" name="phone" class="input" placeholder="Телефон">
             <input type="hidden" name="frmid" value="Какие проблемы решает школа">
-            <button class="frm">Оставить заявку</button>
+            <button class="frm y_button">Оставить заявку</button>
         </form>
     </div>
 </section>
 <section class="sec4">
     <div>
-        <p class="fotogallery">Фотогалерея</p>
-        <p class="gal_txt">Погрузитесь в атмосферу Женской школы кройки и шитья
-        <br> вместе с теми ,кто уже прошел наши курсы</p>
-        <div class="slider3">
-            <div class="slider-wrap">
-                <div class="sld_foto">
-                    <img src="img/gl1.jpg" alt="">
+        <div>
+            <p class="fotogallery">Фотогалерея</p>
+            <p class="gal_txt">Погрузитесь в атмосферу Женской школы кройки и шитья
+            <br> вместе с теми ,кто уже прошел наши курсы</p>
+            <div class="slider3">
+                <div class="slider-wrap">
+                    <div class="sld_foto">
+                        <img src="img/gl1.jpg" alt="">
+                    </div>
+                    <div class="sld_foto">
+                        <img src="img/gl2.jpg" alt="">
+                    </div>
+                    <div class="sld_foto">
+                        <img src="img/gl3.jpg" alt="">
+                    </div>
+                    <div class="sld_foto">
+                        <img src="img/gl4.jpg" alt="">
+                    </div>
+                    <div class="sld_foto">
+                        <img src="img/gl5.jpg" alt="">
+                    </div>
                 </div>
-                <div class="sld_foto">
-                    <img src="img/gl2.jpg" alt="">
-                </div>
-                <div class="sld_foto">
-                    <img src="img/gl3.jpg" alt="">
-                </div>
-                <div class="sld_foto">
-                    <img src="img/gl4.jpg" alt="">
-                </div>
-                <div class="sld_foto">
-                    <img src="img/gl5.jpg" alt="">
-                </div>
-            </div>
-            <div class="slide-control">
-                <div class="arr left" id="arr1l">
-                </div>
-                <div class="arr right" id="arr1r">
-                </div>
-            </div>
-        </div>
-        <a href="./gallery.php" class="gotogall">Перейти в галерею</a>
-        <div id="ourteam" class="polosa">
-            <div class="gz"></div>
-            <div class="gz_dygga"></div>
-            <div class="ourteam">Наша команда</div>
-        </div>
-        <div class="l_team">
-            <div class="prepodi">
-                <div class="chl active" data-id="1">
-                    <img src="img/timyr_m.jpg" alt="">
-                    <p class="name">Саласенко Тимур Юрьевич<br><span>директор и основатель школы</span></p>
-                    <div class="helper"></div>
-                </div>
-                <div class="chl" data-id="2">
-                    <img src="img/galina.jpg" alt="">
-                    <p class="name">Шабалина Галина Павловна<br><span>преподаватель</span></p>
-                    <div class="helper"></div>
-                </div>
-                <div class="chl" data-id="3">
-                    <img src="img/valentina.jpg" alt="">
-                    <p class="name">Крюкова Валентина Андреевна<br><span>преподаватель</span></p>
-                    <div class="helper"></div>
-                </div>
-                <div class="chl" data-id="4">
-                    <img class="" src="img/nina.jpg" alt="">
-                    <p class="name">Захарова Нина Валентиновна<br><span>преподаватель</span></p>
-                    <div class="helper"></div>
-                </div>
-            </div>
-            <div class="inf_year">
-                <div class="p_inf_y">За год в Женской школе кройки
-                    <br> и шитья отшивается более 450
-                    <br> эксклюзивных изделий и всё
-                    <br> благодаря им — нашим
-                    <br> преподавателям. Каждая из них
-                    <br> обладает многолетним опытом
-                    <br> портновского дела и обучения.
-                    <br> Они знают, как пройти через
-                    <br> кризис «У меня ничего не
-                    <br> получается» и объяснить
-                    <br> сложнейшие элементы при пошиве
-                    <br> одежды.
-                    <br>
-                    <br> Поэтому на курсах царит
-                    <br> дружелюбная и вдохновляющая
-                    <br> атмосфера,в которой не страшно
-                    <br> задать вопросы, поделиться
-                    <br> возникшими трудностями и вместе
-                <br> преодолеть стежок за стежком.</div>
-            </div>
-        </div>
-        <div class="r_team">
-            <div class="slider6">
                 <div class="slide-control">
-                    <div class="arr left" id="arr1l_comm">
+                    <div class="arr left" id="arr1l">
                     </div>
-                    <div class="arr right" id="arr1r_comm">
-                    </div>
-                </div>
-                <div class="slider-wrap_comm">
-                    <div class="item active" data-id="1">
-                        <div class="face active">
-                            <img src="img/fc1.jpg" alt="">
-                        </div>
-                        <p class="nmr">Саласенко Тимур Юрьевич<br><span>директор и основатель школы</span></p>
-                        <div class="txt_tm">«Я открыл школу в августе 2016 года. Собрал команду
-                            <br> высококлассных преподавателей, лучших мастеров своего дела.
-                            <br> Под моим управлением в школе каждый год отшивается более 450
-                            <br> уникальных изделий. <br class="m1"><br class="m1">Около четырех раз в год я провожу глобальные
-                            <br> студийные фотосессии, на которых снимаем наших учениц
-                            <br> в их сшитых нарядах.
-                            <br>
-                            <br> <br class="m1"><br class="m1">Я лично провожу пробные уроки, запускаю новые группы
-                            <br> и обязательно после прохождения курса я беру обратную связь
-                            <br> у каждой ученицы. Узнаю, как прошло обучение, какую бы оценку
-                            <br> они поставили нашей школе, что можно улучшить и добавить в курс.
-                            <br><br class="m1"><br class="m1">
-                            <br> К преподавательскому составу выдвигаю довольно много критериев,
-                            <br> но самое главное — наличие специального образования в портновской
-                            <br> отрасли, опыт индивидуального пошива от 20 лет, обязательный опыт
-                            <br> преподавания и подготовки портных в специализированных учебных
-                            <br> заведениях. Поэтому я спокоен за наполнение курса и компетентность
-                            <br> каждого члена моей команды».
-                        </div>
-                    </div>
-                    <div class="item" data-id="2">
-                        <div class="face active">
-                            <img src="img/fc2.jpg" alt="">
-                        </div>
-                        <p class="nmr">Шабалина Галина Павловна<br><span>Ведет вечерние и дневные группы, занимается индивидуальным обучением и дополнительными уроками.</span></p>
-                        <div class="txt_tm">
-                            <span class="normal_txt">
-                                Опыт работы более 20 лет.<br><br><br class="m1">
-                                Помимо работы портным Галина Павловна занималась преподаванием в течение 15 лет. За это время она выпустила более 400 портных.<br><br> <br class="m1"><br class="m1">Принимала участие в конкурсах профессионального мастерства и сопровождала учащихся на городские и региональные конкурсы профмастерства.<br><br><br class="m1"><br class="m1">
-                            Также занималась индивидуальным пошивом, специализируясь на легкой и верхней женской одежде, мужском гардеробе.<br><br><br class="m1"><br class="m1"></span>
-                            «Научу шить качественно и профессионально — для себя, детей, родных и близких. Если вы умеете шить, покажу, как повысить качество изделий и придать им хорошую посадку. С радостью поделюсь всеми секретами и секретиками шитья и кроя, накопленными за долгую профессиональную жизнь».
-                        </div>
-                    </div>
-                    <div class="item" data-id="3">
-                        <div class="face active">
-                            <img src="img/fc4.jpg" alt="">
-                        </div>
-                        <p class="nmr">Крюкова Валентина Андреевна<br><span>Ведет группы выходного дня, занимается индивидуальным обучением и дополнительными уроками.</span></p>
-                        <div class="txt_tm">
-                            <span class="normal_txt">Опыт работы более 28 лет.<br><br><br class="m1">
-                            Валентина Андреевна сотрудничала с крупнейшим ателье Нижнего Новгорода «Элегант». Работала в нижегородском колледже закройщицей, помогая группам дизайнеров и портных. <br class="m1"><br class="m1">Под ее руководством создавались модели для «Золотого подиума», «Студенческой весны » и других городских конкурсов.<br><br><br class="m1"><br class="m1">Выпустила больше 100 учеников, многие из которых остались в профессии и открыли свои мастерские.<br><br><br class="m1"><br class="m1"></span>
-                            «Что можно сказать о нашей профессии — это сложная, требующая усидчивости и терпения работа. Но это благодарный труд, ведь таких вещей, какие можно сшить своими руками, вы не найдете нигде».
-                        </div>
-                    </div>
-                    <div class="item" data-id="4">
-                        <div class="face active">
-                            <img src="img/fc3.jpg" alt="">
-                        </div>
-                        <p class="nmr">Захарова Нина Валентиновна<br><span>Ведет утренние группы, занимается индивидуальным обучением и дополнительными уроками.</span></p>
-                        <div class="txt_tm">
-                            <span class="normal_txt">
-                                Опыт работы 32 года.<br><br><br class="m1">
-                                Нина Валентиновна работала мастером производственного обучения и преподавателем. Постоянно повышает профессиональный уровень и мастерство, сотрудничая с молодежью.<br><br><br class="m1"><br class="m1">
-                                При аттестации в 2006 году получила высшую квалификационную категорию. Со студентами всегда создавала интересные и сложные коллекции, участвовали в конкурсах молодых дизайнеров и конструкторов-модельеров, фестивалях молодежной моды.<br><br><br class="m1"><br class="m1">
-                            За активную творческую работу и вклад в воспитание высококвалифицированных специалистов неоднократно награждалась почетными грамотами, благодарственными письмами и дипломами. В 2007 году получила Почетную грамоту Министерства образования и науки РФ.<br class="m1"><br class="m1"><br><br></span>
-                            «Я очень люблю свою специальность: работа творческая, интересная, но трудоемкая. Пройдя большой трудовой путь, хочется передавать полученный опыт и мастерство людям, желающим освоить технологию изготовления швейных изделий».
-                        </div>
+                    <div class="arr right" id="arr1r">
                     </div>
                 </div>
             </div>
+            <a href="./gallery.php" class="gotogall y_button">Перейти в галерею</a>
         </div>
+        <div>
+            <div id="ourteam" class="polosa">
+                <div class="gz"></div>
+                <div class="gz_dygga"></div>
+                <div class="ourteam">Наша команда</div>
+            </div>
+            <div>
+                <div class="l_team">
+                    <div class="prepodi">
+                        <div class="chl active" data-id="1">
+                            <img src="img/timyr_m.jpg" alt="">
+                            <p class="name">Саласенко Тимур Юрьевич<br><span>директор и основатель школы</span></p>
+                            <div class="helper"></div>
+                        </div>
+                        <div class="chl" data-id="2">
+                            <img src="img/galina.jpg" alt="">
+                            <p class="name">Шабалина Галина Павловна<br><span>преподаватель</span></p>
+                            <div class="helper"></div>
+                        </div>
+                        <div class="chl" data-id="3">
+                            <img src="img/valentina.jpg" alt="">
+                            <p class="name">Крюкова Валентина Андреевна<br><span>преподаватель</span></p>
+                            <div class="helper"></div>
+                        </div>
+                        <div class="chl" data-id="4">
+                            <img class="" src="img/nina.jpg" alt="">
+                            <p class="name">Захарова Нина Валентиновна<br><span>преподаватель</span></p>
+                            <div class="helper"></div>
+                        </div>
+                    </div>
+                    <div class="inf_year">
+                        <div class="p_inf_y">За год в Женской школе кройки
+                            <br> и шитья отшивается более 450
+                            <br> эксклюзивных изделий и всё
+                            <br> благодаря им — нашим
+                            <br> преподавателям. Каждая из них
+                            <br> обладает многолетним опытом
+                            <br> портновского дела и обучения.
+                            <br> Они знают, как пройти через
+                            <br> кризис «У меня ничего не
+                            <br> получается» и объяснить
+                            <br> сложнейшие элементы при пошиве
+                            <br> одежды.
+                            <br>
+                            <br> Поэтому на курсах царит
+                            <br> дружелюбная и вдохновляющая
+                            <br> атмосфера,в которой не страшно
+                            <br> задать вопросы, поделиться
+                            <br> возникшими трудностями и вместе
+                        <br> преодолеть стежок за стежком.</div>
+                    </div>
+                </div>
+                <div class="r_team">
+                    <div class="slider6">
+                        <div class="slide-control">
+                            <div class="arr left" id="arr1l_comm">
+                            </div>
+                            <div class="arr right" id="arr1r_comm">
+                            </div>
+                        </div>
+                        <div class="slider-wrap_comm">
+                            <div class="item active" data-id="1">
+                                <div class="face active">
+                                    <img src="img/fc1.jpg" alt="">
+                                </div>
+                                <p class="nmr">Саласенко Тимур Юрьевич<br><span>директор и основатель школы</span></p>
+                                <div class="txt_tm">«Я открыл школу в августе 2016 года. Собрал команду
+                                    <br> высококлассных преподавателей, лучших мастеров своего дела.
+                                    <br> Под моим управлением в школе каждый год отшивается более 450
+                                    <br> уникальных изделий. <br class="m1"><br class="m1">Около четырех раз в год я провожу глобальные
+                                    <br> студийные фотосессии, на которых снимаем наших учениц
+                                    <br> в их сшитых нарядах.
+                                    <br>
+                                    <br> <br class="m1"><br class="m1">Я лично провожу пробные уроки, запускаю новые группы
+                                    <br> и обязательно после прохождения курса я беру обратную связь
+                                    <br> у каждой ученицы. Узнаю, как прошло обучение, какую бы оценку
+                                    <br> они поставили нашей школе, что можно улучшить и добавить в курс.
+                                    <br><br class="m1"><br class="m1">
+                                    <br> К преподавательскому составу выдвигаю довольно много критериев,
+                                    <br> но самое главное — наличие специального образования в портновской
+                                    <br> отрасли, опыт индивидуального пошива от 20 лет, обязательный опыт
+                                    <br> преподавания и подготовки портных в специализированных учебных
+                                    <br> заведениях. Поэтому я спокоен за наполнение курса и компетентность
+                                    <br> каждого члена моей команды».
+                                </div>
+                            </div>
+                            <div class="item" data-id="2">
+                                <div class="face active">
+                                    <img src="img/fc2.jpg" alt="">
+                                </div>
+                                <p class="nmr">Шабалина Галина Павловна<br><span>Ведет вечерние и дневные группы, занимается индивидуальным обучением и дополнительными уроками.</span></p>
+                                <div class="txt_tm">
+                                    <span class="normal_txt">
+                                        Опыт работы более 20 лет.<br><br><br class="m1">
+                                        Помимо работы портным Галина Павловна занималась преподаванием в течение 15 лет. За это время она выпустила более 400 портных.<br><br> <br class="m1"><br class="m1">Принимала участие в конкурсах профессионального мастерства и сопровождала учащихся на городские и региональные конкурсы профмастерства.<br><br><br class="m1"><br class="m1">
+                                    Также занималась индивидуальным пошивом, специализируясь на легкой и верхней женской одежде, мужском гардеробе.<br><br><br class="m1"><br class="m1"></span>
+                                    «Научу шить качественно и профессионально — для себя, детей, родных и близких. Если вы умеете шить, покажу, как повысить качество изделий и придать им хорошую посадку. С радостью поделюсь всеми секретами и секретиками шитья и кроя, накопленными за долгую профессиональную жизнь».
+                                </div>
+                            </div>
+                            <div class="item" data-id="3">
+                                <div class="face active">
+                                    <img src="img/fc4.jpg" alt="">
+                                </div>
+                                <p class="nmr">Крюкова Валентина Андреевна<br><span>Ведет группы выходного дня, занимается индивидуальным обучением и дополнительными уроками.</span></p>
+                                <div class="txt_tm">
+                                    <span class="normal_txt">Опыт работы более 28 лет.<br><br><br class="m1">
+                                    Валентина Андреевна сотрудничала с крупнейшим ателье Нижнего Новгорода «Элегант». Работала в нижегородском колледже закройщицей, помогая группам дизайнеров и портных. <br class="m1"><br class="m1">Под ее руководством создавались модели для «Золотого подиума», «Студенческой весны » и других городских конкурсов.<br><br><br class="m1"><br class="m1">Выпустила больше 100 учеников, многие из которых остались в профессии и открыли свои мастерские.<br><br><br class="m1"><br class="m1"></span>
+                                    «Что можно сказать о нашей профессии — это сложная, требующая усидчивости и терпения работа. Но это благодарный труд, ведь таких вещей, какие можно сшить своими руками, вы не найдете нигде».
+                                </div>
+                            </div>
+                            <div class="item" data-id="4">
+                                <div class="face active">
+                                    <img src="img/fc3.jpg" alt="">
+                                </div>
+                                <p class="nmr full-width">Захарова Нина Валентиновна<br><span>Ведет утренние группы, занимается индивидуальным обучением и дополнительными уроками.</span></p>
+                                <div class="txt_tm">
+                                    <span class="normal_txt">
+                                        Опыт работы 32 года.<br><br><br class="m1">
+                                        Нина Валентиновна работала мастером производственного обучения и преподавателем. Постоянно повышает профессиональный уровень и мастерство, сотрудничая с молодежью.<br><br><br class="m1"><br class="m1">
+                                        При аттестации в 2006 году получила высшую квалификационную категорию. Со студентами всегда создавала интересные и сложные коллекции, участвовали в конкурсах молодых дизайнеров и конструкторов-модельеров, фестивалях молодежной моды.<br><br><br class="m1"><br class="m1">
+                                    За активную творческую работу и вклад в воспитание высококвалифицированных специалистов неоднократно награждалась почетными грамотами, благодарственными письмами и дипломами. В 2007 году получила Почетную грамоту Министерства образования и науки РФ.<br class="m1"><br class="m1"><br><br></span>
+                                    «Я очень люблю свою специальность: работа творческая, интересная, но трудоемкая. Пройдя большой трудовой путь, хочется передавать полученный опыт и мастерство людям, желающим освоить технологию изготовления швейных изделий».
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>            
+        </div>
+        
     </div>
 </section>
 <section class="sec5">
@@ -657,7 +665,7 @@
                             <p class="txt_8">16 практических занятий (2 месяца)
                             <br>2 раза в неделю по 3 часа каждое</p>
                         </div>
-                        <button class="kyrs" data-id="texn_poshiv1">Записаться на курс</button>
+                        <button class="kyrs y_button" data-id="texn_poshiv1">Записаться на курс</button>
                         <p class="dlina">Длительность курса 2 месяца</p>
                     </div>
                     <div class="item">
@@ -697,7 +705,7 @@
                             <p class="txt_8">16 практических занятий (2 месяца)
                             <br>2 раза в неделю по 3 часа каждое</p>
                         </div>
-                        <button class="kyrs" data-id="texn_poshiv2">Записаться на курс</button>
+                        <button class="kyrs y_button" data-id="texn_poshiv2">Записаться на курс</button>
                         <p class="dlina">Длительность курса 2 месяца</p>
                     </div>
                     <div class="item">
@@ -729,7 +737,7 @@
                                 <span>10 практический занятий по 3 часа каждое</span>
                             </p>
                         </div>
-                        <button class="kyrs" data-id="palto">Записаться на курс</button>
+                        <button class="kyrs y_button" data-id="palto">Записаться на курс</button>
                         <p class="dlina">Длительность курса 2 месяца</p>
                     </div>
                     <div class="item">
@@ -775,7 +783,7 @@
                                 <span>2 раза в неделю по 3 часа каждое</span>
                             </p>
                         </div>
-                        <button class="kyrs"data-id="konstr_model">Записаться на курс</button>
+                        <button class="kyrs y_button"data-id="konstr_model">Записаться на курс</button>
                         <p class="dlina">Длительность курса 2 месяца</p>
                     </div>
                     <div class="item pop_texn">
@@ -817,7 +825,7 @@
                             <p class="txt_8">16 практических занятий (2 месяца)
                             <br>2 раза в неделю по 3 часа каждое</p>
                         </div>
-                        <button class="kyrs" data-id="individ">Записаться на курс</button>
+                        <button class="kyrs y_button" data-id="individ">Записаться на курс</button>
                         <p class="dlina">Длительность курса 2 месяца</p>
                     </div>
                 </div>
@@ -841,7 +849,7 @@
                 <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                 <input type="text" name="phone" class="input" placeholder="Телефон">
                 <input type="hidden" name="frmid" value="Контакты">
-                <button class="frm">Заказать звонок</button>
+                <button class="frm y_button">Заказать звонок</button>
             </form>
         </div>
     </div>
@@ -877,6 +885,34 @@
             <input type="text" name="name" class="input" placeholder="Введите ваше имя">
             <input type="text" name="phone" class="input" placeholder="Телефон">
             <input type="hidden" name="frmid" value="Скачать методичку">
+            <button class="frm">Скачать методички</button>
+        </form>
+    </div>
+    <div class="pop_met" id="pop_metodichka_main">
+        <form class="form"  action="#" method="get">
+            <p class="xotite">Хотите получить методичку по <span class="pink">тканям</span> и <span class="pink"> швейным машинкам?</span></p>
+            <div class="zajavka">Заполните формы и получите методички</div>
+            <div class="miniatyri">
+                <div class="el"></div>
+                <div class="el"></div>
+            </div>
+            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+            <input type="text" name="phone" class="input" placeholder="Телефон">
+            <input type="hidden" name="frmid" value="Скачать 2 методички">
+            <button class="frm">Скачать методички</button>
+        </form>
+    </div>
+    <div class="pop_met" id="pop_metodichka_head">
+        <form class="form"  action="#" method="get">
+            <p class="xotite">Хотите получить методичку по <span class="pink">тканям</span> и <span class="pink"> швейным машинкам?</span></p>
+            <div class="zajavka">Заполните формы и получите методички</div>
+            <div class="miniatyri">
+                <div class="el"></div>
+                <div class="el"></div>
+            </div>
+            <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+            <input type="text" name="phone" class="input" placeholder="Телефон">
+            <input type="hidden" name="frmid" value="Получить бонус">
             <button class="frm">Скачать методички</button>
         </form>
     </div>

@@ -4,6 +4,7 @@
     <div>
         <div class="header">
             <div class="ibw">
+                <div class="navbtn"></div>
                 <div class="nav">
                     <a href="./" class="nv1 scrollto">Главная</a>
                     <a href="./#whyus" class="nv2 scrollto" id="#whyus">Почему мы</a>

@@ -140,7 +140,7 @@
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
-                                        <button class="zapisb" data-id="texn_poshiv1">Записаться на курс</button>
+                                        <button class="zapisb y_button" data-id="texn_poshiv1">Записаться на курс</button>
                                         <button class="podrobno" data-id="pdrb">Подробнее о курсе</button>
                                         
                                     </div>
@@ -180,7 +180,7 @@
                                             </div>
                                         </div>
                                         <p class="dlina">Длительность курса 2 месяца</p>
-                                        <button class="zapisb" data-id="texn_poshiv2">Записаться на курс</button>
+                                        <button class="zapisb y_button" data-id="texn_poshiv2">Записаться на курс</button>
                                         
                                     </div>
                                 </div>
@@ -211,7 +211,8 @@
                                                 <p class="sk2">9 900 рублей за <span class="month">весь</span> курс</p>
                                             </div>
                                         </div>
-                                        <button class="zapisb" data-id="palto">Записаться на курс</button>
+                                        <p class="dlina" style="position:relative;z-index: -2;opacity:0;">Длительность курса 2 месяца</p>
+                                        <button class="zapisb y_button" data-id="palto">Записаться на курс</button>
                                     </div>
                                     
                                 </div>
@@ -235,7 +236,8 @@
                                         <p class="dlina">Длительность курса 2 месяца
                                         </p>-->
                                     </div>
-                                    <button class="zapisb" data-id="belbe">Записаться на курс</button>
+                                    <p class="dlina" style="position:relative;z-index: -2;opacity:0;">Длительность курса 2 месяца</p>
+                                    <button class="zapisb y_button" data-id="belbe">Записаться на курс</button>
                                 </div>
                             </div>
                             <div class="item" data-id="5">
@@ -254,7 +256,7 @@
                                     </div>
                                     <p class="dlina">Длительность курса 2 месяца</p>
                                 </div>
-                                <button class="zapisb" data-id="konstr_model">Записаться на курс</button>
+                                <button class="zapisb y_button" data-id="konstr_model">Записаться на курс</button>
                                 <button class="podrobno" data-id="konctr_pdrb">Подробнее о курсе</button>
                             </div>
                             <div class="item" data-id="6">
@@ -293,7 +295,8 @@
                                         </div>
                                     </div>
                                     
-                                     <button class="zapisb" data-id="individ">Записаться на курс</button>
+                                    <p class="dlina" style="position:relative;z-index: -2;opacity:0;">Длительность курса 2 месяца</p>
+                                     <button class="zapisb y_button" data-id="individ">Записаться на курс</button>
                                 </div>
                                
                             </div>
@@ -317,7 +320,8 @@
                                         </p>
                                         <a href="./sert.php" class="podrobno cntr">Подробнее о подарке</a>
                                     </div>
-                                    <button class="zapisb"data-id="akcii">Оставить заявку</button>
+                                    <p class="dlina" style="position:relative;z-index: -2;opacity:0;">Длительность курса 2 месяца</p>
+                                    <button class="zapisb y_button"data-id="akcii">Оставить заявку</button>
                                 </div>
                             </div>
                         </div>
@@ -355,6 +359,20 @@
                         <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                         <input type="text" name="phone" class="input" placeholder="Телефон">
                         <input type="hidden" name="frmid" value="Скачать методичку">
+                        <button class="frm">Скачать методички</button>
+                    </form>
+                </div>
+                <div class="pop_met" id="pop_metodichka_head">
+                    <form class="form"  action="#" method="get">
+                        <p class="xotite">Хотите получить методичку по <span class="pink">тканям</span> и <span class="pink"> швейным машинкам?</span></p>
+                        <div class="zajavka">Заполните формы и получите методички</div>
+                        <div class="miniatyri">
+                            <div class="el"></div>
+                            <div class="el"></div>
+                        </div>
+                        <input type="text" name="name" class="input" placeholder="Введите ваше имя">
+                        <input type="text" name="phone" class="input" placeholder="Телефон">
+                        <input type="hidden" name="frmid" value="Получить бонус">
                         <button class="frm">Скачать методички</button>
                     </form>
                 </div>
