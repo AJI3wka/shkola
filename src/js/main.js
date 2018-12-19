@@ -137,8 +137,10 @@ $(document).ready(function() {
 
 
     //nav start
+    //
 
     $('.navbtn').click(function(e) {
+        e.stopPropagation();
         $(this).closest('.header').addClass('menu_opened');
     });
 
@@ -147,6 +149,7 @@ $(document).ready(function() {
         $(this).closest('.header').removeClass('menu_opened');
 
         if ($(this).hasClass('scrollto')) {
+
             var $el = $('#' + $(this).attr('href').split('#')[1]);
             if ($(this).attr('href') == './') {
                 $el = $('.sec1');
@@ -154,19 +157,83 @@ $(document).ready(function() {
             if ($el.length > 0) {
 
                 e.preventDefault();
+                e.stopPropagation();
                 $("html, body").animate({
-                    scrollTop: $el.offset().top - 70
-                }, 500);
+                    scrollTop: $el.offset().top - ($('header').height() + 10)
+                }, 250);
 
             }
         }
     });
+
+    $('.trouble').click(function(e) {
+        e.preventDefault();
+        if ($(this).hasClass('scrollto')) {
+            var $el = $('.slider-wrap_tbrl');
+
+            if ($el.length > 0) {
+
+                e.preventDefault();
+                $("html, body").animate({
+                    scrollTop: $el.offset().top - ($('header').height() + 10)
+                }, 250);
+
+            }
+        }
+    });
+
+    $('.chl').click(function(e) {
+        e.preventDefault();
+        var $el = $('.slider-wrap_comm');
+
+        if ($(window).width() < 700)
+
+            if ($el.length > 0) {
+
+                e.preventDefault();
+                $("html, body").animate({
+                    scrollTop: $el.offset().top - ($('header').height() + 10)
+                }, 250);
+
+            }
+
+    });
+    $('.wrp_albom').click(function(e) {
+        e.preventDefault();
+        var $el = $('.block-wrap');
+
+        if ($el.length > 0) {
+
+            e.preventDefault();
+            $("html, body").animate({
+                scrollTop: $el.offset().top - ($('header').height() + 10)
+            }, 250);
+
+        }
+
+    });
+
+    $('.ceni_kyrsi').click(function(e) {
+        e.preventDefault();
+        var $el = $('.slider-wrap_ceni');
+
+        if ($el.length > 0) {
+
+            e.preventDefault();
+            $("html, body").animate({
+                scrollTop: $el.offset().top - ($('header').height() + 10)
+            }, 250);
+
+        }
+
+    });
+
     ! function move_scroll_on_init() {
         var hash = document.location.hash;
         if (hash.length > 0) {
             var $el = $(hash);
             if ($el.length > 0) {
-                $("html, body").scrollTop($el.offset().top - 70);
+                $("html, body").scrollTop($el.offset().top - ($('header').height() + 10));
             }
         }
     }();
@@ -205,11 +272,11 @@ $(document).ready(function() {
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
 
-            $sw_wrap.removeClass('opened');
-        if($act_item.find('.gallery').find('.wrp_foto').length>10){
+        $sw_wrap.removeClass('opened');
+        if ($act_item.find('.gallery').find('.wrp_foto').length > 10) {
 
 
-        }else{
+        } else {
 
             $sw_wrap.addClass('opened');
         }
@@ -235,10 +302,10 @@ $(document).ready(function() {
         $act_item.parent().children().removeClass('active');
         $act_item.addClass('active');
         $sw_wrap.removeClass('opened');
-        if($act_item.find('.item').find('.gallery').find('.wrp_foto').length>10){
+        if ($act_item.find('.item').find('.gallery').find('.wrp_foto').length > 10) {
 
 
-        }else{
+        } else {
 
             $sw_wrap.addClass('opened');
         }
@@ -647,20 +714,30 @@ $(document).ready(function() {
     $('.dwnlmetod,.poleznoctb').click(function() {
         $('.pop_met#pop_metodichka').arcticmodal();
     });
-    
+
     $('.dwnlmetod').click(function() {
         $('.pop_met#pop_metodichka_main').arcticmodal();
     });
 
     $('header .header .ibw button.bonus').click(function() {
         $('.pop_met#pop_metodichka_head').arcticmodal();
-    });    
-    
+    });
+
     //
     $('.present[data-id="prsnt"]').click(function() {
         $('.pop_present#prsnt').arcticmodal();
     });
 
+    $('body').click(function() {
+
+        $('.header').removeClass('menu_opened');
+    });
+
+    $('.pop_podrobnosti').find('.close').click(function() {
+
+        $(this).closest('.pop_podrobnosti').arcticmodal('close');
+
+    });
 
     $('form').submit(function(e) {
         e.preventDefault();
@@ -681,6 +758,7 @@ $(document).ready(function() {
                     if (frmid == 'Скачать методичку') {
 
                         window.downloadFile('metodichka.pdf');
+                        window.downloadFile('metodichka2.pdf');
 
 
                     }

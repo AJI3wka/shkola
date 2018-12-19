@@ -28,6 +28,8 @@ if((strlen($name)>0) and (strlen($phone)>0)){
 	$headers.= "MIME-Version: 1.0" . "\r\n";
 	$headers.= "Content-type: text/plain; charset=utf-8\r\n";
 
+	$to = "info@shkola-shitya52.ru";
+
 
 	$message = "Форма: $frm\n\n";
 	$message .= "Имя: $name\n";
@@ -47,14 +49,11 @@ if((strlen($name)>0) and (strlen($phone)>0)){
 	$message .= "Ссылка на сайт: $url\n";
 	$message .= "Заголовок: $title\n\n";
 
-	$to = "triowork2@gmail.com";
-
 	mail ($to,$subject,$message,$headers); 
 
-	$to = "lexapryhoda@gmail.com";
-	mail ($to,$subject,$message,$headers);
-
-
+	 $to = "";
+	 mail ($to,$subject,$message,$headers);
+	?>
 
 
 

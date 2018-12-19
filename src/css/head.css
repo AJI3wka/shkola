@@ -88,7 +88,7 @@ footer {
 }
 
 header {
-        height: 69px;
+    height : 69px;
     background-color : white;
     overflow : inherit;
     position : fixed;
@@ -606,89 +606,86 @@ header .header .call .phoneback {
         margin-right : 0;
     }
 
-header{
-        height: 120px;
-}
-header .header .ibw .nav{
-   font-size: 17px;
-    display: block;
-    margin-bottom: 10px;
-}
-header .header .ibw .nav a.nv1{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv2{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv3{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv4{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv5{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv6{
-    margin-right: 10px;
-}
-header .header .ibw .nav a.nv7{
-    margin-right: 0px;
-} 
- 
-header .header .ibw{
-        
-
-}
-header .header .ibw button.bonus{
-    display: inline-block;
-        margin: 0 auto;
-}
-header .header .call{
-    display: inline-block;
-    margin: 0 auto;
-        margin-left: 20px;
-}
-header .header .ibw{
-        margin-left: 0px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
-.sec1 .wrap .soc{
-        display: block;
-    margin-left: 0;
-}
-.sec1 .logo{
-    float:left;
-}
-.sec1 .wrap{
-        float: right;
-    margin: 0 0 30px;
-}
-.sec1{
-    height: initial;
-              margin-top: 110px;
+    header {
+        height : 120px;
     }
-   
- .sec1 .school_l{
-        float: none;
-    margin: 0 auto;
- }
-  .sec1 .school_r{
-        float: none;
-    margin: 0 auto;
-    margin-bottom: 70px;
- }
- .sec1 .school_l h3{
-    text-align: center;
-           margin: 0 0 40px;
- }
- .sec1 .school_l .sch_txt{
-           width: 100%;
-    padding: 13px;
+    header .header .ibw .nav {
+        font-size : 17px;
+        display : block;
+        margin-bottom : 10px;
+    }
+    header .header .ibw .nav a.nv1 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv2 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv3 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv4 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv5 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv6 {
+        margin-right : 10px;
+    }
+    header .header .ibw .nav a.nv7 {
+        margin-right : 0;
+    }
 
- }
+    header .header .ibw {
+    }
+    header .header .ibw button.bonus {
+        display : inline-block;
+        margin : 0 auto;
+    }
+    header .header .call {
+        display : inline-block;
+        margin : 0 auto;
+        margin-left : 20px;
+    }
+    header .header .ibw {
+        margin-left : 0;
+        display : block;
+        margin : 0 auto;
+        text-align : center;
+    }
+    .sec1 .wrap .soc {
+        display : block;
+        margin-left : 0;
+    }
+    .sec1 .logo {
+        float : left;
+    }
+    .sec1 .wrap {
+        float : right;
+        margin : 0 0 30px;
+    }
+    .sec1 {
+        height : initial;
+        margin-top : 110px;
+    }
+
+    .sec1 .school_l {
+        float : none;
+        margin : 0 auto;
+    }
+    .sec1 .school_r {
+        float : none;
+        margin : 0 auto;
+        margin-bottom : 70px;
+    }
+    .sec1 .school_l h3 {
+        text-align : center;
+        margin : 0 0 40px;
+    }
+    .sec1 .school_l .sch_txt {
+        width : 100%;
+        padding : 13px;
+    }
 
     header .header .ibw {
     }

@@ -85,7 +85,7 @@
                             Давайте разбираться вместе. В методичке собраны основные виды
                             тканей с практическими советами и рекомендациями по выбору.<br>
                             <span class="fin">Дочитайте до концам — там ждут приятные
-                            бонусы от наших партнеров.</span> 
+                            бонусы от наших партнеров.</span>
                         </p>
                     </div>
                 </div>
@@ -308,36 +308,36 @@
     </div>
     <div class="dreams">
         <div class="trbl">
-            <div class="trouble trb_pos active" data-id="1">
+            <a href="#c1" class="trouble trb_pos scrollto active" data-id="1">
                 <div class="trb_pos">1</div>
                 <p class="name_pos">Нехочу переплачивать<br>за вещи из магазинов</p>
                 <div class="helper"></div>
-            </div>
-            <div class="trouble trb_pos" data-id="2">
+            </a>
+            <a href="#c2" class="trouble trb_pos scrollto" data-id="2" >
                 <div class="trb_pos">2</div>
                 <p class="name_pos">Немогу найти вещи<br>по фигуре</p>
                 <div class="helper"></div>
-            </div>
-            <div class="trouble trb_pos" data-id="3">
+            </a>
+            <a href="#c3" class="trouble trb_pos scrollto" data-id="3">
                 <div class="trb_pos">3</div>
                 <p class="name_pos">Умею шить,но не умею<br>кроить</p>
                 <div class="helper"></div>
-            </div>
-            <div class="trouble trb_pos" data-id="4">
+            </a>
+            <a href="#c4" class="trouble trb_pos scrollto" data-id="4">
                 <div class="trb_pos">4</div>
                 <p class="name_pos">Мечтаю открыть<br>свою мастерскую</p>
                 <div class="helper"></div>
-            </div>
-            <div class="trouble trb_pos" data-id="5">
+            </a>
+            <a href="#c5" class="trouble trb_pos scrollto" data-id="5">
                 <div class="trb_pos">5</div>
                 <p class="name_pos">Устала от рутины</p>
                 <div class="helper"></div>
-            </div>
-            <div class="trouble trb_pos" data-id="6">
+            </a>
+            <a href="#c6" class="trouble trb_pos scrollto" data-id="6">
                 <div class="trb_pos">6</div>
                 <p class="name_pos">Мечтаю открыть<br>свою мастерскую</p>
                 <div class="helper"></div>
-            </div>
+            </a>
         </div>
     </div>
     
@@ -350,8 +350,8 @@
         </div>
         <div class="slider-wrap_tbrl">
             <div class="item active" data-id="1">
-                <div class="comments">
-                    <p class="drm">Не хочу переплачивать
+                <div class="comments" id="c1" >
+                    <p class="drm" >Не хочу переплачивать
                     <br>за вещи из магазинов</p>
                     <p class="drm_txt">Стоимость вещей из масс-маркета
                         складывается из человеческого труда,
@@ -367,37 +367,37 @@
                 </div>
             </div>
             <div class="item" data-id="2">
-                <div class="comments">
-                    <p class="drm">Не могу найти вещи по фигуре</p>
-                    <p class="drm_txt">Вас научат, как правильно посадить вещи, чтобы они корректировали фигуру.<br><br>Вас научат, Больше не будет муторного поиска того самого платья. Спустя два месяца вы сами его сошьете.<br><br> Сошьете на себя, по своим меркам, с учетом особенностей фигуры.
+                <div class="comments" id="c2">
+                    <p class="drm" >Не могу найти вещи по фигуре</p>
+                    <p class="drm_txt" >Вас научат, как правильно посадить вещи, чтобы они корректировали фигуру.<br><br>Вас научат, Больше не будет муторного поиска того самого платья. Спустя два месяца вы сами его сошьете.<br><br> Сошьете на себя, по своим меркам, с учетом особенностей фигуры.
                     </p>
                     
                 </div>
             </div>
             <div class="item" data-id="3">
-                <div class="comments">
-                    <p class="drm">Умею шить, но не умею кроить</p>
-                    <p class="drm_txt">Знания, полученные в нашей школе кройки и шитья, помогают даже опытным мастерам. <br><br>Преподаватели рассказывают нюансы, о которых умалчивают на разовых курсах. Например, о секретах раскроя изделия. <br><br>Обладая не только навыками шитья, но и кроя, вы становитесь «универсальным солдатом».</p>
+                <div class="comments" id="c3">
+                    <p class="drm" >Умею шить, но не умею кроить</p>
+                    <p class="drm_txt" >Знания, полученные в нашей школе кройки и шитья, помогают даже опытным мастерам. <br><br>Преподаватели рассказывают нюансы, о которых умалчивают на разовых курсах. Например, о секретах раскроя изделия. <br><br>Обладая не только навыками шитья, но и кроя, вы становитесь «универсальным солдатом».</p>
                     
                 </div>
             </div>
             <div class="item" data-id="4">
-                <div class="comments">
-                    <p class="drm">Мечтаю открыть свою мастерскую</p>
-                    <p class="drm_txt">Вы получаете сертификат о прохождении обучения. <br><br>Это документ, который поможет при устройстве на работу и открытии своего бизнеса.
+                <div class="comments" id="c4">
+                    <p class="drm" >Мечтаю открыть свою мастерскую</p>
+                    <p class="drm_txt" >Вы получаете сертификат о прохождении обучения. <br><br>Это документ, который поможет при устройстве на работу и открытии своего бизнеса.
                     </p>
                 </div>
             </div>
             <div class="item" data-id="5">
-                <div class="comments">
-                    <p class="drm">Устала от рутины</p>
+                <div class="comments" id="c5">
+                    <p class="drm" >Устала от рутины</p>
                     <p class="drm_txt">К нам часто приходят молодые мамы, чтобы почерпнуть вдохновение и освоить новую профессию. <br><br>Спустя два месяца они шьют вещи для себя и своей семьи. <br class="m1"><br class="m1">Многие признаются, что уроки подарили им второе дыхание.
                     </p>
                 </div>
             </div>
             <div class="item" data-id="6">
-                <div class="comments">
-                    <p class="drm">Много красивых тканей,<br> из который хочется шить
+                <div class="comments" id="c6">
+                    <p class="drm" >Много красивых тканей,<br> из который хочется шить
                     </p>
                     <p class="drm_txt">На курсах проходим не только особенности пошива изделий, но и рассказываем о тканях.<br><br> Даже в самом большом магазине тканей    вы сможете быстро сориентироваться и выбрать подходящий товар.<br><br> Из которого потом сошьете удивительные вещи с авторским дизайном.
                     </p>
@@ -459,26 +459,26 @@
             <div>
                 <div class="l_team">
                     <div class="prepodi">
-                        <div class="chl active" data-id="1">
+                        <a href="#p1" class="chl active" data-id="1">
                             <img src="img/timyr_m.jpg" alt="">
                             <p class="name">Саласенко Тимур Юрьевич<br><span>директор и основатель школы</span></p>
                             <div class="helper"></div>
-                        </div>
-                        <div class="chl" data-id="2">
+                        </a>
+                        <a href="#p2" class="chl" data-id="2">
                             <img src="img/galina.jpg" alt="">
                             <p class="name">Шабалина Галина Павловна<br><span>преподаватель</span></p>
                             <div class="helper"></div>
-                        </div>
-                        <div class="chl" data-id="3">
+                        </a>
+                        <a href="#p3" class="chl" data-id="3">
                             <img src="img/valentina.jpg" alt="">
                             <p class="name">Крюкова Валентина Андреевна<br><span>преподаватель</span></p>
                             <div class="helper"></div>
-                        </div>
-                        <div class="chl" data-id="4">
+                        </a>
+                        <a href="#p4" class="chl" data-id="4">
                             <img class="" src="img/nina.jpg" alt="">
                             <p class="name">Захарова Нина Валентиновна<br><span>преподаватель</span></p>
                             <div class="helper"></div>
-                        </div>
+                        </a>
                     </div>
                     <div class="inf_year">
                         <div class="p_inf_y">За год в Женской школе кройки
@@ -513,7 +513,7 @@
                         <div class="slider-wrap_comm">
                             <div class="item active" data-id="1">
                                 <div class="face active">
-                                    <img src="img/fc1.jpg" alt="">
+                                    <img src="img/fc1.jpg" alt=""> 
                                 </div>
                                 <p class="nmr">Саласенко Тимур Юрьевич<br><span>директор и основатель школы</span></p>
                                 <div class="txt_tm">«Я открыл школу в августе 2016 года. Собрал команду
@@ -536,7 +536,7 @@
                                     <br> каждого члена моей команды».
                                 </div>
                             </div>
-                            <div class="item" data-id="2">
+                            <div class="item" data-id="2" >
                                 <div class="face active">
                                     <img src="img/fc2.jpg" alt="">
                                 </div>
@@ -549,7 +549,7 @@
                                     «Научу шить качественно и профессионально — для себя, детей, родных и близких. Если вы умеете шить, покажу, как повысить качество изделий и придать им хорошую посадку. С радостью поделюсь всеми секретами и секретиками шитья и кроя, накопленными за долгую профессиональную жизнь».
                                 </div>
                             </div>
-                            <div class="item" data-id="3">
+                            <div class="item" data-id="3" id="p3">
                                 <div class="face active">
                                     <img src="img/fc4.jpg" alt="">
                                 </div>
@@ -560,7 +560,7 @@
                                     «Что можно сказать о нашей профессии — это сложная, требующая усидчивости и терпения работа. Но это благодарный труд, ведь таких вещей, какие можно сшить своими руками, вы не найдете нигде».
                                 </div>
                             </div>
-                            <div class="item" data-id="4">
+                            <div class="item" data-id="4" id="p4">
                                 <div class="face active">
                                     <img src="img/fc3.jpg" alt="">
                                 </div>
@@ -576,9 +576,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-            </div>            
+            </div>
         </div>
         
     </div>
@@ -637,7 +636,7 @@
                             </div>
                         </div>
                         <div class="r_textn">
-                            <p class="txt_1">
+                            <p class="txt_1 pdd">
                                 Технология пошива, <span>1 ступень</span>
                             </p>
                             <p class="txt_2">Для новичков и тех, кто обучался дома самостоятельно<br>Погружаем учеников в швейное дело и учим<br>профессионально шить одежду для себя</p>
@@ -679,7 +678,7 @@
                             </div>
                         </div>
                         <div class="r_textn">
-                            <p class="txt_1">
+                            <p class="txt_1 pdd">
                                 Технология пошива, <span>2 ступень</span>
                             </p>
                             <p class="txt_2">Для тех, кто хорошо умеет шить, но хочет повышения квалификации. После этого курса многие открывают собственное швейное дело. Выпускникам первой ступени — скидка 10%.</p>
@@ -713,9 +712,9 @@
                             <div class="tryd">
                                 <img src="img/tryd3.jpg" alt="">
                             </div>
-                            <div class="skidka">
+                            <div class="skidka mrgn">
                                 <!--<p class="sk1">9 450 рублей/месяц</p>-->
-                                <p class="sk2">9 900 за весь курс</p>
+                                <p class="sk2 ">9 900 за <span class="month">весь</span> курс</p>
                             </div>
                         </div>
                         <div class="r_textn">
@@ -732,7 +731,7 @@
                                 <p class="pnk">сертификат об окончании курса</p>
                                 
                             </div>
-                            <p class="txt_3">
+                            <p class="txt_3 mrgn">
                                 Длительность курса:
                                 <span>10 практический занятий по 3 часа каждое</span>
                             </p>
@@ -741,8 +740,8 @@
                         <p class="dlina">Длительность курса 2 месяца</p>
                     </div>
                     <div class="item">
-                        <div class="l_textn">
-                            <div class="tryd">
+                        <div class="l_textn"> 
+                            <div class="tryd mrgn_f">
                                 <img src="img/tryd5.jpg" alt="">
                             </div>
                             <!-- <div class="skidka">
@@ -977,6 +976,6 @@
 </div>
 <div id="maket"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-<script src="js/init.js"></script> 
+<script src="js/init.js"></script>
 </body>
 </html>
