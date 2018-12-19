@@ -4,12 +4,15 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <!-- <!-- <script src="http://localhost:0000/livereload.js"></script> --> -->
+        <!-- <script src="http://localhost:0000/livereload.js"></script> -->
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
         
         
+        <style>
+            <?php include('css/head.min.css'); ?>
+        </style>
     </head>
     <body>
         <?php include('html/header.php'); ?>

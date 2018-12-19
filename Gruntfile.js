@@ -713,8 +713,7 @@ if(!mobile&&!tablet&&adaptive){
         //'htmlmin:desktop', //сжатие dist/index.php и dist/ajax/map.html
         //'unusedimages:desktop', //Удаление неиспользованных картинок из dist/img/
         'copy:track', //Копирование src/track/ в dist/track/
-        'string-replace:desktop_br_space',
-        'string-replace:comment_livereload'
+        'string-replace:desktop_br_space'
     ]);
 
 

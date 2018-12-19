@@ -8,6 +8,9 @@
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
+        <style>
+            <?php include('css/head.css'); ?>
+        </style>
     </head>
     <body>
         <?php include('html/header.php'); ?>

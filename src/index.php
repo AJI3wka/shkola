@@ -11,9 +11,9 @@
         <link rel="stylesheet" href="css/scripts.css">
         
         <!-- блок статического и динамического критического css не удалять -->
-        <!--<style>
-        <?php include('css/head.css'); ?>
-        </style>-->
+        <style>
+            <?php include('css/head.css'); ?>
+        </style>
     </head>
     <body>
         

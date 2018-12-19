@@ -5,15 +5,15 @@
     <head>
         
         <?php include('html/meta.html'); ?>
-        <!-- <!-- <script src="http://localhost:0000/livereload.js"></script> --> -->
+        <!-- <script src="http://localhost:0000/livereload.js"></script> -->
          
          
          
         
         <!-- блок статического и динамического критического css не удалять -->
-        <!--<style>
-        <?php include('css/head.min.css'); ?>
-        </style><script>!function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",["https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js","js/init.min.js"]);</script>-->
+        <style>
+            <?php include('css/head.min.css'); ?>
+        </style><script>!function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",["https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js","js/init.min.js"]);</script>
     </head>
     <body>
         
