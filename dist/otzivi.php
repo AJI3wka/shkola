@@ -4,14 +4,18 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <!-- <script src="http://localhost:0000/livereload.js"></script> -->
-        <link rel="stylesheet" href="css/libs.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/scripts.css">
+        <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" href="css/fonts.css" as="style">
+
+        
         
         <style>
             <?php include('css/head.min.css'); ?>
-        </style>
+        </style><script>!function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",["https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js","js/init.min.js"]);</script>
+        <!-- <script src="http://localhost:0000/livereload.js"></script> -->
+         
+         
+         
     </head>
     <body>
         
@@ -24,7 +28,7 @@
                 </div>
                 <p class="krs">Видео-отзывы</p>
                 <p class="krs_txt">Посмотрите видеоотзывы наших учениц.Благодаря им Женская школа
-                <br>кройки и шитья стала одной из лучших в городе. Спасибо вам!</p>
+                 <br>кройки и шитья стала одной из лучших в городе. Спасибо вам!</p>
                 <div class="slider12">
                     <div class="slide-control">
                         <div class="arr left" id="arr1l_vid">
@@ -120,109 +124,109 @@
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm1.jpg" alt="">
+                                            <img src="#" data-original="img/comm1.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm2.jpg" alt="">
+                                            <img src="#" data-original="img/comm2.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm3.jpg" alt="">
+                                            <img src="#" data-original="img/comm3.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm4.jpg" alt="">
+                                            <img src="#" data-original="img/comm4.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm5.jpg" alt="">
+                                            <img src="#" data-original="img/comm5.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm6.jpg" alt="">
+                                            <img src="#" data-original="img/comm6.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm7.jpg" alt="">
+                                            <img src="#" data-original="img/comm7.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm8.jpg" alt="">
+                                            <img src="#" data-original="img/comm8.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm9.jpg" alt="">
+                                            <img src="#" data-original="img/comm9.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm10.jpg" alt="">
+                                            <img src="#" data-original="img/comm10.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm11.jpg" alt="">
+                                            <img src="#" data-original="img/comm11.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm12.jpg" alt="">
+                                            <img src="#" data-original="img/comm12.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm13.jpg" alt="">
+                                            <img src="#" data-original="img/comm13.jpg" alt="">
                                         </div>
                                     </div>
 
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm19.jpg" alt="">
+                                            <img src="#" data-original="img/comm19.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm15.jpg" alt="">
+                                            <img src="#" data-original="img/comm15.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm16.jpg" alt="">
+                                            <img src="#" data-original="img/comm16.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm17.jpg" alt="">
+                                            <img src="#" data-original="img/comm17.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm18.jpg" alt="">
+                                            <img src="#" data-original="img/comm18.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -250,7 +254,7 @@
                     <div id="okgo" class="pop_z">
                         <form class="form" action="#" method="get">
                             <p class="xotite">Хотите записаться
-                                <br> <span class="bl">на</span> <span class="pink">курс</span></p>
+                                 <br> <span class="bl">на</span> <span class="pink">курс</span></p>
                                 <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
                                 <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                                 <input type="text" name="phone" class="input" placeholder="Телефон">
@@ -288,7 +292,7 @@
                         </div>
                     </div>
                     <div id="maket"></div>
-                    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-                    <script src="js/init.min.js"></script>
+                     
+                     
                 </body>
             </html>

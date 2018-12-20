@@ -5,15 +5,17 @@
 <head>
     <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:1985/livereload.js"></script> 
-        <link rel="stylesheet" href="css/libs.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/scripts.css">
+        <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" href="css/fonts.css" as="style">
 
     
         <style>
             <?php include('css/head.css'); ?>
         </style>
+        <script src="http://localhost:1736/livereload.js"></script> 
+        <link rel="stylesheet" href="css/libs.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/scripts.css">
 </head>
 
 <body>
@@ -29,10 +31,10 @@
         <p class="krs">Подари любимым обучение<br> в Женской школе кройки и шитья</p>
         <div class="l_sert">
             <div class="ft_1">
-                <img src="img/st1.jpg" alt="">
+                <img src="#" data-original="img/st1.jpg" alt="">
             </div>
             <div class="ft_2">
-                <img src="img/st2.jpg" alt="">
+                <img src="#" data-original="img/st2.jpg" alt="">
             </div>
         </div>
         <div class="r_sert">Что такое обучение в Женской школе кройки и шитья?<br> Это не раскрученные курсы, где показывают основы швейного<br>

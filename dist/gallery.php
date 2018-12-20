@@ -4,15 +4,20 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <!-- <script src="http://localhost:0000/livereload.js"></script> -->
-        <link rel="stylesheet" href="css/libs.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/scripts.css">
-        
+        <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" href="css/fonts.css" as="style">
+
+
         
         <style>
             <?php include('css/head.min.css'); ?>
-        </style>
+        </style><script>!function(e,t,n){function r(){for(;u[0]&&"loaded"==u[0][l];)o=u.shift(),o[f]=!a.parentNode.insertBefore(o,a)}for(var i,s,o,u=[],a=e.scripts[0],f="onreadystatechange",l="readyState";i=n.shift();)s=e.createElement(t),"async"in a?(s.async=!1,e.head.appendChild(s)):a[l]?(u.push(s),s[f]=r):e.write("<"+t+' src="'+i+'" defer></'+t+">"),s.src=i}(document,"script",["https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js","js/init.min.js"]);</script>    
+
+        <!-- <script src="http://localhost:0000/livereload.js"></script> -->
+         
+         
+         
+        
     </head>
     <body>
         <?php include('html/header.php'); ?>
@@ -93,8 +98,8 @@
                                 <div class="gz_dygga"></div>
                                 <div class="otzivi">Работы учениц</div>
                                 <p class="yserdie">Готовые работы наших учениц, которые они создали за два месяца обучения.
-                                    <br> У вас есть возможность сшить еще больше вещей за такой же срок.
-                                <br> Главное — усердие и желание.</p>
+                                     <br> У вас есть возможность сшить еще больше вещей за такой же срок.
+                                 <br> Главное — усердие и желание.</p>
                             </div>
                             <div class="students_works">
                                 <div class="shmotki">
@@ -834,7 +839,7 @@
                             <div class="polosa">
                                 <div class="gz_dygga"></div>
                                 <div class="otzivi">Оборудование</div>
-                                <p class="yserdie">В Женской школе кройки и шитья представлены швейные машинки различных брендов. Это сделано для того, чтобы ученицы умели работать с любой техникой, независимо от ее стоимости и функционала. Если в процессе учебы вы захотите приобрести новую машинку домой, у вас уже будет представление об их видах и марках.<br><br>У нас также представлен удобный оверлок с хорошей эргономикой. Поэтому начинающим портным легче освоить этот деликатный инструмент именно в нашей школе.<br><br>Мы также позаботились об удобстве учениц и заказали раскройный стол, сделанный по индивидуальному проекту. Многие могут недооценивать этот инструмент, но для начинающих портных простоять долгое время в согнутом положении просто невозможно. Поэтому наш стол больше и выше, нежели стандартные. На нем легко разложить лекала и работать в течение двух-трех часов.</p>
+                                <p class="yserdie">В Женской школе кройки и шитья представлены швейные машинки различных брендов. Это сделано для того, чтобы ученицы умели работать с любой техникой, независимо от ее стоимости и функционала. Если в процессе учебы вы захотите приобрести новую машинку домой, у вас уже будет представление об их видах и марках. <br> <br>У нас также представлен удобный оверлок с хорошей эргономикой. Поэтому начинающим портным легче освоить этот деликатный инструмент именно в нашей школе. <br> <br>Мы также позаботились об удобстве учениц и заказали раскройный стол, сделанный по индивидуальному проекту. Многие могут недооценивать этот инструмент, но для начинающих портных простоять долгое время в согнутом положении просто невозможно. Поэтому наш стол больше и выше, нежели стандартные. На нем легко разложить лекала и работать в течение двух-трех часов.</p>
                             </div>
                             <div class="students_works">
                                 <div class="slider_5">
@@ -904,7 +909,7 @@
                 <div id="okgo" class="pop_z">
                     <form class="form" action="#" method="get">
                         <p class="xotite">Хотите записаться
-                            <br> <span class="bl">на</span> <span class="pink">курс</span></p>
+                             <br> <span class="bl">на</span> <span class="pink">курс</span></p>
                             <div class="zajavka">Оставьте заявку, и мы свяжемся с вами. </div>
                             <input type="text" name="name" class="input" placeholder="Введите ваше имя">
                             <input type="text" name="phone" class="input" placeholder="Телефон">
@@ -942,7 +947,7 @@
                     </div>
                 </div>
                <div id="maket"></div>
-                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
-                <script src="js/init.min.js"></script>
+                 
+                 
             </body>
         </html>

@@ -70,7 +70,6 @@ textarea {
 header,
 section,
 footer {
-    display : block;
     width : 100%;
     overflow : hidden;
     position : relative;
@@ -511,7 +510,7 @@ header .header .call .phoneback {
     margin-bottom : 30px;
 }
 .sec2 .bonus_l .wrp_met {
-    background-image : url(../img/metod1.png);
+    background-image : url(../img/metod1.jpg);
     background-position : 69px 0;
     background-repeat : no-repeat;
     padding-top : 318px;
@@ -543,7 +542,7 @@ header .header .call .phoneback {
     width : 600px;
 }
 .sec2 .bonus_r .wrp_met {
-    background-image : url(../img/metod2.png);
+    background-image : url(../img/metod2.jpg);
     background-position : 82px 0;
     background-repeat : no-repeat;
     padding-top : 317px;
@@ -2162,7 +2161,7 @@ header .header .call .phoneback {
     color : #f1e53d;
     font-size : 18px;
     font-weight : 600;
-    background-color : rgba(0, 0, 0, 0);
+    background-color : transparent;
     margin-bottom : 43px;
     transition : all 0.25s;
     text-align : center;
@@ -2327,7 +2326,7 @@ header .header .call .phoneback {
     font-weight : 500;
     color : #fefefe;
     z-index : 1;
-    line-height : 71px;
+    line-height : 80px;
 }
 .sec7 p.krs {
     font-size : 30px;
@@ -2891,7 +2890,7 @@ header .header .call .phoneback {
     font-weight : 500;
     color : #fefefe;
     z-index : 1;
-    line-height : 71px;
+    line-height : 80px;
 }
 .sec8 p.krs {
     font-size : 30px;
@@ -3154,7 +3153,7 @@ header .header .call .phoneback {
     font-weight : 500;
     color : #fefefe;
     z-index : 1;
-    line-height : 71px;
+    line-height : 80px;
 }
 .sec9 p.krs {
     font-size : 30px;
@@ -3254,7 +3253,7 @@ header .header .call .phoneback {
     font-weight : 500;
     color : #fefefe;
     z-index : 1;
-    line-height : 71px;
+    line-height : 80px;
 }
 .sec10 p.krs {
     font-size : 30px;
@@ -6135,6 +6134,9 @@ footer button.poleznoctb a {
         max-width : 320px;
     }
 
+    header .header {
+        padding-top : 0;
+    }
     header .header .ibw {
         width : 100%;
         display : inline-block;
@@ -6151,7 +6153,8 @@ footer button.poleznoctb a {
     }
 
     .sec1 {
-        margin-top : 100px;
+        margin-top : 81px;
+        background-image : url(../img/bg1_m.jpg);
     }
     .sec1 .logo {
         width : 100%;
@@ -6305,12 +6308,16 @@ footer button.poleznoctb a {
         padding : 0 50px 0;
     }
 
+    .sec3 {
+        background-image : url(../img/bg2_m.jpg);
+    }
     .sec3 .dreams {
         margin : 0 auto;
         float : none;
     }
     .sec3 .dreams .trbl .trouble {
         font-size : 0;
+        padding-left : 15px;
     }
     .sec3 .dreams .trbl .trouble .trb_pos {
         font-size : 36px;
@@ -6388,6 +6395,9 @@ footer button.poleznoctb a {
         margin-bottom : 20px;
     }
 
+    .sec5 {
+        background-image : url(../img/bg3_m.jpg);
+    }
     .sec5 p.kyrs_txt {
         padding-left : 10px;
         padding-right : 10px;

@@ -4,15 +4,20 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:1985/livereload.js"></script>
+        <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" href="css/fonts.css" as="style">
+
+
+        
+        <style>
+            <?php include('css/head.css'); ?>
+        </style>    
+
+        <script src="http://localhost:1736/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">
         
-        
-        <style>
-            <?php include('css/head.css'); ?>
-        </style>
     </head>
     <body>
         <?php include('html/header.php'); ?>

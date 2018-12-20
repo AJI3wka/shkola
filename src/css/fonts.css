@@ -6,6 +6,7 @@
 			url("../fonts/GothamProRegular.ttf") format("truetype");
 			font-style: normal;
 			font-weight: 400;
+  			font-display: auto;
 	}
 
 	@font-face {
@@ -16,6 +17,7 @@
 			url("../fonts/GothamProBold.ttf") format("truetype");
 			font-style: normal; 
 			font-weight: 800;
+  			font-display: fallback;
 	}
 
 	@font-face {
@@ -26,6 +28,7 @@
 			url("../fonts/GothamProBlack.ttf") format("truetype");
 			font-style: normal;
 			font-weight: 900;
+  			font-display: fallback;
 	}
 
 
@@ -37,6 +40,7 @@
 			url("../fonts/GothamProMedium.ttf") format("truetype");
 			font-style: normal;
 			font-weight: 600;
+  			font-display: fallback;
 	}
 
 	@font-face {
@@ -47,18 +51,20 @@
 			url("../fonts/GothamProLight.ttf") format("truetype");
 			font-style: normal;
 			font-weight: 300;
+  			font-display: fallback;
 	}
 
 	@font-face {
-				  font-family: 'NautilusPompilius';
-				  src: url('../fonts/NautilusPompilius.eot');
-				  src: url('../fonts/NautilusPompilius.woff2') format('woff2'),
-				       url('../fonts/NautilusPompilius.woff') format('woff'),
-				       url('../fonts/NautilusPompilius.ttf') format('truetype'),
-				       url('../fonts/NautilusPompilius.svg#NautilusPompilius') format('svg'),
-				       url('../fonts/NautilusPompilius.eot?#iefix') format('embedded-opentype');
-				  font-weight: normal;
-				  font-style: normal;
+		  font-family: 'NautilusPompilius';
+		  src: url('../fonts/NautilusPompilius.eot');
+		  src: url('../fonts/NautilusPompilius.woff2') format('woff2'),
+		       url('../fonts/NautilusPompilius.woff') format('woff'),
+		       url('../fonts/NautilusPompilius.ttf') format('truetype'),
+		       url('../fonts/NautilusPompilius.svg#NautilusPompilius') format('svg'),
+		       url('../fonts/NautilusPompilius.eot?#iefix') format('embedded-opentype');
+		  font-weight: normal;
+		  font-style: normal;
+  			font-display: auto;
 }
 
 

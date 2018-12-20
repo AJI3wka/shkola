@@ -217,7 +217,6 @@ header .header .ibw button.bonus {
     line-height : 24px;
     display : inline-block;
     margin-right : 13px;
-    background-image : url(img/bonus.png);
     border-radius : 10px;
     margin-top : 3px;
     border : none;
@@ -242,7 +241,6 @@ header .header .call .phoneback {
 }
 
 .sec1 {
-    background-image : url(img/bg1.jpg);
     background-position : top center;
     height : 625px;
     position : relative;
@@ -250,7 +248,6 @@ header .header .call .phoneback {
     z-index : 2;
 }
 .sec1 .logo {
-    background-image : url(img/logo.png);
     background-size : contain;
     width : 94px;
     height : 94px;
@@ -310,7 +307,6 @@ header .header .call .phoneback {
     border-radius : 100%;
     vertical-align : top;
     display : inline-block;
-    background-image : url(img/vk.png);
     background-color : white;
     box-shadow : 0 1px 1px rgba(0, 0, 0, 0.19);
     position : relative;
@@ -322,7 +318,6 @@ header .header .call .phoneback {
     border-radius : 100%;
     vertical-align : top;
     display : inline-block;
-    background-image : url(img/inst.png);
     background-color : white;
     box-shadow : 0 1px 1px rgba(0, 0, 0, 0.19);
     position : relative;
@@ -345,7 +340,6 @@ header .header .call .phoneback {
     height : 251px;
     position : absolute;
     width : 218px;
-    background-image : url(img/wnyr.png);
     right : -233px;
     top : 95px;
 }
@@ -389,7 +383,6 @@ header .header .call .phoneback {
     letter-spacing : 0.2px;
 }
 .sec1 .school_l .sch_txt .machine {
-    background : url(img/punktir.png);
     background-repeat : no-repeat;
     height : 115px;
     width : 455px;
@@ -397,7 +390,6 @@ header .header .call .phoneback {
 .sec1 .school_l .sch_txt .machine .wrp_machine {
     padding-left : 118px;
     padding-top : 17px;
-    background-image : url(img/mawinka.png);
     background-position : 25px 14px;
 }
 .sec1 .school_l .sch_txt .machine .wrp_machine p.free {
@@ -420,7 +412,6 @@ header .header .call .phoneback {
     margin-right : 33px;
     background-color : #fcfcfc;
     border-radius : 6px;
-    background-image : url(img/ramkaform.png);
     background-position : 10px 0;
 }
 .sec1 .school_r form p.xotite {
@@ -501,7 +492,6 @@ header .header .call .phoneback {
     margin-bottom : 30px;
 }
 .sec2 .bonus_l .wrp_met {
-    background-image : url(img/metod1.png);
     background-position : 69px 0;
     background-repeat : no-repeat;
     padding-top : 318px;
@@ -533,7 +523,6 @@ header .header .call .phoneback {
     width : 600px;
 }
 .sec2 .bonus_r .wrp_met {
-    background-image : url(img/metod2.png);
     background-position : 82px 0;
     background-repeat : no-repeat;
     padding-top : 317px;
@@ -564,7 +553,6 @@ header .header .call .phoneback {
     clear : both;
 }
 .sec2 .dyg_wrp .dyga {
-    background-image : url(img/dygatop.png);
     background-size : auto;
     position : absolute;
     width : 200%;
@@ -603,13 +591,11 @@ header .header .call .phoneback {
     width : 587px;
     height : 134px;
     margin : 12px auto;
-    background-image : url(img/ramka2.png);
     background-repeat : no-repeat;
     position : relative;
 }
 .sec2 .wrp_how:after {
     position : absolute;
-    background-image : url(img/device.png);
     background-repeat : no-repeat;
     height : 170px;
     width : 170px;
@@ -618,7 +604,6 @@ header .header .call .phoneback {
 }
 .sec2 .wrp_how:before {
     position : absolute;
-    background-image : url(img/nutka.png);
     background-repeat : no-repeat;
     height : 163px;
     width : 160px;
@@ -634,7 +619,6 @@ header .header .call .phoneback {
     position : relative;
 }
 .sec2 .wrp_step .dyga {
-    background-image : url(img/dygabot.png);
     background-size : auto;
     position : absolute;
     width : 200%;
@@ -726,7 +710,6 @@ header .header .call .phoneback {
     margin-left : 161px;
     background-color : white;
     border-radius : 6px;
-    background-image : url(img/ramka3.png);
     background-position : 8px 5px;
     position : relative;
     box-shadow : 0 -1px 13px rgba(0, 0, 0, 0.06);
@@ -816,7 +799,6 @@ header .header .call .phoneback {
 .sec2 .slider10 .slide-control .arr.left {
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     position : absolute;
     top : 138px;
@@ -837,7 +819,6 @@ header .header .call .phoneback {
     position : absolute;
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     transform : rotate(180deg);
     top : 138px;
@@ -886,7 +867,6 @@ header .header .call .phoneback {
     margin-left : 104px;
     background-color : white;
     border-radius : 6px;
-    background-image : url(img/ramka3.png);
     margin-top : 7px;
     background-position : 7px -1px;
     position : relative;
@@ -991,7 +971,6 @@ header .header .call .phoneback {
     height : 13px;
     width : 22px;
     left : -27px;
-    background-image : url(img/share.png);
     background-repeat : no-repeat;
     top : 4px;
 }
@@ -1005,7 +984,6 @@ header .header .call .phoneback {
     margin-top : 68px;
 }
 .sec7 .pink .polosa {
-    background-image : url(img/bgcen.jpg);
     width : 200%;
     position : absolute;
     margin-left : -100%;
@@ -1172,7 +1150,6 @@ header .header .call .phoneback {
 .sec7 .l_t .ceni .slide-control .arr.left {
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     position : absolute;
     top : 616px;
@@ -1193,7 +1170,6 @@ header .header .call .phoneback {
     position : absolute;
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     transform : rotate(180deg);
     top : 616px;
@@ -1396,7 +1372,6 @@ header .header .call .phoneback {
     line-height : 30px;
     display : block;
     height : 101px;
-    background-image : url(img/bot_punkt.png);
     background-position : bottom center;
     padding-top : 27px;
 }
@@ -1569,7 +1544,6 @@ header .header .call .phoneback {
     height : 77px;
 }
 .sec8 .pink .polosa {
-    background-image : url(img/bgcen.jpg);
     width : 200%;
     position : absolute;
     margin-left : -100%;
@@ -1636,7 +1610,6 @@ header .header .call .phoneback {
 .sec8 .slider12 .slide-control .arr.left {
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     position : absolute;
     top : 453px;
@@ -1657,7 +1630,6 @@ header .header .call .phoneback {
     position : absolute;
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     transform : rotate(180deg);
     top : 453px;
@@ -1679,7 +1651,6 @@ header .header .call .phoneback {
     position : relative;
 }
 .sec8 .polosa .gz_dygga {
-    background-image : url(img/dygavk.png);
     background-position : center;
     position : absolute;
     width : 200%;
@@ -1709,7 +1680,6 @@ header .header .call .phoneback {
     margin-bottom : 40px;
 }
 .sec8 .slider4 .slider-wrap_otz .item .l_com .wrp_comm {
-    background-image : url(img/ramka9.png);
     width : 700px;
     height : 300px;
     background-size : 700px 300px;
@@ -1720,7 +1690,6 @@ header .header .call .phoneback {
 }
 .sec8 .slider4 .slider-wrap_otz .item .l_com .wrp_comm:before {
     position : absolute;
-    background-image : url(img/komki2.png);
     background-position : 0 0;
     background-repeat : no-repeat;
     width : 87px;
@@ -1743,7 +1712,6 @@ header .header .call .phoneback {
     margin-bottom : 50px;
 }
 .sec8 .slider4 .slider-wrap_otz .item .r_com .wrp_comm {
-    background-image : url(img/ramka9.png);
     width : 700px;
     height : 300px;
     background-size : 700px 300px;
@@ -1754,7 +1722,6 @@ header .header .call .phoneback {
 }
 .sec8 .slider4 .slider-wrap_otz .item .r_com .wrp_comm:after {
     position : absolute;
-    background-image : url(img/komki2.png);
     background-position : 0 0;
     background-repeat : no-repeat;
     width : 87px;
@@ -1783,7 +1750,6 @@ header .header .call .phoneback {
 .sec8 .slider4 .slide-control_otz .arr.left {
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     position : absolute;
     top : -389px;
@@ -1804,7 +1770,6 @@ header .header .call .phoneback {
     position : absolute;
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     transform : rotate(180deg);
     top : -389px;
@@ -1832,7 +1797,6 @@ header .header .call .phoneback {
     height : 77px;
 }
 .sec9 .pink .polosa {
-    background-image : url(img/bgcen.jpg);
     width : 200%;
     position : absolute;
     margin-left : -100%;
@@ -1932,7 +1896,6 @@ header .header .call .phoneback {
     height : 77px;
 }
 .sec10 .pink .polosa {
-    background-image : url(img/bgcen.jpg);
     width : 200%;
     position : absolute;
     margin-left : -100%;
@@ -2018,7 +1981,6 @@ header .header .call .phoneback {
 }
 .sec10 .slider_1 .ibw > .item .wrp_albom .zarabotoi {
     height : 51px;
-    background-image : url(img/ramka10.png);
     background-position : top center;
     width : 100%;
     overflow : hidden;
@@ -2032,7 +1994,6 @@ header .header .call .phoneback {
     margin-bottom : 13px;
 }
 .sec10 .polosa .gz_dygga {
-    background-image : url(img/dygavk.png);
     background-position : center;
     position : absolute;
     width : 200%;
@@ -2060,7 +2021,6 @@ header .header .call .phoneback {
     width : 900px;
     height : 64px;
     background-size : 900px 64px;
-    background-image : url(img/ramka11.png);
     background-color : white;
     margin : 0 auto;
     margin-bottom : 11px;
@@ -2070,7 +2030,6 @@ header .header .call .phoneback {
     position : relative;
 }
 .sec10 .shmotki .polosa .gz_dygga {
-    background-image : url(img/gz_2.png);
     background-position : center;
     position : absolute;
     width : 200%;
@@ -2145,7 +2104,6 @@ header .header .call .phoneback {
 .sec10 .shmotki .slide-control_gal .arr.left {
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     position : absolute;
     left : -97px;
@@ -2166,7 +2124,6 @@ header .header .call .phoneback {
     position : absolute;
     width : 45px;
     height : 45px;
-    background-image : url(img/arr_l.png);
     cursor : pointer;
     transform : rotate(180deg);
     right : -97px;
@@ -2233,7 +2190,6 @@ header .header .call .phoneback {
     color : #c83074;
     font-size : 16px;
     margin : 0 auto;
-    background-image : url(img/under.png);
     background-position : bottom center;
     width : 124px;
     height : 22px;
@@ -2248,7 +2204,6 @@ footer .logo_f {
     display : inline-block;
     width : 58px;
     height : 58px;
-    background-image : url(img/logo.png);
     background-size : contain;
     margin-left : 67px;
     margin-top : 9px;
@@ -2272,7 +2227,6 @@ footer .soc_f a.vk {
     border-radius : 100%;
     vertical-align : top;
     display : inline-block;
-    background-image : url(img/vk.png);
     background-color : white;
     box-shadow : 0 1px 1px rgba(0, 0, 0, 0.19);
     position : relative;
@@ -2284,7 +2238,6 @@ footer .soc_f a.inst {
     border-radius : 100%;
     vertical-align : top;
     display : inline-block;
-    background-image : url(img/inst.png);
     background-color : white;
     box-shadow : 0 1px 1px rgba(0, 0, 0, 0.19);
     position : relative;

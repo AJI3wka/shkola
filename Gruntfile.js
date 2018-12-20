@@ -431,7 +431,7 @@ module.exports = function(grunt) {
             },
             desktop_async_init: {
                 files: {
-                    './': ['dist/index.php']
+                    './': ['dist/*.php']
                 },
                 options: {
                     replacements: [{
@@ -442,18 +442,18 @@ module.exports = function(grunt) {
             },
             desktop_remove_link_css: {
                 files: {
-                    './': ['dist/index.php']
+                    './': ['dist/*.php']
                 },
                 options: {
                     replacements: [{
-                        pattern: /<link[^>]*css[^>]*>/ig,
+                        pattern: /<link rel="stylesheet"[^>]*css[^>]*>/ig,
                         replacement: ' '
                     }]
                 }
             },
             desktop_remove_sync_init: {
                 files: {
-                    './': ['dist/index.php']
+                    './': ['dist/*.php']
                 },
                 options: {
                     replacements: [{
@@ -464,7 +464,7 @@ module.exports = function(grunt) {
             },
             desktop_br_space: {
                 files: {
-                    './': ['dist/index.php']
+                    './': ['dist/*.php']
                 },
                 options: {
                     replacements: [{
@@ -620,7 +620,7 @@ module.exports = function(grunt) {
                     spawn: true,
                     livereload: {
                         host: 'localhost',
-                        port: 1985, //LIVERELOAD_PORT
+                        port: 1736, //LIVERELOAD_PORT
                     }
                 },
                 //при изменеии любых сорс файлов

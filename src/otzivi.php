@@ -4,14 +4,18 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:1985/livereload.js"></script>
-        <link rel="stylesheet" href="css/libs.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/scripts.css">
+        <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" href="css/fonts.css" as="style">
+
+        
         
         <style>
             <?php include('css/head.css'); ?>
         </style>
+        <script src="http://localhost:1736/livereload.js"></script>
+        <link rel="stylesheet" href="css/libs.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/scripts.css">
     </head>
     <body>
         
@@ -120,109 +124,109 @@
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm1.jpg" alt="">
+                                            <img src="#" data-original="img/comm1.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm2.jpg" alt="">
+                                            <img src="#" data-original="img/comm2.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm3.jpg" alt="">
+                                            <img src="#" data-original="img/comm3.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm4.jpg" alt="">
+                                            <img src="#" data-original="img/comm4.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm5.jpg" alt="">
+                                            <img src="#" data-original="img/comm5.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm6.jpg" alt="">
+                                            <img src="#" data-original="img/comm6.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm7.jpg" alt="">
+                                            <img src="#" data-original="img/comm7.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm8.jpg" alt="">
+                                            <img src="#" data-original="img/comm8.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm9.jpg" alt="">
+                                            <img src="#" data-original="img/comm9.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm10.jpg" alt="">
+                                            <img src="#" data-original="img/comm10.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm11.jpg" alt="">
+                                            <img src="#" data-original="img/comm11.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm12.jpg" alt="">
+                                            <img src="#" data-original="img/comm12.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm13.jpg" alt="">
+                                            <img src="#" data-original="img/comm13.jpg" alt="">
                                         </div>
                                     </div>
 
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm19.jpg" alt="">
+                                            <img src="#" data-original="img/comm19.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm15.jpg" alt="">
+                                            <img src="#" data-original="img/comm15.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm16.jpg" alt="">
+                                            <img src="#" data-original="img/comm16.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="l_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm17.jpg" alt="">
+                                            <img src="#" data-original="img/comm17.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="r_com">
                                         <div class="wrp_comm">
-                                            <img src="img/comm18.jpg" alt="">
+                                            <img src="#" data-original="img/comm18.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>

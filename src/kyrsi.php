@@ -4,13 +4,15 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <script src="http://localhost:1985/livereload.js"></script>
-        <link rel="stylesheet" href="css/libs.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/scripts.css">
+        <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
+        <link rel="preload" href="css/fonts.css" as="style">
+        <script src="http://localhost:1736/livereload.js"></script>
         <style>
             <?php include('css/head.css'); ?>
         </style>
+        <link rel="stylesheet" href="css/libs.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/scripts.css">
     </head>
     <body>
         <?php include('html/header.php'); ?>
@@ -66,32 +68,32 @@
                             </div>
                             <div class="kyrsi">
                                 <a href="#t1" class="ceni_kyrsi active" data-id="1">
-                                    <img src="img/tn1.jpg" alt="">
+                                    <img src="#" data-original="img/tn1.jpg" alt="">
                                     <p class="name">Технология пошива ,<br><span>1 ступень</span></p>
                                     <div class="helper"></div>
                                 </a>
                                 <a href="#t2" class="ceni_kyrsi" data-id="2">
-                                    <img src="img/tn2.jpg" alt="">
+                                    <img src="#" data-original="img/tn2.jpg" alt="">
                                     <p class="name">Технология пошива ,<br><span>2 ступень</span></p>
                                     <div class="helper"></div>
                                 </a>
                                 <a href="#t3" class="ceni_kyrsi" data-id="3">
-                                    <img src="img/tn3.jpg" alt="">
+                                    <img src="#" data-original="img/tn3.jpg" alt="">
                                     <p class="name">Курс: Пальто</p>
                                     <div class="helper"></div>
                                 </a>
                                 <a href="#t4" class="ceni_kyrsi" data-id="4">
-                                    <img class="" src="img/tn7.jpg" alt="">
+                                    <img src="" data-original="img/tn7.jpg" alt="">
                                     <p class="name">Курс: Нижнее белье</p>
                                     <div class="helper"></div>
                                 </a>
                                 <a href="#t5" class="ceni_kyrsi" data-id="5">
-                                    <img class="" src="img/tn5.jpg" alt="">
+                                    <img src="" data-original="img/tn5.jpg" alt="">
                                     <p class="name">Конструирование<br>и моделирование</p>
                                     <div class="helper"></div>
                                 </a>
                                 <a href="#t6" class="ceni_kyrsi" data-id="6">
-                                    <img class="" src="img/tn6.jpg" alt="">
+                                    <img src="" data-original="img/tn6.jpg" alt="">
                                     <p class="name">Индивидуальное<br>обучение</p>
                                     <div class="helper"></div>
                                 </a>

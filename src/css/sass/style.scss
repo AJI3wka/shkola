@@ -585,7 +585,7 @@ header {
         margin-bottom: 30px;
 
         .wrp_met {
-            background-image: url(../img/metod1.png);
+            background-image: url(../img/metod1.jpg);
             background-position: 69px 0px;
             background-repeat: no-repeat;
             padding-top: 318px;
@@ -622,7 +622,7 @@ header {
         width: 600px;
 
         .wrp_met {
-            background-image: url(../img/metod2.png);
+            background-image: url(../img/metod2.jpg);
             background-position: 82px 0px;
             background-repeat: no-repeat;
             padding-top: 317px;
@@ -2703,7 +2703,7 @@ header {
             font-weight: 500;
             color: #fefefe;
             z-index: 1;
-            line-height: 71px;
+            line-height: 80px;
         }
     }
 
@@ -3360,7 +3360,7 @@ header {
             font-weight: 500;
             color: #fefefe;
             z-index: 1;
-            line-height: 71px;
+            line-height: 80px;
         }
     }
 
@@ -3665,7 +3665,7 @@ header {
             font-weight: 500;
             color: #fefefe;
             z-index: 1;
-            line-height: 71px;
+            line-height: 80px;
         }
     }
 
@@ -3777,7 +3777,7 @@ header {
             font-weight: 500;
             color: #fefefe;
             z-index: 1;
-            line-height: 71px;
+            line-height: 80px;
         }
     }
 
@@ -9608,6 +9608,7 @@ footer {
 
     header {
         .header {
+            padding-top: 0px;
             .ibw {
                     width: 100%;
                 display: inline-block;
@@ -9670,7 +9671,8 @@ footer {
     }
 
     .sec1 {
-        margin-top: 100px;
+            margin-top:81px;
+        background-image: url(../img/bg1_m.jpg);
 
         .logo {
             width: 100%;
@@ -10005,6 +10007,7 @@ footer {
     }
 
     .sec3 {
+        background-image: url(../img/bg2_m.jpg);
         .trb {}
 
         .l_trbl {
@@ -10024,6 +10027,7 @@ footer {
             .trbl {
                 .trouble {
                     font-size: 0;
+                    padding-left: 15px;
 
                     &.active {
                         .trb_pos {}
@@ -10289,6 +10293,7 @@ footer {
     }
 
     .sec5 {
+        background-image: url(../img/bg3_m.jpg);
         p.kyrsi {}
 
         p.kyrs_txt {
