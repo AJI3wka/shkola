@@ -4,8 +4,6 @@
     <head>
         <meta id="viewport" name="viewport" content="width=device-width">
         <?php include('html/meta.html'); ?>
-        <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
-        <link rel="preload" href="css/fonts.css" as="style">
 
 
         
@@ -13,7 +11,7 @@
             <?php include('css/head.css'); ?>
         </style>    
 
-        <script src="http://localhost:1736/livereload.js"></script>
+        <script src="http://localhost:9074/livereload.js"></script>
         <link rel="stylesheet" href="css/libs.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/scripts.css">

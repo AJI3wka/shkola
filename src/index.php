@@ -1,13 +1,12 @@
 <?php include('ajax/amo_helper.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
-    <meta id="viewport" name="viewport" content="width=device-width">
     <head>
         
         <?php include('html/meta.html'); ?>
         <link rel="preload" href="fonts/GothamProRegular.woff" as="font" type="font/woff" crossorigin="anonymous">
         <link rel="preload" href="css/fonts.css" as="style">
-        <script src="http://localhost:1736/livereload.js"></script>
+        <script src="http://localhost:9074/livereload.js"></script>
         <style>
         <?php include('css/head.css'); ?>
         </style>

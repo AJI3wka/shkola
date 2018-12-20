@@ -1,7 +1,6 @@
 <?php include('ajax/amo_helper.php'); ?>
 <!DOCTYPE html>
 <html lang="ru">
-    <meta id="viewport" name="viewport" content="width=device-width">
     <head>
         
         <?php include('html/meta.html'); ?>

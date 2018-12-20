@@ -428,6 +428,113 @@ $(window).scroll(function() {
     scroll_load_blocks();
 });
 
+function static_sliders() {
+
+    var slider8 = $('.sec3').find('.slider-wrap').bxSlider({
+        infiniteLoop: true,
+        //pagerCustom:'.pager',
+        controls: true,
+        nextSelector: '#arr1r_trbl',
+        prevSelector: '#arr1l_trbl',
+        pager: true,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        onSlideAfter: function() {
+            lazy_load_reinit();
+        },
+        onSlideNext: function($slideElement, oldIndex, newIndex) {},
+        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+        onSliderLoad: function() {}
+
+    });
+
+    var slider3 = $('.sec4').find('.slider-wrap').bxSlider({
+        infiniteLoop: true,
+        //pagerCustom:'.pager',
+        controls: true,
+        nextSelector: '#arr1r',
+        prevSelector: '#arr1l',
+        pager: true,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        onSlideAfter: function() {
+            lazy_load_reinit();
+        },
+        onSlideNext: function($slideElement, oldIndex, newIndex) {},
+        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+        onSliderLoad: function() {}
+
+    });
+    var slider12 = $('.sec8').find('.slider-wrap_otz').bxSlider({
+        infiniteLoop: true,
+        //pagerCustom:'.pager',
+        controls: true,
+        nextSelector: '#arr1r_otz',
+        prevSelector: '#arr1l_otz',
+        pager: false,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        onSlideAfter: function() {
+            lazy_load_reinit();
+        },
+        onSlideNext: function($slideElement, oldIndex, newIndex) {},
+        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
+        onSliderLoad: function() {
+            hidden_loaded();
+        }
+
+    });
+
+    var slider8555 = $('.sec8').find('.slider-wrap_vid').bxSlider({
+        infiniteLoop: true,
+        //pagerCustom:'.pager',
+        controls: true,
+        nextSelector: '#arr1r_vid',
+        prevSelector: '#arr1l_vid',
+        pager: true,
+        auto: false,
+        speed: 500,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        onSlideAfter: function() {
+            lazy_load_reinit();
+        },
+        onSlideNext: function($slideElement, oldIndex, newIndex) {
+
+            if ($slideElement.prev().hasClass('bx-clone')) {
+                var $el = $slideElement.parent().children('.item.bx-clone').last().prev()
+                var el_html = $el.html();
+                $el.html(el_html);
+            } else {
+                var html = $slideElement.prev().html();
+                $slideElement.prev().html(html);
+            }
+        },
+        onSlidePrev: function($slideElement, oldIndex, newIndex) {
+            if ($slideElement.next().hasClass('bx-clone')) {
+                var $el = $slideElement.parent().children('.item.bx-clone').first().next()
+                var el_html = $el.html();
+                $el.html(el_html);
+            } else {
+                var html = $slideElement.next().html();
+                $slideElement.next().html(html);
+            }
+
+        },
+        onSliderLoad: function() {}
+
+    });
+}
 
 function move_scroll_on_init() {
     if (!scroll_flag) {
@@ -453,7 +560,6 @@ function lazy_load_reinit() {
     lazy_timer = setTimeout(function(argument) {
 
 
-        $('img[data-original]').lazyload();
 
         var scroll_top = $(window).scrollTop();
         var $imgs = $('img[data-original]');
@@ -535,7 +641,7 @@ $(document).ready(function() {
         } else {
             hidden_loaded();
         }
-    }, 700);
+    }, 1200);
 
 
     //nav start
@@ -801,147 +907,7 @@ $(document).ready(function() {
     //end
 
 
-    var slider2 = $('.sec8').find('.slider-wrap').bxSlider({
-        infiniteLoop: true,
-        // pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r_trbll',
-        prevSelector: '#arr1r_trbll',
-        pager: false,
-        auto: false,
-        speed: 500,
-        minSlides: 1,
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
-        onSliderLoad: function() {},
-        onSlideAfter: function() {
-            lazy_load_reinit();
-        }
 
-    });
-
-    var slider9 = $('.sec7').find('.slider-wrap').bxSlider({
-        infiniteLoop: true,
-        // pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r_ceni',
-        prevSelector: '#arr1r_ceni',
-        pager: false,
-        auto: false,
-        speed: 500,
-        minSlides: 1,
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideAfter: function() {
-            lazy_load_reinit();
-        },
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
-        onSliderLoad: function() {}
-
-    });
-    var slider3 = $('.sec4').find('.slider-wrap').bxSlider({
-        infiniteLoop: true,
-        //pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r',
-        prevSelector: '#arr1l',
-        pager: true,
-        auto: false,
-        speed: 500,
-        minSlides: 1,
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideAfter: function() {
-            lazy_load_reinit();
-        },
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
-        onSliderLoad: function() {}
-
-    });
-    var slider8555 = $('.sec8').find('.slider-wrap_vid').bxSlider({
-        infiniteLoop: true,
-        //pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r_vid',
-        prevSelector: '#arr1l_vid',
-        pager: true,
-        auto: false,
-        speed: 500,
-        minSlides: 1,
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideAfter: function() {
-            lazy_load_reinit();
-        },
-        onSlideNext: function($slideElement, oldIndex, newIndex) {
-
-            if ($slideElement.prev().hasClass('bx-clone')) {
-                var $el = $slideElement.parent().children('.item.bx-clone').last().prev()
-                var el_html = $el.html();
-                $el.html(el_html);
-            } else {
-                var html = $slideElement.prev().html();
-                $slideElement.prev().html(html);
-            }
-        },
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {
-            if ($slideElement.next().hasClass('bx-clone')) {
-                var $el = $slideElement.parent().children('.item.bx-clone').first().next()
-                var el_html = $el.html();
-                $el.html(el_html);
-            } else {
-                var html = $slideElement.next().html();
-                $slideElement.next().html(html);
-            }
-
-        },
-        onSliderLoad: function() {}
-
-    });
-    var slider8 = $('.sec3').find('.slider-wrap').bxSlider({
-        infiniteLoop: true,
-        //pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r_trbl',
-        prevSelector: '#arr1l_trbl',
-        pager: true,
-        auto: false,
-        speed: 500,
-        minSlides: 1,
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideAfter: function() {
-            lazy_load_reinit();
-        },
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
-        onSliderLoad: function() {}
-
-    });
-    var slider12 = $('.sec8').find('.slider-wrap_otz').bxSlider({
-        infiniteLoop: true,
-        //pagerCustom:'.pager',
-        controls: true,
-        nextSelector: '#arr1r_otz',
-        prevSelector: '#arr1l_otz',
-        pager: false,
-        auto: false,
-        speed: 500,
-        minSlides: 1,
-        maxSlides: 1,
-        moveSlides: 1,
-        onSlideAfter: function() {
-            lazy_load_reinit();
-        },
-        onSlideNext: function($slideElement, oldIndex, newIndex) {},
-        onSlidePrev: function($slideElement, oldIndex, newIndex) {},
-        onSliderLoad: function() {}
-
-    });
     /* var slider10 = $('.sec2').find('.slider-wrap_obych').bxSlider({
          infiniteLoop: true,
          //pagerCustom:'.pager',
@@ -1000,6 +966,10 @@ $(document).ready(function() {
     // body...
     map_auto_init();
     move_scroll_on_init();
+
+    setTimeout(function() {
+        static_sliders();
+    }, 1200);
 
 
 })
